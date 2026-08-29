@@ -7,3 +7,5 @@ data/photos_raw/*.jpg
 data/photos_raw/*.JPG
 data/photos_raw/*.png
 data/photos_raw/*.jpeg
+data/.mapillary_token
+data/mapillary_cache/
