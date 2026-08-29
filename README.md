@@ -61,3 +61,9 @@ python src/preview_dots.py     # dist/dots_preview.png（明暗テーマで点�
     トークンは https://www.mapillary.com/dashboard/developers で Register Application。
   - 図鑑寄りの Wikipedia と車載目線の Mapillary は役割が違うので、両方入れる方針。
 - 画像は Artifact の 16MB 制限に収める必要があるため、点ごとではなく**種ごとに2〜3枚**。
+
+## 引き継ぎ
+
+作業の経緯・詰まった点・次にやることは `docs/2026-08-29-handoff.md` にある。
+ダイアリー（OneDrive）と同じ内容だが、**PC間でOneDriveが同期していない事故があった**ため
+リポジトリ内にも置いてある。こちらを正とする。
