@@ -69,24 +69,60 @@ def _get(path, params):
         raise
 
 
-def images_near(lat, lon, radius_deg=0.05, limit=8, fields=None):
-    """点の周りの画像を探す。radius_deg は緯度経度の度数（0.05度≒5.5km）。
+# bbox の面積上限は 0.010 平方度。半径 r 度なら (2r)^2 <= 0.010 なので r <= 0.05。
+# 境界ちょうどは丸めで弾かれるため、少し内側を上限にする。
+MAX_RADIUS_DEG = 0.049
+
+
+def images_near(lat, lon, radius_deg=MAX_RADIUS_DEG, limit=8, fields=None):
+    """点の周りの画像を探す。radius_deg は緯度経度の度数（0.049度≒5.4km）。
 
     完全に同じ座標に画像があることは期待できないので、
     「その点の近くで撮られた車載写真」を取りに行く。
+
+    **面積上限に注意**: bbox が 0.010 平方度を超えると HTTP 500 が返る。
+    これを「その地点に写真が無い」と誤読すると、実際には写真がある候補を
+    捨ててしまう（最初それで豪州内陸の候補を軒並み落としていた）。
     """
+    r = min(radius_deg, MAX_RADIUS_DEG)
     f = fields or "id,computed_geometry,thumb_1024_url,captured_at,creator"
-    bbox = f"{lon - radius_deg},{lat - radius_deg},{lon + radius_deg},{lat + radius_deg}"
+    bbox = f"{lon - r},{lat - r},{lon + r},{lat + r}"
     time.sleep(INTERVAL)
     d = _get("images", {"fields": f, "bbox": bbox, "limit": str(limit)})
     return d.get("data", [])
 
 
-def fetch_thumb(url):
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=60) as r:
-        ctype = r.headers.get("Content-Type", "")
-        body = r.read()
-    if not ctype.startswith("image/"):
-        raise RuntimeError(f"画像ではない応答: {ctype}")
-    return body
+def images_around(lat, lon, limit=8, radii=(0.005, 0.012, 0.049), retries=1):
+    """近い順に広げて探す。近くにあればそれを使い、無ければ広げる。
+
+    **500 を「写真が無い」と同一視して候補を捨てない**のが要点。
+    最初それをやって豪州内陸の候補を軒並み落としていた（実際は bbox が
+    面積上限 0.010 平方度を超えていただけだった）。
+
+    ただし広い bbox は画像密度の高い地域で
+    "Please reduce the amount of data" の 500 を返すことがあり、これは
+    limit を下げても消えない（面積そのものが重いため）。
+    その場合でも**狭い半径が 0 件を返していれば**、
+    近傍に写真は無いと判断してよいので 0 件として扱う。
+    """
+    narrow_ok = False          # 狭い半径がエラー無しで走ったか
+    for r in radii:
+        for attempt in range(retries + 1):
+            try:
+                got = images_near(lat, lon, radius_deg=r, limit=limit)
+            except BadToken:
+                raise
+            except urllib.error.HTTPError as e:
+                if e.code == 500 and attempt < retries:
+                    time.sleep(0.4)
+                    continue
+                if e.code == 500 and narrow_ok:
+                    return []   # 狭い範囲は確認済みで0件。広い範囲が重いだけ
+                if e.code != 500:
+                    raise
+                break
+            if got:
+                return got
+            narrow_ok = True
+            break
+    return []

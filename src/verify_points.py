@@ -92,7 +92,7 @@ def collect(sid, rnd, land, want):
             continue
         seen.add(c)
         try:
-            imgs = mapillary.images_near(c[0], c[1])
+            imgs = mapillary.images_around(c[0], c[1])
         except (mapillary.NoToken, mapillary.BadToken):
             raise
         except Exception as e:
