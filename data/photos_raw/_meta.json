@@ -190,12 +190,12 @@
  },
  "cypress": {
   "id": "cypress",
-  "article": "Cupressus sempervirens",
-  "file": "Εθνικός_Δρυμός_Σαμαριάς.jpg",
-  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/%CE%95%CE%B8%CE%BD%CE%B9%CE%BA%CF%8C%CF%82_%CE%94%CF%81%CF%85%CE%BC%CF%8C%CF%82_%CE%A3%CE%B1%CE%BC%CE%B1%CF%81%CE%B9%CE%AC%CF%82.jpg/960px-%CE%95%CE%B8%CE%BD%CE%B9%CE%BA%CF%8C%CF%82_%CE%94%CF%81%CF%85%CE%BC%CF%8C%CF%82_%CE%A3%CE%B1%CE%BC%CE%B1%CF%81%CE%B9%CE%AC%CF%82.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "article": "Wikimedia Commons",
+  "file": "Cipressi con edicola San Damiano.jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Cipressi_con_edicola_San_Damiano.jpg/960px-Cipressi_con_edicola_San_Damiano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
   "path": "cypress.jpg",
   "w": 960,
-  "h": 636
+  "h": 720
  },
  "maritimepine": {
   "id": "maritimepine",

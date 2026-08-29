@@ -19,6 +19,7 @@ from PIL import Image
 sys.stdout.reconfigure(encoding="utf-8")
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
+from annotations import ANNOTATIONS  # noqa: E402
 from paths import DATA  # noqa: E402
 from species import SPECIES  # noqa: E402
 
@@ -60,6 +61,8 @@ def main():
         photos[sid] = [{
             "src": uri,
             "credit": f"Wikipedia: {m['article']} — {m['file']}",
+            # 「写真のどこを見るか」の枠。0〜1の相対座標なので縮小しても崩れない。
+            "boxes": ANNOTATIONS.get(sid, []),
         }]
         print(f"{sid:16s} {size[0]}x{size[1]:4d} {nbytes/1024:6.1f} KB")
 

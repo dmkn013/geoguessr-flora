@@ -13,6 +13,14 @@
 # 1巡目は**ファイル名を推測で書いて全滅した**（存在しない名前ばかりだった）。
 # 名前を作るのではなく、あるものから選ぶこと。
 PINNED = {
+    # 1巡目の画像は崖に生える広がった樹形の野生種で、
+    # tells の「細く直立した濃緑の円柱」が写っていなかった。
+    # GeoGuessr で手がかりになるのは栽培された円柱形なのでそちらに差し替える。
+    "cypress": [
+        "Cipressi con edicola San Damiano.jpg",
+        "Caravaggio, viale del cimitero.jpg",
+        "Cimitero monumentale e cipressi a Salò.jpg",
+    ],
     "oilpalm": [
         "Oil palm plantation in Cigudeg-03.jpg",
         "Palm oil plantation in Indonesia.jpg",

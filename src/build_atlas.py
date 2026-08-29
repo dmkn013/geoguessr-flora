@@ -144,6 +144,7 @@ svg.map.dragging{cursor:grabbing}
 #tip .sw{width:11px; height:11px; border-radius:50%; flex:none}
 #tip .r{color:var(--ink-soft); font-size:.78rem; margin-top:.2rem}
 #tip img{width:100%; border-radius:5px; margin-top:.45rem; display:block}
+#tip .hint{font-size:.7rem; color:var(--accent); margin-top:.35rem}
 
 /* ---- 右ペイン ---- */
 .side{
@@ -195,6 +196,28 @@ svg.map.dragging{cursor:grabbing}
 .shots figure{margin:0}
 .shots img{width:100%; border-radius:6px; display:block; border:1px solid var(--rule)}
 .shots figcaption{font-size:.68rem; color:var(--ink-faint); margin-top:.2rem}
+.shotwrap{position:relative; line-height:0}
+.bx{
+  position:absolute; border:2px solid var(--accent); border-radius:3px;
+  box-shadow:0 0 0 1px rgba(255,255,255,.85), inset 0 0 0 1px rgba(255,255,255,.85);
+  pointer-events:none; transition:opacity .15s;
+}
+.bx i{
+  position:absolute; left:-2px; bottom:100%; margin-bottom:2px; white-space:nowrap;
+  font-style:normal; font-size:.62rem; line-height:1.4; font-weight:600;
+  background:var(--accent); color:#fff; padding:.05rem .3rem; border-radius:3px;
+}
+/* 画像の上端に接する枠はラベルが画像の外に出てしまうので、枠の内側上部に置く */
+.bx.top i{bottom:auto; top:2px; left:2px; margin:0}
+.shotwrap.nobx .bx{opacity:0}
+.bxtog{
+  float:right; font:inherit; font-size:.62rem; letter-spacing:.04em; cursor:pointer;
+  background:var(--accent); color:#fff; border:1px solid var(--accent);
+  border-radius:3px; padding:.02rem .34rem;
+}
+.bxtog[aria-pressed="false"]{background:transparent; color:var(--ink-faint); border-color:var(--rule)}
+.shotnote{font-size:.7rem; color:var(--ink-faint); margin:.4rem 0 0; line-height:1.5}
+.shotnote strong{color:var(--ink-soft)}
 .noshot{
   border:1px dashed var(--rule); border-radius:6px; padding:.8rem; text-align:center;
   color:var(--ink-faint); font-size:.8rem;
@@ -210,7 +233,7 @@ svg.map.dragging{cursor:grabbing}
 
 <header>
   <h1>植生メタアトラス</h1>
-  <p class="sub">見えた植物から地域を絞り込むための地図。点は代表的な生育地。<strong>色は種類そのものではなく、近くに生える種どうしを見分けるための10色</strong>。種名は点にカーソルを合わせると出ます。</p>
+  <p class="sub">見えた植物から地域を絞り込むための地図。<strong>点は分布域から機械的に散らしたもので、その1点にその木がある確認は取っていません</strong>（＝分布の濃さを見るための表示）。色は種類そのものではなく、近くに生える種どうしを見分けるための10色。種名は点にカーソルを合わせると出ます。点をクリックするとその座標の地図が開きます。</p>
   <span class="count mono" id="hdcount"></span>
 </header>
 
@@ -290,7 +313,8 @@ function showTip(el) {
     '<div class="n"><span class="sw" style="background:' + s.color + '"></span>' + s.ja + '</div>' +
     '<div class="r">' + s.regions.join(' / ') + '</div>' +
     '<div class="r mono">' + Number(el.dataset.lat).toFixed(2) + ', ' + Number(el.dataset.lon).toFixed(2) + '</div>' +
-    (shot ? '<img src="' + shot.src + '" alt="">' : '');
+    (shot ? '<img src="' + shot.src + '" alt="">' : '') +
+    '<div class="hint">クリックでこの座標の地図へ（ペグマンでSV）</div>';
   const r = el.getBoundingClientRect(), m = mapEl.parentElement.getBoundingClientRect();
   tip.style.left = (r.left - m.left + r.width / 2) + 'px';
   tip.style.top = (r.top - m.top) + 'px';
@@ -301,10 +325,25 @@ ptsG.addEventListener('pointerover', e => { if (e.target.classList.contains('pt'
 ptsG.addEventListener('pointerout', hideTip);
 ptsG.addEventListener('focusin', e => { if (e.target.classList.contains('pt')) showTip(e.target); });
 ptsG.addEventListener('focusout', hideTip);
-ptsG.addEventListener('click', e => { if (e.target.classList.contains('pt')) select(e.target.dataset.sp); });
+/* 点のクリック = その座標のGoogleマップを別タブで開く。
+   点は分布域からのサンプリングなので「その木がそこにある」保証は無い。
+   実際に何が生えているかは本物のStreet Viewで自分の目で確かめる、という使い方。
+
+   `map_action=pano` は**その座標にパノラマが無いと黒画面**になる。
+   点は道路上ではなく分布域内のランダムな位置なので、ほとんどが該当してしまう
+   （実際に試して全滅した）。地図を開いてペグマンを近くの道に落としてもらう方が
+   確実で、「近くの道を探す」というGeoGuessrの実際の操作にも近い。 */
+function panoUrl(lat, lon) {
+  return 'https://www.google.com/maps/@' + lat + ',' + lon + ',13z/data=!5m1!1e4';
+}
+function openPano(el) {
+  select(el.dataset.sp);
+  window.open(panoUrl(el.dataset.lat, el.dataset.lon), '_blank', 'noopener');
+}
+ptsG.addEventListener('click', e => { if (e.target.classList.contains('pt')) openPano(e.target); });
 ptsG.addEventListener('keydown', e => {
   if ((e.key === 'Enter' || e.key === ' ') && e.target.classList.contains('pt')) {
-    e.preventDefault(); select(e.target.dataset.sp);
+    e.preventDefault(); openPano(e.target);
   }
 });
 
@@ -343,20 +382,38 @@ tabDet.addEventListener('click', () => setTab('det'));
 
 function renderDetail(s) {
   if (!s) { detPane.innerHTML = '<p class="empty">地図の点か、一覧の種類を選ぶと表示されます。</p>'; return; }
+  /* 写真の上に「どこを見るか」の枠を重ねる。
+     枠は 0〜1 の相対座標なので、画像が伸縮しても位置がずれない。 */
   const shots = s.photos.length
-    ? '<div class="shots">' + s.photos.map(p =>
-        '<figure><img src="' + p.src + '" alt="' + s.ja + 'の実例"><figcaption>' +
-        p.credit + '</figcaption></figure>').join('') + '</div>'
+    ? '<div class="shots">' + s.photos.map(p => {
+        const boxes = (p.boxes || []).map(b =>
+          '<span class="bx' + (b.box[1] < 0.08 ? ' top' : '') + '" style="left:' + (b.box[0] * 100).toFixed(2) +
+          '%;top:' + (b.box[1] * 100).toFixed(2) +
+          '%;width:' + (b.box[2] * 100).toFixed(2) +
+          '%;height:' + (b.box[3] * 100).toFixed(2) + '%">' +
+          '<i>' + b.label + '</i></span>').join('');
+        return '<figure><div class="shotwrap">' +
+          '<img src="' + p.src + '" alt="' + s.ja + 'の実例">' + boxes + '</div>' +
+          '<figcaption>' + p.credit + '</figcaption></figure>';
+      }).join('') + '</div>'
     : '<div class="noshot">この種は実写が未取得です</div>';
   detPane.innerHTML =
     '<div class="hd"><span class="sw" style="background:' + s.color + '"></span><h2>' + s.ja + '</h2></div>' +
     '<div class="sci mono">' + s.en + ' — ' + s.sci + '</div>' +
-    '<section><h4>実例</h4>' + shots + '</section>' +
+    '<section><h4>実例<button class="bxtog" id="bxtog" aria-pressed="true">枠</button></h4>' +
+      shots + '<p class="shotnote">枠は<strong>この写真のどこを見るか</strong>。' +
+      '実際の景色は地図の点をクリックし、ペグマンを近くの道に落として確かめる。</p></section>' +
     '<section><h4>示す地域</h4><div class="tags">' +
       s.regions.map(r => '<span class="tag">' + r + '</span>').join('') + '</div></section>' +
     '<section><h4>見分け方</h4><ul>' + s.tells.map(t => '<li>' + t + '</li>').join('') + '</ul></section>' +
     '<section><h4>罠・紛らわしい点</h4><div class="trap">' +
       s.trap.replace(/\\*\\*(.+?)\\*\\*/g, '<strong>$1</strong>') + '</div></section>';
+  const tg = document.getElementById('bxtog');
+  if (tg) tg.addEventListener('click', () => {
+    const on = tg.getAttribute('aria-pressed') === 'true';
+    tg.setAttribute('aria-pressed', String(!on));
+    detPane.querySelectorAll('.shotwrap').forEach(w => w.classList.toggle('nobx', on));
+  });
 }
 
 function select(id) {
