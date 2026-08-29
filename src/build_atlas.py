@@ -347,7 +347,7 @@ function renderDetail(s) {
     ? '<div class="shots">' + s.photos.map(p =>
         '<figure><img src="' + p.src + '" alt="' + s.ja + 'の実例"><figcaption>' +
         p.credit + '</figcaption></figure>').join('') + '</div>'
-    : '<div class="noshot">実写はまだ入っていません（Mapillary の取得待ち）</div>';
+    : '<div class="noshot">この種は実写が未取得です</div>';
   detPane.innerHTML =
     '<div class="hd"><span class="sw" style="background:' + s.color + '"></span><h2>' + s.ja + '</h2></div>' +
     '<div class="sci mono">' + s.en + ' — ' + s.sci + '</div>' +

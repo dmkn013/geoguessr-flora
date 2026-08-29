@@ -1,0 +1,434 @@
+{
+ "eucalyptus": {
+  "id": "eucalyptus",
+  "article": "Commons: Eucalyptus forests",
+  "file": "Blue Gum Walk eucalypt forest.jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Blue_Gum_Walk_eucalypt_forest.jpg/960px-Blue_Gum_Walk_eucalypt_forest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "path": "eucalyptus.jpg",
+  "w": 960,
+  "h": 636
+ },
+ "grasstree": {
+  "id": "grasstree",
+  "article": "Xanthorrhoea",
+  "file": "Xanthorrhoea_semiplana_-_Anstey_Hill.JPG",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Xanthorrhoea_semiplana_-_Anstey_Hill.JPG/960px-Xanthorrhoea_semiplana_-_Anstey_Hill.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "path": "grasstree.jpg",
+  "w": 960,
+  "h": 1603
+ },
+ "treefern": {
+  "id": "treefern",
+  "article": "Dicksonia antarctica",
+  "file": "Dicksonia_antarctica_in_Nunniong,_Australia.jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Dicksonia_antarctica_in_Nunniong%2C_Australia.jpg/960px-Dicksonia_antarctica_in_Nunniong%2C_Australia.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "path": "treefern.jpg",
+  "w": 960,
+  "h": 640
+ },
+ "cordyline": {
+  "id": "cordyline",
+  "article": "Cordyline australis",
+  "file": "CabbageTreeKaihoka.jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/CabbageTreeKaihoka.jpg/960px-CabbageTreeKaihoka.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "path": "cordyline.jpg",
+  "w": 960,
+  "h": 1280
+ },
+ "baobab": {
+  "id": "baobab",
+  "article": "Adansonia grandidieri",
+  "file": "Adansonia_grandidieri04.jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Adansonia_grandidieri04.jpg/960px-Adansonia_grandidieri04.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "path": "baobab.jpg",
+  "w": 960,
+  "h": 1280
+ },
+ "acacia": {
+  "id": "acacia",
+  "article": "Vachellia tortilis",
+  "file": "Vachellia_(ex_Acacia)_tortilis.jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Vachellia_%28ex_Acacia%29_tortilis.jpg/960px-Vachellia_%28ex_Acacia%29_tortilis.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "path": "acacia.jpg",
+  "w": 960,
+  "h": 720
+ },
+ "oilpalm": {
+  "id": "oilpalm",
+  "article": "Wikimedia Commons",
+  "file": "Oil palm plantation in Cigudeg-03.jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Oil_palm_plantation_in_Cigudeg-03.jpg/960px-Oil_palm_plantation_in_Cigudeg-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "path": "oilpalm.jpg",
+  "w": 960,
+  "h": 720
+ },
+ "doum": {
+  "id": "doum",
+  "article": "Hyphaene thebaica",
+  "file": "Hyphaene_thebaica.JPG",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Hyphaene_thebaica.JPG/960px-Hyphaene_thebaica.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "path": "doum.jpg",
+  "w": 960,
+  "h": 1440
+ },
+ "cecropia": {
+  "id": "cecropia",
+  "article": "Cecropia",
+  "file": "Cecropia_glazioui.jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Cecropia_glazioui.jpg/960px-Cecropia_glazioui.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "path": "cecropia.jpg",
+  "w": 960,
+  "h": 1280
+ },
+ "araucaria_ang": {
+  "id": "araucaria_ang",
+  "article": "Araucaria angustifolia",
+  "file": "Araucária_da_serra_gaúcha.jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Arauc%C3%A1ria_da_serra_ga%C3%BAcha.jpg/960px-Arauc%C3%A1ria_da_serra_ga%C3%BAcha.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "path": "araucaria_ang.jpg",
+  "w": 960,
+  "h": 640
+ },
+ "araucaria_arau": {
+  "id": "araucaria_arau",
+  "article": "Araucaria araucana",
+  "file": "Araucaria_en_Parque_Nacional_Conguillio.jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Araucaria_en_Parque_Nacional_Conguillio.jpg/960px-Araucaria_en_Parque_Nacional_Conguillio.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "path": "araucaria_arau.jpg",
+  "w": 960,
+  "h": 1440
+ },
+ "nothofagus": {
+  "id": "nothofagus",
+  "article": "Nothofagus",
+  "file": "Nothofagus_cunninghamii_kz02.jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Nothofagus_cunninghamii_kz02.jpg/960px-Nothofagus_cunninghamii_kz02.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "path": "nothofagus.jpg",
+  "w": 960,
+  "h": 640
+ },
+ "caatinga": {
+  "id": "caatinga",
+  "article": "Caatinga",
+  "file": "Um_mundo_chamado_Sertão.jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Um_mundo_chamado_Sert%C3%A3o.jpg/960px-Um_mundo_chamado_Sert%C3%A3o.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "path": "caatinga.jpg",
+  "w": 960,
+  "h": 636
+ },
+ "saguaro": {
+  "id": "saguaro",
+  "article": "Saguaro",
+  "file": "Carnegiea_gigantea_in_Saguaro_National_Park_near_Tucson,_Arizona_during_November_(58).jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Carnegiea_gigantea_in_Saguaro_National_Park_near_Tucson%2C_Arizona_during_November_%2858%29.jpg/960px-Carnegiea_gigantea_in_Saguaro_National_Park_near_Tucson%2C_Arizona_during_November_%2858%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "path": "saguaro.jpg",
+  "w": 960,
+  "h": 1280
+ },
+ "joshua": {
+  "id": "joshua",
+  "article": "Yucca brevifolia",
+  "file": "Joshua_Tree_01.jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Joshua_Tree_01.jpg/960px-Joshua_Tree_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "path": "joshua.jpg",
+  "w": 960,
+  "h": 1325
+ },
+ "spanishmoss": {
+  "id": "spanishmoss",
+  "article": "Spanish moss",
+  "file": "Spanish_moss_at_the_Mcbryde_Garden_in_hawaii.jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Spanish_moss_at_the_Mcbryde_Garden_in_hawaii.jpg/960px-Spanish_moss_at_the_Mcbryde_Garden_in_hawaii.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "path": "spanishmoss.jpg",
+  "w": 960,
+  "h": 1440
+ },
+ "ponderosa": {
+  "id": "ponderosa",
+  "article": "Pinus ponderosa",
+  "file": "Pinus_ponderosa_15932.JPG",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Pinus_ponderosa_15932.JPG/960px-Pinus_ponderosa_15932.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "path": "ponderosa.jpg",
+  "w": 960,
+  "h": 1364
+ },
+ "sugarmaple": {
+  "id": "sugarmaple",
+  "article": "Wikimedia Commons",
+  "file": "A strikingly Yellow Sugar Maple tree in Guelph, Ontario.jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/A_strikingly_Yellow_Sugar_Maple_tree_in_Guelph%2C_Ontario.jpg/960px-A_strikingly_Yellow_Sugar_Maple_tree_in_Guelph%2C_Ontario.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "path": "sugarmaple.jpg",
+  "w": 960,
+  "h": 1280
+ },
+ "olive": {
+  "id": "olive",
+  "article": "Wikimedia Commons",
+  "file": "Birgi 15 05 1990 alte Ölbaumkultur.jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Birgi_15_05_1990_alte_%C3%96lbaumkultur.jpg/960px-Birgi_15_05_1990_alte_%C3%96lbaumkultur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "path": "olive.jpg",
+  "w": 960,
+  "h": 612
+ },
+ "corkoak": {
+  "id": "corkoak",
+  "article": "Quercus suber",
+  "file": "Cork_oak_(28864190188).jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Cork_oak_%2828864190188%29.jpg/960px-Cork_oak_%2828864190188%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "path": "corkoak.jpg",
+  "w": 960,
+  "h": 640
+ },
+ "stonepine": {
+  "id": "stonepine",
+  "article": "Pinus pinea",
+  "file": "Pinus_pinea_Wellington_Botanic_Gardens.jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Pinus_pinea_Wellington_Botanic_Gardens.jpg/960px-Pinus_pinea_Wellington_Botanic_Gardens.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "path": "stonepine.jpg",
+  "w": 960,
+  "h": 643
+ },
+ "cypress": {
+  "id": "cypress",
+  "article": "Cupressus sempervirens",
+  "file": "Εθνικός_Δρυμός_Σαμαριάς.jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/%CE%95%CE%B8%CE%BD%CE%B9%CE%BA%CF%8C%CF%82_%CE%94%CF%81%CF%85%CE%BC%CF%8C%CF%82_%CE%A3%CE%B1%CE%BC%CE%B1%CF%81%CE%B9%CE%AC%CF%82.jpg/960px-%CE%95%CE%B8%CE%BD%CE%B9%CE%BA%CF%8C%CF%82_%CE%94%CF%81%CF%85%CE%BC%CF%8C%CF%82_%CE%A3%CE%B1%CE%BC%CE%B1%CF%81%CE%B9%CE%AC%CF%82.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "path": "cypress.jpg",
+  "w": 960,
+  "h": 636
+ },
+ "maritimepine": {
+  "id": "maritimepine",
+  "article": "Pinus pinaster",
+  "file": "Pino_resinero_(6344573367).jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Pino_resinero_%286344573367%29.jpg/960px-Pino_resinero_%286344573367%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "path": "maritimepine.jpg",
+  "w": 960,
+  "h": 720
+ },
+ "birch": {
+  "id": "birch",
+  "article": "Birch",
+  "file": "Betula_pendula_001.jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Betula_pendula_001.jpg/960px-Betula_pendula_001.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "path": "birch.jpg",
+  "w": 960,
+  "h": 1283
+ },
+ "spruce": {
+  "id": "spruce",
+  "article": "Picea abies",
+  "file": "Kuusk_Keila-Paldiski_rdt_ääres.jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Kuusk_Keila-Paldiski_rdt_%C3%A4%C3%A4res.jpg/960px-Kuusk_Keila-Paldiski_rdt_%C3%A4%C3%A4res.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "path": "spruce.jpg",
+  "w": 960,
+  "h": 1440
+ },
+ "larch": {
+  "id": "larch",
+  "article": "Larch",
+  "file": "Larix_decidua_Aletschwald.jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Larix_decidua_Aletschwald.jpg/960px-Larix_decidua_Aletschwald.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "path": "larch.jpg",
+  "w": 960,
+  "h": 1278
+ },
+ "scotspine": {
+  "id": "scotspine",
+  "article": "Pinus sylvestris",
+  "file": "Skuleskogen_pine.jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Skuleskogen_pine.jpg/960px-Skuleskogen_pine.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "path": "scotspine.jpg",
+  "w": 960,
+  "h": 1440
+ },
+ "rubber": {
+  "id": "rubber",
+  "article": "Wikimedia Commons",
+  "file": "Large rubber plantation in Vietnam.jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Large_rubber_plantation_in_Vietnam.jpg/960px-Large_rubber_plantation_in_Vietnam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "path": "rubber.jpg",
+  "w": 960,
+  "h": 622
+ },
+ "coconut": {
+  "id": "coconut",
+  "article": "Wikimedia Commons",
+  "file": "Palm trees near Mitsamiouli beach 1.jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Palm_trees_near_Mitsamiouli_beach_1.jpg/960px-Palm_trees_near_Mitsamiouli_beach_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "path": "coconut.jpg",
+  "w": 960,
+  "h": 720
+ },
+ "betel": {
+  "id": "betel",
+  "article": "Areca catechu",
+  "file": "Areca_Palm_Seeds_Forming_Coorg_Feb24_A7C_09499.jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Areca_Palm_Seeds_Forming_Coorg_Feb24_A7C_09499.jpg/960px-Areca_Palm_Seeds_Forming_Coorg_Feb24_A7C_09499.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "path": "betel.jpg",
+  "w": 960,
+  "h": 1440
+ },
+ "teak": {
+  "id": "teak",
+  "article": "Wikimedia Commons",
+  "file": "Forest plantation of Tectona grandis in Costa Rica (2017).jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Forest_plantation_of_Tectona_grandis_in_Costa_Rica_%282017%29.jpg/960px-Forest_plantation_of_Tectona_grandis_in_Costa_Rica_%282017%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "path": "teak.jpg",
+  "w": 960,
+  "h": 540
+ },
+ "banana": {
+  "id": "banana",
+  "article": "Wikimedia Commons",
+  "file": "Banana plantation near Vang Vieng.jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Banana_plantation_near_Vang_Vieng.jpg/960px-Banana_plantation_near_Vang_Vieng.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "path": "banana.jpg",
+  "w": 960,
+  "h": 720
+ },
+ "sugi": {
+  "id": "sugi",
+  "article": "Wikimedia Commons",
+  "file": "Foggy-woods-trunks.jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Foggy-woods-trunks.jpg/960px-Foggy-woods-trunks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "path": "sugi.jpg",
+  "w": 960,
+  "h": 1285
+ },
+ "bamboo": {
+  "id": "bamboo",
+  "article": "Bamboo",
+  "file": "Bamboo_forest.jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Bamboo_forest.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "path": "bamboo.jpg",
+  "w": 720,
+  "h": 960
+ },
+ "ginkgo": {
+  "id": "ginkgo",
+  "article": "Ginkgo biloba",
+  "file": "GINKGOBAUM-2.jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/GINKGOBAUM-2.jpg/960px-GINKGOBAUM-2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "path": "ginkgo.jpg",
+  "w": 960,
+  "h": 1320
+ },
+ "datepalm": {
+  "id": "datepalm",
+  "article": "Wikimedia Commons",
+  "file": "Chinguetti oasis.jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Chinguetti_oasis.jpg/960px-Chinguetti_oasis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "path": "datepalm.jpg",
+  "w": 960,
+  "h": 643
+ },
+ "washingtonia": {
+  "id": "washingtonia",
+  "article": "Washingtonia filifera var. robusta",
+  "file": "Arecales_-_Washingtonia_robusta_-_1.jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Arecales_-_Washingtonia_robusta_-_1.jpg/960px-Arecales_-_Washingtonia_robusta_-_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "path": "washingtonia.jpg",
+  "w": 960,
+  "h": 1707
+ },
+ "vineyard": {
+  "id": "vineyard",
+  "article": "Vineyard",
+  "file": "Vineyards_in_Burgundy_France.jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Vineyards_in_Burgundy_France.jpg/960px-Vineyards_in_Burgundy_France.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "path": "vineyard.jpg",
+  "w": 960,
+  "h": 540
+ },
+ "poplar": {
+  "id": "poplar",
+  "article": "Populus nigra",
+  "file": "Populus_nigra_kz1.jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Populus_nigra_kz1.jpg/960px-Populus_nigra_kz1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "path": "poplar.jpg",
+  "w": 960,
+  "h": 489
+ },
+ "spinifex": {
+  "id": "spinifex",
+  "article": "Triodia (plant)",
+  "file": "Triodia_hummock_grassland.jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Triodia_hummock_grassland.jpg/960px-Triodia_hummock_grassland.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "path": "spinifex.jpg",
+  "w": 960,
+  "h": 643
+ },
+ "aspen": {
+  "id": "aspen",
+  "article": "Populus tremuloides",
+  "file": "2013-10-06_15_04_21_Aspens_during_autumn_along_the_Changing_Canyon_Nature_Trail_in_Lamoille_Canyon,_Nevada.jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/2013-10-06_15_04_21_Aspens_during_autumn_along_the_Changing_Canyon_Nature_Trail_in_Lamoille_Canyon%2C_Nevada.jpg/960px-2013-10-06_15_04_21_Aspens_during_autumn_along_the_Changing_Canyon_Nature_Trail_in_Lamoille_Canyon%2C_Nevada.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "path": "aspen.jpg",
+  "w": 960,
+  "h": 720
+ },
+ "blackspruce": {
+  "id": "blackspruce",
+  "article": "Picea mariana",
+  "file": "Black_spruce_stand_at_Arctic_Chalet,_Inuvik,_NT.jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Black_spruce_stand_at_Arctic_Chalet%2C_Inuvik%2C_NT.jpg/960px-Black_spruce_stand_at_Arctic_Chalet%2C_Inuvik%2C_NT.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "path": "blackspruce.jpg",
+  "w": 960,
+  "h": 1187
+ },
+ "douglasfir": {
+  "id": "douglasfir",
+  "article": "Douglas fir",
+  "file": "Pseudotsuga_menziesii_4584.JPG",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Pseudotsuga_menziesii_4584.JPG/960px-Pseudotsuga_menziesii_4584.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "path": "douglasfir.jpg",
+  "w": 960,
+  "h": 640
+ },
+ "saxaul": {
+  "id": "saxaul",
+  "article": "Haloxylon ammodendron",
+  "file": "Saxaul-baum.JPG",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Saxaul-baum.JPG/960px-Saxaul-baum.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "path": "saxaul.jpg",
+  "w": 960,
+  "h": 720
+ },
+ "sal": {
+  "id": "sal",
+  "article": "Wikimedia Commons",
+  "file": "Sal forests in Purulia, West Bengal, India.jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Sal_forests_in_Purulia%2C_West_Bengal%2C_India.jpg/960px-Sal_forests_in_Purulia%2C_West_Bengal%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "path": "sal.jpg",
+  "w": 960,
+  "h": 874
+ },
+ "mangrove": {
+  "id": "mangrove",
+  "article": "Mangrove",
+  "file": "Sonneratia_alba_-_Manado_(2).JPG",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Sonneratia_alba_-_Manado_%282%29.JPG/960px-Sonneratia_alba_-_Manado_%282%29.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "path": "mangrove.jpg",
+  "w": 960,
+  "h": 1440
+ },
+ "agave": {
+  "id": "agave",
+  "article": "Agave americana",
+  "file": "Agave_July_2011-1.jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Agave_July_2011-1.jpg/960px-Agave_July_2011-1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "path": "agave.jpg",
+  "w": 960,
+  "h": 1348
+ },
+ "paulownia": {
+  "id": "paulownia",
+  "article": "Paulownia tomentosa",
+  "file": "Paulownia_tomentosa_JPG2a.jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Paulownia_tomentosa_JPG2a.jpg/960px-Paulownia_tomentosa_JPG2a.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "path": "paulownia.jpg",
+  "w": 960,
+  "h": 640
+ }
+}

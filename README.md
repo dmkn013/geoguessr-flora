@@ -23,17 +23,40 @@ dist/   成果物（flora_atlas.html）と確認用プレビュー画像
 | `src/topo_to_svg.py` | TopoJSON → SVG パス（正距円筒投影） |
 | `src/build_atlas.py` | HTML を組み立てる |
 | `src/preview_map.py` / `preview_dots.py` | 地図と点の見え方を PNG で目視確認する検算用 |
+| `src/wiki_queries.py` | 種ごとに「どの記事の画像を取るか」（学名そのままだと外れる） |
+| `src/fetch_wikipedia.py` | Wikipedia から実写を取得（1.5秒間隔・UA必須） |
+| `src/refetch_wikipedia.py` / `pinned_files.py` / `refetch_pinned.py` | 目視で落ちた種を取り直す |
+| `src/list_commons.py` | Commons のカテゴリを列挙して差し替え候補を選ぶ |
+| `src/review_photos.py` | 48種のコンタクトシートを作り、**1枚ずつ目視する** |
+| `src/embed_photos.py` | 採用画像を縮小し data URI にして `data/photos.json` へ |
 
 ## 作り直す
 
 ```bash
 python src/topo_to_svg.py      # data/land_path.txt
 python src/sample_points.py    # data/points.json（乱数シード固定・再現する）
+python src/embed_photos.py     # data/photos.json（data/photos_raw/ から）
 python src/build_atlas.py      # dist/flora_atlas.html
 python src/preview_dots.py     # dist/dots_preview.png（明暗テーマで点が沈まないか確認）
 ```
 
-依存は `Pillow` のみ（プレビュー用）。本体の生成は標準ライブラリだけで動く。
+画像を取り直す場合（`data/photos_raw/` が空のとき）:
+
+```bash
+python src/fetch_wikipedia.py  # 48種ぶん取得。1.5秒間隔なので約5分かかる
+python src/review_photos.py    # dist/photo_review.png を目視する
+```
+
+`data/photos_raw/` の画像はリポジトリに入れていない（20MB あるため）。
+`_meta.json` に「どの記事のどのファイルを使ったか」が残るので、取得は再現できる。
+
+依存は `Pillow` のみ。地図とHTMLの生成は標準ライブラリだけで動く。
+
+## 見る
+
+`dist/flora_atlas.html` を**ブラウザで直接開くだけ**（サーバ不要）。
+画像も地図も埋め込み済みで、外部通信は Google Fonts だけ。
+オフラインでもフォントが代替に落ちるだけで中身は完全に動く。
 
 ## 設計上の判断
 
@@ -50,20 +73,28 @@ python src/preview_dots.py     # dist/dots_preview.png（明暗テーマで点�
 - **空白は埋めない**。サハラ内陸・北極圏・北米大平原に点が無いのは意図的で、
   手がかりになる植生が無い場所を埋めると教材として嘘になる。
 
+## 実写画像
+
+**48種すべてに Wikipedia / Wikimedia Commons の実写が入っている**（各1枚・計3.8MB）。
+判定は「その種の `tells[0]`＝最初に見る特徴が写っているか」で、48種すべて目視した。
+
+`prop=pageimages` が返すのは記事の**先頭画像**で、植物記事では
+植物図版・果実のクローズアップ・製品写真になりがちだった（48種中12種がこれで落ちた）。
+差し替えの経緯と教訓は `docs/photo-review.md` にある。
+
 ## 未了
 
-- **実写画像が入っていない**。詳細パネルに「Mapillary の取得待ち」と出る。
-  - Wikipedia の代表画像（`prop=pageimages`）は**認証不要で取得できることを確認済み**。
-    4種で実際に画像を見て、種と特徴が写っていることまで検証した。
-    ただし Wikimedia はレート制限が厳しいので **1.5秒間隔＋連絡先入り User-Agent** が要る
-    （連続で叩くと `Too many requests` が HTML で返り、壊れた JPEG として保存される）。
-  - Mapillary（CC-BY-SA・要トークン）は車載目線なので本番の見え方に近い。
-    トークンは https://www.mapillary.com/dashboard/developers で Register Application。
-  - 図鑑寄りの Wikipedia と車載目線の Mapillary は役割が違うので、両方入れる方針。
-- 画像は Artifact の 16MB 制限に収める必要があるため、点ごとではなく**種ごとに2〜3枚**。
+- **コルクガシの画像が特徴と一致していない**。現在は montado の景観で、
+  最大の手がかりである**剥皮された赤褐色の幹が写っていない**。
+  `tells[0]` と画像がずれている唯一の種なので、直すならここから。
+- **Mapillary（車載目線）は未着手**。要トークンで、
+  https://www.mapillary.com/dashboard/developers の Register Application で発行する。
+  図鑑寄りの Wikipedia と役割が違うので両方入れる方針は変えていない。
+  Artifact の 16MB 制限に対して現在 4.2MB なので、種ごとにもう1〜2枚足す余地はある。
 
 ## 引き継ぎ
 
-作業の経緯・詰まった点・次にやることは `docs/2026-08-29-handoff.md` にある。
+作業の経緯・詰まった点・次にやることは `docs/` の日付順ハンドオフにある
+（最新: `docs/2026-08-30-handoff.md`）。
 ダイアリー（OneDrive）と同じ内容だが、**PC間でOneDriveが同期していない事故があった**ため
 リポジトリ内にも置いてある。こちらを正とする。

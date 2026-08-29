@@ -3,3 +3,7 @@ __pycache__/
 dist/*.png
 data/photos.json
 .venv/
+data/photos_raw/*.jpg
+data/photos_raw/*.JPG
+data/photos_raw/*.png
+data/photos_raw/*.jpeg
