@@ -102,9 +102,13 @@ def stats_for(sid):
 
     t_acc = sum(r["accepted"] for r in regions)
     t_judged = sum(r["judged"] for r in regions)
+    t_tried = sum(r["tried"] for r in regions)
     p, lo, hi = wilson(t_acc, t_judged)
     return {
-        "accepted": t_acc, "judged": t_judged,
+        "accepted": t_acc, "judged": t_judged, "tried": t_tried,
+        # 撮影データがある地点の割合。低い＝「その植物が稀」ではなく
+        # 「Mapillary の被覆が薄い」。両者を混同しないため分けて出す。
+        "imagery_rate": round(t_judged / t_tried, 3) if t_tried else 0.0,
         "seen_rate": round(p, 3), "seen_lo": round(lo, 3), "seen_hi": round(hi, 3),
         "enough": t_judged >= MIN_SAMPLES,
         "regions": regions,

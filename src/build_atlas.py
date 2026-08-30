@@ -263,6 +263,8 @@ svg.map.dragging{cursor:grabbing}
 .encpct{text-align:right; color:var(--ink)}
 .encn{text-align:right; color:var(--ink-faint); font-size:.68rem}
 .encnote{font-size:.68rem; color:var(--ink-faint); margin:.35rem 0 0; line-height:1.5}
+.encnote.warn{border-left:2px solid var(--accent); padding-left:.45rem}
+.encnote strong{color:var(--ink-soft)}
 .noshot{
   border:1px dashed var(--rule); border-radius:6px; padding:.8rem; text-align:center;
   color:var(--ink-faint); font-size:.8rem;
@@ -466,6 +468,9 @@ function encHtml(s) {
   if (!e || !e.judged) return '';
   const rows = e.regions.filter(r => r.judged > 0).map(encBar).join('');
   const few = e.regions.some(r => r.judged > 0 && !r.enough);
+  // 撮影データ自体が薄い地域は、そう明示する。
+  // 「点が少ない＝その植物が稀」と読み違えられるのを防ぐ。
+  const thin = e.imagery_rate !== undefined && e.imagery_rate < 0.3;
   return '<div class="enc"><h5>遭遇率' +
     '<span class="enchelp">その地域の道端で実際に画面に写る割合</span></h5>' +
     '<div class="encrow total"><span class="encname">全体</span>' +
@@ -476,6 +481,9 @@ function encHtml(s) {
     '<span class="encn mono">' + e.accepted + '/' + e.judged + '</span></div>' +
     rows +
     (few ? '<p class="encnote">薄い行は標本が少なく、幅（帯）が広い＝まだ確かでない。</p>' : '') +
+    (thin ? '<p class="encnote warn">この地域は<strong>street-level 写真そのものが少ない</strong>' +
+      '（' + (e.imagery_rate * 100).toFixed(0) + '%の地点にしか写真が無い）。' +
+      '確認済みの点が少ないのは、その植物が稀だからとは限らない。</p>' : '') +
     '</div>';
 }
 

@@ -2,6 +2,8 @@
  "eucalyptus": {
   "accepted": 0,
   "judged": 0,
+  "tried": 30,
+  "imagery_rate": 0.0,
   "seen_rate": 0.0,
   "seen_lo": 0.0,
   "seen_hi": 1.0,
@@ -26,6 +28,8 @@
  "grasstree": {
   "accepted": 0,
   "judged": 0,
+  "tried": 32,
+  "imagery_rate": 0.0,
   "seen_rate": 0.0,
   "seen_lo": 0.0,
   "seen_hi": 1.0,
@@ -50,6 +54,8 @@
  "treefern": {
   "accepted": 0,
   "judged": 0,
+  "tried": 25,
+  "imagery_rate": 0.0,
   "seen_rate": 0.0,
   "seen_lo": 0.0,
   "seen_hi": 1.0,
@@ -59,10 +65,114 @@
     "region": "不明",
     "accepted": 0,
     "rejected": 0,
-    "no_imagery": 15,
-    "pending": 16,
+    "no_imagery": 25,
+    "pending": 35,
     "judged": 0,
-    "tried": 15,
+    "tried": 25,
+    "seen_rate": 0.0,
+    "seen_lo": 0.0,
+    "seen_hi": 1.0,
+    "imagery_rate": 0.0,
+    "enough": false
+   }
+  ]
+ },
+ "cordyline": {
+  "accepted": 0,
+  "judged": 0,
+  "tried": 23,
+  "imagery_rate": 0.0,
+  "seen_rate": 0.0,
+  "seen_lo": 0.0,
+  "seen_hi": 1.0,
+  "enough": false,
+  "regions": [
+   {
+    "region": "不明",
+    "accepted": 0,
+    "rejected": 0,
+    "no_imagery": 23,
+    "pending": 37,
+    "judged": 0,
+    "tried": 23,
+    "seen_rate": 0.0,
+    "seen_lo": 0.0,
+    "seen_hi": 1.0,
+    "imagery_rate": 0.0,
+    "enough": false
+   }
+  ]
+ },
+ "baobab": {
+  "accepted": 0,
+  "judged": 0,
+  "tried": 53,
+  "imagery_rate": 0.0,
+  "seen_rate": 0.0,
+  "seen_lo": 0.0,
+  "seen_hi": 1.0,
+  "enough": false,
+  "regions": [
+   {
+    "region": "不明",
+    "accepted": 0,
+    "rejected": 0,
+    "no_imagery": 53,
+    "pending": 7,
+    "judged": 0,
+    "tried": 53,
+    "seen_rate": 0.0,
+    "seen_lo": 0.0,
+    "seen_hi": 1.0,
+    "imagery_rate": 0.0,
+    "enough": false
+   }
+  ]
+ },
+ "acacia": {
+  "accepted": 0,
+  "judged": 0,
+  "tried": 51,
+  "imagery_rate": 0.0,
+  "seen_rate": 0.0,
+  "seen_lo": 0.0,
+  "seen_hi": 1.0,
+  "enough": false,
+  "regions": [
+   {
+    "region": "不明",
+    "accepted": 0,
+    "rejected": 0,
+    "no_imagery": 51,
+    "pending": 9,
+    "judged": 0,
+    "tried": 51,
+    "seen_rate": 0.0,
+    "seen_lo": 0.0,
+    "seen_hi": 1.0,
+    "imagery_rate": 0.0,
+    "enough": false
+   }
+  ]
+ },
+ "oilpalm": {
+  "accepted": 0,
+  "judged": 0,
+  "tried": 41,
+  "imagery_rate": 0.0,
+  "seen_rate": 0.0,
+  "seen_lo": 0.0,
+  "seen_hi": 1.0,
+  "enough": false,
+  "regions": [
+   {
+    "region": "不明",
+    "accepted": 0,
+    "rejected": 0,
+    "no_imagery": 41,
+    "pending": 7,
+    "judged": 0,
+    "tried": 41,
     "seen_rate": 0.0,
     "seen_lo": 0.0,
     "seen_hi": 1.0,
