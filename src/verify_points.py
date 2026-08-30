@@ -47,21 +47,27 @@ TRIES_PER_ROUND = 60
 def weighted_pick(rngs, rnd):
     tot = sum(r[4] for r in rngs)
     x = rnd.random() * tot
-    for r in rngs:
+    for i, r in enumerate(rngs):
         x -= r[4]
         if x <= 0:
-            return r
-    return rngs[-1]
+            return i, r
+    return len(rngs) - 1, rngs[-1]
 
 
 def random_candidate(sid, rnd, land):
-    """分布域の中からランダムに1点引く。陸地に載るまで引き直す。"""
+    """分布域の中からランダムに1点引く。陸地に載るまで引き直す。
+
+    **どの矩形から引いたか（ri）も返す。**
+    「ユーカリは豪州東部では高頻度だがポルトガルでは低頻度」のように、
+    同じ種でも地域で遭遇率が違う。後から座標だけでは復元しにくいので
+    引いた時点で記録しておく。
+    """
     for _ in range(200):
-        la0, la1, lo0, lo1, _w = weighted_pick(RANGES[sid], rnd)
+        ri, (la0, la1, lo0, lo1, _w) = weighted_pick(RANGES[sid], rnd)
         la = rnd.uniform(la0, la1)
         lo = rnd.uniform(lo0, lo1)
         if on_land(lo, la, land):
-            return round(la, 4), round(lo, 4)
+            return round(la, 4), round(lo, 4), ri
     return None
 
 
@@ -94,15 +100,18 @@ def collect(sid, rnd, land, want, tries_budget):
     have = len(st["accepted"]) + len(st["rejected"])
     seen = {tuple(a["pt"]) for a in st["accepted"]}
     seen |= {tuple(r["pt"]) for r in st["rejected"]}
-    seen |= {tuple(p) for p in st["no_imagery"]}
+    seen |= {(p[0], p[1]) for p in st["no_imagery"]}
     seen |= {tuple(p["pt"]) for p in pending}
 
     got = 0
     tries = 0
     while len(pending) + have < want and tries < tries_budget:
         tries += 1
-        c = random_candidate(sid, rnd, land)
-        if not c or c in seen:
+        cand = random_candidate(sid, rnd, land)
+        if not cand:
+            continue
+        c, ri = (cand[0], cand[1]), cand[2]
+        if c in seen:
             continue
         seen.add(c)
         try:
@@ -114,14 +123,14 @@ def collect(sid, rnd, land, want, tries_budget):
             print(f"    {c} 取得失敗: {type(e).__name__}", flush=True)
             continue
         if not imgs:
-            st["no_imagery"].append(list(c))
+            st["no_imagery"].append([c[0], c[1], ri])
             if len(st["no_imagery"]) % 20 == 0:
                 save_state(sid, st)
             continue
         img = imgs[0]
         url = img.get("thumb_1024_url")
         if not url:
-            st["no_imagery"].append(list(c))
+            st["no_imagery"].append([c[0], c[1], ri])
             continue
         try:
             body = mapillary.fetch_thumb(url)
@@ -131,7 +140,7 @@ def collect(sid, rnd, land, want, tries_budget):
         f = CAND / sid / f"{img['id']}.jpg"
         f.write_bytes(body)
         g = (img.get("computed_geometry") or {}).get("coordinates") or [c[1], c[0]]
-        pending.append({"pt": list(c), "img_id": img["id"], "file": f.name,
+        pending.append({"pt": list(c), "ri": ri, "img_id": img["id"], "file": f.name,
                         "lon": g[0], "lat": g[1],
                         "captured_at": img.get("captured_at"),
                         "creator": (img.get("creator") or {}).get("username", "")})

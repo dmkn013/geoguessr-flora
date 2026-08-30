@@ -30,6 +30,12 @@ LAT_TOP, LAT_BOTTOM = 84.0, -56.0
 photos_path = SP / "photos.json"
 PHOTOS = json.loads(photos_path.read_text(encoding="utf-8")) if photos_path.exists() else {}
 
+# 遭遇率。「その地域を引いたとき画面にその植物が写っている確率」。
+# 分布の有無だけでは「知識としては正しいが実戦で当たらないメタ」を
+# 見分けられないので、頻度を併記する。無ければ出さない。
+enc_path = SP / "encounter.json"
+ENC = json.loads(enc_path.read_text(encoding="utf-8")) if enc_path.exists() else {}
+
 
 def project(lat, lon):
     x = (lon + 180.0) / 360.0 * VIEW_W
@@ -49,6 +55,7 @@ for s in SPECIES:
         "group": s["group"], "color": s["color"], "regions": s["regions"],
         "tells": s["tells"], "trap": s["trap"], "pts": pts,
         "photos": PHOTOS.get(s["id"], []),
+        "enc": ENC.get(s["id"]),
     })
 
 groups = []
@@ -218,6 +225,28 @@ svg.map.dragging{cursor:grabbing}
 .bxtog[aria-pressed="false"]{background:transparent; color:var(--ink-faint); border-color:var(--rule)}
 .shotnote{font-size:.7rem; color:var(--ink-faint); margin:.4rem 0 0; line-height:1.5}
 .shotnote strong{color:var(--ink-soft)}
+.enc{margin-top:.7rem}
+.enc h5{font-family:"IBM Plex Sans",sans-serif; font-size:.7rem; letter-spacing:.1em;
+  text-transform:uppercase; color:var(--ink-faint); font-weight:600; margin:0 0 .4rem;
+  display:flex; align-items:baseline; gap:.5rem}
+.enchelp{text-transform:none; letter-spacing:0; font-size:.68rem; font-weight:400}
+.encrow{display:grid; grid-template-columns:1fr 90px 34px 38px; gap:.4rem;
+  align-items:center; font-size:.75rem; padding:.12rem 0}
+.encrow.total{font-weight:600; border-bottom:1px solid var(--rule); padding-bottom:.3rem;
+  margin-bottom:.2rem}
+.encrow.few{opacity:.55}
+.encname{color:var(--ink-soft); overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.encbar{position:relative; height:9px; background:var(--panel-2); border-radius:5px;
+  border:1px solid var(--rule)}
+/* 帯＝信頼区間。狭いほど確か */
+.encbar i{position:absolute; top:0; bottom:0; background:var(--accent); opacity:.28;
+  border-radius:5px}
+/* 縦線＝点推定 */
+.encbar b{position:absolute; top:-2px; bottom:-2px; width:2px; background:var(--accent);
+  margin-left:-1px; border-radius:1px}
+.encpct{text-align:right; color:var(--ink)}
+.encn{text-align:right; color:var(--ink-faint); font-size:.68rem}
+.encnote{font-size:.68rem; color:var(--ink-faint); margin:.35rem 0 0; line-height:1.5}
 .noshot{
   border:1px dashed var(--rule); border-radius:6px; padding:.8rem; text-align:center;
   color:var(--ink-faint); font-size:.8rem;
@@ -380,6 +409,38 @@ function setTab(which) {
 tabList.addEventListener('click', () => setTab('list'));
 tabDet.addEventListener('click', () => setTab('det'));
 
+/* 遭遇率 = その地域を引いたとき、画面にその植物が写っている確率。
+   分布の有無だけだと「知識としては正しいが実戦で当たらないメタ」を
+   見分けられない。標本が少ないうちは幅が広く出るので、
+   点推定だけでなく信頼区間と件数も一緒に出す。 */
+function encBar(r) {
+  const pct = (r.seen_rate * 100).toFixed(0);
+  const lo = r.seen_lo * 100, hi = r.seen_hi * 100;
+  return '<div class="encrow' + (r.enough ? '' : ' few') + '">' +
+    '<span class="encname">' + r.region + '</span>' +
+    '<span class="encbar"><i style="left:' + lo + '%;width:' + (hi - lo) + '%"></i>' +
+    '<b style="left:' + pct + '%"></b></span>' +
+    '<span class="encpct mono">' + pct + '%</span>' +
+    '<span class="encn mono">' + r.accepted + '/' + r.judged + '</span></div>';
+}
+function encHtml(s) {
+  const e = s.enc;
+  if (!e || !e.judged) return '';
+  const rows = e.regions.filter(r => r.judged > 0).map(encBar).join('');
+  const few = e.regions.some(r => r.judged > 0 && !r.enough);
+  return '<div class="enc"><h5>遭遇率' +
+    '<span class="enchelp">その地域の道端で実際に画面に写る割合</span></h5>' +
+    '<div class="encrow total"><span class="encname">全体</span>' +
+    '<span class="encbar"><i style="left:' + (e.seen_lo * 100) + '%;width:' +
+    ((e.seen_hi - e.seen_lo) * 100) + '%"></i>' +
+    '<b style="left:' + (e.seen_rate * 100) + '%"></b></span>' +
+    '<span class="encpct mono">' + (e.seen_rate * 100).toFixed(0) + '%</span>' +
+    '<span class="encn mono">' + e.accepted + '/' + e.judged + '</span></div>' +
+    rows +
+    (few ? '<p class="encnote">薄い行は標本が少なく、幅（帯）が広い＝まだ確かでない。</p>' : '') +
+    '</div>';
+}
+
 function renderDetail(s) {
   if (!s) { detPane.innerHTML = '<p class="empty">地図の点か、一覧の種類を選ぶと表示されます。</p>'; return; }
   /* 写真の上に「どこを見るか」の枠を重ねる。
@@ -404,7 +465,8 @@ function renderDetail(s) {
       shots + '<p class="shotnote">枠は<strong>この写真のどこを見るか</strong>。' +
       '実際の景色は地図の点をクリックし、ペグマンを近くの道に落として確かめる。</p></section>' +
     '<section><h4>示す地域</h4><div class="tags">' +
-      s.regions.map(r => '<span class="tag">' + r + '</span>').join('') + '</div></section>' +
+      s.regions.map(r => '<span class="tag">' + r + '</span>').join('') + '</div>' +
+      encHtml(s) + '</section>' +
     '<section><h4>見分け方</h4><ul>' + s.tells.map(t => '<li>' + t + '</li>').join('') + '</ul></section>' +
     '<section><h4>罠・紛らわしい点</h4><div class="trap">' +
       s.trap.replace(/\\*\\*(.+?)\\*\\*/g, '<strong>$1</strong>') + '</div></section>';

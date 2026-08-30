@@ -1,0 +1,74 @@
+{
+ "eucalyptus": {
+  "accepted": 0,
+  "judged": 0,
+  "seen_rate": 0.0,
+  "seen_lo": 0.0,
+  "seen_hi": 1.0,
+  "enough": false,
+  "regions": [
+   {
+    "region": "不明",
+    "accepted": 0,
+    "rejected": 0,
+    "no_imagery": 30,
+    "pending": 30,
+    "judged": 0,
+    "tried": 30,
+    "seen_rate": 0.0,
+    "seen_lo": 0.0,
+    "seen_hi": 1.0,
+    "imagery_rate": 0.0,
+    "enough": false
+   }
+  ]
+ },
+ "grasstree": {
+  "accepted": 0,
+  "judged": 0,
+  "seen_rate": 0.0,
+  "seen_lo": 0.0,
+  "seen_hi": 1.0,
+  "enough": false,
+  "regions": [
+   {
+    "region": "不明",
+    "accepted": 0,
+    "rejected": 0,
+    "no_imagery": 32,
+    "pending": 28,
+    "judged": 0,
+    "tried": 32,
+    "seen_rate": 0.0,
+    "seen_lo": 0.0,
+    "seen_hi": 1.0,
+    "imagery_rate": 0.0,
+    "enough": false
+   }
+  ]
+ },
+ "treefern": {
+  "accepted": 0,
+  "judged": 0,
+  "seen_rate": 0.0,
+  "seen_lo": 0.0,
+  "seen_hi": 1.0,
+  "enough": false,
+  "regions": [
+   {
+    "region": "不明",
+    "accepted": 0,
+    "rejected": 0,
+    "no_imagery": 15,
+    "pending": 16,
+    "judged": 0,
+    "tried": 15,
+    "seen_rate": 0.0,
+    "seen_lo": 0.0,
+    "seen_hi": 1.0,
+    "imagery_rate": 0.0,
+    "enough": false
+   }
+  ]
+ }
+}
