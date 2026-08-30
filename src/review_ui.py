@@ -32,10 +32,11 @@ THUMB = (560, 420)
 
 def enc(path):
     im = Image.open(path).convert("RGB")
+    pano = abs(im.width / im.height - 2.0) < 0.05
     im.thumbnail(THUMB, Image.LANCZOS)
     b = BytesIO()
     im.save(b, "JPEG", quality=72, optimize=True)
-    return "data:image/jpeg;base64," + base64.b64encode(b.getvalue()).decode()
+    return "data:image/jpeg;base64," + base64.b64encode(b.getvalue()).decode(), pano
 
 
 def build():
@@ -54,8 +55,9 @@ def build():
                 continue
             f = CAND / sid / it["file"]
             if f.exists():
+                src, pano = enc(f)
                 cards.append({"img_id": it["img_id"], "lat": it["lat"],
-                              "lon": it["lon"], "src": enc(f)})
+                              "lon": it["lon"], "src": src, "pano": pano})
         if cards:
             groups.append({"id": sid, "ja": s["ja"], "sci": s["sci"],
                            "tells": s["tells"], "trap": s["trap"],
@@ -128,6 +130,9 @@ figure{margin:0;background:var(--panel);border:1px solid var(--rule);
        border-radius:8px;overflow:hidden}
 figure img{width:100%;display:block;cursor:zoom-in}
 .meta{font-size:.72rem;color:var(--faint);padding:.3rem .5rem;font-variant-numeric:tabular-nums}
+/* 全天球画像。平面に開いているので空が上端に回り込み、
+   足元に撮影者が写る。天地が変に見えるが壊れてはいない。 */
+.pano{background:#e8e4d8;color:#6b665c;border-radius:3px;padding:0 .3rem;font-weight:600}
 .btns{display:flex;gap:.4rem;padding:0 .5rem .5rem}
 .btns button{flex:1}
 .y{border-color:var(--ok);color:var(--ok)} .n{border-color:var(--ng);color:var(--ng)}
@@ -179,7 +184,8 @@ DATA.groups.forEach(g => {
     const fig = document.createElement('figure');
     fig.innerHTML =
       '<img src="' + c.src + '" alt="">' +
-      '<div class="meta">' + c.lat.toFixed(4) + ', ' + c.lon.toFixed(4) + '</div>' +
+      '<div class="meta">' + c.lat.toFixed(4) + ', ' + c.lon.toFixed(4) +
+      (c.pano ? ' <span class="pano">360°</span>' : '') + '</div>' +
       '<div class="btns"><button class="y">写ってる</button>' +
       '<button class="n">写ってない</button></div>';
     const k = g.id + '|' + c.img_id;
