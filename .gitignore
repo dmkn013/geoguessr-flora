@@ -9,3 +9,4 @@ data/photos_raw/*.png
 data/photos_raw/*.jpeg
 data/.mapillary_token
 data/mapillary_cache/
+data/collect.log

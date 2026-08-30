@@ -73,15 +73,20 @@ Mapillary を使うのは CC-BY-SA で保存・再配布できるため
 |---|---|
 | `src/mapillary.py` | API ラッパ。トークンは `data/.mapillary_token` か環境変数 |
 | `src/verify_points.py` | 候補をランダムに引き、その地点の写真を集める |
-| `src/review_candidates.py` | 候補写真を並べて**目視で採否**を決める |
+| `src/review_ui.py` | 候補写真をブラウザに並べ、**クリックで採否**を決める |
 | `src/build_verified.py` | 採用された点を `data/verified_points.json` に集約 |
 
 ```bash
-python src/verify_points.py eucalyptus        # 候補の写真を集める
-python src/review_candidates.py sheet eucalyptus       # 並べて見る
-python src/review_candidates.py accept eucalyptus 0 3 5   # 写っていたものを採用
+bash src/run_collect.sh          # 収集（落ちても自動再開。数日回す前提）
+python src/review_ui.py          # dist/review.html を作る → ブラウザで判定
+python src/review_ui.py --apply  # 書き出した decisions.json を反映
 python src/build_verified.py
 ```
+
+収集は **round-robin**。1種で粘らず全種を順に回り、
+足りない種は周を重ねて足す。Mapillary の被覆が薄い地域
+（豪州内陸・サハラ周辺など）は点が少なくなるが、
+3,000点試すまでは諦めない。
 
 **判定を自動化していないのは意図的**。種の同定を画像認識に任せると
 誤判定した点が「確認済み」として混ざり、この方式の意味が無くなる。

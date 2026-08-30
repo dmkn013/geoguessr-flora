@@ -47,14 +47,39 @@ def token():
     return t
 
 
+NET_RETRIES = 5
+
+
+def _urlopen_retry(req, timeout):
+    """接続タイムアウト等の一過性エラーを再試行する。
+
+    長時間回し続けるので、その場の回線の揺らぎで候補を捨てたくない。
+    HTTPError（サーバが意味のある応答を返した場合）は呼び出し側で扱う。
+    """
+    delay = 2
+    last = None
+    for i in range(NET_RETRIES):
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                return r.read(), r.headers
+        except urllib.error.HTTPError:
+            raise
+        except Exception as e:          # URLError / timeout / socket エラー
+            last = e
+            if i < NET_RETRIES - 1:
+                time.sleep(delay)
+                delay = min(delay * 2, 60)
+    raise last
+
+
 def _get(path, params):
     q = dict(params)
     q["access_token"] = token()
     url = f"{GRAPH}/{path}?" + urllib.parse.urlencode(q)
     req = urllib.request.Request(url, headers={"User-Agent": UA})
     try:
-        with urllib.request.urlopen(req, timeout=40) as r:
-            return json.loads(r.read().decode("utf-8"))
+        body, _h = _urlopen_retry(req, 40)
+        return json.loads(body.decode("utf-8"))
     except urllib.error.HTTPError as e:
         # 認証エラーを「この地点には写真が無い」と取り違えると、
         # 全候補を空振りで消費してしまう。区別して即止める。
@@ -135,9 +160,8 @@ def fetch_thumb(url):
     （Wikimedia で壊れたJPEGを掴んだのと同じ失敗を繰り返さない）。
     """
     req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=60) as r:
-        ctype = r.headers.get("Content-Type", "")
-        body = r.read()
+    body, h = _urlopen_retry(req, 60)
+    ctype = h.get("Content-Type", "")
     if not ctype.startswith("image/"):
         raise RuntimeError(f"画像ではない応答: {ctype}")
     return body

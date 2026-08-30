@@ -38,7 +38,7 @@ def main():
     OUT.write_text(json.dumps(out, ensure_ascii=False), encoding="utf-8")
     print(f"確認済み {total} 点 / {len(out)} 種 → {OUT}")
     if total == 0:
-        print("（まだ0件。verify_points.py → review_candidates.py を回す）")
+        print("（まだ0件。verify_points.py → review_ui.py を回す）")
 
 
 if __name__ == "__main__":

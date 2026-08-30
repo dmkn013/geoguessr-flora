@@ -10,7 +10,7 @@
 
 判定は自動ではできない（種の同定は画像認識では信用できない）。
 このスクリプトは**候補の写真を集めてコンタクトシートを作るところまで**をやり、
-採否は人（またはレビュー担当）が review_candidates で目視して決める。
+採否は人が review_ui.py の画面で目視して決める。
 判定結果は data/verified/<種id>.json に追記される。
 
 再開可能: 既に判定済みの候補は再取得しない。
@@ -34,10 +34,14 @@ VERIFIED = DATA / "verified"        # 判定結果
 CAND.mkdir(exist_ok=True)
 VERIFIED.mkdir(exist_ok=True)
 
-# 1種あたり何点の「確認済み」を目指すか。
-# 2,785点（表示用サンプリング）とは桁が違う。1点ずつ写真を見るので当然。
-TARGET_PER_SPECIES = 8
-MAX_TRIES_PER_POINT = 40    # 候補を引いて写真が無い/写っていないを何回まで試すか
+# 1種あたり何枚の候補写真を集めるか。
+# 判定で多くが落ちる（ユーカリは8枚中2枚）ので、多めに集めておく。
+TARGET_PER_SPECIES = 40
+
+# 1周でこの回数だけ候補を引く。打ち切りではなく**1周の区切り**で、
+# 全種を1周したらまた最初の種に戻って足りない分を足す（round-robin）。
+# 特定の種で延々と粘って他の種が始まらない、という事態を避けるため。
+TRIES_PER_ROUND = 60
 
 
 def weighted_pick(rngs, rnd):
@@ -76,16 +80,26 @@ def save_state(sid, st):
     state_path(sid).write_text(json.dumps(st, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
-def collect(sid, rnd, land, want):
-    """候補を引いて写真を集める。判定はまだしない。"""
+def collect(sid, rnd, land, want, tries_budget):
+    """候補を引いて写真を集める。判定はまだしない。
+
+    1周ぶんの試行だけ回して戻る。足りなければ次の周でまた呼ばれる。
+    既に見た座標は state に残るので、周をまたいでも重複しない。
+    """
     st = load_state(sid)
-    have = len(st["accepted"])
+    pend_path = CAND / sid / "_pending.json"
+    (CAND / sid).mkdir(parents=True, exist_ok=True)
+    pending = json.loads(pend_path.read_text(encoding="utf-8")) if pend_path.exists() else []
+
+    have = len(st["accepted"]) + len(st["rejected"])
     seen = {tuple(a["pt"]) for a in st["accepted"]}
     seen |= {tuple(r["pt"]) for r in st["rejected"]}
     seen |= {tuple(p) for p in st["no_imagery"]}
-    pending = []
+    seen |= {tuple(p["pt"]) for p in pending}
+
+    got = 0
     tries = 0
-    while len(pending) + have < want and tries < MAX_TRIES_PER_POINT:
+    while len(pending) + have < want and tries < tries_budget:
         tries += 1
         c = random_candidate(sid, rnd, land)
         if not c or c in seen:
@@ -96,10 +110,13 @@ def collect(sid, rnd, land, want):
         except (mapillary.NoToken, mapillary.BadToken):
             raise
         except Exception as e:
-            print(f"    {c} 取得失敗: {e}")
+            # 通信層で再試行済み。ここまで来たら記録して次へ
+            print(f"    {c} 取得失敗: {type(e).__name__}", flush=True)
             continue
         if not imgs:
             st["no_imagery"].append(list(c))
+            if len(st["no_imagery"]) % 20 == 0:
+                save_state(sid, st)
             continue
         img = imgs[0]
         url = img.get("thumb_1024_url")
@@ -109,43 +126,72 @@ def collect(sid, rnd, land, want):
         try:
             body = mapillary.fetch_thumb(url)
         except Exception as e:
-            print(f"    {c} 画像失敗: {e}")
+            print(f"    {c} 画像失敗: {type(e).__name__}", flush=True)
             continue
-        d = CAND / sid
-        d.mkdir(exist_ok=True)
-        f = d / f"{img['id']}.jpg"
+        f = CAND / sid / f"{img['id']}.jpg"
         f.write_bytes(body)
         g = (img.get("computed_geometry") or {}).get("coordinates") or [c[1], c[0]]
         pending.append({"pt": list(c), "img_id": img["id"], "file": f.name,
                         "lon": g[0], "lat": g[1],
-                        "captured_at": img.get("captured_at")})
-        print(f"    候補 {len(pending)+have}/{want}: {c} → {f.name}")
+                        "captured_at": img.get("captured_at"),
+                        "creator": (img.get("creator") or {}).get("username", "")})
+        got += 1
+        print(f"    {len(pending) + have}/{want}: {c} → {f.name}", flush=True)
+        # 長時間走らせるので、落ちても失わないよう都度書き出す
+        save_state(sid, st)
+        pend_path.write_text(json.dumps(pending, ensure_ascii=False, indent=1),
+                             encoding="utf-8")
+
     save_state(sid, st)
-    (CAND / sid).mkdir(parents=True, exist_ok=True)
-    (CAND / sid / "_pending.json").write_text(
-        json.dumps(pending, ensure_ascii=False, indent=1), encoding="utf-8")
-    return pending
+    pend_path.write_text(json.dumps(pending, ensure_ascii=False, indent=1), encoding="utf-8")
+    return got, len(pending) + have
 
 
 def main():
     targets = sys.argv[1:] or [s["id"] for s in SPECIES]
+    targets = [t for t in targets if t in RANGES]
     try:
         mapillary.token()
     except mapillary.NoToken as e:
         print(e)
         return 1
     land = load_land()
-    rnd = random.Random(20260830)
-    for sid in targets:
-        if sid not in RANGES:
-            print(f"{sid}: 分布域が未定義"); continue
-        print(f"[{sid}]")
-        try:
-            collect(sid, rnd, land, TARGET_PER_SPECIES)
-        except mapillary.BadToken as e:
-            print(e)
-            return 1
-    print("\n候補の写真を集めた。review_candidates.py で目視して採否を決める。")
+    # 固定シードだと**再開のたびに同じ座標列を引き直す**。
+    # 既出は seen で弾かれるので実害は無いが、試行回数を使い切って
+    # 1枚も進まなくなる。長時間・複数回に分けて回す前提なので毎回変える。
+    rnd = random.Random()
+
+    # round-robin で全種を回る。1種で粘り続けて他が始まらないのを防ぐ。
+    # 「もう新しい候補が出ない」種は done に入れて以後飛ばす。
+    done = set()
+    rnd_no = 0
+    while len(done) < len(targets):
+        rnd_no += 1
+        print(f"\n===== 第{rnd_no}周 （完了 {len(done)}/{len(targets)} 種） =====",
+              flush=True)
+        for sid in targets:
+            if sid in done:
+                continue
+            try:
+                got, have = collect(sid, rnd, land, TARGET_PER_SPECIES, TRIES_PER_ROUND)
+            except mapillary.BadToken as e:
+                print(e)
+                return 1
+            print(f"[{sid}] +{got} → {have}/{TARGET_PER_SPECIES}", flush=True)
+            if have >= TARGET_PER_SPECIES:
+                done.add(sid)
+                print(f"[{sid}] 目標到達", flush=True)
+            elif got == 0:
+                # この周で1枚も増えなかった＝カバレッジが薄い。
+                # すぐ諦めず、周を重ねて別の乱数位置を試す。
+                st = load_state(sid)
+                tried = len(st["no_imagery"]) + len(st["accepted"]) + len(st["rejected"])
+                if tried > 3000:
+                    done.add(sid)
+                    print(f"[{sid}] {tried}点試して打ち止め（Mapillaryの被覆が薄い）",
+                          flush=True)
+
+    print("\n収集終了。review_ui.py で判定する。", flush=True)
     return 0
 
 
