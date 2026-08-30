@@ -30,7 +30,10 @@ def main():
         if not (VERIFIED / f"{sid}.json").exists():
             continue
         st = load_state(sid)
-        pts = [{"lat": a["lat"], "lon": a["lon"], "img": a["img_id"]}
+        # CC BY-SA なので**撮影者の表示が要る**。
+        # 画像を出す以上、帰属は削れない（ライセンス条件）。
+        pts = [{"lat": a["lat"], "lon": a["lon"], "img": a["img_id"],
+                "by": a.get("creator", ""), "at": a.get("captured_at")}
                for a in st["accepted"]]
         if pts:
             out[sid] = pts

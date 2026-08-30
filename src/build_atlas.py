@@ -44,7 +44,13 @@ def project(lat, lon):
 
 
 # 点は sample_points.py が分布域からサンプリングし、陸地判定で海を弾いたもの。
+# **個々の点にその植物がある確認は無い**（分布の濃さの表示）。
 PTS = json.loads((SP / "points.json").read_text(encoding="utf-8"))
+
+# 確認済みの点。実際の車載写真にその植物が写っていることを目視で確認したもの。
+# 表示用の点とは意味が違うので、地図上でも区別する。
+vp_path = SP / "verified_photos.json"
+VPHOTOS = json.loads(vp_path.read_text(encoding="utf-8")) if vp_path.exists() else {}
 
 data = []
 for s in SPECIES:
@@ -56,6 +62,11 @@ for s in SPECIES:
         "tells": s["tells"], "trap": s["trap"], "pts": pts,
         "photos": PHOTOS.get(s["id"], []),
         "enc": ENC.get(s["id"]),
+        "vpts": [{"x": project(v["lat"], v["lon"])[0],
+                  "y": project(v["lat"], v["lon"])[1],
+                  "lat": v["lat"], "lon": v["lon"],
+                  "src": v["src"], "by": v.get("by", "")}
+                 for v in VPHOTOS.get(s["id"], [])],
     })
 
 groups = []
@@ -152,6 +163,11 @@ svg.map.dragging{cursor:grabbing}
 #tip .r{color:var(--ink-soft); font-size:.78rem; margin-top:.2rem}
 #tip img{width:100%; border-radius:5px; margin-top:.45rem; display:block}
 #tip .hint{font-size:.7rem; color:var(--accent); margin-top:.35rem}
+#tip .by{font-size:.62rem; color:var(--ink-faint); margin-top:.25rem}
+#tip .vchip{font-size:.6rem; background:var(--accent); color:#fff; border-radius:3px;
+  padding:.05rem .3rem; margin-left:.35rem; font-weight:600; letter-spacing:.02em}
+/* 確認済みの点は白い縁で目立たせる。表示用の点と意味が違うため */
+.pt.vpt{stroke:#fff; stroke-width:2; paint-order:stroke}
 
 /* ---- 右ペイン ---- */
 .side{
@@ -331,18 +347,40 @@ S.forEach(s => {
     c.dataset.lat = p.lat; c.dataset.lon = p.lon;
     ptsG.appendChild(c);
   });
+  /* 確認済みの点は、実際の車載写真にその植物が写っていることを目視した点。
+     表示用の点（分布域からのサンプリング）とは意味が違うので、
+     縁を付けて上に重ねる。ホバーでその地点の写真が出る。 */
+  (s.vpts || []).forEach((p, i) => {
+    const c = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+    c.setAttribute('cx', p.x); c.setAttribute('cy', p.y); c.setAttribute('r', 5);
+    c.setAttribute('fill', s.color);
+    c.setAttribute('class', 'pt vpt');
+    c.setAttribute('tabindex', '0');
+    c.setAttribute('role', 'button');
+    c.setAttribute('aria-label', s.ja + '（写真で確認済み） / ' +
+      p.lat.toFixed(1) + ', ' + p.lon.toFixed(1));
+    c.dataset.sp = s.id;
+    c.dataset.lat = p.lat; c.dataset.lon = p.lon;
+    c.dataset.v = i;
+    ptsG.appendChild(c);
+  });
 });
 
 /* ---- ツールチップ ---- */
 const tip = document.getElementById('tip'), mapEl = document.getElementById('map');
 function showTip(el) {
   const s = byId[el.dataset.sp];
-  const shot = s.photos[0];
+  // 確認済みの点なら**その地点の写真**、そうでなければ図鑑写真を出す
+  const vi = el.dataset.v;
+  const v = (vi !== undefined) ? s.vpts[+vi] : null;
+  const shot = v || s.photos[0];
   tip.innerHTML =
-    '<div class="n"><span class="sw" style="background:' + s.color + '"></span>' + s.ja + '</div>' +
-    '<div class="r">' + s.regions.join(' / ') + '</div>' +
+    '<div class="n"><span class="sw" style="background:' + s.color + '"></span>' + s.ja +
+    (v ? '<span class="vchip">写真で確認</span>' : '') + '</div>' +
+    '<div class="r">' + (v ? 'この地点で実際に写っていた' : s.regions.join(' / ')) + '</div>' +
     '<div class="r mono">' + Number(el.dataset.lat).toFixed(2) + ', ' + Number(el.dataset.lon).toFixed(2) + '</div>' +
     (shot ? '<img src="' + shot.src + '" alt="">' : '') +
+    (v && v.by ? '<div class="by mono">© ' + v.by + ' / Mapillary (CC BY-SA)</div>' : '') +
     '<div class="hint">クリックでこの座標の地図へ（ペグマンでSV）</div>';
   const r = el.getBoundingClientRect(), m = mapEl.parentElement.getBoundingClientRect();
   tip.style.left = (r.left - m.left + r.width / 2) + 'px';
