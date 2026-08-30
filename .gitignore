@@ -10,3 +10,11 @@ data/photos_raw/*.jpeg
 data/.mapillary_token
 data/mapillary_cache/
 data/collect.log
+
+# 候補写真は再取得できるうえ数千枚になる。OneDrive同期のリポジトリに置かない。
+# 採否と出典（img_id）は data/verified/*.json と _pending.json に残るので再現できる。
+data/candidates/**/*.jpg
+data/candidates/**/*.jpeg
+data/candidates/**/*.png
+# 判定画面は生成物（5MB超）。毎回作り直せる。
+dist/review.html
