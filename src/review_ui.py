@@ -75,7 +75,10 @@ def apply():
     if not DEC.exists():
         print(f"{DEC} が無い。ブラウザで「判定を書き出す」を押し、data/ に置く")
         return
-    dec = json.loads(DEC.read_text(encoding="utf-8"))
+    raw = json.loads(DEC.read_text(encoding="utf-8"))
+    # 新形式は {decisions, findings}、旧形式は配列
+    dec = raw["decisions"] if isinstance(raw, dict) else raw
+    notes = raw.get("findings", {}) if isinstance(raw, dict) else {}
     byimg = {}
     for sid in {d["sid"] for d in dec}:
         pend = CAND / sid / "_pending.json"
@@ -100,6 +103,24 @@ def apply():
                 n_r += 1
         save_state(sid, st)
     print(f"反映: 採用 {n_a} / 却下 {n_r}")
+
+    # 画面で書いた気づきを findings に取り込む
+    if notes:
+        import findings as F
+        items = F.load()
+        known = {(x.get("imgs") or "") for x in items}
+        added = 0
+        for k, v in notes.items():
+            sid, img = k.split("|", 1)
+            if img in known:
+                continue
+            items.append({"id": max((x["id"] for x in items), default=0) + 1,
+                          "region": "", "what": v, "note": f"判定中に気づいた（{sid}）",
+                          "imgs": img, "seen": 1})
+            added += 1
+        F.save(items)
+        if added:
+            print(f"気づき {added}件を取り込んだ → python src/findings.py list")
     print("次: python src/build_verified.py")
 
 
@@ -135,6 +156,10 @@ figure img{width:100%;display:block;cursor:zoom-in}
 .pano{background:#e8e4d8;color:#6b665c;border-radius:3px;padding:0 .3rem;font-weight:600}
 .btns{display:flex;gap:.4rem;padding:0 .5rem .5rem}
 .btns button{flex:1}
+.findwrap{padding:0 .5rem .5rem}
+.find{width:100%;font:inherit;font-size:.72rem;padding:.25rem .4rem;
+      border:1px solid var(--rule);border-radius:5px;background:var(--bg)}
+.find:focus{outline:2px solid var(--ok);outline-offset:-1px}
 .y{border-color:var(--ok);color:var(--ok)} .n{border-color:var(--ng);color:var(--ng)}
 figure.ok{outline:3px solid var(--ok)} figure.ng{outline:3px solid var(--ng);opacity:.5}
 figure.ok .y{background:var(--ok);color:#fff} figure.ng .n{background:var(--ng);color:#fff}
@@ -154,6 +179,9 @@ const DATA = __DATA__;
 const KEY = 'flora_decisions';
 let dec = {};
 try { dec = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) { dec = {}; }
+const FKEY = 'flora_findings';
+let finds = {};
+try { finds = JSON.parse(localStorage.getItem(FKEY) || '{}'); } catch (e) { finds = {}; }
 const root = document.getElementById('root');
 const total = () => DATA.groups.reduce((n, g) => n + g.cards.length, 0);
 function prog() {
@@ -187,12 +215,23 @@ DATA.groups.forEach(g => {
       '<div class="meta">' + c.lat.toFixed(4) + ', ' + c.lon.toFixed(4) +
       (c.pano ? ' <span class="pano">360°</span>' : '') + '</div>' +
       '<div class="btns"><button class="y">写ってる</button>' +
-      '<button class="n">写ってない</button></div>';
+      '<button class="n">写ってない</button></div>' +
+      '<div class="findwrap"><input class="find" placeholder="別の種が目立つ？ メモ（任意）">' +
+      '</div>';
     const k = g.id + '|' + c.img_id;
     if (k in dec) { fig.classList.toggle('ok', dec[k]); fig.classList.toggle('ng', !dec[k]); }
     fig.querySelector('.y').onclick = () => mark(g.id, c.img_id, true, fig);
     fig.querySelector('.n').onclick = () => mark(g.id, c.img_id, false, fig);
     fig.querySelector('img').onclick = () => openZoom(c.src);
+    // 狙っていない種の気づきをその場で書き留める。
+    // 判定の流れを止めずに残せるようにする（後で findings に取り込む）
+    const fi = fig.querySelector('.find');
+    const fk = g.id + '|' + c.img_id;
+    if (finds[fk]) fi.value = finds[fk];
+    fi.oninput = () => {
+      if (fi.value.trim()) finds[fk] = fi.value.trim(); else delete finds[fk];
+      try { localStorage.setItem(FKEY, JSON.stringify(finds)); } catch (e) {}
+    };
     grid.appendChild(fig);
   });
   sec.appendChild(grid);
@@ -211,7 +250,8 @@ document.getElementById('exp').onclick = () => {
     const i = k.indexOf('|');
     return { sid: k.slice(0, i), img_id: k.slice(i + 1), ok: v };
   });
-  const blob = new Blob([JSON.stringify(out, null, 1)], { type: 'application/json' });
+  const payload = { decisions: out, findings: finds };
+  const blob = new Blob([JSON.stringify(payload, null, 1)], { type: 'application/json' });
   const a = document.createElement('a');
   a.href = URL.createObjectURL(blob);
   a.download = 'decisions.json';
