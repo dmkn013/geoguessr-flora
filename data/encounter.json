@@ -210,7 +210,7 @@
  "cecropia": {
   "accepted": 0,
   "judged": 0,
-  "tried": 20,
+  "tried": 55,
   "imagery_rate": 0.0,
   "seen_rate": 0.0,
   "seen_lo": 0.0,
@@ -221,10 +221,62 @@
     "region": "不明",
     "accepted": 0,
     "rejected": 0,
-    "no_imagery": 20,
-    "pending": 0,
+    "no_imagery": 55,
+    "pending": 5,
     "judged": 0,
-    "tried": 20,
+    "tried": 55,
+    "seen_rate": 0.0,
+    "seen_lo": 0.0,
+    "seen_hi": 1.0,
+    "imagery_rate": 0.0,
+    "enough": false
+   }
+  ]
+ },
+ "araucaria_ang": {
+  "accepted": 0,
+  "judged": 0,
+  "tried": 35,
+  "imagery_rate": 0.0,
+  "seen_rate": 0.0,
+  "seen_lo": 0.0,
+  "seen_hi": 1.0,
+  "enough": false,
+  "regions": [
+   {
+    "region": "不明",
+    "accepted": 0,
+    "rejected": 0,
+    "no_imagery": 35,
+    "pending": 25,
+    "judged": 0,
+    "tried": 35,
+    "seen_rate": 0.0,
+    "seen_lo": 0.0,
+    "seen_hi": 1.0,
+    "imagery_rate": 0.0,
+    "enough": false
+   }
+  ]
+ },
+ "araucaria_arau": {
+  "accepted": 0,
+  "judged": 0,
+  "tried": 6,
+  "imagery_rate": 0.0,
+  "seen_rate": 0.0,
+  "seen_lo": 0.0,
+  "seen_hi": 1.0,
+  "enough": false,
+  "regions": [
+   {
+    "region": "不明",
+    "accepted": 0,
+    "rejected": 0,
+    "no_imagery": 6,
+    "pending": 1,
+    "judged": 0,
+    "tried": 6,
     "seen_rate": 0.0,
     "seen_lo": 0.0,
     "seen_hi": 1.0,

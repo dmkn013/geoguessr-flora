@@ -47,6 +47,11 @@ python src/fetch_wikipedia.py  # 48種ぶん取得。1.5秒間隔なので約5�
 python src/review_photos.py    # dist/photo_review.png を目視する
 ```
 
+**候補写真はローカルディスクに置く**（`~/work/geoguessr-flora-data/candidates/`）。
+このリポジトリは OneDrive 配下で、収集は数千枚の小さなファイルを延々と書くため、
+同期対象に置くと OneDrive が回り続ける。環境変数 `FLORA_CANDIDATES` で変更可。
+判定結果と出典IDは `data/verified/` に残るので、写真を消しても再取得で再現できる。
+
 `data/photos_raw/` の画像はリポジトリに入れていない（20MB あるため）。
 `_meta.json` に「どの記事のどのファイルを使ったか」が残るので、取得は再現できる。
 

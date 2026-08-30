@@ -24,14 +24,14 @@ sys.stdout.reconfigure(encoding="utf-8")
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import mapillary  # noqa: E402
-from paths import DATA  # noqa: E402
+from paths import CANDIDATES, DATA  # noqa: E402
 from land import load_land, on_land  # noqa: E402
 from ranges import RANGES  # noqa: E402
 from species import SPECIES  # noqa: E402
 
-CAND = DATA / "candidates"          # 候補の写真とメタ
+# 候補写真はローカルディスク（OneDrive同期外）。paths.py 参照。
+CAND = CANDIDATES
 VERIFIED = DATA / "verified"        # 判定結果
-CAND.mkdir(exist_ok=True)
 VERIFIED.mkdir(exist_ok=True)
 
 # 1種あたり何枚の候補写真を集めるか。
