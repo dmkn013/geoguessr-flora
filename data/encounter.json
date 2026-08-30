@@ -158,7 +158,7 @@
  "oilpalm": {
   "accepted": 0,
   "judged": 0,
-  "tried": 41,
+  "tried": 51,
   "imagery_rate": 0.0,
   "seen_rate": 0.0,
   "seen_lo": 0.0,
@@ -169,10 +169,62 @@
     "region": "不明",
     "accepted": 0,
     "rejected": 0,
-    "no_imagery": 41,
+    "no_imagery": 51,
+    "pending": 9,
+    "judged": 0,
+    "tried": 51,
+    "seen_rate": 0.0,
+    "seen_lo": 0.0,
+    "seen_hi": 1.0,
+    "imagery_rate": 0.0,
+    "enough": false
+   }
+  ]
+ },
+ "doum": {
+  "accepted": 0,
+  "judged": 0,
+  "tried": 53,
+  "imagery_rate": 0.0,
+  "seen_rate": 0.0,
+  "seen_lo": 0.0,
+  "seen_hi": 1.0,
+  "enough": false,
+  "regions": [
+   {
+    "region": "不明",
+    "accepted": 0,
+    "rejected": 0,
+    "no_imagery": 53,
     "pending": 7,
     "judged": 0,
-    "tried": 41,
+    "tried": 53,
+    "seen_rate": 0.0,
+    "seen_lo": 0.0,
+    "seen_hi": 1.0,
+    "imagery_rate": 0.0,
+    "enough": false
+   }
+  ]
+ },
+ "cecropia": {
+  "accepted": 0,
+  "judged": 0,
+  "tried": 20,
+  "imagery_rate": 0.0,
+  "seen_rate": 0.0,
+  "seen_lo": 0.0,
+  "seen_hi": 1.0,
+  "enough": false,
+  "regions": [
+   {
+    "region": "不明",
+    "accepted": 0,
+    "rejected": 0,
+    "no_imagery": 20,
+    "pending": 0,
+    "judged": 0,
+    "tried": 20,
     "seen_rate": 0.0,
     "seen_lo": 0.0,
     "seen_hi": 1.0,
