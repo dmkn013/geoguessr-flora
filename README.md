@@ -163,9 +163,6 @@ python src/build_verified.py
 
 ## 未了
 
-- **コルクガシの画像が特徴と一致していない**。現在は montado の景観で、
-  最大の手がかりである**剥皮された赤褐色の幹が写っていない**。
-  `tells[0]` と画像がずれている唯一の種なので、直すならここから。
 - **Mapillary（車載目線）は未着手**。要トークンで、
   https://www.mapillary.com/dashboard/developers の Register Application で発行する。
   図鑑寄りの Wikipedia と役割が違うので両方入れる方針は変えていない。

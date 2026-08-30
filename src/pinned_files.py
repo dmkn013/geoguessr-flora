@@ -16,6 +16,13 @@ PINNED = {
     # 1巡目の画像は崖に生える広がった樹形の野生種で、
     # tells の「細く直立した濃緑の円柱」が写っていなかった。
     # GeoGuessr で手がかりになるのは栽培された円柱形なのでそちらに差し替える。
+    # 剥皮された赤褐色の幹が明確に写っている数少ない1枚。
+    # montado の景観写真では tells の「幹の下半分だけ樹皮が剥がされて赤茶色」
+    # が見えず、3回の引き継ぎで持ち越していた。
+    "corkoak": [
+        "A Cork Tree - Apr 2011.jpg",
+        "2026-03-07 Cork oak in A dos Negros.jpg",
+    ],
     "cypress": [
         "Cipressi con edicola San Damiano.jpg",
         "Caravaggio, viale del cimitero.jpg",

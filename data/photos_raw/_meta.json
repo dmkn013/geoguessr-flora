@@ -172,12 +172,12 @@
  },
  "corkoak": {
   "id": "corkoak",
-  "article": "Quercus suber",
-  "file": "Cork_oak_(28864190188).jpg",
-  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Cork_oak_%2828864190188%29.jpg/960px-Cork_oak_%2828864190188%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "article": "Wikimedia Commons",
+  "file": "A Cork Tree - Apr 2011.jpg",
+  "src_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/A_Cork_Tree_-_Apr_2011.jpg/960px-A_Cork_Tree_-_Apr_2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
   "path": "corkoak.jpg",
   "w": 960,
-  "h": 640
+  "h": 638
  },
  "stonepine": {
   "id": "stonepine",
