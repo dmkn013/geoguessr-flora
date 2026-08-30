@@ -121,6 +121,7 @@ def collect(sid, rnd, land, want):
                         "captured_at": img.get("captured_at")})
         print(f"    候補 {len(pending)+have}/{want}: {c} → {f.name}")
     save_state(sid, st)
+    (CAND / sid).mkdir(parents=True, exist_ok=True)
     (CAND / sid / "_pending.json").write_text(
         json.dumps(pending, ensure_ascii=False, indent=1), encoding="utf-8")
     return pending

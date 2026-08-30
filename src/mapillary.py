@@ -126,3 +126,18 @@ def images_around(lat, lon, limit=8, radii=(0.005, 0.012, 0.049), retries=1):
             narrow_ok = True
             break
     return []
+
+
+def fetch_thumb(url):
+    """サムネイルURLから画像バイト列を取る。
+
+    HTMLのエラーページを画像として保存しないよう Content-Type を確かめる
+    （Wikimedia で壊れたJPEGを掴んだのと同じ失敗を繰り返さない）。
+    """
+    req = urllib.request.Request(url, headers={"User-Agent": UA})
+    with urllib.request.urlopen(req, timeout=60) as r:
+        ctype = r.headers.get("Content-Type", "")
+        body = r.read()
+    if not ctype.startswith("image/"):
+        raise RuntimeError(f"画像ではない応答: {ctype}")
+    return body
