@@ -52,8 +52,15 @@ def wilson(k, n, z=1.96):
     return p, max(0.0, c - m), min(1.0, c + m)
 
 
-def region_name(sid, ri):
-    """矩形番号から地域名を引く。矩形の中心座標で判定する。"""
+def region_name(sid, ri, lat=None, lon=None):
+    """地域名を引く。
+
+    **実際の座標があればそれを使う**。矩形番号(ri)は途中から記録し始めた
+    ので古い候補には無く、また矩形の中心と実際の点はずれることもある。
+    座標そのものから引くほうが正確で、取りこぼしも無い。
+    """
+    if lat is not None and lon is not None:
+        return region_of(lat, lon)
     rs = RANGES.get(sid) or []
     if ri is None or ri >= len(rs):
         return "不明"
@@ -69,18 +76,19 @@ def stats_for(sid):
     # 地域ごとに集計
     by = {}
 
-    def slot(ri):
-        name = region_name(sid, ri)
+    def slot(ri, lat=None, lon=None):
+        name = region_name(sid, ri, lat, lon)
         return by.setdefault(name, {"acc": 0, "rej": 0, "noimg": 0, "pend": 0})
 
     for a in st["accepted"]:
-        slot(a.get("ri"))["acc"] += 1
+        slot(a.get("ri"), a.get("lat"), a.get("lon"))["acc"] += 1
     for r in st["rejected"]:
-        slot(r.get("ri"))["rej"] += 1
+        slot(r.get("ri"), r.get("lat"), r.get("lon"))["rej"] += 1
     for p in st["no_imagery"]:
-        slot(p[2] if len(p) > 2 else None)["noimg"] += 1
+        # no_imagery は [lat, lon] か [lat, lon, ri]
+        slot(p[2] if len(p) > 2 else None, p[0], p[1])["noimg"] += 1
     for p in pending:
-        slot(p.get("ri"))["pend"] += 1
+        slot(p.get("ri"), p.get("lat"), p.get("lon"))["pend"] += 1
 
     regions = []
     for name, c in sorted(by.items(), key=lambda kv: -(kv[1]["acc"] + kv[1]["rej"])):
