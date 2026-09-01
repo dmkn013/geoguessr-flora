@@ -60,10 +60,10 @@ def build(sid, page=1):
     sh = Image.new("RGB", (COLS * W, rows * H), (255, 255, 255))
     for i, c in enumerate(cells):
         sh.paste(c, ((i % COLS) * W, (i // COLS) * H))
-    out = DIST / f"full_{sid}.png"
+    out = DIST / f"full_{sid}_p{page}.png"
     sh.save(out)
-    (DIST / "_page.json").write_text(json.dumps(
-        {"sid": sid, "page": 1, "ids": [i["img_id"] for i in items]},
+    (DIST / f"_page_{sid}.json").write_text(json.dumps(
+        {"sid": sid, "page": page, "ids": [i["img_id"] for i in items]},
         ensure_ascii=False), encoding="utf-8")
     return out, len(cells), total
 

@@ -92,10 +92,14 @@ def sheet(sid, page=1):
 
 
 def decide(sid, nums, ok):
-    if not PAGE.exists():
+    # 種ごとのページ情報を優先（並列判定のため種別に分けている）
+    p = DIST / f"_page_{sid}.json"
+    if not p.exists():
+        p = PAGE
+    if not p.exists():
         print("先に sheet を出す")
         return
-    pg = json.loads(PAGE.read_text(encoding="utf-8"))
+    pg = json.loads(p.read_text(encoding="utf-8"))
     if pg["sid"] != sid:
         print(f"直近のシートは {pg['sid']}。{sid} のシートを出し直す")
         return
