@@ -17,3 +17,5 @@ data/collect.log
 data/candidates/
 # 判定画面は生成物（5MB超）。毎回作り直せる。
 dist/review.html
+data/random.log
+data/random_state.json
