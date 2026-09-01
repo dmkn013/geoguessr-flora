@@ -37,10 +37,10 @@ from review_photos import F_NAME, F_SUB  # noqa: E402
 
 IMGDIR = CANDIDATES.parent / "random"
 INDEX = DATA / "random_index.json"
-# 48種収集で集めた1,918枚も同じ車載写真なので捨てずにタグ付けする。
-# ただし**出自が違う**（種の分布域から引いたので母集団が偏る）。
-# 遭遇率の分母を汚さないよう source を分けて記録する。
-SPECIES_INDEX = DATA / "species_index.json"
+# 48種収集の1,918枚は**対象にしない**。
+# あれは種の分布域から引いたもので、母集団が偏っている。
+# 混ぜると「世界の道端で何%見えるか」という数字が壊れるため、
+# ランダム収集分だけを扱う（ユーザー判断）。
 TAGS = DATA / "tags.json"
 PAGE = DIST / "_tagpage.json"
 
@@ -57,28 +57,11 @@ def save_tags(t):
 
 
 def load_index():
-    """タグ付け対象の一覧。ランダム分と48種収集分の両方。
-
-    source を持たせて出自を区別する:
-      "random"  = 世界から一様に引いた（遭遇率の母集団になる）
-      "species" = 48種の分布域から引いた（母集団が偏るので別集計）
-    """
-    out = []
-    if INDEX.exists():
-        for it in json.loads(INDEX.read_text(encoding="utf-8")):
-            it["source"] = "random"
-            out.append(it)
-    if SPECIES_INDEX.exists():
-        for it in json.loads(SPECIES_INDEX.read_text(encoding="utf-8")):
-            it["source"] = "species"
-            out.append(it)
-    return out
+    """タグ付け対象。**ランダム収集分のみ**。"""
+    return json.loads(INDEX.read_text(encoding="utf-8")) if INDEX.exists() else []
 
 
 def img_path(it):
-    """出自に応じて実ファイルの場所を返す。"""
-    if it.get("source") == "species":
-        return CANDIDATES / it["sp"] / it["file"]
     return IMGDIR / it["file"]
 
 
@@ -156,37 +139,23 @@ def none(nums):
 
 
 def stats():
-    """出自ごとに分けて集計する。
-
-    ランダム収集と48種収集は**母集団が違う**。
-    後者は種の分布域から引いているので、その種が出やすいのは当たり前で、
-    混ぜると「世界の道端で何%見えるか」の数字が壊れる。
-    """
     t = load_tags()
     idx = load_index()
-    src = {it["img_id"]: it.get("source", "random") for it in idx}
     from collections import Counter
-    per = {"random": Counter(), "species": Counter()}
-    done = {"random": 0, "species": 0}
-    empty = {"random": 0, "species": 0}
-    for k, v in t.items():
-        s = src.get(k, "random")
-        done[s] += 1
+    c = Counter()
+    empty = 0
+    for v in t.values():
         if not v:
-            empty[s] += 1
+            empty += 1
         for name in v:
-            per[s][name] += 1
-    tot = {s: sum(1 for it in idx if it.get("source", "random") == s)
-           for s in ("random", "species")}
-    for s, label in (("random", "ランダム収集（世界一様・遭遇率の母集団）"),
-                     ("species", "48種収集（分布域から抽出・母集団が偏る）")):
-        if not tot[s]:
-            continue
-        print(f"\n■ {label}")
-        print(f"  タグ付け {done[s]} / {tot[s]}枚  （植物なし {empty[s]}枚）")
-        for name, n in per[s].most_common(20):
-            print(f"    {name:22s}{n:4d}  ({n / max(1, done[s]) * 100:.1f}%)")
-        print(f"    異なるタグ {len(per[s])}種類")
+            c[name] += 1
+    print(f"タグ付け {len(t)} / 収集 {len(idx)}枚  （植物なし {empty}枚）")
+    if not t:
+        return
+    print(f"\n出現率（タグ付け済み{len(t)}枚に対する割合）:")
+    for name, n in c.most_common(30):
+        print(f"  {name:22s}{n:4d}  ({n / len(t) * 100:.1f}%)")
+    print(f"\n異なるタグ {len(c)}種類")
 
 
 def main():
