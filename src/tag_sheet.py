@@ -134,14 +134,29 @@ def setv(num, names, w=""):
     if n >= len(ids):
         print(f"[{n}] 範囲外")
         return
-    # 引数が引用符でくくられて1つに潰れることがあるので分割し、
-    # 数字だけのトークンは番号の書き間違いとみなして落とす
+    # `set 2 3 6 8 ユーカリ属` のように番号を並べる誤用が繰り返し起きた。
+    # 注意書きだけでは防げなかったので、**先頭に続く数字列は番号とみなして
+    # 拒否する**。黙って捨てると取りこぼしに気づけないのでエラーにする。
+    lead = []
+    rest = list(names)
+    while rest and rest[0].isdigit():
+        lead.append(rest.pop(0))
+    if lead:
+        print(f"!! set は1画像ずつです。番号 {num} {' '.join(lead)} を"
+              f"まとめて指定しています。")
+        print(f"   1件ずつ実行してください:")
+        for x in [num] + lead:
+            print(f"     set {x} {' '.join(rest)}")
+        return
     flat = []
     for x in names:
         for y in x.split():
             if y and not y.isdigit():
                 flat.append(y)
     flat = list(dict.fromkeys(flat))
+    if not flat:
+        print("!! タグが空です。植物なしなら none を使ってください")
+        return
     t = load_tags()
     t[ids[n]] = flat
     save_tags(t)
