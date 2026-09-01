@@ -42,7 +42,10 @@ INDEX = DATA / "random_index.json"
 # 混ぜると「世界の道端で何%見えるか」という数字が壊れるため、
 # ランダム収集分だけを扱う（ユーザー判断）。
 TAGS = DATA / "tags.json"
-PAGE = DIST / "_tagpage.json"
+# 並列でタグ付けすると同じシート情報を上書きして誤記録するので、
+# ワーカーごとにファイルを分ける。第1引数の前に --w<N> を付けて指定。
+def page_file(w=""):
+    return DIST / f"_tagpage{w}.json"
 
 PER = 9          # 3x3。詰めると見落とすので増やさない
 CELL = 620
@@ -65,13 +68,27 @@ def img_path(it):
     return IMGDIR / it["file"]
 
 
-def untagged():
+def untagged(w=""):
+    """未タグの一覧。
+
+    並列時は他ワーカーが今まさに見ているシートを避ける
+    （二重にタグを付けても上書きされるだけだが、無駄なので）。
+    """
     tags = load_tags()
-    return [it for it in load_index() if it["img_id"] not in tags]
+    busy = set()
+    for f in DIST.glob("_tagpage*.json"):
+        if f.name == f"_tagpage{w}.json":
+            continue
+        try:
+            busy |= set(json.loads(f.read_text(encoding="utf-8"))["ids"])
+        except Exception:
+            pass
+    return [it for it in load_index()
+            if it["img_id"] not in tags and it["img_id"] not in busy]
 
 
-def sheet():
-    items = untagged()
+def sheet(w=""):
+    items = untagged(w)
     if not items:
         print("完了: 未タグの画像なし")
         return
@@ -83,8 +100,9 @@ def sheet():
             continue
         im = Image.open(f).convert("RGB")
         if im.width / im.height > 1.9:      # 全天球は中央だけ
-            w = int(im.height * 1.6)
-            im = im.crop(((im.width - w) // 2, 0, (im.width + w) // 2, im.height))
+            # ここで w を使うとワーカーIDの w を潰してしまう（実際に踏んだ）
+            cw = int(im.height * 1.6)
+            im = im.crop(((im.width - cw) // 2, 0, (im.width + cw) // 2, im.height))
         im.thumbnail((CELL, CELL), Image.LANCZOS)
         cv = Image.new("RGB", (CELL, CELL + 22), (250, 249, 246))
         cv.paste(im, ((CELL - im.width) // 2, (CELL - im.height) // 2))
@@ -99,19 +117,19 @@ def sheet():
     sh = Image.new("RGB", (cols * W, rows * H), (255, 255, 255))
     for i, c in enumerate(cells):
         sh.paste(c, ((i % cols) * W, (i // cols) * H))
-    out = DIST / "tag_sheet.png"
+    out = DIST / f"tag_sheet{w}.png"
     sh.save(out)
-    PAGE.write_text(json.dumps(
+    page_file(w).write_text(json.dumps(
         {"ids": [i["img_id"] for i in chunk]}, ensure_ascii=False), encoding="utf-8")
     print(f"画像パス: {out}")
     print(f"枚数: {len(cells)}（未タグ {len(items)}枚）")
 
 
-def setv(num, names):
-    if not PAGE.exists():
+def setv(num, names, w=""):
+    if not page_file(w).exists():
         print("先に next を実行")
         return
-    ids = json.loads(PAGE.read_text(encoding="utf-8"))["ids"]
+    ids = json.loads(page_file(w).read_text(encoding="utf-8"))["ids"]
     n = int(num)
     if n >= len(ids):
         print(f"[{n}] 範囲外")
@@ -122,11 +140,11 @@ def setv(num, names):
     print(f"[{n}] → {' / '.join(names) if names else '（なし）'}")
 
 
-def none(nums):
-    if not PAGE.exists():
+def none(nums, w=""):
+    if not page_file(w).exists():
         print("先に next を実行")
         return
-    ids = json.loads(PAGE.read_text(encoding="utf-8"))["ids"]
+    ids = json.loads(page_file(w).read_text(encoding="utf-8"))["ids"]
     t = load_tags()
     c = 0
     for x in nums:
@@ -159,16 +177,21 @@ def stats():
 
 
 def main():
-    if len(sys.argv) < 2:
+    args = sys.argv[1:]
+    w = ""
+    if args and args[0].startswith("--w"):
+        w = args[0][3:]
+        args = args[1:]
+    if not args:
         print(__doc__)
         return
-    cmd = sys.argv[1]
+    cmd = args[0]
     if cmd == "next":
-        sheet()
-    elif cmd == "set" and len(sys.argv) > 2:
-        setv(sys.argv[2], sys.argv[3:])
-    elif cmd == "none" and len(sys.argv) > 2:
-        none(sys.argv[2:])
+        sheet(w)
+    elif cmd == "set" and len(args) > 1:
+        setv(args[1], args[2:], w)
+    elif cmd == "none" and len(args) > 1:
+        none(args[1:], w)
     elif cmd == "stats":
         stats()
     else:
