@@ -125,7 +125,9 @@ header{
 }
 header h1{font-size:clamp(1.25rem,2.4vw,1.7rem); letter-spacing:.01em}
 header .sub{color:var(--ink-soft); font-size:.85rem; max-width:62ch}
-header .count{margin-left:auto; color:var(--ink-faint); font-size:.78rem; letter-spacing:.06em; text-transform:uppercase}
+header .sub2{margin:.35rem 0 0; font-size:.82rem; color:var(--ink-soft); line-height:1.6; max-width:62ch}
+.sub2 strong{color:var(--ink)}
+.count{margin-left:auto; color:var(--ink-faint); font-size:.78rem; letter-spacing:.06em; text-transform:uppercase}
 
 .wrap{display:grid; grid-template-columns:minmax(0,1fr) 340px; gap:0; align-items:stretch}
 @media (max-width:900px){ .wrap{grid-template-columns:minmax(0,1fr)} }
@@ -280,7 +282,7 @@ svg.map.dragging{cursor:grabbing}
 
 <header>
   <h1>植生メタアトラス</h1>
-  <p class="sub">見えた植物から地域を絞り込むための地図。<strong>点は分布域から機械的に散らしたもので、その1点にその木がある確認は取っていません</strong>（＝分布の濃さを見るための表示）。色は種類そのものではなく、近くに生える種どうしを見分けるための10色。種名は点にカーソルを合わせると出ます。点をクリックするとその座標の地図が開きます。</p>
+  <p class="sub">見えた植物から地域を絞り込むための地図。<strong>白縁の点は、その地点の車載写真に実際に写っていることを目視で確認した92点</strong>。それ以外の点は分布域から機械的に散らしたもので、1点ごとの確認は取っていない（分布の濃さの表示）。色は種類ではなく、近くに生える種どうしを見分けるための10色。ホバーで種名、クリックでその座標の地図が開く。</p><p class="sub2">各種の詳細に<strong>遭遇率</strong>を載せた。分布域をランダムに40回引き、車載写真にその植物が実際に写っていた割合。<strong>48種中23種が0%</strong> ── 分布していても道端からは見えない種が半数近くある。</p>
   <span class="count mono" id="hdcount"></span>
 </header>
 
