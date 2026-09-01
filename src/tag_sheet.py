@@ -150,7 +150,8 @@ def setv(num, names, w=""):
         return
     flat = []
     for x in names:
-        for y in x.split():
+        # 空白だけでなくカンマ・読点でも区切る（実際に出た誤り）
+        for y in x.replace("、", ",").replace(",", " ").split():
             if y and not y.isdigit():
                 flat.append(y)
     flat = list(dict.fromkeys(flat))

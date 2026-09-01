@@ -42,11 +42,13 @@ def main():
     changed = 0
     for k, v in t.items():
         new = []
-        for x in v:
-            new.append(ALIAS.get(x, x))
-            g = SPECIES_GENUS.get(x)
-            if g:
-                new.append(g)
+        for raw in v:
+            # カンマ・読点で区切って入れてくる場合がある（実際に出た）
+            for x in [y.strip() for y in raw.replace("、", ",").split(",") if y.strip()]:
+                new.append(ALIAS.get(x, x))
+                g = SPECIES_GENUS.get(x)
+                if g:
+                    new.append(g)
         new = list(dict.fromkeys(new))
         if new != v:
             changed += 1
