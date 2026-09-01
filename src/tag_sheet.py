@@ -134,9 +134,18 @@ def setv(num, names, w=""):
     if n >= len(ids):
         print(f"[{n}] 範囲外")
         return
+    # 引数が引用符でくくられて1つに潰れることがあるので分割し、
+    # 数字だけのトークンは番号の書き間違いとみなして落とす
+    flat = []
+    for x in names:
+        for y in x.split():
+            if y and not y.isdigit():
+                flat.append(y)
+    flat = list(dict.fromkeys(flat))
     t = load_tags()
-    t[ids[n]] = names
+    t[ids[n]] = flat
     save_tags(t)
+    names = flat
     print(f"[{n}] → {' / '.join(names) if names else '（なし）'}")
 
 
