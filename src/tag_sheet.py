@@ -52,11 +52,30 @@ CELL = 620
 
 
 def load_tags():
-    return json.loads(TAGS.read_text(encoding="utf-8")) if TAGS.exists() else {}
+    """壊れた JSON を読んだら少し待って再試行する（並列書き込み対策）。"""
+    import time
+    for i in range(5):
+        if not TAGS.exists():
+            return {}
+        try:
+            return json.loads(TAGS.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            if i == 4:
+                raise
+            time.sleep(0.2)
+    return {}
 
 
 def save_tags(t):
-    TAGS.write_text(json.dumps(t, ensure_ascii=False, indent=1), encoding="utf-8")
+    """アトミックに書く。
+
+    並列ワーカーが同時に書くと、書きかけのファイルを他方が読んで
+    JSON破損になる（実際に「末尾に余分な }」が発生した）。
+    一時ファイルに書いてから置換すれば、読み手は常に完全なファイルを見る。
+    """
+    tmp = TAGS.with_suffix(".tmp")
+    tmp.write_text(json.dumps(t, ensure_ascii=False, indent=1), encoding="utf-8")
+    tmp.replace(TAGS)
 
 
 def load_index():
