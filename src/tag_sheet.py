@@ -35,7 +35,16 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from paths import CANDIDATES, DATA, DIST  # noqa: E402
 from review_photos import F_NAME, F_SUB  # noqa: E402
 
-IMGDIR = CANDIDATES.parent / "random"
+# 画像の場所。収集した本人はローカルディスク、
+# clone した人はリポジトリ同梱の data/untagged/ を見る。
+def _imgdir():
+    local = CANDIDATES.parent / "random"
+    if local.exists() and any(local.glob("*.jpg")):
+        return local
+    return DATA / "untagged"
+
+
+IMGDIR = _imgdir()
 INDEX = DATA / "random_index.json"
 # 48種収集の1,918枚は**対象にしない**。
 # あれは種の分布域から引いたもので、母集団が偏っている。
