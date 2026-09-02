@@ -84,9 +84,22 @@ def save_tags(t):
     JSON破損になる（実際に「末尾に余分な }」が発生した）。
     一時ファイルに書いてから置換すれば、読み手は常に完全なファイルを見る。
     """
-    tmp = TAGS.with_suffix(".tmp")
+    import os
+    import time
+    # ワーカーごとに別の一時ファイルを使う（同じ名前だと衝突する）
+    tmp = TAGS.with_suffix(f".tmp{os.getpid()}")
     tmp.write_text(json.dumps(t, ensure_ascii=False, indent=1), encoding="utf-8")
-    tmp.replace(TAGS)
+    # Windows では置換先が他プロセスに読まれていると PermissionError になる。
+    # 実際に並列実行で踏んだので短く待って繰り返す。
+    for i in range(10):
+        try:
+            tmp.replace(TAGS)
+            return
+        except PermissionError:
+            if i == 9:
+                tmp.unlink(missing_ok=True)
+                raise
+            time.sleep(0.15)
 
 
 def load_index():
