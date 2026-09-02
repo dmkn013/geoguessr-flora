@@ -111,16 +111,39 @@ GeoGuessr学習教材の画像タグ付けです。日本語で回答してく�
 python src/tag_sheet.py stats
 ```
 
-## 区切りがついたら
+## 【重要】作業を終えたら必ず push してください
+
+**これをしないと結果が戻りません。** 区切りをつけるたび、または最後に必ず:
 
 ```bash
 python src/normalize_tags.py    # タグの表記ゆれを統合
 python src/build_tagmap.py      # dist/tag_atlas.html を更新
-git add -A && git commit -m "タグ付け: 〇〇枚まで完了" && git push
+git add -A
+git commit -m "タグ付け: 〇〇枚まで完了"
+git push
 ```
 
-途中で止めても大丈夫です。状態は `data/tags.json` に1枚ごと保存されるので、
-`next` を叩けば続きから再開できます。
+**途中で止めても構いません。** その時点までを push してもらえれば、
+そこから引き継げます。全部終わるまで待つ必要はありません。
+
+**こまめな push を推奨します**（1,000枚ごとくらい）。
+長時間ぶんの作業が失われるリスクを避けられます。
+
+状態は `data/tags.json` に1枚ごと保存されるので、
+`python src/tag_sheet.py --w2 next` を叩けば続きから再開できます。
+
+### push が競合したら
+
+依頼主側も同じファイルを触っている可能性があります。その場合:
+
+```bash
+git pull --no-rebase        # マージを試みる
+```
+
+`data/tags.json` が衝突したら、**両方のタグを残す**のが正解です。
+JSON の中身は `画像ID: [タグ...]` の辞書なので、
+どちらか一方のエントリを消さないようマージしてください。
+判断に迷ったら push せず、依頼主に連絡してください。
 
 ---
 
@@ -162,3 +185,40 @@ Claude が踏みやすいので、依頼文に対策を入れてあります。�
 
 - 詳しい経緯: `docs/2026-09-02-handoff.md`
 - 現時点の地図: `dist/tag_atlas.html`（ブラウザで直接開けます）
+
+---
+
+## 【依頼主向け】結果の受け取り方
+
+作業してもらった側が push したら、こちらで:
+
+```bash
+cd /c/Users/shun/OneDrive/work/geoguessr-flora
+git pull
+python src/tag_sheet.py stats      # 増えているか確認
+python src/normalize_tags.py       # 表記ゆれを統合
+python src/build_tagmap.py         # 地図を更新
+```
+
+`dist/tag_atlas.html` をブラウザで開けば、増えたデータで地図が見られる。
+
+### 注意: こちらでもタグ付けを再開する場合
+
+**同じ画像を両方でタグ付けすると衝突する。** 分担するなら:
+
+- 相手に任せている間は、こちらでは `tag_sheet.py` を動かさない
+- または pull してから再開する（相手の進捗を取り込んでから続きをやる）
+
+`data/tags.json` は画像IDをキーにした辞書なので、
+別々の画像を触っている限り git のマージで問題なく統合される。
+
+### タグ付けが全部終わったら
+
+`data/untagged/` （145MB）は不要になるので消してよい:
+
+```bash
+git rm -r --cached data/untagged
+rm -rf data/untagged
+# .gitignore の !data/untagged/ の行も消す
+git commit -m "chore: 引き継ぎ用の画像を削除（タグ付け完了）"
+```
