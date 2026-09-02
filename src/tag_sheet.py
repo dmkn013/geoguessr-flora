@@ -56,8 +56,10 @@ TAGS = DATA / "tags.json"
 def page_file(w=""):
     return DIST / f"_tagpage{w}.json"
 
-PER = 9          # 3x3。詰めると見落とすので増やさない
-CELL = 620
+# 2x2。1枚を大きく出すほど見落としが減る。
+# 48種判定のときも8x5に詰めて樹冠を見落とし、3x3に戻した経緯がある。
+PER = 4
+CELL = 760
 
 
 def load_tags():
@@ -111,8 +113,28 @@ def untagged(w=""):
             busy |= set(json.loads(f.read_text(encoding="utf-8"))["ids"])
         except Exception:
             pass
-    return [it for it in load_index()
-            if it["img_id"] not in tags and it["img_id"] not in busy]
+    out = [it for it in load_index()
+           if it["img_id"] not in tags and it["img_id"] not in busy]
+    # 1地点から5枚まとめ取りしているので、収集順のままだと
+    # 同じ場所の連写が1シートに固まる（4枚シートだと特に目立つ）。
+    # 地点でまとめてから間隔を空けて配り直す。
+    from collections import defaultdict
+    by = defaultdict(list)
+    for it in out:
+        # 0.1度（約10km）でまとめる。2桁だと隣接する別地点が
+        # 別グループになり、結局シートに近い場所が並んでしまう。
+        by[(round(it["lat"], 1), round(it["lon"], 1))].append(it)
+    groups = list(by.values())
+    # グループ順もばらす（収集順のままだと地理的に近い順に出る）
+    import random
+    random.Random(42).shuffle(groups)
+    spread = []
+    i = 0
+    while any(groups):
+        for g in groups:
+            if g:
+                spread.append(g.pop(0))
+    return spread
 
 
 def sheet(w=""):
@@ -139,7 +161,7 @@ def sheet(w=""):
         d.text((9, 4), str(i), font=F_NAME, fill=(255, 255, 255))
         d.text((40, 6), f"{it['lat']:.2f},{it['lon']:.2f}", font=F_SUB, fill=(90, 90, 90))
         cells.append(cv)
-    cols = 3
+    cols = 2
     rows = (len(cells) + cols - 1) // cols
     W, H = cells[0].size
     sh = Image.new("RGB", (cols * W, rows * H), (255, 255, 255))
