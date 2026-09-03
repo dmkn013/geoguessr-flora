@@ -1,0 +1,103 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GeoGuessr 植生メタ</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bitter:wght@500;700&family=Source+Sans+3:wght@400;600&family=IBM+Plex+Mono:wght@400;600&display=swap">
+<style>
+:root{
+  --paper:#F7F5F0; --ink:#1A1F1A; --leaf:#5C7A4A; --seal:#B8442E;
+  --faded:#8A8676; --rule:#D8D3C6; --panel:#FFFDF8;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#14170F; --ink:#E8E6DC; --leaf:#8FAF76; --seal:#E07A5F;
+    --faded:#8F8B7C; --rule:#2E3327; --panel:#1B1F16;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#14170F; --ink:#E8E6DC; --leaf:#8FAF76; --seal:#E07A5F;
+  --faded:#8F8B7C; --rule:#2E3327; --panel:#1B1F16;
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:"Source Sans 3",system-ui,sans-serif; font-size:16px; line-height:1.65;
+}
+.wrap{max-width:760px; margin:0 auto; padding:56px 22px 80px}
+h1{
+  font-family:Bitter,Georgia,serif; font-weight:700; font-size:clamp(28px,6vw,42px);
+  line-height:1.14; margin:0 0 14px; letter-spacing:-.015em; text-wrap:balance;
+}
+.sub{font-size:17px; color:var(--faded); margin:0; max-width:60ch}
+.meta{
+  font-family:"IBM Plex Mono",monospace; font-size:12px; color:var(--faded);
+  letter-spacing:.06em; text-transform:uppercase; margin-top:24px;
+  padding-top:14px; border-top:2px solid var(--ink);
+  display:flex; gap:26px; flex-wrap:wrap;
+}
+.meta b{color:var(--ink); font-weight:600}
+.cards{display:flex; flex-direction:column; gap:16px; margin-top:40px}
+a.card{
+  display:block; background:var(--panel); border:1px solid var(--rule);
+  padding:22px 22px 20px; text-decoration:none; color:inherit;
+  transition:border-color .15s, transform .15s;
+}
+a.card:hover,a.card:focus-visible{border-color:var(--leaf); transform:translateY(-1px)}
+a.card:focus-visible{outline:2px solid var(--leaf); outline-offset:2px}
+.ctag{
+  font-family:"IBM Plex Mono",monospace; font-size:11px; color:var(--seal);
+  letter-spacing:.14em; font-weight:600;
+}
+.ctitle{font-family:Bitter,Georgia,serif; font-weight:700; font-size:21px; margin:6px 0 6px}
+.cdesc{font-size:14.5px; color:var(--faded); margin:0; line-height:1.6}
+.cnum{
+  font-family:"IBM Plex Mono",monospace; font-size:12.5px; color:var(--leaf);
+  margin-top:12px; font-variant-numeric:tabular-nums;
+}
+footer{
+  margin-top:52px; padding-top:20px; border-top:1px solid var(--rule);
+  font-size:13px; color:var(--faded);
+}
+footer a{color:var(--leaf)}
+</style>
+</head><body>
+<div class="wrap">
+<h1>GeoGuessr 植生メタ</h1>
+<p class="sub">ストリートビューに映る植物から場所を絞り込むための資料。分布図ではなく、車載写真を1枚ずつ見て確かめた実測に基づく。</p>
+<div class="meta">
+  <span>判定 <b>12,786</b> 枚</span>
+  <span>タグ <b>53</b> 種</span>
+  <span>出典 <b>Mapillary</b> CC BY-SA</span>
+</div>
+
+<div class="cards">
+
+<a class="card" href="analysis.html">
+  <div class="ctag">レポート</div>
+  <div class="ctitle">道端に何が映っているか</div>
+  <p class="cdesc">世界の陸地からランダムに引いた10,001枚を全数判定した結果を4つの図で。高緯度ほど植物が読めること、よく見る植物ほど役に立たないことなど。</p>
+  <div class="cnum">10,001枚 ／ 図4点</div>
+</a>
+
+<a class="card" href="tag_atlas.html">
+  <div class="ctag">地図 — ランダム実測</div>
+  <div class="ctitle">タグ分布アトラス</div>
+  <p class="cdesc">44の分類群が実際にどこで撮影されたか。「拡散度」が低いタグほど場所を絞り込める。上の レポートの元データ。</p>
+  <div class="cnum">44タグ ／ 2,973地点</div>
+</a>
+
+<a class="card" href="flora_atlas.html">
+  <div class="ctag">地図 — 種別</div>
+  <div class="ctitle">植生メタアトラス</div>
+  <p class="cdesc">48種それぞれの分布域と見分け方、罠。白縁の点は車載写真での実在を目視確認した92点。各種に遭遇率（分布域で実際に道から見える確率）を併記。</p>
+  <div class="cnum">48種 ／ 2,785点 ／ 6MB</div>
+</a>
+
+</div>
+
+<footer>
+写真は <a href="https://www.mapillary.com/">Mapillary</a>（CC BY-SA）。
+ソース: <a href="https://github.com/dmkn013/geoguessr-flora">github.com/dmkn013/geoguessr-flora</a><br>
+植生メタアトラスは6MBあるため、モバイル回線では読み込みに時間がかかります。
+</footer>
+</div>
+</body></html>

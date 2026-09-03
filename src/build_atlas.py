@@ -76,7 +76,12 @@ for s in data:
 
 payload = json.dumps({"species": data, "groups": groups}, ensure_ascii=False)
 
-HTML = """<title>植生メタアトラス</title>
+# GitHub Pages で配信するので完全なHTMLにする。
+# 元は Artifact 用の断片（<html>/<head> は向こうが包んでくれた）だった。
+# viewport が無いとスマホで極小表示になるため必須。
+HTML = """<!doctype html><html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>植生メタアトラス</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
@@ -279,6 +284,7 @@ svg.map.dragging{cursor:grabbing}
 .clear:hover{border-color:var(--accent); color:var(--accent)}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
+</head><body>
 
 <header>
   <h1>植生メタアトラス</h1>
@@ -584,6 +590,7 @@ document.getElementById('zin').addEventListener('click', () => zoomAt(1.4, 1000,
 document.getElementById('zout').addEventListener('click', () => zoomAt(1 / 1.4, 1000, 500));
 document.getElementById('zrst').addEventListener('click', () => { cam = { k: 1, x: 0, y: 0 }; applyCam(); });
 </script>
+</body></html>
 """
 
 html = HTML.replace("__LAND__", LAND).replace("__DATA__", payload)
