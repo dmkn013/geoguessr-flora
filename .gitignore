@@ -25,3 +25,8 @@ data/tags.tmp
 # タグ付けが終わったら消してよい。
 !data/untagged/
 data/tags.tmp*
+
+# 点をタップしたとき出すサムネイル（17MB / 53ファイル）。
+# 元画像から build_thumbs.py で作り直せる生成物なので追跡しない。
+# 配信するときは dist/ ごとサーバへ置く。
+dist/thumbs/
