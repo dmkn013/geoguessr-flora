@@ -24,3 +24,4 @@ data/tags.tmp
 # data/untagged/ は引き継ぎ用に**あえて同梱する**（145MB）。
 # タグ付けが終わったら消してよい。
 !data/untagged/
+data/tags.tmp*
