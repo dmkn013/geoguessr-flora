@@ -36,7 +36,7 @@ RAW.mkdir(exist_ok=True)
 META = DATA / "photos_raw" / "_meta.json"
 
 # ポリシー要件: 連絡先を含む User-Agent。匿名の UA は弾かれる。
-UA = "geoguessr-flora/0.1 (https://github.com/; oyama51jdsf822qaf@gmail.com) python-urllib"
+UA = "geoguessr-flora/0.1 (+https://github.com/dmkn013/geoguessr-flora) python-urllib"
 INTERVAL = 1.5
 API = "https://en.wikipedia.org/w/api.php"
 THUMB_PX = 800

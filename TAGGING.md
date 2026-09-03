@@ -195,7 +195,7 @@ Claude が踏みやすいので、依頼文に対策を入れてあります。�
 作業してもらった側が push したら、こちらで:
 
 ```bash
-cd /c/Users/shun/OneDrive/work/geoguessr-flora
+cd geoguessr-flora
 git pull
 python src/tag_sheet.py stats      # 増えているか確認
 python src/normalize_tags.py       # 表記ゆれを統合

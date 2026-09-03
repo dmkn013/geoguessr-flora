@@ -40,9 +40,9 @@ GeoGuessr学習教材の画像タグ付けです。日本語で回答してく�
 
 4. Bashで記録:
 - タグを付ける（画像1枚ごとに1コマンド、タグはスペース区切り）:
-`cd /c/Users/shun/OneDrive/work/geoguessr-flora && PYTHONIOENCODING=utf-8 python src/tag_sheet.py set 3 マツ属 ヨーロッパアカマツ`
+`cd geoguessr-flora && PYTHONIOENCODING=utf-8 python src/tag_sheet.py set 3 マツ属 ヨーロッパアカマツ`
 - 植物が識別できないものはまとめて:
-`cd /c/Users/shun/OneDrive/work/geoguessr-flora && PYTHONIOENCODING=utf-8 python src/tag_sheet.py none 0 1 2 4`
+`cd geoguessr-flora && PYTHONIOENCODING=utf-8 python src/tag_sheet.py none 0 1 2 4`
 
 **9枚すべてについて set か none のどちらかを必ず実行すること。** 記録しないと次のシートに残り続ける。
 
