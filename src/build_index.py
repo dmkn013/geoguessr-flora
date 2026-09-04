@@ -16,6 +16,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from build_tagmap import project  # noqa: E402
+from coverage import is_covered  # noqa: E402
 from paths import DATA, DIST  # noqa: E402
 
 def main():
@@ -23,10 +24,25 @@ def main():
     idx = {x["img_id"]: x for x in
            json.loads((DATA / "random_index.json").read_text(encoding="utf-8"))}
 
+    # GeoGuessr のカバー国かどうか。非カバー国（中国本土・ミャンマー・
+    # アフリカの多くなど）はゲームに出ないので、そこで見える植物を
+    # 覚えても無駄になる（ユーザー判断）。
+    where = json.loads((DATA / "country_of.json").read_text(encoding="utf-8"))         if (DATA / "country_of.json").exists() else {}
+
     pts = []
+    skip_none = skip_uncov = 0
     for img_id, names in tags.items():
         it = idx.get(img_id)
         if not it:
+            continue
+        # 属を特定できなかった点は地図に出さない（ユーザー判断）。
+        # 「植物が無い」のではなく「属を特定できない」だけだが、
+        # 手がかりにならない点を打っても地図が濁るだけ。
+        if not names:
+            skip_none += 1
+            continue
+        if not is_covered(where.get(img_id) or ""):
+            skip_uncov += 1
             continue
         x, y = project(it["lat"], it["lon"])
         pts.append([x, y, round(it["lat"], 3), round(it["lon"], 3),
@@ -40,16 +56,12 @@ def main():
     top = [t for t, _ in c.most_common(12)]
     cidx = {t: i for i, t in enumerate(top)}
     for pt in pts:
-        names = pt[5]
-        if not names:
-            pt.append(-1)                 # 植物なし
-        else:
-            # 複数タグなら、より珍しい方（＝順位が下）を優先する。
-            # ヤシ科とココヤシが両方付いた点は「ココヤシ」で塗る方が
-            # 地図として情報量が多い。
-            ranks = [cidx.get(n, 99) for n in names]
-            best = max(ranks)
-            pt.append(best if best < 12 else 12)   # 12 = その他
+        # 複数タグなら、より珍しい方（＝順位が下）を優先する。
+        # ヤシ科とココヤシが両方付いた点は「ココヤシ」で塗る方が
+        # 地図として情報量が多い。
+        ranks = [cidx.get(n, 99) for n in pt[5]]
+        best = max(ranks)
+        pt.append(best if best < 12 else 12)       # 12 = その他
 
     payload = json.dumps({
         "pts": pts,
@@ -68,8 +80,8 @@ def main():
     out = DIST / "index.html"
     out.write_text(html, encoding="utf-8")
     print(f"書き出し: {out}  ({len(html.encode())/1048576:.1f} MB)")
-    print(f"  点 {len(pts)} / 植物あり {sum(1 for p in pts if p[5])} / "
-          f"タグ {len(c)}種類")
+    print(f"  点 {len(pts)} / タグ {len(c)}種類")
+    print(f"  除外: 属を特定できず {skip_none} / 非カバー国 {skip_uncov}")
 
 
 TEMPLATE = r"""<!doctype html><html lang="ja"><head><meta charset="utf-8">
@@ -248,16 +260,14 @@ svg.map{display:block; width:100%; height:100%; touch-action:none}
 <script>
 const D = __DATA__;
 document.getElementById('cnt').textContent =
-  D.n.toLocaleString() + '枚 / 属を特定できた ' + D.hit.toLocaleString() +
-  '（' + (D.hit / D.n * 100).toFixed(0) + '%）';
+  D.n.toLocaleString() + '地点 / ' + D.tags.length + '分類群';
 
 /* ---- 凡例 ---- */
 const LEG = document.getElementById('legend');
 LEG.innerHTML = '<b>特定できた植物</b><div class="items">' +
   D.legend.map((t, i) =>
     '<div><i class="lc' + i + '"></i>' + t + '</div>').join('') +
-  '<div><i class="lc12"></i>その他</div>' +
-  '<div><i class="lcm"></i>特定できず</div></div>';
+  '<div><i class="lc12"></i>その他</div></div>';
 LEG.addEventListener('click', () => LEG.classList.toggle('open'));
 // 凡例の色見本は CSS の fill を使えないので、同じ色を背景に入れる
 {
@@ -266,9 +276,6 @@ LEG.addEventListener('click', () => LEG.classList.toggle('open'));
                 '#e377c2','#17becf','#bcbd22','#7f7f7f','#aec7e8','#ffbb78','#c49a6c'];
   cols.forEach((c, i) => LEG.querySelectorAll('.lc' + i)
     .forEach(e => e.style.background = c));
-  LEG.querySelectorAll('.lcm').forEach(e => {
-    e.style.background = cs.getPropertyValue('--miss'); e.style.opacity = '.5';
-  });
 }
 
 const ptsG = document.getElementById('pts');
@@ -286,8 +293,8 @@ const frag = document.createDocumentFragment();
 D.pts.forEach((p, i) => {
   const c = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
   c.setAttribute('cx', p[0]); c.setAttribute('cy', p[1]);
-  c.setAttribute('r', p[5].length ? 3.2 : 1.8);
-  c.setAttribute('class', 'pt ' + (p[6] < 0 ? 'miss' : 'c' + p[6]));
+  c.setAttribute('r', 3.2);
+  c.setAttribute('class', 'pt c' + p[6]);
   c.dataset.i = i;
   frag.appendChild(c);
 });
@@ -306,9 +313,7 @@ function applyCam() {
   // 離れるので相対的に小さく見え、タップもしづらい。
   // k^0.72 で割ると、拡大につれて画面上では少しずつ大きくなる。
   const sh = Math.pow(cam.k, 0.45);
-  nodes.forEach((c, i) => {
-    c.setAttribute('r', (D.pts[i][6] < 0 ? 1.8 : 3.2) / sh);
-  });
+  nodes.forEach(c => c.setAttribute('r', 3.2 / sh));
 }
 function zoomAt(f, cx, cy) {
   const k2 = Math.min(MAXK, Math.max(1, cam.k * f));
@@ -506,9 +511,7 @@ function openCard(i) {
   nodes[i].classList.add('on');
   hint.classList.add('hide');
 
-  const chips = names.length
-    ? names.map(n => '<span class="chip">' + n + '</span>').join('')
-    : '<span class="chip none">属を特定できる植物なし</span>';
+  const chips = names.map(n => '<span class="chip">' + n + '</span>').join('');
   const gmap = 'https://www.google.com/maps/@' + lat + ',' + lon + ',14z/data=!5m1!1e4';
   const foot = '<div class="foot"><span>' + lat.toFixed(3) + ', ' + lon.toFixed(3) +
     '</span><a href="' + gmap + '" target="_blank" rel="noopener">地図で開く</a></div>';
@@ -589,6 +592,10 @@ function fitInitial() {
   applyCam();
 }
 fitInitial();
+// スクリプト実行時点ではレイアウトが未確定で、
+// getBoundingClientRect が 0 を返すことがある（実際に初期倍率が
+// 効かず地図が小さいままになった）。読み込み後にもう一度合わせる。
+addEventListener('load', () => { if (cam.k === 1) fitInitial(); });
 </script></body></html>"""
 
 
