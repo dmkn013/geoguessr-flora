@@ -21,7 +21,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from paths import DATA  # noqa: E402
 
 GRAPH = "https://graph.mapillary.com"
-UA = "geoguessr-flora/0.2 (oyama51jdsf822qaf@gmail.com)"
+UA = "geoguessr-flora/0.2 (+https://github.com/dmkn013/geoguessr-flora)"
 INTERVAL = 0.2          # Mapillary は Wikimedia ほど厳しくないが礼儀として空ける
 TOKEN_FILE = DATA / ".mapillary_token"
 

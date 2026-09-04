@@ -25,3 +25,7 @@ data/tags.tmp
 # タグ付けが終わったら消してよい。
 !data/untagged/
 data/tags.tmp*
+
+# dist/thumbs/ は追跡する。生成物ではあるが、GitHub Pages の配信対象が
+# リポジトリの中身そのものなので、除外すると公開サイトで写真が出ない
+# （実際に404になった）。18MB。
