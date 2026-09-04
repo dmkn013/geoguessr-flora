@@ -314,8 +314,8 @@ document.getElementById('zrst').onclick = () => { cam = {k:1,x:0,y:0}; applyCam(
    まとめて落とすことになり、キャッシュも効かなかった。
    個別の JPEG なら必要な1枚だけで済む（平均100KB）。
 
-   「識別できる植物なし」の点には写真を置いていない
-   （全部入れると903MBになるため）。 */
+   「植物なし」の点にも写真がある。何が写っていて何が識別
+   できなかったのかを確かめられる。 */
 let want = null;
 
 function openCard(i) {
@@ -334,14 +334,9 @@ function openCard(i) {
     '</span><a href="' + gmap + '" target="_blank" rel="noopener">地図で開く</a></div>';
   const tail = '<div class="tags">' + chips + '</div>' + foot;
 
-  cbody.innerHTML = (names.length ? '<div class="ld">読み込み中…</div>' : '') + tail;
+  cbody.innerHTML = '<div class="ld">読み込み中…</div>' + tail;
   card.hidden = false;
 
-  if (!names.length) {
-    // 植物なしの点は写真を置いていない
-    cbody.innerHTML = tail;
-    return;
-  }
   const im = new Image();
   im.alt = 'この地点の車載写真';
   im.onload = () => {

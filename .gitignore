@@ -26,6 +26,11 @@ data/tags.tmp
 !data/untagged/
 data/tags.tmp*
 
-# dist/thumbs/ は追跡する。生成物ではあるが、GitHub Pages の配信対象が
-# リポジトリの中身そのものなので、除外すると公開サイトで写真が出ない
-# （実際に404になった）。18MB。
+# dist/thumbs/ は追跡する（18MB）。tag_atlas.html が使う。
+
+# dist/photos/ は追跡しない。10,001枚・892MB あり、git に入れると
+# 履歴に永久に残ってリポジトリが2GB近くなる。
+# 配信は deploy_pages.sh が gh-pages ブランチへ直接 push する
+# （履歴を毎回作り直すので膨らまない）。
+# 手元で作り直すには: python src/build_photos.py
+dist/photos/

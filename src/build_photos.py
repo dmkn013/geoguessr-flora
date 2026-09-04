@@ -6,10 +6,11 @@ base64 をやめて個別の JPEG にした理由:
   - JPEG ならブラウザのキャッシュが効き、2回目以降は転送が要らない
   - タイル JSON だと1枚見るのに数MBまとめて落とすことになる
 
-**植物が写っている 2,973 点だけ**を置く（297MB）。
-「識別できる植物なし」7,028 点は、写真を見ても得るものが無いうえに
-全部入れると 903MB になり Pages の上限に迫るため、地図には点だけ出す
-（ユーザー判断）。
+**全 10,001 点**を置く（約890MB）。
+最初は植物ありの 2,980 点だけにしていたが、履歴から使わなくなった
+画像（data/untagged 等 191MB）を落として余地を作り、全点に広げた。
+「植物なし」の点も、何が写っていて何が識別できなかったのかを
+確かめられる方が調査として筋が通る。
 
 元画質のままコピーする。1024x768 / 平均92KB。
 全天球は中央を切り出す（そのままだと極端な横長で見づらい）。
@@ -35,7 +36,7 @@ def main():
     idx = {x["img_id"]: x for x in
            json.loads((DATA / "random_index.json").read_text(encoding="utf-8"))}
 
-    todo = [i for i, v in tags.items() if v and i in idx]
+    todo = [i for i in tags if i in idx]
     OUT.mkdir(parents=True, exist_ok=True)
 
     n = cropped = 0
