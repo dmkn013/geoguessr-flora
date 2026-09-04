@@ -16,7 +16,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from build_tagmap import project  # noqa: E402
-from coverage import is_covered  # noqa: E402
+from coverage import is_covered, ja  # noqa: E402
 from paths import DATA, DIST  # noqa: E402
 
 def main():
@@ -46,7 +46,7 @@ def main():
             continue
         x, y = project(it["lat"], it["lon"])
         pts.append([x, y, round(it["lat"], 3), round(it["lon"], 3),
-                    img_id, names])
+                    img_id, names, ja(where.get(img_id) or "")])
 
     c = Counter(n for p in pts for n in p[5])
 
@@ -61,7 +61,7 @@ def main():
         # 地図として情報量が多い。
         ranks = [cidx.get(n, 99) for n in pt[5]]
         best = max(ranks)
-        pt.append(best if best < 12 else 12)       # 12 = その他
+        pt.append(best if best < 12 else 12)       # [7] 色番号。12 = その他
 
     payload = json.dumps({
         "pts": pts,
@@ -76,7 +76,10 @@ def main():
     i = src.index('<path class="land" d="') + len('<path class="land" d="')
     land = src[i:src.index('"', i)]
 
-    html = TEMPLATE.replace("__LAND__", land).replace("__DATA__", payload)
+    from borders import path as border_path
+    html = (TEMPLATE.replace("__LAND__", land)
+            .replace("__BORDERS__", border_path())
+            .replace("__DATA__", payload))
     out = DIST / "index.html"
     out.write_text(html, encoding="utf-8")
     print(f"書き出し: {out}  ({len(html.encode())/1048576:.1f} MB)")
@@ -125,6 +128,10 @@ h1{font-family:Spectral,serif; font-size:1.05rem; margin:0; font-weight:600}
   height:calc(100% - 42px - 34px); display:grid; place-items:center}
 svg.map{display:block; width:100%; height:100%; touch-action:none}
 .land{fill:var(--land); stroke:var(--edge); stroke-width:.6}
+/* 国境。点がどの国かを目で追えるように引く。
+   陸地の輪郭より細く薄くして、点の邪魔をしない。 */
+.border{fill:none; stroke:var(--edge); stroke-width:1; opacity:.9;
+  vector-effect:non-scaling-stroke}
 .pt{cursor:pointer}
 .pt.miss{fill:var(--miss); opacity:.34}
 .pt.on{stroke:var(--ink); stroke-width:2.5px; paint-order:stroke; opacity:1}
@@ -137,8 +144,12 @@ svg.map{display:block; width:100%; height:100%; touch-action:none}
 .pt[class*="c"]{opacity:.88}
 
 /* ---- 凡例 ---- */
+/* カードが出ている間は隠す。下端で重なって両方読めなくなる。 */
+body:has(.card:not([hidden])) .legend,
+body:has(.card:not([hidden])) .hintbar{ opacity:0; pointer-events:none }
 .legend{
   position:absolute; left:.5rem; bottom:.5rem; z-index:5;
+  transition:opacity .15s;
   background:color-mix(in srgb,var(--panel) 93%,transparent);
   border:1px solid var(--rule); border-radius:8px; padding:.35rem .5rem;
   font-size:.7rem; line-height:1.45; max-width:min(62vw,200px);
@@ -187,14 +198,14 @@ svg.map{display:block; width:100%; height:100%; touch-action:none}
   will-change:transform; user-select:none; -webkit-user-drag:none;
 }
 .shotbox.zoomed{cursor:grab}
-.shotbox .zhint{
-  position:absolute; right:.3rem; bottom:.3rem; z-index:2;
-  background:color-mix(in srgb,var(--panel) 88%,transparent);
-  border-radius:4px; padding:.1rem .35rem; font-size:.66rem;
-  color:var(--ink-faint); font-family:"IBM Plex Mono",monospace;
-  pointer-events:none; transition:opacity .2s;
+.shotbox .xphoto{
+  position:absolute; top:.3rem; right:.3rem; z-index:3;
+  width:26px; height:26px; border:0; border-radius:50%;
+  background:rgba(0,0,0,.45); color:#fff; font-size:.85rem; line-height:1;
+  cursor:pointer; display:grid; place-items:center; padding:0;
 }
-.shotbox.zoomed .zhint{opacity:0}
+.shotbox .xphoto:hover{background:rgba(0,0,0,.65)}
+
 .card .ld{height:150px; display:grid; place-items:center; border-radius:6px;
   background:var(--panel-2); color:var(--ink-faint); font-size:.8rem}
 .card .tags{display:flex; flex-wrap:wrap; gap:.3rem; margin:.5rem 0 0}
@@ -205,9 +216,9 @@ svg.map{display:block; width:100%; height:100%; touch-action:none}
 .chip.none{background:var(--panel-2); color:var(--ink-faint); font-weight:400}
 .card .foot{
   display:flex; justify-content:space-between; align-items:baseline; gap:.6rem;
-  margin-top:.45rem; font-size:.74rem; color:var(--ink-faint);
-  font-family:"IBM Plex Mono",monospace;
+  margin-top:.45rem; font-size:.78rem; color:var(--ink-faint);
 }
+.card .foot .cty{color:var(--ink); font-weight:500}
 .card .foot a{color:var(--accent); text-decoration:none; white-space:nowrap}
 .card .x{
   position:absolute; top:.3rem; right:.35rem; width:28px; height:28px; border:0;
@@ -236,8 +247,21 @@ svg.map{display:block; width:100%; height:100%; touch-action:none}
 <div class="mapwrap">
 <svg class="map" id="map" viewBox="0 0 2000 1000" preserveAspectRatio="xMidYMid meet" role="img" aria-label="撮影地点の地図">
 <g id="cam">
+<!-- 東西ループ。同じ世界を左右にも置いて、端で途切れないようにする。
+     パンで一周ぶん動いたら中央へ戻すので、無限に回れる。 -->
+<g transform="translate(-2000,0)">
+  <path class="land" d="__LAND__"/>
+  <path class="border" d="__BORDERS__"/>
+  <g id="ptsL"></g>
+</g>
 <path class="land" d="__LAND__"/>
+<path class="border" d="__BORDERS__"/>
 <g id="pts"></g>
+<g transform="translate(2000,0)">
+  <path class="land" d="__LAND__"/>
+  <path class="border" d="__BORDERS__"/>
+  <g id="ptsR"></g>
+</g>
 </g></svg>
 <div class="ctl">
   <button id="zin" title="拡大" aria-label="拡大">＋</button>
@@ -294,26 +318,42 @@ D.pts.forEach((p, i) => {
   const c = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
   c.setAttribute('cx', p[0]); c.setAttribute('cy', p[1]);
   c.setAttribute('r', 3.2);
-  c.setAttribute('class', 'pt c' + p[6]);
+  c.setAttribute('class', 'pt c' + p[7]);
   c.dataset.i = i;
   frag.appendChild(c);
 });
 ptsG.appendChild(frag);
+// 左右のコピー。クリック判定は中央の nodes だけを見るので、
+// コピーは見た目だけ（cloneNode で十分）。
+document.getElementById('ptsL').appendChild(ptsG.cloneNode(true));
+document.getElementById('ptsR').appendChild(ptsG.cloneNode(true));
 const nodes = [...ptsG.children];
+const clones = [...document.querySelectorAll('#ptsL circle, #ptsR circle')];
 
 /* ---- カメラ ---- */
 // 拡大の上限。点は10,001個あって密集地では重なるので、
 // 街区レベルまで寄れないと個別にタップできない。
 const MAXK = 200;
 let cam = {k:1, x:0, y:0};
+function wrapX() {
+  // 世界一周ぶん（viewBox幅 2000 × 倍率）動いたら中央へ戻す。
+  // これで東西に無限に回れる。
+  const w = 2000 * cam.k;
+  if (cam.x > w) cam.x -= w;
+  else if (cam.x < -w) cam.x += w;
+}
+
 function applyCam() {
+  wrapX();
   camG.setAttribute('transform',
     'translate(' + cam.x + ',' + cam.y + ') scale(' + cam.k + ')');
   // 1/k だと画面上のピクセルは一定になるが、拡大するほど点どうしが
   // 離れるので相対的に小さく見え、タップもしづらい。
   // k^0.72 で割ると、拡大につれて画面上では少しずつ大きくなる。
   const sh = Math.pow(cam.k, 0.45);
-  nodes.forEach(c => c.setAttribute('r', 3.2 / sh));
+  const r = 3.2 / sh;
+  nodes.forEach(c => c.setAttribute('r', r));
+  clones.forEach(c => c.setAttribute('r', r));
 }
 function zoomAt(f, cx, cy) {
   const k2 = Math.min(MAXK, Math.max(1, cam.k * f));
@@ -401,7 +441,10 @@ mapEl.addEventListener('pointercancel', endPtr);
 
 document.getElementById('zin').onclick = () => zoomAt(1.5, 1000, 500);
 document.getElementById('zout').onclick = () => zoomAt(1/1.5, 1000, 500);
-document.getElementById('zrst').onclick = () => { cam = {k:1,x:0,y:0}; applyCam(); };
+document.getElementById('zrst').onclick = () => {
+  cam = {k:1, x:0, y:0};
+  fitInitial();          // 初期表示と同じ倍率に戻す（k=1 だと縦画面で小さすぎる）
+};
 
 /* ---- タップ → 写真とタグ ----
    写真は photos/<画像ID>.jpg に元画質のまま置いてある。
@@ -513,7 +556,7 @@ function openCard(i) {
 
   const chips = names.map(n => '<span class="chip">' + n + '</span>').join('');
   const gmap = 'https://www.google.com/maps/@' + lat + ',' + lon + ',14z/data=!5m1!1e4';
-  const foot = '<div class="foot"><span>' + lat.toFixed(3) + ', ' + lon.toFixed(3) +
+  const foot = '<div class="foot"><span class="cty">' + (p[6] || '—') +
     '</span><a href="' + gmap + '" target="_blank" rel="noopener">地図で開く</a></div>';
   const tail = '<div class="tags">' + chips + '</div>' + foot;
 
@@ -529,7 +572,13 @@ function openCard(i) {
     box.className = 'shotbox';
     box.appendChild(im);
     box.insertAdjacentHTML('beforeend',
-      '<span class="zhint">2本指で拡大</span>');
+      '<button class="xphoto" aria-label="写真を閉じる">✕</button>');
+    // 写真だけ消す。タグと座標は残るので、
+    // 写真が地図を隠しているときに使う。
+    box.querySelector('.xphoto').addEventListener('click', e => {
+      e.stopPropagation();
+      box.remove();
+    });
     cbody.appendChild(box);
     cbody.insertAdjacentHTML('beforeend', tail);
     enableZoom(box, im);
@@ -562,10 +611,15 @@ function nearestPoint(clientX, clientY) {
   const disp = Math.min(r.width / 2000, r.height / 1000) * cam.k;  // 1単位=何px
   const lim = HIT_PX / disp;                     // viewBox 単位のしきい値
   // カメラ変換を戻して、点の元座標での距離を測る
-  const px = (m.x - cam.x) / cam.k, py = (m.y - cam.y) / cam.k;
+  let px = (m.x - cam.x) / cam.k;
+  const py = (m.y - cam.y) / cam.k;
+  // 左右のコピーを押した場合、中央の座標に畳んでから比べる
+  px = ((px % 2000) + 2000) % 2000;
   let best = -1, bestD = lim * lim;
   for (let i = 0; i < D.pts.length; i++) {
-    const dx = D.pts[i][0] - px, dy = D.pts[i][1] - py;
+    let dx = Math.abs(D.pts[i][0] - px);
+    if (dx > 1000) dx = 2000 - dx;               // 東西の折り返しをまたぐ場合
+    const dy = D.pts[i][1] - py;
     const d = dx * dx + dy * dy;
     if (d < bestD) { bestD = d; best = i; }
   }
