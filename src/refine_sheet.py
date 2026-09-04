@@ -21,6 +21,7 @@ tag_sheet.py との違い:
   滑らかで細長い）は下位タグとして付けてよい（ユーザー判断）。
 
     python src/refine_sheet.py --w2 next
+    python src/refine_sheet.py --w2 --tag ヤシ科 next   # タグを絞る
     python src/refine_sheet.py --w2 set 3 ヨーロッパアカマツ
     python src/refine_sheet.py --w2 keep 0 1 2     # 現状維持
     python src/refine_sheet.py stats
@@ -85,8 +86,13 @@ def save_atomic(path, obj):
             time.sleep(0.15)
 
 
-def targets(w=""):
-    """見直し対象。粗いタグが付いていて、まだ見直していないもの。"""
+def targets(w="", only=None):
+    """見直し対象。粗いタグが付いていて、まだ見直していないもの。
+
+    only を渡すとそのタグが付いたものだけに絞る。
+    タグ名順に並べているので、指定しないと後ろのタグ（ヤシ科など）に
+    到達するまで前のタグを全部消化することになる。
+    """
     tags = load(TAGS, {})
     done = set(load(DONE, []))
     idx = {x["img_id"]: x for x in load(INDEX, [])}
@@ -98,17 +104,18 @@ def targets(w=""):
             busy |= set(json.loads(f.read_text(encoding="utf-8"))["ids"])
         except Exception:
             pass
+    want = {only} if only else COARSE
     out = [(i, v) for i, v in tags.items()
            if i in idx and i not in done and i not in busy
-           and any(t in COARSE for t in v)]
+           and any(t in want for t in v)]
     # 同じタグが固まると比較しやすい一方、判断が引きずられる。
     # タグ順に並べつつ、同じ地点の連写は散らす。
     out.sort(key=lambda x: (sorted(x[1]), x[0]))
     return out
 
 
-def sheet(w=""):
-    items = targets(w)
+def sheet(w="", only=None):
+    items = targets(w, only)
     if not items:
         print("完了: 見直す画像なし")
         return
@@ -226,15 +233,22 @@ def stats():
 def main():
     args = sys.argv[1:]
     w = ""
-    if args and args[0].startswith("--w"):
-        w = args[0][3:]
-        args = args[1:]
+    only = None
+    while args and args[0].startswith("--"):
+        if args[0].startswith("--w"):
+            w = args[0][3:]
+            args = args[1:]
+        elif args[0] == "--tag" and len(args) > 1:
+            only = args[1]
+            args = args[2:]
+        else:
+            break
     if not args:
         print(__doc__)
         return
     cmd = args[0]
     if cmd == "next":
-        sheet(w)
+        sheet(w, only)
     elif cmd == "set" and len(args) > 1:
         setv(args[1], args[2:], w)
     elif cmd == "keep" and len(args) > 1:
