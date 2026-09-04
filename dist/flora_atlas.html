@@ -84,6 +84,22 @@ svg.map.dragging{cursor:grabbing}
   box-shadow:var(--shadow); padding:.55rem .7rem;
 }
 #tip.show{opacity:1}
+/* ホバーが無い環境ではツールチップ内のリンクを押せる必要がある。
+   pointer-events:none のままだと地図リンクがタップできない。 */
+@media (hover:none){
+  /* 点の座標に合わせて置くと、端の点で画面からはみ出す（実機で確認）。
+     タッチでは位置を追わず、地図の下側に幅いっぱいで固定する。 */
+  #tip{
+    pointer-events:auto;
+    position:fixed; left:12px; right:12px; top:auto; bottom:12px;
+    max-width:none; transform:none; z-index:20;
+  }
+  #tip .gmap{
+    display:block; margin-top:.45rem; padding:.4rem .5rem; text-align:center;
+    border:1px solid var(--rule); border-radius:6px;
+    color:var(--accent); text-decoration:none; font-size:.78rem;
+  }
+}
 #tip .n{font-family:Spectral,serif; font-size:1rem; font-weight:600; display:flex; align-items:center; gap:.45rem}
 #tip .sw{width:11px; height:11px; border-radius:50%; flex:none}
 #tip .r{color:var(--ink-soft); font-size:.78rem; margin-top:.2rem}
@@ -207,7 +223,7 @@ svg.map.dragging{cursor:grabbing}
 
 <header>
   <h1>植生メタアトラス</h1>
-  <p class="sub">見えた植物から地域を絞り込むための地図。<strong>白縁の点は、その地点の車載写真に実際に写っていることを目視で確認した92点</strong>。それ以外の点は分布域から機械的に散らしたもので、1点ごとの確認は取っていない（分布の濃さの表示）。色は種類ではなく、近くに生える種どうしを見分けるための10色。ホバーで種名、クリックでその座標の地図が開く。</p><p class="sub2">各種の詳細に<strong>遭遇率</strong>を載せた。分布域をランダムに40回引き、車載写真にその植物が実際に写っていた割合。<strong>48種中23種が0%</strong> ── 分布していても道端からは見えない種が半数近くある。</p>
+  <p class="sub">見えた植物から地域を絞り込むための地図。<strong>白縁の点は、その地点の車載写真に実際に写っていることを目視で確認した92点</strong>。それ以外の点は分布域から機械的に散らしたもので、1点ごとの確認は取っていない（分布の濃さの表示）。色は種類ではなく、近くに生える種どうしを見分けるための10色。<strong>白縁の点をタップ（PCではホバー）すると、その地点の実写が出る</strong>。</p><p class="sub2">各種の詳細に<strong>遭遇率</strong>を載せた。分布域をランダムに40回引き、車載写真にその植物が実際に写っていた割合。<strong>48種中23種が0%</strong> ── 分布していても道端からは見えない種が半数近くある。</p>
   <span class="count mono" id="hdcount"></span>
 </header>
 
@@ -296,6 +312,8 @@ S.forEach(s => {
 });
 
 /* ---- ツールチップ ---- */
+// ホバーが無い環境（スマホ）かどうか。表示のしかたを変える。
+const TOUCH = window.matchMedia('(hover:none)').matches;
 const tip = document.getElementById('tip'), mapEl = document.getElementById('map');
 function showTip(el) {
   const s = byId[el.dataset.sp];
@@ -310,10 +328,16 @@ function showTip(el) {
     '<div class="r mono">' + Number(el.dataset.lat).toFixed(2) + ', ' + Number(el.dataset.lon).toFixed(2) + '</div>' +
     (shot ? '<img src="' + shot.src + '" alt="">' : '') +
     (v && v.by ? '<div class="by mono">© ' + v.by + ' / Mapillary (CC BY-SA)</div>' : '') +
-    '<div class="hint">クリックでこの座標の地図へ（ペグマンでSV）</div>';
-  const r = el.getBoundingClientRect(), m = mapEl.parentElement.getBoundingClientRect();
-  tip.style.left = (r.left - m.left + r.width / 2) + 'px';
-  tip.style.top = (r.top - m.top) + 'px';
+    (TOUCH
+      ? '<a class="hint gmap" href="' + panoUrl(el.dataset.lat, el.dataset.lon) +
+        '" target="_blank" rel="noopener">この座標の地図を開く（ペグマンでSV）</a>'
+      : '<div class="hint">クリックでこの座標の地図へ（ペグマンでSV）</div>');
+  // タッチでは CSS 側で画面下部に固定する。ここで座標を書くと打ち消してしまう。
+  if (!TOUCH) {
+    const r = el.getBoundingClientRect(), m = mapEl.parentElement.getBoundingClientRect();
+    tip.style.left = (r.left - m.left + r.width / 2) + 'px';
+    tip.style.top = (r.top - m.top) + 'px';
+  }
   tip.classList.add('show');
 }
 const hideTip = () => tip.classList.remove('show');
@@ -336,7 +360,22 @@ function openPano(el) {
   select(el.dataset.sp);
   window.open(panoUrl(el.dataset.lat, el.dataset.lon), '_blank', 'noopener');
 }
-ptsG.addEventListener('click', e => { if (e.target.classList.contains('pt')) openPano(e.target); });
+
+/* スマホにはホバーが無い。写真をツールチップだけに置くと、
+   タップ＝いきなり別タブでGoogleマップ、になって写真に辿り着けない
+   （実際にそうなっていた）。
+   タッチ環境では 1回目のタップで写真を出し、地図へは
+   ツールチップ内のリンクから明示的に開いてもらう。 */
+ptsG.addEventListener('click', e => {
+  if (!e.target.classList.contains('pt')) return;
+  if (!TOUCH) { openPano(e.target); return; }
+  select(e.target.dataset.sp);
+  showTip(e.target);
+});
+// 地図の余白をタップしたらツールチップを閉じる
+if (TOUCH) mapEl.addEventListener('click', e => {
+  if (!e.target.classList.contains('pt')) hideTip();
+});
 ptsG.addEventListener('keydown', e => {
   if ((e.key === 'Enter' || e.key === ' ') && e.target.classList.contains('pt')) {
     e.preventDefault(); openPano(e.target);
