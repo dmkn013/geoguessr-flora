@@ -18,9 +18,6 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from build_tagmap import project  # noqa: E402
 from paths import DATA, DIST  # noqa: E402
 
-STEP = 15   # build_tiles.py と合わせること
-
-
 def main():
     tags = json.loads((DATA / "tags.json").read_text(encoding="utf-8"))
     idx = {x["img_id"]: x for x in
@@ -37,11 +34,29 @@ def main():
 
     c = Counter(n for p in pts for n in p[5])
 
+    # 点の色。出現数の多い12タグに固有色を割り当て、それ以外は「その他」。
+    # 全部を色分けしても53色は見分けられないので、地図で意味を持つ
+    # 上位だけに絞る。
+    top = [t for t, _ in c.most_common(12)]
+    cidx = {t: i for i, t in enumerate(top)}
+    for pt in pts:
+        names = pt[5]
+        if not names:
+            pt.append(-1)                 # 植物なし
+        else:
+            # 複数タグなら、より珍しい方（＝順位が下）を優先する。
+            # ヤシ科とココヤシが両方付いた点は「ココヤシ」で塗る方が
+            # 地図として情報量が多い。
+            ranks = [cidx.get(n, 99) for n in names]
+            best = max(ranks)
+            pt.append(best if best < 12 else 12)   # 12 = その他
+
     payload = json.dumps({
-        "pts": pts, "step": STEP,
+        "pts": pts,
         "n": len(pts),
         "hit": sum(1 for p in pts if p[5]),
         "tags": c.most_common(),
+        "legend": top,
     }, ensure_ascii=False, separators=(",", ":"))
 
     # 陸地のパスは既存の地図から流用する（同じ投影・同じ viewBox）
@@ -99,9 +114,41 @@ h1{font-family:Spectral,serif; font-size:1.05rem; margin:0; font-weight:600}
 svg.map{display:block; width:100%; height:100%; touch-action:none}
 .land{fill:var(--land); stroke:var(--edge); stroke-width:.6}
 .pt{cursor:pointer}
-.pt.hit{fill:var(--hit); opacity:.82}
-.pt.miss{fill:var(--miss); opacity:.42}
-.pt.on{stroke:var(--ink); stroke-width:2px; paint-order:stroke; opacity:1}
+.pt.miss{fill:var(--miss); opacity:.34}
+.pt.on{stroke:var(--ink); stroke-width:2.5px; paint-order:stroke; opacity:1}
+/* 上位12タグの色（matplotlib tab10 + 2色）。
+   カテゴリカル配色として実績のあるものを使う。 */
+.c0{fill:#1f77b4} .c1{fill:#ff7f0e} .c2{fill:#2ca02c} .c3{fill:#d62728}
+.c4{fill:#9467bd} .c5{fill:#8c564b} .c6{fill:#e377c2} .c7{fill:#17becf}
+.c8{fill:#bcbd22} .c9{fill:#7f7f7f} .c10{fill:#aec7e8} .c11{fill:#ffbb78}
+.c12{fill:#c49a6c}
+.pt[class*="c"]{opacity:.88}
+
+/* ---- 凡例 ---- */
+.legend{
+  position:absolute; left:.5rem; bottom:.5rem; z-index:5;
+  background:color-mix(in srgb,var(--panel) 93%,transparent);
+  border:1px solid var(--rule); border-radius:8px; padding:.35rem .5rem;
+  font-size:.7rem; line-height:1.45; max-width:min(62vw,200px);
+  cursor:pointer; user-select:none;
+}
+.legend > b{
+  display:flex; align-items:center; gap:.3rem; font-size:.68rem;
+  color:var(--ink-faint); font-weight:500; letter-spacing:.04em;
+}
+.legend > b::after{content:"▾"; font-size:.6rem}
+.legend .items{display:none; margin-top:.25rem;
+  max-height:min(46vh,300px); overflow-y:auto}
+/* 狭い画面では畳んでおく。開いたままだと地図の1/3を隠す。 */
+.legend.open .items{display:block}
+.legend.open > b::after{content:"▴"}
+@media (min-width:900px){
+  .legend .items{display:block; margin-top:.25rem}
+  .legend > b::after{content:""}
+  .legend{cursor:default}
+}
+.legend .items div{display:flex; align-items:center; gap:.32rem; white-space:nowrap}
+.legend i{width:9px; height:9px; border-radius:50%; flex:none; display:block}
 .ctl{position:absolute; top:.5rem; right:.5rem; display:flex; flex-direction:column; gap:.3rem}
 .ctl button{
   width:34px; height:34px; border:1px solid var(--rule); background:var(--panel);
@@ -169,6 +216,7 @@ svg.map{display:block; width:100%; height:100%; touch-action:none}
   <button id="zout" title="縮小" aria-label="縮小">−</button>
   <button id="zrst" title="全体表示" aria-label="全体表示">⟲</button>
 </div>
+<div class="legend" id="legend"></div>
 <p class="hintbar" id="hint">点をタップすると、その地点の写真が出ます</p>
 <div class="card" id="card" hidden>
   <button class="x" id="cx" aria-label="閉じる">✕</button>
@@ -187,6 +235,26 @@ document.getElementById('cnt').textContent =
   D.n.toLocaleString() + '枚 / 植物あり ' + D.hit.toLocaleString() +
   '（' + (D.hit / D.n * 100).toFixed(0) + '%）';
 
+/* ---- 凡例 ---- */
+const LEG = document.getElementById('legend');
+LEG.innerHTML = '<b>よく写る植物</b><div class="items">' +
+  D.legend.map((t, i) =>
+    '<div><i class="lc' + i + '"></i>' + t + '</div>').join('') +
+  '<div><i class="lc12"></i>その他</div>' +
+  '<div><i class="lcm"></i>植物なし</div></div>';
+LEG.addEventListener('click', () => LEG.classList.toggle('open'));
+// 凡例の色見本は CSS の fill を使えないので、同じ色を背景に入れる
+{
+  const cs = getComputedStyle(document.documentElement);
+  const cols = ['#1f77b4','#ff7f0e','#2ca02c','#d62728','#9467bd','#8c564b',
+                '#e377c2','#17becf','#bcbd22','#7f7f7f','#aec7e8','#ffbb78','#c49a6c'];
+  cols.forEach((c, i) => LEG.querySelectorAll('.lc' + i)
+    .forEach(e => e.style.background = c));
+  LEG.querySelectorAll('.lcm').forEach(e => {
+    e.style.background = cs.getPropertyValue('--miss'); e.style.opacity = '.5';
+  });
+}
+
 const ptsG = document.getElementById('pts');
 const camG = document.getElementById('cam');
 const mapEl = document.getElementById('map');
@@ -203,7 +271,7 @@ D.pts.forEach((p, i) => {
   const c = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
   c.setAttribute('cx', p[0]); c.setAttribute('cy', p[1]);
   c.setAttribute('r', p[5].length ? 3.2 : 1.8);
-  c.setAttribute('class', 'pt ' + (p[5].length ? 'hit' : 'miss'));
+  c.setAttribute('class', 'pt ' + (p[6] < 0 ? 'miss' : 'c' + p[6]));
   c.dataset.i = i;
   frag.appendChild(c);
 });
@@ -211,6 +279,9 @@ ptsG.appendChild(frag);
 const nodes = [...ptsG.children];
 
 /* ---- カメラ ---- */
+// 拡大の上限。点は10,001個あって密集地では重なるので、
+// 街区レベルまで寄れないと個別にタップできない。
+const MAXK = 200;
 let cam = {k:1, x:0, y:0};
 function applyCam() {
   camG.setAttribute('transform',
@@ -219,12 +290,12 @@ function applyCam() {
   // 離れるので相対的に小さく見え、タップもしづらい。
   // k^0.72 で割ると、拡大につれて画面上では少しずつ大きくなる。
   const sh = Math.pow(cam.k, 0.45);
-  nodes.forEach(c => {
-    c.setAttribute('r', (c.classList.contains('hit') ? 3.2 : 1.8) / sh);
+  nodes.forEach((c, i) => {
+    c.setAttribute('r', (D.pts[i][6] < 0 ? 1.8 : 3.2) / sh);
   });
 }
 function zoomAt(f, cx, cy) {
-  const k2 = Math.min(24, Math.max(1, cam.k * f));
+  const k2 = Math.min(MAXK, Math.max(1, cam.k * f));
   const r = k2 / cam.k;
   cam.x = cx - (cx - cam.x) * r;
   cam.y = cy - (cy - cam.y) * r;
@@ -276,7 +347,7 @@ mapEl.addEventListener('pointermove', e => {
     const [a, b] = [...ptrs.values()];
     const d = Math.hypot(a.clientX-b.clientX, a.clientY-b.clientY);
     if (pinch.d < 1) return;
-    const k2 = Math.min(24, Math.max(1, pinch.k * (d / pinch.d)));
+    const k2 = Math.min(MAXK, Math.max(1, pinch.k * (d / pinch.d)));
     const m = pinch.mid, ratio = k2 / pinch.k;
     cam.k = k2;
     cam.x = m.x - (m.x - pinch.cx) * ratio;
@@ -312,21 +383,14 @@ document.getElementById('zout').onclick = () => zoomAt(1/1.5, 1000, 500);
 document.getElementById('zrst').onclick = () => { cam = {k:1,x:0,y:0}; applyCam(); };
 
 /* ---- タップ → 写真とタグ ----
-   サムネイルは15度四方のタイルに分けてある。全部で44MBあるので
-   一度には読めない。タップした点のタイルだけ取りに行く。 */
-const cache = {};
-let want = null;
+   写真は photos/<画像ID>.jpg に元画質のまま置いてある。
+   base64 をタイルにまとめる方式もやったが、1枚見るのに数MB
+   まとめて落とすことになり、キャッシュも効かなかった。
+   個別の JPEG なら必要な1枚だけで済む（平均100KB）。
 
-function tileKey(lat, lon) {
-  return Math.floor((lon + 180) / D.step) + '_' + Math.floor((lat + 90) / D.step);
-}
-function loadTile(key) {
-  if (cache[key]) return Promise.resolve(cache[key]);
-  return fetch('tiles/' + key + '.json')
-    .then(r => r.ok ? r.json() : null)
-    .then(j => { if (j) cache[key] = j; return j; })
-    .catch(() => null);
-}
+   「識別できる植物なし」の点には写真を置いていない
+   （全部入れると903MBになるため）。 */
+let want = null;
 
 function openCard(i) {
   const p = D.pts[i];
@@ -344,16 +408,27 @@ function openCard(i) {
     '</span><a href="' + gmap + '" target="_blank" rel="noopener">地図で開く</a></div>';
   const tail = '<div class="tags">' + chips + '</div>' + foot;
 
-  cbody.innerHTML = '<div class="ld">読み込み中…</div>' + tail;
+  cbody.innerHTML = (names.length ? '<div class="ld">読み込み中…</div>' : '') + tail;
   card.hidden = false;
 
-  loadTile(tileKey(lat, lon)).then(shots => {
+  if (!names.length) {
+    // 植物なしの点は写真を置いていない
+    cbody.innerHTML = tail;
+    return;
+  }
+  const im = new Image();
+  im.alt = 'この地点の車載写真';
+  im.onload = () => {
     if (want !== id) return;              // 別の点に移っていたら捨てる
-    const b64 = shots && shots[id];
-    cbody.innerHTML =
-      (b64 ? '<img src="data:image/jpeg;base64,' + b64 + '" alt="この地点の車載写真">'
-           : '<div class="ld">写真を用意できませんでした</div>') + tail;
-  });
+    cbody.innerHTML = '';
+    cbody.appendChild(im);
+    cbody.insertAdjacentHTML('beforeend', tail);
+  };
+  im.onerror = () => {
+    if (want !== id) return;
+    cbody.innerHTML = '<div class="ld">写真を読み込めませんでした</div>' + tail;
+  };
+  im.src = 'photos/' + id + '.jpg';
 }
 
 function closeCard() {
