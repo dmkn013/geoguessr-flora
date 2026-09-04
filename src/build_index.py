@@ -248,16 +248,16 @@ svg.map{display:block; width:100%; height:100%; touch-action:none}
 <script>
 const D = __DATA__;
 document.getElementById('cnt').textContent =
-  D.n.toLocaleString() + '枚 / 植物あり ' + D.hit.toLocaleString() +
+  D.n.toLocaleString() + '枚 / 属を特定できた ' + D.hit.toLocaleString() +
   '（' + (D.hit / D.n * 100).toFixed(0) + '%）';
 
 /* ---- 凡例 ---- */
 const LEG = document.getElementById('legend');
-LEG.innerHTML = '<b>よく写る植物</b><div class="items">' +
+LEG.innerHTML = '<b>特定できた植物</b><div class="items">' +
   D.legend.map((t, i) =>
     '<div><i class="lc' + i + '"></i>' + t + '</div>').join('') +
   '<div><i class="lc12"></i>その他</div>' +
-  '<div><i class="lcm"></i>植物なし</div></div>';
+  '<div><i class="lcm"></i>特定できず</div></div>';
 LEG.addEventListener('click', () => LEG.classList.toggle('open'));
 // 凡例の色見本は CSS の fill を使えないので、同じ色を背景に入れる
 {
@@ -508,7 +508,7 @@ function openCard(i) {
 
   const chips = names.length
     ? names.map(n => '<span class="chip">' + n + '</span>').join('')
-    : '<span class="chip none">識別できる植物なし</span>';
+    : '<span class="chip none">属を特定できる植物なし</span>';
   const gmap = 'https://www.google.com/maps/@' + lat + ',' + lon + ',14z/data=!5m1!1e4';
   const foot = '<div class="foot"><span>' + lat.toFixed(3) + ', ' + lon.toFixed(3) +
     '</span><a href="' + gmap + '" target="_blank" rel="noopener">地図で開く</a></div>';
