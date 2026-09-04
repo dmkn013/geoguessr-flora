@@ -168,14 +168,14 @@ body{margin:0;background:var(--bg);color:var(--ink);
   line-height:1.65}
 h1,h2,h3{font-family:Spectral,"Hiragino Mincho ProN",Georgia,serif;font-weight:600;margin:0}
 .mono{font-family:"IBM Plex Mono",ui-monospace,monospace;font-variant-numeric:tabular-nums}
-header{padding:1rem 1.2rem .8rem;border-bottom:1px solid var(--rule);background:var(--panel)}
-h1{font-size:1.25rem}
+header{padding:.55rem 1.2rem;border-bottom:1px solid var(--rule);background:var(--panel)}
+h1{font-size:1.05rem;margin:0}
 .sub{margin:.4rem 0 0;font-size:.85rem;color:var(--ink-soft);max-width:78ch}
 .sub strong{color:var(--ink)}
-.wrap{display:grid;grid-template-columns:1fr 340px;gap:0;height:calc(100vh - 118px)}
+.wrap{display:grid;grid-template-columns:1fr 340px;gap:0;height:calc(100vh - 52px)}
 @media(max-width:900px){.wrap{grid-template-columns:1fr;height:auto}}
 .mapwrap{position:relative;overflow:hidden;background:var(--ocean)}
-svg.map{display:block;width:100%;height:100%}
+svg.map{display:block;width:100%;height:100%;touch-action:none}
 .land{fill:var(--land);stroke:var(--edge);stroke-width:.6}
 .pt{opacity:.85;cursor:pointer}
 .pt.dim{opacity:.06}
@@ -241,10 +241,6 @@ svg.map{display:block;width:100%;height:100%}
 </style></head><body>
 <header>
 <h1>世界の道端の植物</h1>
-<p class="sub">Mapillary の車載写真を<strong>世界の陸地からランダムに</strong>引き、
-写っている植物にタグを付けた実測。48種を先に決めた地図とは違い、
-<strong>分布域を仮定していない</strong>。左の点は実際に写っていた地点。
-灰色の点は「識別できる植物が無かった」地点。</p>
 </header>
 <div class="wrap">
 <div class="mapwrap">
@@ -405,10 +401,14 @@ const mapEl = document.getElementById('map');
 function applyCam() {
   camG.setAttribute('transform',
     'translate(' + cam.x + ',' + cam.y + ') scale(' + cam.k + ')');
-  // 点は拡大しても同じ見た目の大きさに保つ
-  document.documentElement.style.setProperty('--r', 3.4 / cam.k);
-  [...ptsG.children].forEach(c => c.setAttribute('r', 3.4 / cam.k));
-  [...nptsG.children].forEach(c => c.setAttribute('r', 1.6 / cam.k));
+  // 拡大時の点の大きさ。
+  // 3.4/k だと画面上のピクセルは一定になるが、拡大するほど点どうしが
+  // 離れていくので相対的に小さく見え、タップもしづらい。
+  // k^0.75 で割ると、拡大するにつれて画面上では少しずつ大きくなる。
+  const shrink = Math.pow(cam.k, 0.75);
+  document.documentElement.style.setProperty('--r', 3.4 / shrink);
+  [...ptsG.children].forEach(c => c.setAttribute('r', 3.4 / shrink));
+  [...nptsG.children].forEach(c => c.setAttribute('r', 1.6 / shrink));
 }
 function zoomAt(f, cx, cy) {
   const k2 = Math.min(12, Math.max(1, cam.k * f));
@@ -426,19 +426,81 @@ mapEl.addEventListener('wheel', e => {
   const sy = (e.clientY - r.top) / r.height * 1000;
   zoomAt(e.deltaY < 0 ? 1.2 : 1 / 1.2, sx, sy);
 }, {passive:false});
-let drag = null;
+/* パンとピンチ。
+   ポインタを複数追う。1本ならドラッグ、2本なら
+   「指の間の距離」で拡大率、「2本の中点」で位置を決める。
+   ブラウザ側のピンチ（ページ全体の拡大）に取られないよう
+   touch-action:none を CSS で付けてある。 */
+const ptrs = new Map();
+let drag = null, pinch = null;
+
+function mapPoint(e) {              // 画面座標 → viewBox 座標
+  const r = mapEl.getBoundingClientRect();
+  return {x: (e.clientX - r.left) / r.width * 2000,
+          y: (e.clientY - r.top) / r.height * 1000};
+}
+
 mapEl.addEventListener('pointerdown', e => {
-  drag = {x:e.clientX, y:e.clientY, cx:cam.x, cy:cam.y};
-  mapEl.setPointerCapture(e.pointerId);
+  ptrs.set(e.pointerId, e);
+  // setPointerCapture は1本目だけにする。2本目もキャプチャすると
+  // 片方のイベントしか届かず、ピンチが検出できない（実際に scale が
+  // 動かなかった）。ドラッグ中に指が要素外へ出るのを防ぐ用途なので
+  // 1本目だけで足りる。
+  if (ptrs.size === 1) mapEl.setPointerCapture(e.pointerId);
+  if (ptrs.size === 1) {
+    drag = {x:e.clientX, y:e.clientY, cx:cam.x, cy:cam.y};
+  } else if (ptrs.size === 2) {
+    drag = null;                    // 2本目が来たらドラッグは中断
+    const [a, b] = [...ptrs.values()];
+    pinch = startPinch(a, b);
+  }
 });
+
+function startPinch(a, b) {
+  const d = Math.hypot(a.clientX - b.clientX, a.clientY - b.clientY);
+  const mid = mapPoint({clientX:(a.clientX+b.clientX)/2,
+                        clientY:(a.clientY+b.clientY)/2});
+  return {d, mid, k:cam.k, cx:cam.x, cy:cam.y};
+}
+
 mapEl.addEventListener('pointermove', e => {
+  if (!ptrs.has(e.pointerId)) return;
+  ptrs.set(e.pointerId, e);
+
+  if (ptrs.size >= 2 && pinch) {
+    const [a, b] = [...ptrs.values()];
+    const d = Math.hypot(a.clientX - b.clientX, a.clientY - b.clientY);
+    if (pinch.d < 1) return;
+    const k2 = Math.min(12, Math.max(1, pinch.k * (d / pinch.d)));
+    // 指の中点が地図上の同じ場所に留まるように平行移動を合わせる
+    const m = pinch.mid, ratio = k2 / pinch.k;
+    cam.k = k2;
+    cam.x = m.x - (m.x - pinch.cx) * ratio;
+    cam.y = m.y - (m.y - pinch.cy) * ratio;
+    if (cam.k === 1) { cam.x = 0; cam.y = 0; }
+    applyCam();
+    return;
+  }
+
   if (!drag) return;
   const r = mapEl.getBoundingClientRect();
   cam.x = drag.cx + (e.clientX - drag.x) / r.width * 2000;
   cam.y = drag.cy + (e.clientY - drag.y) / r.height * 1000;
   applyCam();
 });
-mapEl.addEventListener('pointerup', () => { drag = null; });
+
+function endPtr(e) {
+  ptrs.delete(e.pointerId);
+  if (ptrs.size < 2) pinch = null;
+  if (ptrs.size === 1) {
+    // 片方を離したら、残った指でドラッグを続けられるようにする
+    const [a] = [...ptrs.values()];
+    drag = {x:a.clientX, y:a.clientY, cx:cam.x, cy:cam.y};
+  }
+  if (ptrs.size === 0) drag = null;
+}
+mapEl.addEventListener('pointerup', endPtr);
+mapEl.addEventListener('pointercancel', endPtr);
 document.getElementById('zin').onclick = () => zoomAt(1.4, 1000, 500);
 document.getElementById('zout').onclick = () => zoomAt(1/1.4, 1000, 500);
 document.getElementById('zrst').onclick = () => { cam = {k:1,x:0,y:0}; applyCam(); };
