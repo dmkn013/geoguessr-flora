@@ -166,7 +166,23 @@ svg.map{display:block; width:100%; height:100%; touch-action:none}
 }
 @keyframes cardIn{from{transform:translateY(18px);opacity:0}to{transform:none;opacity:1}}
 @media (prefers-reduced-motion:reduce){ .card{animation:none} }
-.card img{width:100%; border-radius:6px; display:block; background:var(--panel-2)}
+.shotbox{
+  position:relative; overflow:hidden; border-radius:6px;
+  background:var(--panel-2); touch-action:none; cursor:grab;
+}
+.shotbox img{
+  width:100%; display:block; transform-origin:0 0;
+  will-change:transform; user-select:none; -webkit-user-drag:none;
+}
+.shotbox.zoomed{cursor:grab}
+.shotbox .zhint{
+  position:absolute; right:.3rem; bottom:.3rem; z-index:2;
+  background:color-mix(in srgb,var(--panel) 88%,transparent);
+  border-radius:4px; padding:.1rem .35rem; font-size:.66rem;
+  color:var(--ink-faint); font-family:"IBM Plex Mono",monospace;
+  pointer-events:none; transition:opacity .2s;
+}
+.shotbox.zoomed .zhint{opacity:0}
 .card .ld{height:150px; display:grid; place-items:center; border-radius:6px;
   background:var(--panel-2); color:var(--ink-faint); font-size:.8rem}
 .card .tags{display:flex; flex-wrap:wrap; gap:.3rem; margin:.5rem 0 0}
@@ -327,7 +343,7 @@ let drag = null, pinch = null, moved = 0;
 mapEl.addEventListener('pointerdown', e => {
   ptrs.set(e.pointerId, e);
   if (ptrs.size === 1) {
-    mapEl.setPointerCapture(e.pointerId);
+    try { mapEl.setPointerCapture(e.pointerId); } catch (_) {}
     drag = {x:e.clientX, y:e.clientY, cx:cam.x, cy:cam.y};
     moved = 0;
   } else if (ptrs.size === 2) {
@@ -392,6 +408,96 @@ document.getElementById('zrst').onclick = () => { cam = {k:1,x:0,y:0}; applyCam(
    できなかったのかを確かめられる。 */
 let want = null;
 
+/* 写真の拡大。
+   地図と同じく2本指のピンチと1本指のドラッグ。
+   拡大していないときのドラッグはカードの操作を邪魔しないよう素通しする。
+   等倍に戻すには縮小方向にピンチする。 */
+function enableZoom(box, im) {
+  let k = 1, tx = 0, ty = 0;
+  const ptrs = new Map();
+  let pinch = null, drag = null;
+
+  const apply = () => {
+    // 拡大時に画像が枠から離れないよう、移動量を内側に収める
+    const w = box.clientWidth, h = box.clientHeight;
+    const maxX = w * (k - 1), maxY = h * (k - 1);
+    tx = Math.min(0, Math.max(-maxX, tx));
+    ty = Math.min(0, Math.max(-maxY, ty));
+    im.style.transform =
+      'translate(' + tx + 'px,' + ty + 'px) scale(' + k + ')';
+    box.classList.toggle('zoomed', k > 1.02);
+  };
+  const zoomAtLocal = (f, cx, cy) => {
+    const k2 = Math.min(8, Math.max(1, k * f));
+    const r = k2 / k;
+    tx = cx - (cx - tx) * r;
+    ty = cy - (cy - ty) * r;
+    k = k2;
+    if (k <= 1.001) { k = 1; tx = 0; ty = 0; }
+    apply();
+  };
+  const local = (e) => {
+    const r = box.getBoundingClientRect();
+    return {x: e.clientX - r.left, y: e.clientY - r.top};
+  };
+
+  box.addEventListener('pointerdown', e => {
+    ptrs.set(e.pointerId, e);
+    if (ptrs.size === 1) {
+      // 失敗しても以降の処理を止めない（NotFoundError を投げることがある）
+      try { box.setPointerCapture(e.pointerId); } catch (_) {}
+      drag = k > 1 ? {...local(e), tx, ty} : null;
+    } else if (ptrs.size === 2) {
+      drag = null;
+      const [a, b] = [...ptrs.values()];
+      const la = local(a), lb = local(b);
+      pinch = {
+        d: Math.hypot(a.clientX-b.clientX, a.clientY-b.clientY),
+        cx: (la.x + lb.x) / 2, cy: (la.y + lb.y) / 2,
+        k, tx, ty
+      };
+    }
+  });
+  box.addEventListener('pointermove', e => {
+    if (!ptrs.has(e.pointerId)) return;
+    ptrs.set(e.pointerId, e);
+    if (ptrs.size >= 2 && pinch) {
+      const [a, b] = [...ptrs.values()];
+      const d = Math.hypot(a.clientX-b.clientX, a.clientY-b.clientY);
+      if (pinch.d < 1) return;
+      const k2 = Math.min(8, Math.max(1, pinch.k * (d / pinch.d)));
+      const r = k2 / pinch.k;
+      k = k2;
+      tx = pinch.cx - (pinch.cx - pinch.tx) * r;
+      ty = pinch.cy - (pinch.cy - pinch.ty) * r;
+      if (k <= 1.001) { k = 1; tx = 0; ty = 0; }
+      apply();
+      return;
+    }
+    if (!drag) return;
+    const p = local(e);
+    tx = drag.tx + (p.x - drag.x);
+    ty = drag.ty + (p.y - drag.y);
+    apply();
+  });
+  const end = e => {
+    ptrs.delete(e.pointerId);
+    if (ptrs.size < 2) pinch = null;
+    if (ptrs.size === 0) drag = null;
+    else if (ptrs.size === 1 && k > 1) {
+      const [a] = [...ptrs.values()];
+      drag = {...local(a), tx, ty};
+    }
+  };
+  box.addEventListener('pointerup', end);
+  box.addEventListener('pointercancel', end);
+  box.addEventListener('wheel', e => {
+    e.preventDefault();
+    const p = local(e);
+    zoomAtLocal(e.deltaY < 0 ? 1.25 : 1/1.25, p.x, p.y);
+  }, {passive:false});
+}
+
 function openCard(i) {
   const p = D.pts[i];
   const lat = p[2], lon = p[3], id = p[4], names = p[5];
@@ -416,8 +522,14 @@ function openCard(i) {
   im.onload = () => {
     if (want !== id) return;              // 別の点に移っていたら捨てる
     cbody.innerHTML = '';
-    cbody.appendChild(im);
+    const box = document.createElement('div');
+    box.className = 'shotbox';
+    box.appendChild(im);
+    box.insertAdjacentHTML('beforeend',
+      '<span class="zhint">2本指で拡大</span>');
+    cbody.appendChild(box);
     cbody.insertAdjacentHTML('beforeend', tail);
+    enableZoom(box, im);
   };
   im.onerror = () => {
     if (want !== id) return;
@@ -434,9 +546,33 @@ function closeCard() {
 }
 document.getElementById('cx').onclick = closeCard;
 
+/* タップ判定。
+   e.target に頼ると、点の描画サイズ（数px）に正確に触れないと反応せず、
+   かなり拡大しないと写真が出せなかった。
+   **タップ位置から一定範囲内で最も近い点**を探す。指の太さを考えて
+   半径は画面上 22px 相当（指のタップ領域はおよそこのくらい）。 */
+const HIT_PX = 22;
+
+function nearestPoint(clientX, clientY) {
+  const m = mapPoint(clientX, clientY);          // viewBox 座標
+  const r = mapEl.getBoundingClientRect();
+  const disp = Math.min(r.width / 2000, r.height / 1000) * cam.k;  // 1単位=何px
+  const lim = HIT_PX / disp;                     // viewBox 単位のしきい値
+  // カメラ変換を戻して、点の元座標での距離を測る
+  const px = (m.x - cam.x) / cam.k, py = (m.y - cam.y) / cam.k;
+  let best = -1, bestD = lim * lim;
+  for (let i = 0; i < D.pts.length; i++) {
+    const dx = D.pts[i][0] - px, dy = D.pts[i][1] - py;
+    const d = dx * dx + dy * dy;
+    if (d < bestD) { bestD = d; best = i; }
+  }
+  return best;
+}
+
 mapEl.addEventListener('click', e => {
   if (moved > 8) { moved = 0; return; }    // ドラッグの終わりをタップと誤認しない
-  if (e.target.classList.contains('pt')) openCard(+e.target.dataset.i);
+  const i = nearestPoint(e.clientX, e.clientY);
+  if (i >= 0) openCard(i);
   else closeCard();
 });
 
