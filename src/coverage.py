@@ -9,6 +9,9 @@ GeoGuessr の標準的な世界マップには出てこないので、
 そこで見える植物を覚えても無駄になる（ユーザー判断）。
 
 代表的な非カバー国:
+  タンザニア、カザフスタン、マリ、パキスタン、ジョージア
+    （Wikipedia は sparse/partial と書いているが、GeoGuessr の
+     世界マップには出ない。ユーザー指摘で除外した）
   中国本土、ミャンマー、北朝鮮、イラン、アフガニスタン、イラク、
   シリア、サウジアラビア、リビア、アルジェリア、モロッコ、
   スーダン、ソマリア、エチオピア、コンゴ民主共和国、アンゴラ、
@@ -35,7 +38,7 @@ COVERED = {
     "Bulgaria": "ブルガリア", "Croatia": "クロアチア",
     "Cyprus": "キプロス", "Czechia": "チェコ", "Denmark": "デンマーク",
     "Estonia": "エストニア", "Finland": "フィンランド",
-    "France": "フランス", "Georgia": "ジョージア", "Germany": "ドイツ",
+    "France": "フランス", "Germany": "ドイツ",
     "Greece": "ギリシャ", "Hungary": "ハンガリー",
     "Iceland": "アイスランド", "Ireland": "アイルランド",
     "Italy": "イタリア", "Kosovo": "コソボ", "Latvia": "ラトビア",
@@ -54,10 +57,10 @@ COVERED = {
     "Cambodia": "カンボジア", "India": "インド",
     "Indonesia": "インドネシア", "Israel": "イスラエル",
     "Japan": "日本", "Jordan": "ヨルダン",
-    "Kazakhstan": "カザフスタン", "Kyrgyzstan": "キルギス",
+    "Kyrgyzstan": "キルギス",
     "Laos": "ラオス", "Lebanon": "レバノン",
     "Malaysia": "マレーシア", "Mongolia": "モンゴル",
-    "Nepal": "ネパール", "Pakistan": "パキスタン",
+    "Nepal": "ネパール",
     "Palestine": "パレスチナ", "Philippines": "フィリピン",
     "Qatar": "カタール", "South Korea": "韓国",
     "Singapore": "シンガポール",
@@ -68,9 +71,9 @@ COVERED = {
     "Botswana": "ボツワナ", "Egypt": "エジプト",
     "eSwatini": "エスワティニ", "Ghana": "ガーナ", "Kenya": "ケニア",
     "Lesotho": "レソト", "Madagascar": "マダガスカル",
-    "Mali": "マリ", "Namibia": "ナミビア", "Nigeria": "ナイジェリア",
+    "Namibia": "ナミビア", "Nigeria": "ナイジェリア",
     "Rwanda": "ルワンダ", "Senegal": "セネガル",
-    "South Africa": "南アフリカ", "Tanzania": "タンザニア",
+    "South Africa": "南アフリカ",
     "Tunisia": "チュニジア", "Uganda": "ウガンダ",
     # --- 北米・中米 ---
     "Canada": "カナダ", "United States of America": "アメリカ",
