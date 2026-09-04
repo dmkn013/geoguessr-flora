@@ -21,10 +21,13 @@ data/random.log
 data/random_state.json
 data/tags.tmp
 
-# data/untagged/ は引き継ぎ用に**あえて同梱する**（145MB）。
-# タグ付けが終わったら消してよい。
-!data/untagged/
+# data/untagged/ は引き継ぎ用の画像（675MB）。
+# **main には入れない**。untagged ブランチに置いてある。
+# main の履歴に入れると .git が膨らんで戻せない
+# （前回それをやって履歴を書き換えて掃除した）。
+data/untagged/
 data/tags.tmp*
+data/export.log
 
 # dist/thumbs/ は追跡する（18MB）。tag_atlas.html が使う。
 
