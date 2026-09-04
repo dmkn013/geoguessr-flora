@@ -13,6 +13,13 @@ tag_sheet.py との違い:
 
 判別できなければ元のタグのままでよい。無理に落とすとデータが濁る。
 
+ユーカリ属は特殊:
+  種が700〜900あり、決め手（果実 gumnut、蕾の帽子 operculum）は
+  数cmなので車載写真ではまず写らない。
+  ただし**樹皮タイプ**は遠目に効き、種を跨ぐグループを示す。
+  「アイアンバーク」（黒く深く裂ける）「レモンユーカリ」（幹が白く
+  滑らかで細長い）は下位タグとして付けてよい（ユーザー判断）。
+
     python src/refine_sheet.py --w2 next
     python src/refine_sheet.py --w2 set 3 ヨーロッパアカマツ
     python src/refine_sheet.py --w2 keep 0 1 2     # 現状維持

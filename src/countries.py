@@ -4,9 +4,9 @@
 land.py は「陸か海か」だけだったが、
 GeoGuessr のカバー国で絞るには国単位の判定が要る。
 
-Natural Earth 110m の国境ポリゴン（data/countries110m.json）を使う。
-110m は粗いので国境付近の点は取り違えうるが、
-「どの国の点を残すか」という用途には十分。
+Natural Earth 50m の国境ポリゴン（data/countries50m.json）を使う。
+110m から上げたのは、マルタのような小国が省略されていたため。
+国境付近の点は取り違えうるが、「どの国の点を残すか」には十分。
 """
 import json
 import sys
@@ -16,7 +16,9 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from paths import DATA  # noqa: E402
 
-_SRC = DATA / "countries110m.json"
+# 110m だとマルタ・シンガポール・香港など小国が省略されていて
+# 点を打てない（実際にマルタが落ちた）。50m を使う。
+_SRC = DATA / "countries50m.json"
 _cache = None
 
 

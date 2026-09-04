@@ -20,7 +20,11 @@ GeoGuessr の標準的な世界マップには出てこないので、
   アルメニア、アゼルバイジャン、ウズベキスタン、トルクメニスタン、
   タジキスタン、ブルネイ、東ティモール
 
-キーは data/countries110m.json（Natural Earth 110m）の name。
+キーは data/countries50m.json（Natural Earth 50m）の name。
+110m だとマルタ・シンガポールが省略されていて点を打てなかった。
+
+香港・マカオはカバー国だが 50m にも独立ポリゴンが無いので
+扱えていない（中国本土の一部として落ちる）。
 """
 
 # Natural Earth の name → 日本語名
@@ -36,7 +40,8 @@ COVERED = {
     "Iceland": "アイスランド", "Ireland": "アイルランド",
     "Italy": "イタリア", "Kosovo": "コソボ", "Latvia": "ラトビア",
     "Lithuania": "リトアニア", "Luxembourg": "ルクセンブルク",
-    "Macedonia": "北マケドニア", "Montenegro": "モンテネグロ",
+    "Macedonia": "北マケドニア", "Malta": "マルタ",
+    "Montenegro": "モンテネグロ",
     "Netherlands": "オランダ", "Norway": "ノルウェー",
     "Poland": "ポーランド", "Portugal": "ポルトガル",
     "Romania": "ルーマニア", "Russia": "ロシア", "Serbia": "セルビア",
@@ -55,6 +60,7 @@ COVERED = {
     "Nepal": "ネパール", "Pakistan": "パキスタン",
     "Palestine": "パレスチナ", "Philippines": "フィリピン",
     "Qatar": "カタール", "South Korea": "韓国",
+    "Singapore": "シンガポール",
     "Sri Lanka": "スリランカ", "Taiwan": "台湾",
     "Thailand": "タイ", "United Arab Emirates": "アラブ首長国連邦",
     "Vietnam": "ベトナム",
