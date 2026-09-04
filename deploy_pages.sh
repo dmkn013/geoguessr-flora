@@ -10,6 +10,13 @@
 # 使い方:
 #   bash deploy_pages.sh
 #
+# 注意: dist/ の中身をそのまま送るので、**先に生成を済ませてから**
+#       実行すること（古い index.html を配信してしまった事故あり）。
+#
+# ローカルの .git に gh-pages を取り込まないよう、fetch 対象を main に
+# 限定してある（git remote set-branches origin main）。取り込むと
+# 892MB ぶん .git が膨らむ。
+#
 # 事前に生成しておくもの:
 #   python src/build_photos.py    # dist/photos/  (892MB)
 #   python src/build_index.py     # dist/index.html
@@ -41,4 +48,5 @@ echo "push 中（初回は892MBあるので数分かかります）..."
 git push -qf "$REPO" gh-pages
 
 echo "完了: https://dmkn013.github.io/geoguessr-flora/"
-echo "  Pages の設定を「gh-pages ブランチ / (root)」にしてください（初回のみ）"
+echo "  反映まで1分ほどかかります"
+
