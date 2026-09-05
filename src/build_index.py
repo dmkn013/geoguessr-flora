@@ -19,6 +19,18 @@ from build_tagmap import project  # noqa: E402
 from coverage import is_covered, ja  # noqa: E402
 from paths import DATA, DIST  # noqa: E402
 
+def _mostly_split(tag, parent_of, total, bare):
+    """その上位タグの点のうち、3割以上が下位まで落ちているか。
+
+    ヤシ科は287/546が下位付きなので「（属不明）」と補う価値がある。
+    マツ属は713枚中26枚しか下位が無く、補うとかえって不自然。
+    """
+    if tag not in set(parent_of.values()):
+        return False
+    n = total.get(tag, 0)
+    return n and (n - bare.get(tag, 0)) / n >= 0.3
+
+
 def main():
     tags = json.loads((DATA / "tags.json").read_text(encoding="utf-8"))
     idx = {x["img_id"]: x for x in
@@ -53,13 +65,48 @@ def main():
     # 点の色。出現数の多い12タグに固有色を割り当て、それ以外は「その他」。
     # 全部を色分けしても53色は見分けられないので、地図で意味を持つ
     # 上位だけに絞る。
-    top = [t for t, _ in c.most_common(12)]
+    # 下位分類を持つ上位タグは凡例から外す。
+    # 点は「より珍しいタグ」の色で塗るので、上位タグの色が
+    # 使われるのは下位が付いていない点だけ。凡例に両方出すと
+    # 「ヤシ科を細分化したのに凡例にヤシ科が残る」と紛らわしい。
+    PARENT_OF = {
+        "ココヤシ": "ヤシ科", "オウギヤシ属": "ヤシ科",
+        "アブラヤシ属": "ヤシ科", "ナツメヤシ属": "ヤシ科",
+        "アレカヤシ属": "ヤシ科", "ダイオウヤシ属": "ヤシ科",
+        "ビンロウジュ属": "ヤシ科", "ワシントンヤシ属": "ヤシ科",
+        "サトウヤシ属": "ヤシ科", "ロイヤルパーム属": "ヤシ科",
+        "シラカンバ": "カバノキ属",
+        "ヨーロッパアカマツ": "マツ属", "イタリアカサマツ": "マツ属",
+        "ブリストルコーンマツ": "マツ属",
+        "セイヨウハコヤナギ": "ポプラ属",
+        "イタリアイトスギ": "イトスギ属",
+        "レモンユーカリ": "ユーカリ属", "アイアンバーク": "ユーカリ属",
+        "ストリンギーバーク": "ユーカリ属",
+        "ヨーロッパトウヒ": "トウヒ属",
+        "バナナ": "バショウ属",
+    }
+    # 上位タグのうち、その点に下位が付いていない数だけを数え直す
+    bare = Counter()
+    for pt in pts:
+        names = set(pt[5])
+        lowers = {n for n in names if n in PARENT_OF}
+        parents_covered = {PARENT_OF[n] for n in lowers}
+        for n in names:
+            if n in parents_covered:
+                continue          # 下位が付いているので上位は数えない
+            bare[n] += 1
+    top = [t for t, _ in bare.most_common(12)]
     cidx = {t: i for i, t in enumerate(top)}
     for pt in pts:
         # 複数タグなら、より珍しい方（＝順位が下）を優先する。
         # ヤシ科とココヤシが両方付いた点は「ココヤシ」で塗る方が
         # 地図として情報量が多い。
-        ranks = [cidx.get(n, 99) for n in pt[5]]
+        # 下位が付いていれば上位は候補から外す
+        names = set(pt[5])
+        lowers = {n for n in names if n in PARENT_OF}
+        skip = {PARENT_OF[n] for n in lowers}
+        cand = [n for n in names if n not in skip] or list(names)
+        ranks = [cidx.get(n, 99) for n in cand]
         best = max(ranks)
         pt.append(best if best < 12 else 12)       # [7] 色番号。12 = その他
 
@@ -68,7 +115,12 @@ def main():
         "n": len(pts),
         "hit": sum(1 for p in pts if p[5]),
         "tags": c.most_common(),
-        "legend": top,
+        # 下位分類が**実際に多く付いている**上位タグだけ「（不明）」と補う。
+        # ヤシ科は半数近くが属まで落ちたので、凡例の「ヤシ科」は
+        # 「そこまでしか分からなかった点」を意味する。
+        # マツ属のように下位がほとんど無いものは補わない（不自然なので）。
+        "legend": [t + "（属不明）" if _mostly_split(t, PARENT_OF, c, bare)
+                   else t for t in top],
     }, ensure_ascii=False, separators=(",", ":"))
 
     # 陸地のパスは既存の地図から流用する（同じ投影・同じ viewBox）
