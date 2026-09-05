@@ -111,7 +111,7 @@ def img_path(it):
     return IMGDIR / it["file"]
 
 
-def untagged(w=""):
+def untagged(w="", rev=False):
     """未タグの一覧。
 
     並列時は他ワーカーが今まさに見ているシートを避ける
@@ -147,11 +147,13 @@ def untagged(w=""):
         for g in groups:
             if g:
                 spread.append(g.pop(0))
-    return spread
+    # rev なら末尾から配る。別の人が前から処理しているときに
+    # 同じ画像を二重に見ないための逃げ道。
+    return spread[::-1] if rev else spread
 
 
-def sheet(w=""):
-    items = untagged(w)
+def sheet(w="", rev=False):
+    items = untagged(w, rev)
     if not items:
         print("完了: 未タグの画像なし")
         return
@@ -267,15 +269,22 @@ def stats():
 def main():
     args = sys.argv[1:]
     w = ""
-    if args and args[0].startswith("--w"):
-        w = args[0][3:]
-        args = args[1:]
+    rev = False
+    while args and args[0].startswith("--"):
+        if args[0] == "--rev":
+            rev = True
+            args = args[1:]
+        elif args[0].startswith("--w"):
+            w = args[0][3:]
+            args = args[1:]
+        else:
+            break
     if not args:
         print(__doc__)
         return
     cmd = args[0]
     if cmd == "next":
-        sheet(w)
+        sheet(w, rev)
     elif cmd == "set" and len(args) > 1:
         setv(args[1], args[2:], w)
     elif cmd == "none" and len(args) > 1:
