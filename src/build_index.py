@@ -328,7 +328,7 @@ body:has(.card:not([hidden])) .hintbar{ opacity:0; pointer-events:none }
 </div>
 </div>
 <div class="more">
-  <a href="analysis.html">分析レポート</a>
+  <a href="analysis.html">分析レポート（初回1万枚）</a>
   <a href="tag_atlas.html">タグ別の分布</a>
   <a href="flora_atlas.html">48種の見分け方</a>
   <a href="https://github.com/dmkn013/geoguessr-flora">GitHub</a>
