@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "image_id": "827335924576025",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.15,
+        0.293,
+        0.181,
+        0.396
+      ],
+      "label": "左の明色幹高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "滑らかに見える明色幹が斜めに分かれ疎らな小型葉群を持つ"
+      ],
+      "limitations": "葉序・側脈・果実・花が読めず属種未確定",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Eucalyptus",
+        "Corymbia"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.225,
+        0.071,
+        0.458
+      ],
+      "label": "左端の木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細長い樹冠と小型の葉群"
+      ],
+      "limitations": "部分像で葉形・花果不足",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.049,
+        0.427,
+        0.4,
+        0.338
+      ],
+      "label": "左中景の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型の暗緑色樹冠と細い直幹が多数ある"
+      ],
+      "limitations": "葉序・樹皮細部・花果未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.842,
+        0.357,
+        0.158,
+        0.413
+      ],
+      "label": "右の明色幹木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い明色幹が分岐し灰緑色葉の疎らな樹冠を作る"
+      ],
+      "limitations": "花果・葉序・樹皮の剥離細部不足",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Eucalyptus",
+        "Corymbia"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.462,
+        0.521,
+        0.4,
+        0.266
+      ],
+      "label": "中央奥の低木木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い密な樹冠と疎らな細幹株が混在"
+      ],
+      "limitations": "遠景で葉構造・花果を分離できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0,
+        0.658,
+        0.429,
+        0.269
+      ],
+      "label": "左地表の草本小低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "褐色の細茎と小さな枯色株が岩間にある"
+      ],
+      "limitations": "葉鞘・花果・葉付着不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.669,
+        0.758,
+        0.331,
+        0.192
+      ],
+      "label": "右地表の草本小低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "疎らな細茎と小型の枯色株"
+      ],
+      "limitations": "反射と画素不足で葉・花果不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "3448040fd0f0bd81cf1dc91ce5baa649e641eb4bfa736b020374d02a24d487d5",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-27T10:42:43.575866+00:00"
+}

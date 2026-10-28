@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "image_id": "543079613596104",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "全景と左手前のヤシを拡大。剪定された葉冠と幹は見えるが、景観の地域性を使わず属は暫定候補にとどめる。 元画像全景の矩形重ね合わせを目視確認済み。細部が写らない対象は理由付きで保留し、候補は確定タグから除外した。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.082,
+        0.339,
+        0.069,
+        0.194
+      ],
+      "scope": "individual",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "幹に粗い葉痕が見える",
+        "剪定された羽状葉状の葉冠が立つ"
+      ],
+      "limitations": "葉柄基部の刺と葉の付き方が不鮮明でナツメヤシ属等の区別は未確定",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "ナツメヤシ属",
+        "他の羽状葉ヤシ"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.376,
+        0.41,
+        0.092,
+        0.082
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "遠景のヤシ群",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "幹頂に放射状の葉冠が並ぶ"
+      ],
+      "limitations": "小さくて葉形・幹・果実の構造が分からない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "44671e67c928f2d36c216472d3f232b594b2c0e308d9868dff79606daea236a7",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T10:20:08.526720+00:00"
+}

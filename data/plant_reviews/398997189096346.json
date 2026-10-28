@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "image_id": "398997189096346",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.028,
+        0,
+        0.463,
+        0.725
+      ],
+      "label": "左の広葉高木列",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "太い幹が上部で分岐し広葉の密な樹冠を作る"
+      ],
+      "limitations": "動体ぼけで葉形・葉序・花果が読めず幹形のみで同定しない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Tilia",
+        "Acer"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.506,
+        0,
+        0.433,
+        0.682
+      ],
+      "label": "右の広葉高木列",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "太い分枝幹と密な小型広葉群がある"
+      ],
+      "limitations": "ぼけで葉縁・葉序・花果が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Tilia",
+        "Acer"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.387,
+        0.306,
+        0.19
+      ],
+      "label": "左奥の針葉状高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直立幹が並び先に細葉状房の樹冠がある"
+      ],
+      "limitations": "遠景で針葉と球果が識別できない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.642,
+        0.363,
+        0.358,
+        0.174
+      ],
+      "label": "右奥の針葉状高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "直立幹上部に小型の房状樹冠がある"
+      ],
+      "limitations": "針葉付着と球果が遠く不明",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.561,
+        0.316,
+        0.271
+      ],
+      "label": "左地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い緑色細葉状被覆が連続する"
+      ],
+      "limitations": "花序・葉鞘が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.65,
+        0.586,
+        0.35,
+        0.342
+      ],
+      "label": "右地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色葉群と褐色細茎がある"
+      ],
+      "limitations": "葉鞘・花序が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "c98f056ac2a4734b72be53dc98ecd5b06296a0ae2a2fe76e88366aa2c70cccad",
+  "source_size": [
+    1023,
+    575
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-27T07:41:03.219578+00:00"
+}

@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "image_id": "369544594484590",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景を手前・奥・左右端まで確認。必要部分を元画素から拡大。植物の形態だけを根拠にし、画像の座標・国・文字・道路や既存タグは同定根拠にしない。識別できない対象にも見えた特徴と限界を記録。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.481,
+        0.498,
+        0.25
+      ],
+      "label": "左の低木状樹木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い幹から分枝した灰緑色の丸い樹冠が並ぶ"
+      ],
+      "limitations": "オリーブ類に似るが画像全体がぼけ、対生葉・葉裏・果実を確認できない。植栽の配置で同定しない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Olea"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.543,
+        0.453,
+        0.457,
+        0.283
+      ],
+      "label": "右の低木状樹木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "太めの低い幹と灰緑色の小葉群からなる樹冠"
+      ],
+      "limitations": "葉序・果実と樹皮の細部が不明で属を確定しない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Olea"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.555,
+        0.698,
+        0.445,
+        0.255
+      ],
+      "label": "右路肩の下草",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "地面を覆う低い緑の草本が点在"
+      ],
+      "limitations": "葉と花・穂が不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.709,
+        0.27,
+        0.103
+      ],
+      "label": "左路肩の下草",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い緑の草本が細い帯状に生える"
+      ],
+      "limitations": "葉や花が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "2865577e2654c00a2d1418c80424ae569a12b5a1573ddd1b7e410a810cca3db3",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T14:21:06.076539+00:00"
+}

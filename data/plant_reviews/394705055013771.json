@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "image_id": "394705055013771",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        0.526,
+        0.394
+      ],
+      "label": "左斜面上の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い分枝に小型緑色広葉群が密集する"
+      ],
+      "limitations": "葉序・葉縁・花果と個体境界が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.576,
+        0,
+        0.424,
+        0.587
+      ],
+      "label": "右の広葉高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "複数の直立幹と分枝に丸い密な広葉樹冠がある"
+      ],
+      "limitations": "葉形・葉序・花果が遠く不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.034,
+        0.366,
+        0.207,
+        0.401
+      ],
+      "label": "左壁面のシダ状植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長い葉軸の両側に多数の細い羽片状部分が並び壁面から垂れる"
+      ],
+      "limitations": "胞子嚢群・葉柄鱗片・羽片基部が未解像で科属は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.322,
+        0.72,
+        0.139,
+        0.068
+      ],
+      "label": "左手前の大型広葉草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "地表近くに大きく丸い葉身が広がる"
+      ],
+      "limitations": "葉脈・葉柄挿入・花果が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.142,
+        0.337,
+        0.423,
+        0.379
+      ],
+      "label": "左中景の広葉若木・低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹と明緑色の小型葉群が斜面に重なる"
+      ],
+      "limitations": "葉序・花果と個体境界が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.459,
+        0.274,
+        0.154,
+        0.333
+      ],
+      "label": "中央奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な小型緑色樹冠が見える"
+      ],
+      "limitations": "遠景で葉と花果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0,
+        0.598,
+        0.537,
+        0.189
+      ],
+      "label": "左地表の低木・草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色葉群と細い茎がある"
+      ],
+      "limitations": "葉序・葉鞘・花序と個体境界が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "a01d9882cd545e953615cbcec9f3e8455f19ba8bea60a11a76584ed2767c4380",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-27T09:45:08.423487+00:00"
+}

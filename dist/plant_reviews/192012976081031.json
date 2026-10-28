@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "image_id": "192012976081031",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景を確認。薄暗い右の高木と左の針葉状樹冠を分けた。植林の並びだけでユーカリ等を確定しない。 元画像全景の矩形重ね合わせを目視確認済み。判別不能な細部は理由付きで保留し、候補を確定扱いしない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.427,
+        0,
+        0.573,
+        0.623
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "右側の広葉高木群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "多数の細長い直立幹と高い位置の樹冠"
+      ],
+      "limitations": "暗さ・ブレで葉序や花果が見えず属は確定できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.448,
+        0.323,
+        0.219
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "左側の針葉樹候補群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い尖った樹冠が連続する"
+      ],
+      "limitations": "ブレで針葉と細葉広葉樹を確実に分けられない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.545,
+        0.428,
+        0.455,
+        0.263
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "右側の下層低木・草本群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "斜面に密な緑葉がある"
+      ],
+      "limitations": "暗さで葉・穂・花の診断形質が見えない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "9cd93247c64b227cf6e32472139843dfc2f7887b3e3b62441df868836cede7f8",
+  "source_size": [
+    1023,
+    765
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T11:23:15.359378+00:00"
+}

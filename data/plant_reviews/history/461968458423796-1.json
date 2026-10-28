@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "image_id": "461968458423796",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        0.392,
+        0.467
+      ],
+      "label": "左の細葉広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹と多数の分枝に小型葉群がある"
+      ],
+      "limitations": "複葉軸・小葉配列・花果が不鮮明で科属は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Fabaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.288,
+        0.134,
+        0.161
+      ],
+      "label": "左の大型葉植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "バショウ科",
+        "scientific_name": "Musaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "太い中肋を持つ長楕円形の葉身が斜上し側脈沿いに裂ける"
+      ],
+      "limitations": "偽茎基部と花序・果房が隠れ属種は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Musa",
+        "Ensete"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.648,
+        0.214,
+        0.098,
+        0.095
+      ],
+      "label": "中央右の桃色花状部を持つ木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い枝先に桃色の紙質苞状部が多数集まる"
+      ],
+      "limitations": "花筒・苞の構造・葉序が未解像で属種は候補",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Bougainvillea"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.324,
+        0.243,
+        0.324,
+        0.159
+      ],
+      "label": "奥の広葉低木・高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い密な黄緑色葉群が重なる"
+      ],
+      "limitations": "個葉・花果・個体境界が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.711,
+        0.33,
+        0.289,
+        0.433
+      ],
+      "label": "右手前の刈込状低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型楕円形状の葉が密集して壁状に茂る"
+      ],
+      "limitations": "葉序・葉縁・花果が不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.802,
+        0,
+        0.198,
+        0.409
+      ],
+      "label": "右上の直立幹木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "輪模様のある太い幹と上端の緑色広葉群が見える"
+      ],
+      "limitations": "幹に対応する葉冠が画面外・重なりで不明",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Arecaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0,
+        0.488,
+        0.155,
+        0.265
+      ],
+      "label": "左路肩の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い緑色葉群が地表を覆う"
+      ],
+      "limitations": "葉鞘・花序が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "620c1590e29d27424151be67faf04826cc0c694edd01099691a15d9380bd0fe4",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-27T06:41:56.135121+00:00"
+}

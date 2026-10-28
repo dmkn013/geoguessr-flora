@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "image_id": "387691815805199",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景を実視認。必要部位は元画素から切り出して拡大。植物形態だけを根拠にし、座標・国・文字・道路・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        0.35,
+        0.65
+      ],
+      "label": "左の広葉樹・低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "広い楕円葉と細い葉群が重なり、複数の枝が伸びる"
+      ],
+      "limitations": "複数植物が重なり葉序・花果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.83,
+        0.18,
+        0.17,
+        0.28
+      ],
+      "label": "右上端のヤシ葉",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "長い葉軸に多数の線形小葉が羽状に付く"
+      ],
+      "limitations": "葉の一部のみ。幹・葉柄・花果が画面外で属以下は不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.7,
+        0.48,
+        0.3,
+        0.28
+      ],
+      "label": "右壁沿いの低木・蔓群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型の広葉が密生し細い茎が壁沿いに伸びる"
+      ],
+      "limitations": "葉序・花序・果実が読めず、混在する植物を個別分類できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.45,
+        0.21,
+        0.19,
+        0.35
+      ],
+      "label": "右奥の高木・若木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹の上部に広葉状の葉群がある"
+      ],
+      "limitations": "葉縁・葉序・花果が不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.07,
+        0.52,
+        0.32,
+        0.15
+      ],
+      "label": "左地面の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い細葉草本と広葉草本が混在する"
+      ],
+      "limitations": "葉序・花序・果実が読めず、混在する植物を個別分類できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "6d29dcc0f44b8afccfc84284ec637dcc89739958bedd9884920178fa67050e91",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T18:48:29.733234+00:00"
+}

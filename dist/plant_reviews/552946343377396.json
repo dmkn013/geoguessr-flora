@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "image_id": "552946343377396",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.52,
+        0,
+        0.256,
+        0.699
+      ],
+      "label": "右の明色幹裸枝高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "カバノキ属",
+        "scientific_name": "Betula",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "白い細幹に明瞭な暗い横斑があり細枝が下垂する"
+      ],
+      "limitations": "葉・芽・果序が不足しカバノキ属は暫定、種以下は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Betula"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.157,
+        0.443,
+        0.56
+      ],
+      "label": "左の針葉状高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "横枝先に細葉状房がまとまり不規則な樹冠を作る"
+      ],
+      "limitations": "針葉付着と球果が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.697,
+        0,
+        0.303,
+        0.675
+      ],
+      "label": "右の針葉状高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な細葉状葉群と直立幹がある"
+      ],
+      "limitations": "動体ぼけで葉付着・球果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus",
+        "Picea"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.338,
+        0.454,
+        0.401
+      ],
+      "label": "左下層の裸枝・低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "多数の細い分枝と少量の小葉群がある"
+      ],
+      "limitations": "葉序・芽・花果と個体境界が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.524,
+        0.455,
+        0.476,
+        0.274
+      ],
+      "label": "右下層の裸枝低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直立幹と裸枝が密集する"
+      ],
+      "limitations": "葉・芽・花果が不足",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0,
+        0.679,
+        0.4,
+        0.142
+      ],
+      "label": "左地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色から褐色の葉状被覆が連続する"
+      ],
+      "limitations": "葉鞘・花序が不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.551,
+        0.67,
+        0.449,
+        0.167
+      ],
+      "label": "右地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い緑色葉群と褐色茎がある"
+      ],
+      "limitations": "葉鞘・花序が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "240384e1d7d6956e077d070e948563f081cd3539483f61868d6c33ccd8a307ae",
+  "source_size": [
+    1024,
+    1024
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-27T06:43:17.633589+00:00"
+}

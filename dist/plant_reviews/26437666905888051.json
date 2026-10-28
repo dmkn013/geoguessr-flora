@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "image_id": "26437666905888051",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景を確認。撮影情報の座標は参照せず、左右の多幹の樹木と下層を分離。 元画像全景の矩形重ね合わせを目視確認済み。判別不能な細部は理由付きで保留し、候補を確定扱いしない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.28,
+        0.477,
+        0.499
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "左側のユーカリ類候補",
+        "scientific_name": "",
+        "rank": "species_group"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "明るい曲がった幹が複数立つ",
+        "枝先に細長い葉状の樹冠がまとまる"
+      ],
+      "limitations": "花蕾・果実・葉脈が解像せずEucalyptus/Corymbia等の属を確定できない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "ユーカリ属",
+        "コリンビア属"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.531,
+        0.453,
+        0.469,
+        0.408
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "右側のユーカリ類候補",
+        "scientific_name": "",
+        "rank": "species_group"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "低い位置で分枝する明るい幹",
+        "疎な葉群が枝先に集まる"
+      ],
+      "limitations": "葉の付き方と花蕾・果実が見えず種・属は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "ユーカリ属",
+        "コリンビア属"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.005,
+        0.679,
+        0.367,
+        0.171
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "左の下層低木・草本",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い茎葉と小低木が点在する"
+      ],
+      "limitations": "葉・花・穂の構造が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "658fd18e33f7c284f8b0f666cbee87bca066b4be2e1da63116204a92ed3d7969",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T11:23:15.160249+00:00"
+}

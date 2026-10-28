@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "image_id": "318265189733892",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.163,
+        0.132,
+        0.398
+      ],
+      "label": "左端の羽状葉ヤシ",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "長い葉軸に多数の線形小葉が並び弓状に広がる"
+      ],
+      "limitations": "幹と葉柄基部・果房が隠れ属種は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Phoenix"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.087,
+        0.164,
+        0.309,
+        0.362
+      ],
+      "label": "左中景の広葉高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "複数の細幹に垂れた細長い灰緑色葉群がある"
+      ],
+      "limitations": "葉序・花果・樹皮細部が不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Eucalyptus",
+        "Corymbia"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.616,
+        0.267,
+        0.174,
+        0.184
+      ],
+      "label": "右奥の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い密な緑色樹冠がある"
+      ],
+      "limitations": "葉序・葉縁・花果が遠く不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.509,
+        0.426,
+        0.197
+      ],
+      "label": "左路肩の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色の広葉と細い茎が地表に広がる"
+      ],
+      "limitations": "葉序・花序が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.37,
+        0.352,
+        0.154,
+        0.106
+      ],
+      "label": "中央左奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型緑色樹冠が連続する"
+      ],
+      "limitations": "極小で個葉と花果が識別できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "69e9cff4bae2c94e3c09893ad9e0b767f69cf3a08543a4c659d5f0a2c67c544a",
+  "source_size": [
+    800,
+    480
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-27T08:50:27.955150+00:00"
+}

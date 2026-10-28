@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "image_id": "1858217047666970",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "全景確認。大部分が遠景またはピンぼけで、針葉樹林という景観からスギ属などを決めない。手前の広葉樹と河岸の低木を別に記録。 元画像全景の矩形重ね合わせを目視確認済み。細部が写らない対象は理由付きで保留し、候補は確定タグから除外した。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.307,
+        0.106,
+        0.693,
+        0.568
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "右斜面の針葉樹群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な暗緑の細い尖った樹冠が連続する"
+      ],
+      "limitations": "針葉・鱗片葉と球果が解像せず属は特定できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.643,
+        0.513,
+        0.357,
+        0.238
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "右手前の広葉樹群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "明るい丸い樹冠と幹が見える"
+      ],
+      "limitations": "ピンぼけで葉と樹皮の構造が分からない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.514,
+        0.369,
+        0.212
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "左斜面の樹木群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "暗い針葉状の樹冠が密に重なる"
+      ],
+      "limitations": "遠景・日陰で葉の付き方が見えない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.74,
+        0.437,
+        0.184
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "左下の河岸低木群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "緑葉の小さな樹冠が河岸に連なる"
+      ],
+      "limitations": "葉・花果の細部が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "69d75a56bc47b37a99b097d794b739bac72d37cb3352bd4e508a1011923c4bf3",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T10:20:08.573262+00:00"
+}

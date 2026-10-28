@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "image_id": "1403104747848737",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景を実視認。必要部位は元画素を拡大。植物形態だけを根拠にし、座標・国・文字・道路・地理分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.362,
+        0.189,
+        0.207,
+        0.453
+      ],
+      "label": "左中央の細葉状木・低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い茎に小型の羽状葉状部分と黄褐色の房状部分がある"
+      ],
+      "limitations": "複葉軸・葉序・花果の構造が読めず属科保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Fabaceae",
+        "Senna"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.434,
+        0.061,
+        0.071,
+        0.184
+      ],
+      "label": "中央上の羽状葉ヤシ",
+      "scope": "individual",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "幹頂部に線形小葉が並ぶ長い羽状葉が放射する"
+      ],
+      "limitations": "花果・葉柄基部が遠く不鮮明で属以下保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.721,
+        0,
+        0.279,
+        0.82
+      ],
+      "label": "右端の広葉木・蔓群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "幅広い葉が細い分岐幹と蔓状茎に付く"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が読めず個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.755,
+        0.655,
+        0.152,
+        0.149
+      ],
+      "label": "右地際の扁平茎サボテン群",
+      "scope": "group",
+      "taxon": {
+        "name": "サボテン科",
+        "scientific_name": "Cactaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "扁平な楕円形の緑色茎節がつながり立ち上がる"
+      ],
+      "limitations": "サボテン科まで確認。刺座・刺と花果が小さくOpuntia等の属種は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Opuntia"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.576,
+        0.284,
+        0.186,
+        0.248
+      ],
+      "label": "右奥の高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細幹から水平に近い枝と疎らな小型葉群がある"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が読めず個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.643,
+        0.578,
+        0.112,
+        0.067
+      ],
+      "label": "右奥地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い草葉と小型広葉株が点在する"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が読めず個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "8400ee9fc5b083edde8050479fa64dc3efb55b9eac2bb277e9ddba74dfe75eb3",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-27T00:40:20.195126+00:00"
+}

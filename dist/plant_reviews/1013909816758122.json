@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "image_id": "1013909816758122",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.155,
+        0.44,
+        0.307,
+        0.264
+      ],
+      "label": "左斜面の密な低木状植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "斜面を密な丸い濃緑色の葉群が低く覆う"
+      ],
+      "limitations": "個葉・葉付着・球果・花果が遠く不明で低い樹形だけで同定しない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus",
+        "Rhododendron"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.407,
+        0.166,
+        0.256
+      ],
+      "label": "左端の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "分枝する幹と小型広葉の緑色樹冠がある"
+      ],
+      "limitations": "葉序・葉縁・花果が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.509,
+        0.154,
+        0.491,
+        0.538
+      ],
+      "label": "右斜面の地表植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色葉群が岩の間に帯状・斑状に広がる"
+      ],
+      "limitations": "個体と草本木本の境界・花果が判読できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.647,
+        0.397,
+        0.232
+      ],
+      "label": "左手前の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い緑色の細葉と低い広葉群が連続する"
+      ],
+      "limitations": "葉鞘・花序と個体境界が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.572,
+        0.731,
+        0.428,
+        0.239
+      ],
+      "label": "右手前の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い緑色葉群が岩と道路際に散在する"
+      ],
+      "limitations": "花序・葉鞘・葉序が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.514,
+        0.682,
+        0.368,
+        0.082
+      ],
+      "label": "中央中景の地表植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "岩の間に短い緑色被覆がある"
+      ],
+      "limitations": "距離で個葉と花序が識別できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "f703e7e7c6382dd5510d553e423993255fb4e44f9b17f1bc4effe3b5b28832be",
+  "source_size": [
+    1024,
+    767
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-27T08:43:00.511739+00:00"
+}

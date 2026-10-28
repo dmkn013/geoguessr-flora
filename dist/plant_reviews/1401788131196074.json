@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "image_id": "1401788131196074",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景を実視認。必要部位は元画素から拡大。植物形態だけを根拠にし、座標・国・文字・道路・地理分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.158,
+        0,
+        0.305,
+        0.533
+      ],
+      "label": "中央左の広葉高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "横に広がる枝先に小型の広葉が密に付く"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が不鮮明で個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.606,
+        0.115,
+        0.278,
+        0.451
+      ],
+      "label": "右の広葉高木",
+      "scope": "individual",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "幅広い細長い葉が枝先に密集して丸い樹冠を作る"
+      ],
+      "limitations": "葉序・葉脈・花果が不鮮明で属種は候補まで",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Mangifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.432,
+        0.071,
+        0.129,
+        0.207
+      ],
+      "label": "中央奥のヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "細い単幹頂部に線形小葉の羽状葉が放射する"
+      ],
+      "limitations": "果実・葉柄基部が遠く不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0,
+        0.133,
+        0.439
+      ],
+      "label": "左端の広葉樹冠",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細長い広葉が画面端に密集する"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が不鮮明で個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.442,
+        0.647,
+        0.182,
+        0.104
+      ],
+      "label": "手前中央の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い緑色の細葉が地面を覆う"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が不鮮明で個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.875,
+        0.104,
+        0.125,
+        0.479
+      ],
+      "label": "右端の暗い広葉樹冠",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "画面端の暗部に広葉状の密な樹冠がある"
+      ],
+      "limitations": "影と画面端の遮蔽で葉序・花果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "b27a39ad518243065484ac80636b34ac1ebc0c8b10976f69d02f85c862365c88",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T22:38:27.053067+00:00"
+}

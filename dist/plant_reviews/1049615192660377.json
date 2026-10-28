@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "image_id": "1049615192660377",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・背景・手前を実視認。必要な部位は元画素を切り出して拡大。座標・国・文字・道路・地理分布・旧タグを根拠にしない。読めない診断形質を明記して保留。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.602,
+        0.382,
+        0.296,
+        0.331
+      ],
+      "label": "右上の羽状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "葉軸の両側に多数の線形小葉が並び、葉が放射する"
+      ],
+      "limitations": "葉柄基部・幹・花果が茂みで隠れ、属以下を分けられない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Roystonea",
+        "Archontophoenix"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.422,
+        0.563,
+        0.251,
+        0.302
+      ],
+      "label": "右中央の低木・蔓群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な小型広葉が幹や枝に重なる"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が判別できず、混在する植物の個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.808,
+        0.5,
+        0.192,
+        0.336
+      ],
+      "label": "右端の広葉木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い枝の先に広い小型葉群がある"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が判別できず、混在する植物の個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.381,
+        0.817,
+        0.619,
+        0.183
+      ],
+      "label": "右手前の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長い細茎と細葉が密生し一部が乾燥する"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が判別できず、混在する植物の個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.687,
+        0.21,
+        0.195
+      ],
+      "label": "左の低木・小高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い広葉樹冠と赤桃色の花状部分を持つ低木が重なる",
+        "広葉群の奥に羽状葉状の部分も見えるが幹と葉の全体が隠れる"
+      ],
+      "limitations": "花冠・葉序・刺が不鮮明で花色だけでは判定しない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Bougainvillea",
+        "Arecaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.254,
+        0.704,
+        0.173,
+        0.131
+      ],
+      "label": "中央奥の広葉高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "横に広がる樹冠に細かい葉群が密生する"
+      ],
+      "limitations": "複葉の構造・葉序・花果が読めず科も保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Fabaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "538687a56d982e8ceb607d458bde05d9e1cd51788f89a0ad21cbac5348ea4694",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T19:31:59.641365+00:00"
+}

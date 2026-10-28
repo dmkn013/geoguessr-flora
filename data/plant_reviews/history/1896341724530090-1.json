@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "image_id": "1896341724530090",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端と背景・手前を実視認。必要部位は元画素から拡大。座標・国・文字・道路・地理分布・旧タグを根拠にしない。判別不能の形質を明記して保留。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.872,
+        0.312,
+        0.128,
+        0.443
+      ],
+      "label": "右端の針葉状高木",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "枝先に細長い葉が房状に集まる"
+      ],
+      "limitations": "元画素拡大でも針葉束の基部・本数と球果が読めず属確定は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.567,
+        0.455,
+        0.386,
+        0.319
+      ],
+      "label": "右奥の高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "明色の直幹と上部の丸い細葉状樹冠がある"
+      ],
+      "limitations": "個々の葉序・花果の細部が読めず、混在する植物の分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.334,
+        0.242,
+        0.451
+      ],
+      "label": "左斜面の混交樹冠群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い広葉状樹冠と尖った細葉状樹冠が重なる"
+      ],
+      "limitations": "個々の葉序・花果の細部が読めず、混在する植物の分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.229,
+        0.617,
+        0.303,
+        0.18
+      ],
+      "label": "中央左の低木・小高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な丸い葉群と細長い直立茎の株がある"
+      ],
+      "limitations": "個々の葉序・花果の細部が読めず、混在する植物の分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.581,
+        0.728,
+        0.419,
+        0.115
+      ],
+      "label": "右地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い草葉と細い乾燥茎がある"
+      ],
+      "limitations": "個々の葉序・花果の細部が読めず、混在する植物の分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "dfc13df2568b2f8e0b34cddfd2d5b1c0154de2517c45d5987bd01d418fdb8362",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T19:28:47.369412+00:00"
+}

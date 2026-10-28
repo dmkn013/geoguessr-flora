@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "image_id": "132587148819940",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "全景と右側の幹・葉を拡大。植林状の並びや白っぽい幹だけでユーカリ等を確定しない。左の細い葉の密生群も別に確認。撮影情報は同定に使わない。 矩形重ね合わせを全景で目視確認済み。候補は確定タグに入れず、画像にない特徴は推測しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.424,
+        0,
+        0.576,
+        0.851
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "右側の広葉樹群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直立幹が並ぶ",
+        "疎な樹冠と楕円状に見える葉が一部残る"
+      ],
+      "limitations": "葉序・複葉構造・花果の詳細が不鮮明。列植や幹色だけで分類群を確定できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0,
+        0.403,
+        0.813
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "左側の細葉の密生群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直立茎と細長い葉が密に重なる"
+      ],
+      "limitations": "竹類候補だが節・稈鞘・分枝が分からず亜科を確定できない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "タケ亜科",
+        "他の細葉の木本/草本"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "98cb32aa0404e699953511020fefacf9e24b83afb97b6eebf56fbf2ee07c337d",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T11:21:12.079907+00:00"
+}

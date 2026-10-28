@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "image_id": "251529770728463",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・背景・手前を実視認。必要箇所は元画素から拡大。植物形態だけを根拠にし、座標・国・文字・道路・地理分布・旧タグは用いない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.444,
+        0,
+        0.556,
+        0.582
+      ],
+      "label": "右上の裂葉を持つ広葉高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "コナラ属",
+        "scientific_name": "Quercus",
+        "rank": "genus"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "葉の両側に丸い裂片が複数あり、単葉が枝に互生状に付く"
+      ],
+      "limitations": "コナラ属まで確認。葉柄長・葉基部と果柄/堅果が不鮮明でQ.robur/petraea等と種以下を分けない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Quercus robur",
+        "Quercus petraea"
+      ],
+      "morphology": [],
+      "sources": [
+        {
+          "url": "https://www.kew.org/plants/oak-tree",
+          "supports": "丸い羽状裂片の葉を照合。葉柄・葉基部・果実の不足により種は保留"
+        }
+      ],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.198,
+        0.017,
+        0.231,
+        0.652
+      ],
+      "label": "左中央の白い幹の広葉木群",
+      "scope": "group",
+      "taxon": {
+        "name": "カバノキ属",
+        "scientific_name": "Betula",
+        "rank": "genus"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "白い幹に暗色の横斑状部分があり、細枝に小さな先の尖った葉が付く"
+      ],
+      "limitations": "カバノキ属まで確認。芽・鋸歯と果穂が読めず種以下は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Betula pendula",
+        "Betula pubescens"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0,
+        0.246,
+        0.631
+      ],
+      "label": "左の針葉・広葉混交樹冠群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "針葉状の房と小型広葉、細い直幹が重なる"
+      ],
+      "limitations": "針葉束基部・花果と葉序が読めず個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus",
+        "Betula"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.669,
+        0.272,
+        0.331,
+        0.302
+      ],
+      "label": "右奥の直幹樹木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "暗い細幹と疎らな細葉状樹冠がある"
+      ],
+      "limitations": "葉の付き方と球果が遠く読めない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.591,
+        0.581,
+        0.409,
+        0.419
+      ],
+      "label": "右地表の低木・草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型広葉と短い草葉が低い株を作る"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が読めず個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0,
+        0.58,
+        0.417,
+        0.42
+      ],
+      "label": "左地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い草葉と疎らな小型広葉がある"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が読めず個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "fcd47dfc8cf04391e3bb846c0eea30ed64a8c7dc1392f03243f0b379ae4f654b",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T22:40:29.351487+00:00"
+}

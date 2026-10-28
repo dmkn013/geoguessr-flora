@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "image_id": "805459260406390",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.742,
+        0,
+        0.258,
+        0.509
+      ],
+      "label": "右手前の鱗片葉状針葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "平たい扇状に広がる小枝の先が下垂し細かな鱗片葉状部が密生する"
+      ],
+      "limitations": "葉裏の白斑・球果・枝先の断面が未解像で属種は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Thuja",
+        "Chamaecyparis"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.3,
+        0,
+        0.442,
+        0.57
+      ],
+      "label": "奥の針葉状高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長い直立幹と円錐形の細葉状樹冠が連続する"
+      ],
+      "limitations": "針葉の付着・葉裏・球果が不明",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea",
+        "Abies",
+        "Pseudotsuga"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0,
+        0.32,
+        0.513
+      ],
+      "label": "左斜面の針葉状高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直立幹に尖った樹冠がある"
+      ],
+      "limitations": "遠景で葉の付着と球果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.18,
+        0.312,
+        0.518
+      ],
+      "label": "左手前の広葉低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細く分枝する茎に小型楕円形状葉が密集する"
+      ],
+      "limitations": "葉序・葉縁・花果が不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.335,
+        0.477,
+        0.665,
+        0.159
+      ],
+      "label": "対岸の広葉低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型の丸い緑色葉群が水際に連続する"
+      ],
+      "limitations": "距離で個葉と花果が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "d538d1c6ece6064ed872d27a51845eb36304f3b3e209ed964f7327f4ee372dbc",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-27T05:41:15.567634+00:00"
+}

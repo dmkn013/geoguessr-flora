@@ -1,0 +1,257 @@
+{
+  "schema_version": 1,
+  "image_id": "1428369815048877",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.723,
+        0,
+        0.277,
+        0.47
+      ],
+      "label": "右手前の羽状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "細い幹頂部から線形小葉を持つ羽状葉が弓状に垂れる"
+      ],
+      "limitations": "葉柄基部・小葉配列・花果が不鮮明で属種は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Syagrus",
+        "Archontophoenix"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.393,
+        0.268,
+        0.06,
+        0.16
+      ],
+      "label": "中央左奥の扇葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "細い単幹頂部に掌状に分裂した扇状葉が放射する"
+      ],
+      "limitations": "葉柄の刺・幹基部・果房が遠く不明",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Washingtonia",
+        "Trachycarpus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.591,
+        0.2,
+        0.113,
+        0.249
+      ],
+      "label": "中央右中景の羽状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "単幹に線形小葉の長い羽状葉が付く"
+      ],
+      "limitations": "葉基部・花果が読めず属種は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.548,
+        0,
+        0.452,
+        0.5
+      ],
+      "label": "右の裸枝広葉高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "太い分枝幹から多数の細枝が広がる"
+      ],
+      "limitations": "葉・芽・花果が不足し樹形だけで属種を決めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.14,
+        0.143,
+        0.256,
+        0.32
+      ],
+      "label": "左の裸枝広葉高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹と多数の細枝が丸い樹冠を作る"
+      ],
+      "limitations": "葉・芽・花果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0,
+        0.147,
+        0.225,
+        0.355
+      ],
+      "label": "左手前の広葉低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い密な黄緑色から緑色の葉群が連続する"
+      ],
+      "limitations": "葉序・葉縁・花果が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.641,
+        0.405,
+        0.359,
+        0.082
+      ],
+      "label": "右の刈込状低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型広葉の密な緑色被覆が列状に連続する"
+      ],
+      "limitations": "葉序・花果・個体境界が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0.417,
+        0.308,
+        0.149,
+        0.126
+      ],
+      "label": "中央奥の針葉状・広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "尖った暗緑色樹冠と丸い広葉樹冠が混在する"
+      ],
+      "limitations": "個葉・球果・花果と個体境界が遠く不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p9",
+      "bbox": [
+        0,
+        0.431,
+        0.426,
+        0.099
+      ],
+      "label": "左地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色被覆が連続する"
+      ],
+      "limitations": "葉鞘・花序が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "2a74ceaaa9e092973c972b27f83d7329de41ecb71d4674d75065e7801034f327",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-27T06:38:19.215614+00:00"
+}

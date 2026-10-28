@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "image_id": "1205802996545216",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・背景・手前を実視認。必要箇所は元画素から拡大。植物形態だけを根拠にし、座標・国・文字・道路・地理分布・旧タグは用いない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.09,
+        0.294,
+        0.524
+      ],
+      "label": "左手前の灰緑色小高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細く分岐した枝に幅の狭い灰緑色葉が密に付く"
+      ],
+      "limitations": "拡大でも対生葉・葉裏鱗片と花果が十分読めずOleaは候補まで",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Olea"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.293,
+        0.134,
+        0.429,
+        0.248
+      ],
+      "label": "中央奥の灰緑色木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い灰緑色の細葉状樹冠が複数重なる"
+      ],
+      "limitations": "葉序・葉裏・花果が遠く不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Olea"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0,
+        0.773,
+        0.219
+      ],
+      "label": "背景斜面の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "灰緑色と暗緑色の小さな樹冠が混在する"
+      ],
+      "limitations": "遠景で個別の葉・幹が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.708,
+        0.198,
+        0.292,
+        0.414
+      ],
+      "label": "右斜面の草本・低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "乾いた細茎と低い緑色葉群が岩の間にある"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が読めず個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.434,
+        0.383,
+        0.423
+      ],
+      "label": "左地面の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型広葉と細い枯茎が点在する"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が読めず個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "580d49ae0997c19b54e21e92266c693fe4d7b05c0d7cd421ceed3422c556ca26",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T22:40:29.152519+00:00"
+}

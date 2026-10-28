@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "image_id": "817059092549724",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.038,
+        0.35,
+        0.582
+      ],
+      "label": "左の暗緑色針葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "尖った樹冠と枝先の針葉状葉群"
+      ],
+      "limitations": "針葉束生・葉数・球果が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus",
+        "Picea"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.104,
+        0.205,
+        0.351,
+        0.418
+      ],
+      "label": "左の明緑色広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹と明緑色の小葉状樹冠が重なる"
+      ],
+      "limitations": "単葉複葉・葉縁・花果未解像",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Betula"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.524,
+        0.012,
+        0.476,
+        0.609
+      ],
+      "label": "右の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "多数の丸い緑色樹冠と疎らな細幹"
+      ],
+      "limitations": "葉序・葉形・花果未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.429,
+        0.5,
+        0.09,
+        0.092
+      ],
+      "label": "中央奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型の暗色樹冠が連なる"
+      ],
+      "limitations": "遠景で葉・幹・花果不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.614,
+        0.354,
+        0.158
+      ],
+      "label": "左地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色細葉の帯状群落"
+      ],
+      "limitations": "小穂・葉鞘・葉舌不明",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Poaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.517,
+        0.588,
+        0.483,
+        0.175
+      ],
+      "label": "右地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い緑葉が地表を覆う"
+      ],
+      "limitations": "葉鞘・小穂・花果未解像",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Poaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "8fea249c0459fa16c776ca300b624f2d70c373196e473cd9177a2434b8f6f296",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-27T11:37:30.901489+00:00"
+}

@@ -1,5 +1,7 @@
 # geoguessr-flora
 
+植物画像の詳細同定を分担する場合は **[弟のMac向け作業手順](docs/plant-review-brother-mac-handoff.md)** を参照。担当8,985枚をGitHubの専用ブランチとPRで継続処理します。
+
 GeoGuessr の植生メタを、**実測**で確かめた資料。
 
 このリポジトリには**性格の違う2つの調査**が入っている。

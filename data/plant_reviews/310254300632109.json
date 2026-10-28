@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "image_id": "310254300632109",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.21,
+        0.486,
+        0.345
+      ],
+      "label": "左の明色幹広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "カバノキ属",
+        "scientific_name": "Betula",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "細い白灰色幹と小型葉群、細い分枝が多数ある"
+      ],
+      "limitations": "葉縁・芽・果序と樹皮斑が不鮮明でカバノキ属は暫定",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Betula"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.812,
+        0.037,
+        0.188,
+        0.556
+      ],
+      "label": "右の明色幹広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "カバノキ属",
+        "scientific_name": "Betula",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "白い細幹に暗い横斑があり細枝に小型葉群がある"
+      ],
+      "limitations": "葉縁・芽・果序が読めずカバノキ属は暫定",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Betula"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.695,
+        0.117,
+        0.117,
+        0.208
+      ],
+      "label": "右上の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細幹に疎らな褐色から緑色の葉群がある"
+      ],
+      "limitations": "幹下部は車体で遮蔽、個葉・花果が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.507,
+        0.463,
+        0.117,
+        0.084
+      ],
+      "label": "中央右奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さな丸い樹冠が連続する"
+      ],
+      "limitations": "極小で個葉と花果が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "80ad169c741a15cb1922665e7123ef785bb1219090f3b29d700ffd757185c089",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-27T06:39:37.540465+00:00"
+}

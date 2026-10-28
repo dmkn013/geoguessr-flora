@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "image_id": "227829459174765",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景を左右端・手前・背景まで確認。必要対象は元画素拡大で葉と軸を比較。植物の形態のみを根拠にし座標・国・画像の文字・道路・旧タグを使わない。下位同定できない理由を対象ごとに記録。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.608,
+        0,
+        0.392,
+        0.634
+      ],
+      "label": "右側の柱状広葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "ポプラ属",
+        "scientific_name": "Populus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "細長い直立樹冠と明色の細幹、小型広葉が見える"
+      ],
+      "limitations": "ポプラ属候補。葉形・葉柄・芽が不鮮明で属の排他判断が不足、種と柱状栽培品種は特に保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Populus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.29,
+        0.487,
+        0.318,
+        0.172
+      ],
+      "label": "奥の柱状樹木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹と狭い縦長樹冠が並ぶ"
+      ],
+      "limitations": "遠景で葉・芽・樹皮が読めずポプラ類は候補",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Populus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.62,
+        0.183,
+        0.38,
+        0.506
+      ],
+      "label": "右下層の広葉樹・低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "多数の細枝と明緑色の小葉が低い位置から密生する"
+      ],
+      "limitations": "上部樹冠と葉形が違う対象を分けたが葉序・花果は不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.658,
+        0.364,
+        0.189
+      ],
+      "label": "左路肩の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い枯れ草と小さな緑の草本が点在する"
+      ],
+      "limitations": "穂・葉鞘と花の細部なし",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.557,
+        0.698,
+        0.443,
+        0.146
+      ],
+      "label": "右路肩の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い黄褐色草葉が地面を覆う"
+      ],
+      "limitations": "葉・花序の構造不足",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "bbf64e1139607e200a9c8bd536b654fa4303a185649345ec8155e968a0a68002",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T18:38:11.000551+00:00"
+}

@@ -1,0 +1,240 @@
+{
+  "schema_version": 1,
+  "image_id": "1847226462122130",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.264,
+        0.441,
+        0.127,
+        0.339
+      ],
+      "label": "左中景の立体的な羽状葉ヤシ",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "細い単幹の頂部に小葉が立体的に広がる太い羽状葉を持つ"
+      ],
+      "limitations": "葉鞘・小葉先端の裂け・果実が未解像で種確定不可",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Wodyetia bifurcata",
+        "Syagrus romanzoffiana",
+        "Elaeis"
+      ],
+      "morphology": [],
+      "sources": [
+        {
+          "url": "https://www.nparks.gov.sg/FloraFaunaWeb/Flora/2/6/2691",
+          "supports": "立体的で密な羽状葉はWodyetia候補と整合するが葉鞘と小葉先端・花果が読めず種確定しない"
+        }
+      ],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.362,
+        0.537,
+        0.099,
+        0.259
+      ],
+      "label": "中央の羽状葉ヤシ",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "単幹の頂部に複数方向へ弓状の羽状葉を広げる"
+      ],
+      "limitations": "葉鞘・小葉配列・花果不足",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Wodyetia bifurcata",
+        "Syagrus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.499,
+        0.276,
+        0.393
+      ],
+      "label": "左の大型葉草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "バショウ属",
+        "scientific_name": "Musa",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "大きな長楕円状の葉が立ち上がり葉縁が裂ける"
+      ],
+      "limitations": "葉鞘と花果が見えず属種保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Musa",
+        "Ensete"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.432,
+        0,
+        0.568,
+        0.703
+      ],
+      "label": "右の高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細幹が多数直立し枝に細かい葉群が垂れる"
+      ],
+      "limitations": "単葉複葉・葉序・花果が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.462,
+        0.646,
+        0.072,
+        0.102
+      ],
+      "label": "中央奥の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い丸い緑色樹冠"
+      ],
+      "limitations": "遠景で葉序・花果を分離できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0,
+        0.902,
+        0.2,
+        0.098
+      ],
+      "label": "左手前の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型広葉と細葉の緑色地表群落"
+      ],
+      "limitations": "花果・葉鞘・葉付着未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.531,
+        0.701,
+        0.157,
+        0.269
+      ],
+      "label": "右斜面の低木草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細葉の株が密に重なり緑色の帯になる"
+      ],
+      "limitations": "暗部で葉構造・花果不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0.012,
+        0.326,
+        0.058,
+        0.236
+      ],
+      "label": "左上の細幹木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細長い無葉状幹の先端に少量の葉群がある"
+      ],
+      "limitations": "葉構造・葉序・花果未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "f423b4680748bb94688846fdda86c575eb70859fcce35c4313f371a66eda5921",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 3,
+  "reviewed_at": "2026-10-27T11:38:10.015190+00:00"
+}

@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "image_id": "4287634227928039",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "全景と左の針葉樹を拡大。枝先の針葉状の束を確認し、種に必要な束の本数・球果・樹皮の情報は不足と判断。 矩形重ね合わせを全景で目視確認済み。候補は確定タグに入れず、画像にない特徴は推測しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.093,
+        0.337,
+        0.123,
+        0.195
+      ],
+      "scope": "individual",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "横枝の先端に長い針葉がまとまる",
+        "不規則な輪郭の円錐状樹冠"
+      ],
+      "limitations": "針葉束の本数・球果・樹皮が判別できず種以下は不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [
+        {
+          "url": "https://ask.ifas.ufl.edu/publication/FR003",
+          "supports": "蓄積済み資料の針葉束の特徴と照合。種同定に必要な束の本数・球果は画像で不明"
+        }
+      ],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0,
+        0.127,
+        0.399
+      ],
+      "scope": "individual",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "長い針葉状の葉が枝先にまとまる"
+      ],
+      "limitations": "画面端で幹・球果・束の詳細が欠ける",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "マツ属"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true,
+      "label": "左端の針葉樹"
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.2,
+        0.468,
+        0.14,
+        0.237
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "左斜面の低い針葉樹群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "尖った緑の樹冠が複数見える"
+      ],
+      "limitations": "葉・球果の構造が見えない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.33,
+        0.553,
+        0.67,
+        0.193
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "遠景の森林",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "斜面を細い尖った樹冠が覆う"
+      ],
+      "limitations": "遠景で属の診断形質が分からない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.679,
+        0.653,
+        0.261,
+        0.119
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "右側の落葉広葉樹群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "明るい葉色と裸の枝が見える"
+      ],
+      "limitations": "葉形・芽・樹皮が小さすぎる",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "97274a85406ec5d307e8b9136325405a6f5750c9b6263fd943839e4b2f07e0d4",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 3,
+  "reviewed_at": "2026-10-26T12:25:24.855568+00:00"
+}

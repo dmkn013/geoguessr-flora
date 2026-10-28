@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "image_id": "2416538502095692",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景を手前・奥・左右端まで確認。必要部分を元画素から拡大。植物の形態だけを根拠にし、画像の座標・国・文字・道路や既存タグは同定根拠にしない。識別できない対象にも見えた特徴と限界を記録。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.451,
+        0.461,
+        0.131
+      ],
+      "label": "左側の常緑針葉樹状群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "上方に枝が集まる樹冠と横向きの階層状の枝がある"
+      ],
+      "limitations": "針葉・葉束と球果が見えずマツ属等の区別は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.552,
+        0.091,
+        0.448,
+        0.484
+      ],
+      "label": "右側の落葉した樹木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "太い裸枝と細い枝先を持つ木が複数ある"
+      ],
+      "limitations": "葉・芽・樹皮の細部が不足し属種の確定不可",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.551,
+        0.454,
+        0.161
+      ],
+      "label": "左の草地",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い黄褐色の草本が広く地面を覆う"
+      ],
+      "limitations": "葉と穂が読めず芝の種類等は不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.541,
+        0.534,
+        0.336,
+        0.174
+      ],
+      "label": "右路肩の草本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い黄褐色草本が帯状に生える"
+      ],
+      "limitations": "枯葉・花序の細部不足",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "6dc17f975aeff6455fcd9b07930ec2c91348d9c773539c4dc5e72bfa412e42c4",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T14:21:06.276737+00:00"
+}

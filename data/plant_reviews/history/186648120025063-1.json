@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "image_id": "186648120025063",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景を実視認。必要部位は元画素を拡大。植物形態だけを根拠にし、座標・国・文字・道路・地理分布・旧タグを用いない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.408,
+        0.276,
+        0.366
+      ],
+      "label": "左の細葉状樹冠群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直幹に密な暗緑色の細葉状樹冠がある"
+      ],
+      "limitations": "葉が針葉か鱗片葉かと球果が判別できず科属保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cupressaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.414,
+        0.753,
+        0.586,
+        0.122
+      ],
+      "label": "右の桃色花状部を持つ低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型葉の密な低木に桃色の花状部分がある"
+      ],
+      "limitations": "元画素拡大でも葉序・革質葉と花冠が明瞭でなく種を確定しない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Nerium oleander"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.28,
+        0.716,
+        0.17,
+        0.059
+      ],
+      "label": "中央奥の木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さな暗緑色の樹冠が重なる"
+      ],
+      "limitations": "遠すぎて葉・幹が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.749,
+        0.294,
+        0.061
+      ],
+      "label": "左地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "乾いた細茎と低い草葉がある"
+      ],
+      "limitations": "葉序・葉縁・花果が読めず、混在する植物の個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "854becabb97aee00c0bf1f1ed5f167c0bd4e73063ff92df477992b2f241a3056",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T22:34:50.586915+00:00"
+}

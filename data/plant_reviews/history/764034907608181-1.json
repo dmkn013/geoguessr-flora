@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "image_id": "764034907608181",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        0.367,
+        0.431
+      ],
+      "label": "左端の広葉高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "太い分枝幹に幅広い濃緑色葉が密集する"
+      ],
+      "limitations": "葉序・葉縁・花果が読めず種は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.335,
+        0.265,
+        0.153,
+        0.13
+      ],
+      "label": "左中景の赤花状部を持つ広葉高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "横に広がる樹冠に細かな葉群と赤橙色の花状部分が集まる"
+      ],
+      "limitations": "複葉の軸・小葉配列・花冠・莢が未解像で科属は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Delonix",
+        "Peltophorum"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.611,
+        0.162,
+        0.389,
+        0.28
+      ],
+      "label": "右の広葉高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "多数分枝する幹に濃緑色の丸い葉群が重なる"
+      ],
+      "limitations": "葉形・葉序・花果が判読できない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Mangifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.492,
+        0.355,
+        0.115,
+        0.043
+      ],
+      "label": "中央奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型の丸い緑色樹冠が連続する"
+      ],
+      "limitations": "極小で葉・花果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.556,
+        0.402,
+        0.444,
+        0.162
+      ],
+      "label": "右地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い緑色葉群が密に地表を覆う"
+      ],
+      "limitations": "葉鞘・花序が不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "17395649ba5bcd064b21d8151bc932ecb2cda1cee329a3d7a6eafcc78c4b35b1",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-27T04:29:22.695615+00:00"
+}

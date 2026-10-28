@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "image_id": "139831364795337",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景を左右端・手前・背景まで実際に確認。必要部位は元画素から拡大。植物形態のみを根拠にし、座標・国・文字・道路様式・旧タグを使わない。葉や花果が解像しない対象は候補と限界を保存。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.032,
+        0.562,
+        0.59
+      ],
+      "label": "左側の針葉樹状林",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "狭い円錐状樹冠と細い直立幹が連続する"
+      ],
+      "limitations": "暗く青みがかった画像で針葉・葉枕・球果が読めずトウヒ・モミ等の区別不可",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea",
+        "Abies"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.564,
+        0,
+        0.436,
+        0.535
+      ],
+      "label": "右側の針葉樹状林",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "直立幹と段状の横枝、密な短い葉群が見える"
+      ],
+      "limitations": "暗所のため針葉の付き方と球果が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.014,
+        0,
+        0.448,
+        0.316
+      ],
+      "label": "左上の裸枝広葉樹",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "太い幹と多数の細い裸枝が針葉樹の前にある"
+      ],
+      "limitations": "葉・芽・樹皮の細部が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.596,
+        0.345,
+        0.404,
+        0.387
+      ],
+      "label": "右法面の低木・下草",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型の緑葉群と短い草本が地面を覆う"
+      ],
+      "limitations": "陰影で葉・花果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "8b6878d3920b75a1decbdd7d9c78f8a9d9a300a9084fd022ae3655d48bd91716",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T18:42:15.321267+00:00"
+}

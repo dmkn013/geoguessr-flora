@@ -37,3 +37,9 @@ data/export.log
 # （履歴を毎回作り直すので膨らまない）。
 # 手元で作り直すには: python src/build_photos.py
 dist/photos/
+
+# 詳細同定のローカル画像・作業キャッシュ・配布用大容量ZIP
+.review-cache/
+handoff/
+dist/review_work/
+dist/review_photos/

@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "image_id": "4532321813464013",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・背景・手前を確認。必要対象は元画素で拡大した。植物の見える形態のみで判定し地理情報・文字・道路・旧タグは根拠にしない。葉・花果の解像度やぶれにより下位分類できない対象も、その限界を記録する。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        0.593,
+        0.856
+      ],
+      "label": "左側の高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "滑らかな明色幹に不規則な灰褐色斑、細長く下垂する葉と疎らな樹冠"
+      ],
+      "limitations": "ユーカリ類候補。EucalyptusとCorymbia等を分ける花序・果実・葉序は不明",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Eucalyptus",
+        "Corymbia"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.631,
+        0.504,
+        0.369
+      ],
+      "label": "左側の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長く細い葉が斜面を覆い一部に黄色い花状部分がある"
+      ],
+      "limitations": "葉鞘と花の構造が読めず個別同定不可",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.603,
+        0.666,
+        0.397,
+        0.334
+      ],
+      "label": "右側の草本・黄色い花の群落",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い茎に多数の小さな黄色い花状部分、細葉草本が混生"
+      ],
+      "limitations": "花冠・総苞・葉序が不鮮明。菜の花類などに見た目だけで確定しない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.526,
+        0.533,
+        0.474,
+        0.201
+      ],
+      "label": "奥の低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い密な樹冠が帯状に連続する"
+      ],
+      "limitations": "遠景で葉形・枝・花果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "bccfa88b472947949ddd9130266744d2d8cc363901f925e4a0859ae6bf8cd2e3",
+  "source_size": [
+    1023,
+    682
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T13:33:39.758244+00:00"
+}

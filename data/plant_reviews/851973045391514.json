@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "image_id": "851973045391514",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・背景・手前を確認。必要対象は元画素で拡大した。植物の見える形態のみで判定し地理情報・文字・道路・旧タグは根拠にしない。葉・花果の解像度やぶれにより下位分類できない対象も、その限界を記録する。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        0.18,
+        0.559
+      ],
+      "label": "左端の裸枝高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "明色幹と多数の細い裸枝"
+      ],
+      "limitations": "暗さと動きぶれで樹皮・芽・葉が不明。カバノキ等に断定不可",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.485,
+        0,
+        0.515,
+        0.778
+      ],
+      "label": "右側の樹林",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "直立した幹と暗い樹冠が密生する"
+      ],
+      "limitations": "夜間の強いぶれで針葉・広葉を個体ごとに対応できず分類不能",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.34,
+        0.475,
+        0.148,
+        0.214
+      ],
+      "label": "左奥の樹林",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "円錐状の暗い樹冠と細い幹が見える"
+      ],
+      "limitations": "暗さとぶれで葉・球果が読めずトウヒ等に断定できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.583,
+        0.433,
+        0.358
+      ],
+      "label": "左道沿いの下草",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑の植生と地表を覆う草葉"
+      ],
+      "limitations": "強いぶれで葉と花が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.542,
+        0.692,
+        0.458,
+        0.308
+      ],
+      "label": "右道沿いの下草",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "草本が路肩の暗い部分を覆う"
+      ],
+      "limitations": "暗所で個別の葉と花序が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "0ded5015e02f48b1a35bfb309aa758602132e1465a9165978966a470d0df0368",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T13:34:34.235881+00:00"
+}

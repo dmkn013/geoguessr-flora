@@ -1,0 +1,257 @@
+{
+  "schema_version": 1,
+  "image_id": "679857207436849",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。形態のみ使用し座標・文字・道路・分布・旧タグは同定根拠にしない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.544,
+        0.072,
+        0.326,
+        0.347
+      ],
+      "label": "右上の大型葉植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "バショウ科",
+        "scientific_name": "Musaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "太い中肋を持つ長楕円形の大きな葉が斜上し側脈沿いに裂ける"
+      ],
+      "limitations": "葉鞘基部・花序・果房・吸芽が遮蔽されMusaとEnseteや種以下は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Musa",
+        "Ensete"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.008,
+        0.223,
+        0.342
+      ],
+      "label": "左端の大型葉植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "バショウ科",
+        "scientific_name": "Musaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "長い中肋を持つ大きな葉身と横裂した部分が見える"
+      ],
+      "limitations": "暗部で葉基部と花果が読めず属種は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Musa",
+        "Ensete"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.652,
+        0.099,
+        0.348,
+        0.901
+      ],
+      "label": "右手前の広葉低木・つる状植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い分枝に全縁状の楕円形から尖った広葉が付く"
+      ],
+      "limitations": "重なりが強く葉序・花果・個体境界が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0,
+        0.406,
+        0.412
+      ],
+      "label": "左上の広葉高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な暗緑色の葉群が広がる"
+      ],
+      "limitations": "暗さで葉縁・葉序・花果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.612,
+        0,
+        0.388,
+        0.173
+      ],
+      "label": "右上奥の広葉高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "褐色から濃緑色の密な広葉樹冠が見える"
+      ],
+      "limitations": "逆光・重なりで花果と個葉細部が不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0,
+        0.29,
+        0.467,
+        0.198
+      ],
+      "label": "左の低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い小型葉群が地表近くまで密集する"
+      ],
+      "limitations": "暗部で葉序・花果が識別できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.39,
+        0.17,
+        0.222,
+        0.128
+      ],
+      "label": "中央奥の高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い輪郭の濃緑色樹冠がある"
+      ],
+      "limitations": "遠景で個葉が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0.412,
+        0.268,
+        0.189,
+        0.119
+      ],
+      "label": "奥の低木・草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い広葉の葉群と細い茎が重なる"
+      ],
+      "limitations": "個体境界と花果・葉序が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p9",
+      "bbox": [
+        0.574,
+        0.461,
+        0.224,
+        0.35
+      ],
+      "label": "右路肩の細葉草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細長い乾燥葉状部と緑色の細い葉が地表から伸びる"
+      ],
+      "limitations": "花序・葉鞘が不明でイネ科などは確定しない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "448baf2ac51af69ce60b24221b9bf599bdb5f62b2c80a8f30a051bcddd1909ab",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-27T01:36:02.702894+00:00"
+}

@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "image_id": "1335333330358192",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景を実視認。必要部位は元画素拡大。植物形態だけを根拠にし、座標・国・文字・道路・旧タグ・地理分布は用いない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.227,
+        0.228,
+        0.476
+      ],
+      "label": "左手前の羽状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "長い直幹の先に細かい小葉を持つ羽状葉が放射する"
+      ],
+      "limitations": "元画素拡大でも果房と葉柄基部が明瞭でなく種は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.221,
+        0.436,
+        0.178,
+        0.266
+      ],
+      "label": "左中景のヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "細幹の頂部に長い羽状葉が集まる"
+      ],
+      "limitations": "果実と葉柄基部が解像しない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.465,
+        0.463,
+        0.176,
+        0.229
+      ],
+      "label": "中央奥のヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "羽状葉が幹頂から放射する"
+      ],
+      "limitations": "樹冠が重なり花果と基部の細部不足",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.669,
+        0.407,
+        0.228,
+        0.25
+      ],
+      "label": "右の羽状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "長い葉軸に多数の線形小葉が付き葉が放射する"
+      ],
+      "limitations": "拡大でも果実・幹頂構造が不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.528,
+        0.211,
+        0.163
+      ],
+      "label": "左下層の広葉・大型葉株群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "広い葉群と幅広く長い葉身が低い位置にある"
+      ],
+      "limitations": "偽茎・葉基部が隠れ科属は候補まで",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Musaceae",
+        "Musa"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.795,
+        0.246,
+        0.205,
+        0.444
+      ],
+      "label": "右奥の広葉木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細かい葉群と大きな広葉が複数樹冠に重なる"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が読めず、混在する植物の分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "04c6a1e8e28ce93ae4fde81104c79e953bb113bbe7cd98b316be5001a2b3b2cd",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T22:32:00.317531+00:00"
+}

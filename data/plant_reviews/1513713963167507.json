@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "image_id": "1513713963167507",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "全景とアラウカリアの枝を拡大。規則的な輪生枝と枝を覆う針状・鱗片状の葉を確認。植栽場所の文字や画像内の座標を同定に使わない。種の候補は成葉の不足により保留。 全景の矩形重ね合わせを目視で確認し、見える形質の範囲で下位分類の可否を判断済み。未確定候補は確定タグに含めない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.149,
+        0,
+        0.268,
+        0.556
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "アラウカリア属",
+        "scientific_name": "Araucaria",
+        "rank": "genus"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "規則的な段をなす輪生枝",
+        "針状の葉が小枝を密に覆い羽状に広がる"
+      ],
+      "limitations": "成葉の形・長さと球果が不明。A. heterophyllaとA. columnarisを樹形だけで確定しない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Araucaria heterophylla",
+        "Araucaria columnaris"
+      ],
+      "morphology": [],
+      "sources": [
+        {
+          "url": "https://www.nparks.gov.sg/florafaunaweb/flora/2/7/2722",
+          "supports": "輪生枝と規則的な階層状の樹冠"
+        },
+        {
+          "url": "https://naturalhistory2.si.edu/botany/hawaiianflora/speciesdescr.cfm?genus=Araucaria&species=columnaris",
+          "supports": "近似するcolumnarisとheterophyllaは成葉等の比較が必要"
+        }
+      ],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.43,
+        0,
+        0.145,
+        0.567
+      ],
+      "scope": "individual",
+      "taxon": {
+        "name": "アラウカリア属",
+        "scientific_name": "Araucaria",
+        "rank": "genus"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "細い直立幹から規則的な輪生枝が階層状に出る",
+        "小枝を細かい葉が密に覆う"
+      ],
+      "limitations": "柱状樹冠は見えるが成葉と球果が不足し種を確定できない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Araucaria columnaris",
+        "Araucaria heterophylla"
+      ],
+      "morphology": [],
+      "sources": [
+        {
+          "url": "https://www.nparks.gov.sg/florafaunaweb/flora/2/7/2722",
+          "supports": "輪生枝と規則的な階層状の樹冠"
+        },
+        {
+          "url": "https://naturalhistory2.si.edu/botany/hawaiianflora/speciesdescr.cfm?genus=Araucaria&species=columnaris",
+          "supports": "近似するcolumnarisとheterophyllaは成葉等の比較が必要"
+        }
+      ],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.57,
+        0.243,
+        0.158,
+        0.215
+      ],
+      "scope": "individual",
+      "taxon": {
+        "name": "背景の広葉樹",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "明るい葉の丸みを帯びた樹冠"
+      ],
+      "limitations": "葉序・単葉/複葉・花果の細部が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.341,
+        0.417,
+        0.5,
+        0.185
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "刈り込まれた生垣・花木群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な小葉の生垣と赤い花状の点が見える"
+      ],
+      "limitations": "小さな花と葉の構造が不鮮明で属を決められない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.13,
+        0.528,
+        0.209,
+        0.151
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "手前の観葉植物群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "剣状の葉と広い葉が複数重なる"
+      ],
+      "limitations": "葉の付き方と株元が遮蔽されて属を絞れない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "9b9c37fec97ebc32e19c5aedf5cb863a66d547401033c5efeb5d9ceffd4324ab",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T10:17:17.827897+00:00"
+}

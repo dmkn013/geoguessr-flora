@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "image_id": "4509689465711857",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景を確認。必要対象は元画素で拡大。全天球は全幅を見て反射像を二重計数しない。植物形態だけを根拠にし、文字・国・座標・道路や旧タグは同定根拠に使わない。下位分類の限界を対象ごとに記録。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        0.464,
+        0.75
+      ],
+      "label": "左側の高木林",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹と丸い葉群が密生して樹冠が連続する"
+      ],
+      "limitations": "葉形・葉序・樹皮・果実が不鮮明でコナラ類等に確定不可",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.512,
+        0.447,
+        0.488,
+        0.306
+      ],
+      "label": "右側の疎らな高木・低木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "大小の緑の樹冠と細い直立幹が点在する"
+      ],
+      "limitations": "葉・樹皮・花果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.494,
+        0.636,
+        0.506,
+        0.309
+      ],
+      "label": "右側の草本・低木群落",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "黄褐色の草葉と濃緑の小低木が混生する"
+      ],
+      "limitations": "葉と花序が不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.701,
+        0.352,
+        0.158
+      ],
+      "label": "左路肩の下草",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "日陰に短い草葉と小さな緑葉群がある"
+      ],
+      "limitations": "暗く葉と花が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "73eb3b5392ba94d0c719b42c93ada5d563c91e493a2638f90d933a12688a4d4f",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T15:26:09.687093+00:00"
+}

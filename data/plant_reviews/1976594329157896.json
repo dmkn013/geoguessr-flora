@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "image_id": "1976594329157896",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・背景・手前を実視認。必要箇所は元画素から拡大。植物形態だけを根拠にし、座標・国・文字・道路・地理分布・旧タグは用いない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.493,
+        0,
+        0.507,
+        0.783
+      ],
+      "label": "右の高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "明色の直幹に細長い下垂葉状の枝葉が密集する"
+      ],
+      "limitations": "葉序・樹皮・花果が不鮮明で属種を分けられない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Eucalyptus",
+        "Corymbia"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0,
+        0.41,
+        0.494
+      ],
+      "label": "左上の高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "明色幹に細長い葉状の疎らな葉群と密な細葉状樹冠が混在する"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が読めず個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Eucalyptus",
+        "Corymbia",
+        "Cupressaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.357,
+        0.418,
+        0.394
+      ],
+      "label": "左斜面の下層植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い広葉と草葉が斜面を覆う"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が読めず個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.731,
+        0.631,
+        0.269,
+        0.368
+      ],
+      "label": "右地面の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い細葉と小型広葉が地面にある"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が読めず個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.449,
+        0.48,
+        0.029,
+        0.19
+      ],
+      "label": "中央奥の円錐状樹冠",
+      "scope": "individual",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直幹に円錐状の密な樹冠がある"
+      ],
+      "limitations": "遠すぎて葉の型と球果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cupressaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "65be5ee9bd744188f2e940b889fcbc295ef228534b5f92c4fcc8f65f538abe2b",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T22:41:19.322492+00:00"
+}

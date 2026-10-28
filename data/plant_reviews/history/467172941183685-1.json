@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "image_id": "467172941183685",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "全景と柱状樹冠を拡大。柱状の樹形は見えるが、これだけでセイヨウハコヤナギや特定栽培品種まで確定しない。しだれる樹木と低木も別に記録。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.594,
+        0.164,
+        0.097,
+        0.318
+      ],
+      "scope": "individual",
+      "taxon": {
+        "name": "ポプラ属候補",
+        "scientific_name": "Populus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "非常に狭い直立した樹冠",
+        "枝が幹に沿って上向きに集まる"
+      ],
+      "limitations": "葉形・葉柄・芽が不鮮明でポプラ属の近似群を排除できない。種/栽培品種は特に確定不能",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "ポプラ属",
+        "柱状の他の広葉樹"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.229,
+        0.326,
+        0.065,
+        0.195
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "左側の柱状樹木",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い縦長の樹冠が並ぶ"
+      ],
+      "limitations": "小さくて葉と枝の細部が見えない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "ポプラ属"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.696,
+        0.198,
+        0.156,
+        0.281
+      ],
+      "scope": "individual",
+      "taxon": {
+        "name": "右側のしだれる広葉樹",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細長い枝葉が下向きに垂れる"
+      ],
+      "limitations": "葉序・葉縁・花果が見えず属を絞れない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "ヤナギ属",
+        "他のしだれる広葉樹"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.474,
+        0.332,
+        0.526,
+        0.345
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "右の広葉樹・低木群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い樹冠や低い密な樹冠が重なる"
+      ],
+      "limitations": "複数分類群の葉の構造を分離できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.451,
+        0.222,
+        0.157
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "左側の生垣・樹木群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い樹冠が連続する"
+      ],
+      "limitations": "遠景で葉・花果が見えない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "6fe1db212b3c04a4afde907e8475082a2984452024b5cf080c379d7811c3e605",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T11:20:48.638409+00:00"
+}

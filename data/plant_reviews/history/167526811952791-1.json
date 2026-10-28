@@ -1,0 +1,233 @@
+{
+  "schema_version": 1,
+  "image_id": "167526811952791",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景を実視認。必要部位は元画素から切り出し拡大。植物形態だけを根拠にし座標・国・文字・道路・旧タグ・地理分布は使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.535,
+        0.294,
+        0.22,
+        0.315
+      ],
+      "label": "中央右の針葉状高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直幹の枝先に密な房状の細葉群がある"
+      ],
+      "limitations": "元画素拡大でも針葉束の基部・本数と球果が不鮮明で属確定は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.325,
+        0.295,
+        0.269
+      ],
+      "label": "左の広葉木・蔓群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "棚状支持部に広葉と細い裸枝が重なる"
+      ],
+      "limitations": "蔓の葉序・巻きひげ・花果が読めず支持構造では分類しない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Vitis"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.442,
+        0.425,
+        0.12,
+        0.18
+      ],
+      "label": "中央の広葉木",
+      "scope": "individual",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "枝先に丸い緑色葉群がある"
+      ],
+      "limitations": "葉序・花果と細かい葉形が読めず、混在する植物の個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.605,
+        0.503,
+        0.233,
+        0.235
+      ],
+      "label": "右の緑色生垣群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型の丸い緑色葉が密生し細い枝が地面まで伸びる"
+      ],
+      "limitations": "葉序・花果と細かい葉形が読めず、混在する植物の個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.766,
+        0.381,
+        0.193,
+        0.234
+      ],
+      "label": "右奥の赤葉木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "赤紫色の小型葉が密に付く"
+      ],
+      "limitations": "葉序・花果・葉縁が読めず葉色だけで分類しない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Prunus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.767,
+        0.587,
+        0.233,
+        0.362
+      ],
+      "label": "右手前の花状部を持つ低木・草本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "広葉群に桃色の花状部分と細い草葉が混在する"
+      ],
+      "limitations": "花冠・葉序・刺が不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Rosa"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0,
+        0.646,
+        0.337,
+        0.174
+      ],
+      "label": "左手前の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い緑色草葉と細い枯茎がある"
+      ],
+      "limitations": "葉序・花果と細かい葉形が読めず、混在する植物の個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0.304,
+        0.509,
+        0.14,
+        0.1
+      ],
+      "label": "中央奥の低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さな緑色樹冠が重なる"
+      ],
+      "limitations": "遠景で葉・枝・花果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "5d6b043fd808171f01fcacc87dbd3952cd5b1e96f1192d4eea34f21184d78e94",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T20:30:10.509881+00:00"
+}

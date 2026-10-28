@@ -1,0 +1,236 @@
+{
+  "schema_version": 1,
+  "image_id": "24580869181523709",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.342,
+        0.411,
+        0.177,
+        0.363
+      ],
+      "label": "中央の円錐花序を持つ広葉高木",
+      "scope": "group",
+      "taxon": {
+        "name": "マンゴー属",
+        "scientific_name": "Mangifera",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "枝先に黄褐色の多数分枝した円錐花序状部と細長い全縁状の濃緑色葉が密集する"
+      ],
+      "limitations": "葉序・側脈・花弁雄蕊・果実が読めず属は暫定、種・品種は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Mangifera indica"
+      ],
+      "morphology": [],
+      "sources": [
+        {
+          "url": "https://www.nparks.gov.sg/florafaunaweb/flora/3/0/3013",
+          "supports": "長楕円形から披針形の全縁状葉と大きな円錐花序に整合するが花の細部・側脈・果実が不足し種以下を確定しない"
+        }
+      ],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0,
+        0.17,
+        0.484
+      ],
+      "label": "左端の羽状葉ヤシ",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "長い羽状葉が弓状に垂れ線形小葉が並ぶ"
+      ],
+      "limitations": "幹と花果・葉柄基部が画面外で属種は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.72,
+        0.257,
+        0.125,
+        0.315
+      ],
+      "label": "中央右奥の羽状葉ヤシ",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "直立幹頂部から長い羽状葉が放射する"
+      ],
+      "limitations": "葉柄基部・花果が遮蔽され属種は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.64,
+        0.342,
+        0.151,
+        0.306
+      ],
+      "label": "右中景の広葉高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹に密な長楕円形状の緑色葉群がある"
+      ],
+      "limitations": "花果・葉序が不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Mangifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.175,
+        0.249,
+        0.16,
+        0.572
+      ],
+      "label": "左中景の疎らな広葉若木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直立幹から横枝が出て枝先に小型葉群がある"
+      ],
+      "limitations": "葉序・複葉軸・花果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.329,
+        0.318,
+        0.232,
+        0.363
+      ],
+      "label": "中央奥の水平枝高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "直立幹に横へ広がる細枝が段状に重なる"
+      ],
+      "limitations": "葉が疎らで個葉・花果が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.064,
+        0.559,
+        0.139,
+        0.167
+      ],
+      "label": "左下層の広葉低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細枝に小型広葉が密集する"
+      ],
+      "limitations": "葉序・葉縁・花果が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0.518,
+        0.62,
+        0.107,
+        0.15
+      ],
+      "label": "中央奥の裸枝・低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い分枝と小型葉群がある"
+      ],
+      "limitations": "葉序・花果が不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "6b44d2b98d9bbb16d58005899754235074af0ce968eb14105fbe7bd2b469109a",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-27T08:50:28.064487+00:00"
+}

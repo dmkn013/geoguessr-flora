@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "image_id": "810836432972334",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景を実視認。必要部位は元画素を切り出し拡大。植物形態だけを根拠にし、座標・国・文字・道路・地理分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.508,
+        0,
+        0.492,
+        0.685
+      ],
+      "label": "右の羽状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "線形小葉が長い葉軸の両側に付き、密な羽状葉が立ち上がる"
+      ],
+      "limitations": "拡大でも幹の構造・葉柄の刺・花果が読めず属以下は候補まで",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Nypa",
+        "Phoenix",
+        "Elaeis"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.19,
+        0.441,
+        0.213
+      ],
+      "label": "左奥の広葉木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹と丸い広葉樹冠が重なる"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が不鮮明で分類保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.351,
+        0.286,
+        0.246
+      ],
+      "label": "左中景の低木・草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型広葉と細い茎が密生する"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が不鮮明で分類保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.503,
+        0.201,
+        0.085,
+        0.086
+      ],
+      "label": "中央奥の羽状葉状樹冠",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さな樹冠から長い葉状部分が伸びる"
+      ],
+      "limitations": "遠く幹頂と小葉が判別できず科確定保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Arecaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "12fdb4a4254c7422a824795155e42f5186d2fa15087dfb0209150b794eb72b85",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T22:43:48.135879+00:00"
+}

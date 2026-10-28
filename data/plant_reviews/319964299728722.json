@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "image_id": "319964299728722",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景を実視認。必要部位は元画素を拡大。植物形態だけを根拠にし、座標・国・文字・道路・地理分布・旧タグを用いない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        0.388,
+        0.686
+      ],
+      "label": "左手前のヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "輪状の葉痕を持つ長い単幹と、長い葉軸に線形小葉が並ぶ羽状葉がある"
+      ],
+      "limitations": "元画素拡大でも果実が隠れ他の羽状葉ヤシを十分排除できず種以下は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.324,
+        0.294,
+        0.159,
+        0.328
+      ],
+      "label": "左奥のヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "長い単幹の幹頂に羽状葉が放射する"
+      ],
+      "limitations": "花果・葉柄基部が遠く不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.614,
+        0,
+        0.386,
+        0.628
+      ],
+      "label": "右のヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "細い輪状葉痕のある幹と長い羽状葉が見える"
+      ],
+      "limitations": "広葉木と重なり幹頂・果実が隠れる",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.661,
+        0.127,
+        0.339,
+        0.518
+      ],
+      "label": "右の広葉木・蔓群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型の広葉と蔓状茎が幹を覆う"
+      ],
+      "limitations": "葉序・葉縁・花果が読めず、混在する植物の個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.444,
+        0.326,
+        0.197,
+        0.237
+      ],
+      "label": "中央奥の森林群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い暗緑色の樹冠が重なる"
+      ],
+      "limitations": "葉・幹が遠く判別できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0,
+        0.608,
+        0.418,
+        0.264
+      ],
+      "label": "左地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細葉草本と小型の広葉が低く密生する"
+      ],
+      "limitations": "葉序・葉縁・花果が読めず、混在する植物の個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.618,
+        0.593,
+        0.382,
+        0.329
+      ],
+      "label": "右地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い草葉と小型広葉が地面を覆う"
+      ],
+      "limitations": "葉序・葉縁・花果が読めず、混在する植物の個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "450392d7f491bf20da01145ba3740f77fe3f488d402f5c8d71b5ee665b0ea6c4",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T22:35:43.114436+00:00"
+}

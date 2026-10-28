@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "image_id": "797613744449874",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景を実視認。必要部位は元画素から拡大。座標・国・文字・道路・地理分布・旧タグを根拠にしない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.541,
+        0,
+        0.459,
+        0.582
+      ],
+      "label": "右の常緑針葉状高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "直幹に横枝が付き細い枝先と密な細葉群が垂れる"
+      ],
+      "limitations": "拡大しても葉付着・断面・球果が判別できず属確定を保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea",
+        "Abies",
+        "Pseudotsuga"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.423,
+        0.548,
+        0.443
+      ],
+      "label": "左の細葉草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "幅の狭い長い葉が地面に密生する"
+      ],
+      "limitations": "穂・葉鞘・葉舌が読めずイネ科や作物種を確定しない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Poaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.659,
+        0.435,
+        0.341,
+        0.449
+      ],
+      "label": "右の若木・下層草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型広葉若木と長い草葉が混在する"
+      ],
+      "limitations": "葉序・葉縁・花果が読めず個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.291,
+        0.626,
+        0.288,
+        0.374
+      ],
+      "label": "中央路面際の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い草葉と小型広葉の株がまばらにある"
+      ],
+      "limitations": "葉序・葉縁・花果が読めず個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "f4c6b757cae7abfc981e4e16ecdac37ff9605de10a9f2d88eeb62efd1f9bfc4e",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T23:32:21.487047+00:00"
+}

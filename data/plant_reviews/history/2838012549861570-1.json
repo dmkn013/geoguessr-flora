@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "image_id": "2838012549861570",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景を手前・奥・左右端まで確認。必要部分を元画素から拡大。植物の形態だけを根拠にし、画像の座標・国・文字・道路や既存タグは同定根拠にしない。識別できない対象にも見えた特徴と限界を記録。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.142,
+        0.122,
+        0.176,
+        0.337
+      ],
+      "label": "左の羽状葉ヤシ",
+      "scope": "individual",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "滑らかな細い単幹から大型の羽状葉が弧状に伸び、葉の小葉は細長い"
+      ],
+      "limitations": "ココヤシに整合するが果実らしい暗部の輪郭・幹の環状葉痕が解像せず、種確定は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.745,
+        0.261,
+        0.079,
+        0.126
+      ],
+      "label": "右奥の羽状葉ヤシ",
+      "scope": "individual",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "幹頂から羽状葉が放射して垂れる"
+      ],
+      "limitations": "遠景で果実・葉柄・葉痕が不明",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.037,
+        0.326,
+        0.312,
+        0.142
+      ],
+      "label": "左建物奥の広葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "大小の丸い緑色樹冠が重なって見える"
+      ],
+      "limitations": "屋根で下部が隠れ、葉と花果も不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.619,
+        0.299,
+        0.249,
+        0.149
+      ],
+      "label": "右建物奥の広葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "緑色の密な葉群が屋根の上に出る"
+      ],
+      "limitations": "重なりと距離で葉序・花果が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.938,
+        0.545,
+        0.062,
+        0.107
+      ],
+      "label": "右端の花壇の低木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さな緑葉と黄色い花状部分がある"
+      ],
+      "limitations": "花冠・葉序が読めず属種を判定できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "732ff1f0c65bd80ab47023e03b5a14929c83935b2ff397f53f94f41b9a8bca9a",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T14:21:06.181176+00:00"
+}

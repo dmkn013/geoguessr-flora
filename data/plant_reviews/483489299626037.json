@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "image_id": "483489299626037",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        0.49,
+        0.603
+      ],
+      "label": "左斜面の針葉状高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "直立幹に細葉状の房が付き円錐形から丸い樹冠を作る"
+      ],
+      "limitations": "強い陰で束生針葉・球果を読めずマツ属は候補",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.783,
+        0,
+        0.217,
+        0.636
+      ],
+      "label": "右手前の針葉状高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い横枝と濃緑色から黄緑色の短い細葉状部分が見える"
+      ],
+      "limitations": "葉の付着・断面・球果が不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus",
+        "Juniperus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.656,
+        0.181,
+        0.076,
+        0.221
+      ],
+      "label": "中央右斜面上の針葉状木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直立幹に円錐状の細葉樹冠がある"
+      ],
+      "limitations": "遠景で針葉と球果が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.498,
+        0.532,
+        0.063,
+        0.072
+      ],
+      "label": "中央奥の黄葉広葉木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "黄褐色の丸い葉群が見える"
+      ],
+      "limitations": "距離により葉形・葉序・花果不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.487,
+        0.479,
+        0.072,
+        0.081
+      ],
+      "label": "中央奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "緑色の小型樹冠が重なる"
+      ],
+      "limitations": "極小で個葉・個体境界が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.542,
+        0.426,
+        0.458,
+        0.377
+      ],
+      "label": "右岩場の低木・地表植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "岩の隙間に低い褐色茎と緑色葉群が散在する"
+      ],
+      "limitations": "陰で葉序・葉縁・花果が不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.077,
+        0.525,
+        0.355,
+        0.101
+      ],
+      "label": "左林床の低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "下層に丸い褐色から緑色の葉群がある"
+      ],
+      "limitations": "暗部で葉と花果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "685f89d8a21a1fc61ffa6083616a85a28c6062b4a0ea6ee03a29741660f0cb01",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-27T03:34:18.799987+00:00"
+}

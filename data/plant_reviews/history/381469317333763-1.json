@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "image_id": "381469317333763",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "全景と手前高木の葉を拡大。バショウ属を複数位置で確認し、手前の高木は複葉状の構造だけでは種を確定しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.587,
+        0.113,
+        0.413,
+        0.476
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "右側のバショウ属",
+        "scientific_name": "Musa",
+        "rank": "genus"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "偽茎から大型の長楕円形葉が開く",
+        "葉が中肋から側方へ裂ける"
+      ],
+      "limitations": "花序・果実・葉柄の診断形質がなく種/品種は不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.079,
+        0.407,
+        0.208,
+        0.161
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "左奥のバショウ属",
+        "scientific_name": "Musa",
+        "rank": "genus"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "立ち上がる大きい長楕円形葉と裂けた葉身"
+      ],
+      "limitations": "距離があり花序や果実の特徴が見えない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0,
+        0.749,
+        0.728
+      ],
+      "scope": "individual",
+      "taxon": {
+        "name": "手前の広葉高木",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "楕円状の葉が枝に沿って多数つく",
+        "太い幹から大きく枝分かれする"
+      ],
+      "limitations": "単葉/複葉の葉軸や果実が不鮮明でSenna等を確定できない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "センナ属",
+        "他の広葉高木"
+      ],
+      "morphology": [],
+      "sources": [
+        {
+          "url": "https://www.nparks.gov.sg/florafaunaweb/flora/3/1/3118",
+          "supports": "羽状複葉や小葉、花序・莢などを照合。写真では確定に必要な構造が不足"
+        }
+      ],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.85,
+        0.347,
+        0.15,
+        0.196
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "右下の長葉草本群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長く細い葉が株元からまとまる"
+      ],
+      "limitations": "葉鞘・茎・花序が隠れて属不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "0ee0771796d38306ca1bcce793ee35c07f5e0f05679b4f2e3e20bcbc54c250e5",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T12:20:22.032225+00:00"
+}

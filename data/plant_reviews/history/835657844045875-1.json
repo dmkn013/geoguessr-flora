@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "image_id": "835657844045875",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.285,
+        0.129,
+        0.429,
+        0.449
+      ],
+      "label": "中央の裸枝高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "太い幹が多数分岐し丸い樹冠を作り小枝に細長い垂下部がある"
+      ],
+      "limitations": "垂下部が莢・小枝のいずれか区別できず葉・刺・花果も不足",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Vachellia",
+        "Senegalia"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.134,
+        0.375,
+        0.257,
+        0.223
+      ],
+      "label": "左中景の低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "多数の細枝と小型緑葉状部が密集する"
+      ],
+      "limitations": "複葉構造・刺・花果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.717,
+        0.341,
+        0.196,
+        0.18
+      ],
+      "label": "右奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "裸枝状から小型緑葉を持つ樹冠がある"
+      ],
+      "limitations": "遠景で個体と葉・花果が分離できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.876,
+        0.319,
+        0.124,
+        0.33
+      ],
+      "label": "右端の低木・高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直立枝と密な小型葉群がある"
+      ],
+      "limitations": "個葉と花果が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.432,
+        0.125,
+        0.137
+      ],
+      "label": "左奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い小型樹冠と裸枝状部分が連続する"
+      ],
+      "limitations": "個葉・花果が極小",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0,
+        0.536,
+        0.571,
+        0.239
+      ],
+      "label": "左地表の乾燥草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "黄褐色の細い茎と細長い葉状部分が叢生する"
+      ],
+      "limitations": "小穂・葉鞘・花序が読めず科以下は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.765,
+        0.492,
+        0.235,
+        0.24
+      ],
+      "label": "右地表の乾燥草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "褐色の細い茎と短い葉状部分が散在する"
+      ],
+      "limitations": "葉鞘・花序が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "8e0f212c37d8a061244b95580076a335de1322c1876430797b2255a799a1913e",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-27T05:32:58.331154+00:00"
+}

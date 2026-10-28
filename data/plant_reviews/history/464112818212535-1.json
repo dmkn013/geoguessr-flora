@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "image_id": "464112818212535",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "全景確認。葉の茂った広葉樹と奥の針葉樹、路肩草本を分離。明るい幹色だけではカバノキ属を確定しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.213,
+        0.423,
+        0.581
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "左側の広葉樹群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な明るい緑葉と細い幹"
+      ],
+      "limitations": "葉縁・葉序・樹皮の詳細が解像しない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.536,
+        0.099,
+        0.464,
+        0.631
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "右側の広葉樹群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "明るい幹と丸い樹冠がある"
+      ],
+      "limitations": "葉形・樹皮の模様・芽が不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "カバノキ属",
+        "他の広葉樹"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.502,
+        0.272,
+        0.318,
+        0.282
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "右奥の針葉樹群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "尖った暗緑の樹冠が続く"
+      ],
+      "limitations": "針葉・葉枕・球果が小さすぎる",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.613,
+        0.618,
+        0.387,
+        0.248
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "右の草本群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑の茎葉"
+      ],
+      "limitations": "花・穂が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "718eaba9e43cd84ac69d5b942006498a7bd3ea5d8ba20dc5d20e7359eba44c4a",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T12:22:35.020436+00:00"
+}

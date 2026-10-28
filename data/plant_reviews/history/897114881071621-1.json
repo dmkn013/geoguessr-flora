@@ -1,0 +1,201 @@
+{
+  "schema_version": 1,
+  "image_id": "897114881071621",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.48,
+        0.445,
+        0.026,
+        0.083
+      ],
+      "label": "中央奥の羽状葉ヤシ",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "細い単幹頂部に細長い小葉を持つ羽状葉が放射する"
+      ],
+      "limitations": "葉柄基部・花果が未解像で属種は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.829,
+        0.397,
+        0.091,
+        0.126
+      ],
+      "label": "右の赤花状部を持つ低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "暗緑色の細葉状葉群に赤い花状部分が集まる"
+      ],
+      "limitations": "輪生葉・葉縁・花冠が読めずキョウチクトウ類は候補",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Nerium"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.914,
+        0.394,
+        0.086,
+        0.142
+      ],
+      "label": "右端の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い濃緑色葉群がある"
+      ],
+      "limitations": "葉序・花果が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.783,
+        0.419,
+        0.068,
+        0.101
+      ],
+      "label": "右中景の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型広葉の密な樹冠と裸枝状部がある"
+      ],
+      "limitations": "反射とぼけで個葉・花果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.003,
+        0.498,
+        0.021,
+        0.054
+      ],
+      "label": "左端の木本の一部",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "画面端に小さな緑色葉群が見える"
+      ],
+      "limitations": "大部分が画面外で葉・花果が判別できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.171,
+        0.516,
+        0.149,
+        0.049
+      ],
+      "label": "左奥の地表植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "疎らな低い緑色葉群がある"
+      ],
+      "limitations": "極小で個葉・花序が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.282,
+        0.505,
+        0.192,
+        0.058
+      ],
+      "label": "中央の地表植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い褐色から緑色葉群が散在する"
+      ],
+      "limitations": "葉鞘・花序・葉序が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "0dbd672ebff5b703799f1beafa5580fb70c761c34dbe5142c539f0f266f9beb7",
+  "source_size": [
+    1024,
+    512
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-27T04:29:22.794814+00:00"
+}

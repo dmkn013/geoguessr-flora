@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "image_id": "480929803198318",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景を確認。必要対象は元画素で拡大。全天球は全幅を見て反射像を二重計数しない。植物形態だけを根拠にし、文字・国・座標・道路や旧タグは同定根拠に使わない。下位分類の限界を対象ごとに記録。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.04,
+        0.15,
+        0.472
+      ],
+      "label": "左端の開花低木",
+      "scope": "group",
+      "taxon": {
+        "name": "キョウチクトウ",
+        "scientific_name": "Nerium oleander",
+        "rank": "species"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "細長い披針形の厚い葉が枝で対生から輪生状につく",
+        "葉縁は全縁に見え、枝端に桃色の花が房状にまとまる",
+        "多数の細い直立枝を持つ低木状の株"
+      ],
+      "limitations": "種まで確認。花がぼけており一重/八重や花冠細部、栽培品種・変種は決められない",
+      "diagnostic_comparison": "細い全縁の革質披針形葉と対生〜輪生状葉序、桃色の頂生花房の組合せを照合。Cascabela類の黄色い漏斗状花とは色・花房が異なり、Plumeria類の太い多肉質枝と大型葉の組合せとも異なる。桃色花だけではなく葉形・葉序・枝と花房を合わせて判断。花冠細部は不鮮明で栽培品種以下は保留。",
+      "candidates": [],
+      "morphology": [],
+      "sources": [
+        {
+          "url": "https://www.nparks.gov.sg/florafaunaweb/flora/2/2/2264",
+          "supports": "厚い尖った葉が対生または3輪生する低木の特徴を照合"
+        },
+        {
+          "url": "https://landscapeplants.oregonstate.edu/plants/nerium-oleander",
+          "supports": "細い披針形の革質葉と対生/輪生葉序、頂生花房を比較"
+        }
+      ],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.634,
+        0,
+        0.366,
+        0.474
+      ],
+      "label": "右側の灰緑色広葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "灰緑色の細長い葉が密生する不規則な樹冠と太い枝"
+      ],
+      "limitations": "オリーブ類に似るが対生葉・葉裏・果実が十分読めず属種は候補",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Olea"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.573,
+        0.297,
+        0.125,
+        0.257
+      ],
+      "label": "中央奥の高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細長い葉がやや下垂して疎らな樹冠を作る"
+      ],
+      "limitations": "葉序・樹皮・花果が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.644,
+        0.401,
+        0.343,
+        0.243
+      ],
+      "label": "右法面の草本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "枯れた細い草葉と低い緑草が点在する"
+      ],
+      "limitations": "穂・花・葉の細部が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "998085aa9d3aea6c76b848dbe8121089b3397f196ecc0de5e0afef4c1e10fa6d",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T15:24:48.960340+00:00"
+}

@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "image_id": "1122895658190381",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端と背景・手前を実視認。必要部位は元画素から拡大。座標・国・文字・道路・地理分布・旧タグを根拠にしない。判別不能の形質を明記して保留。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.345,
+        0.103,
+        0.25,
+        0.405
+      ],
+      "label": "中央の高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直幹と上方に疎らに集まる細長葉状樹冠がある"
+      ],
+      "limitations": "暗部で葉序・花果・樹皮が読めず類似属を分けられない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Eucalyptus",
+        "Corymbia"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.609,
+        0.112,
+        0.391,
+        0.46
+      ],
+      "label": "右斜面の木本・低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さな丸い暗緑色樹冠が斜面に点在する"
+      ],
+      "limitations": "個々の葉序・花果の細部が読めず、混在する植物の分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0,
+        0.346,
+        0.63
+      ],
+      "label": "左崖沿いの木本・低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い茎と小さな暗色葉群が崖沿いにある"
+      ],
+      "limitations": "個々の葉序・花果の細部が読めず、混在する植物の分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.577,
+        0.54,
+        0.423,
+        0.172
+      ],
+      "label": "右手前の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い草葉と細い枯茎が地面にある"
+      ],
+      "limitations": "個々の葉序・花果の細部が読めず、混在する植物の分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.192,
+        0.389,
+        0.167,
+        0.148
+      ],
+      "label": "左奥の樹冠群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さな暗緑色の樹冠が重なる"
+      ],
+      "limitations": "葉・幹・花果が遠く判別できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "91e4176152531fc9cb0c5b120579027a9dcacc014b833bd4e7dfcac42c9c92ed",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T19:29:31.677927+00:00"
+}

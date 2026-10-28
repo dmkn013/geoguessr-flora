@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "image_id": "1751439635472375",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像の全景、左右端・手前・背景を確認。必要部位を元画素で拡大し、全天球は全幅を確認。画像上の植物形態だけを根拠にし、国・座標・文字・道路・旧タグを使わない。分類できない対象にも見えた形態と同定限界を記録。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.039,
+        0.314,
+        0.418,
+        0.224
+      ],
+      "label": "左側の明色幹の林",
+      "scope": "group",
+      "taxon": {
+        "name": "カバノキ属",
+        "scientific_name": "Betula",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "白灰色の細い幹に小さな明緑葉がつき、細枝が上向きに伸びる"
+      ],
+      "limitations": "カバノキ属候補だが樹皮の剥離・鋸歯・花序は読めない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Betula",
+        "Populus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.531,
+        0.333,
+        0.469,
+        0.263
+      ],
+      "label": "右側の針葉樹状林",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "狭い円錐樹冠と横に広がる短い枝を持つ木が多い"
+      ],
+      "limitations": "葉枕・針葉と球果が不明でトウヒ・モミ等の識別不可",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea",
+        "Abies"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.021,
+        0.467,
+        0.423,
+        0.107
+      ],
+      "label": "左路肩の草本・低木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い小葉群と緑草が密生する"
+      ],
+      "limitations": "葉・花の細部不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.528,
+        0.512,
+        0.472,
+        0.146
+      ],
+      "label": "右林縁の低木・草本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "明緑色の小型葉群と短い草本が混生する"
+      ],
+      "limitations": "葉序・花果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.014,
+        0.395,
+        0.44,
+        0.155
+      ],
+      "label": "左の明色幹の林に混じる針葉樹状木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "明色幹の小葉樹の間に暗緑の狭い円錐状樹冠が複数ある"
+      ],
+      "limitations": "広葉樹と区別して記録するが針葉・球果は不明で種属の識別不可",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "1e1a9491f76b4c25f8b3f8cccc9ab8f81d2d53d4b42222fd4141ff9ea7b03ccd",
+  "source_size": [
+    1024,
+    512
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T15:31:51.595681+00:00"
+}

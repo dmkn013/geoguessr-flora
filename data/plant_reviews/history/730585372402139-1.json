@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "image_id": "730585372402139",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像の全景、左右端・手前・背景を確認。必要部位を元画素で拡大し、全天球は全幅を確認。画像上の植物形態だけを根拠にし、国・座標・文字・道路・旧タグを使わない。分類できない対象にも見えた形態と同定限界を記録。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        0.42,
+        0.637
+      ],
+      "label": "左側の針葉樹状群",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "長い幹の上部に房状の針葉状葉群があり、枝が横に広がる"
+      ],
+      "limitations": "葉束と球果が不鮮明でマツ属は候補",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.547,
+        0,
+        0.453,
+        0.58
+      ],
+      "label": "右側の針葉樹状群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "暗緑色の針葉状樹冠と細い直立幹が並ぶ"
+      ],
+      "limitations": "針葉の付き方・球果が暗く不鮮明で属以下不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0,
+        0.506,
+        0.316
+      ],
+      "label": "左手前の広葉樹",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "上方に細かな広葉が枝に沿って広がり、手前の明色幹から太枝が分岐する"
+      ],
+      "limitations": "葉形・葉縁・芽・花果が読めずカバノキ類等の判断不可",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.798,
+        0,
+        0.202,
+        0.58
+      ],
+      "label": "右端の広葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "明緑色の小葉群と明色の細幹が針葉樹の前に重なる"
+      ],
+      "limitations": "葉序・葉縁・花果の不足で種属不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.465,
+        0.488,
+        0.459
+      ],
+      "label": "左路肩の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長短の草葉と小型広葉草本、黄色い花状部分が混在"
+      ],
+      "limitations": "花の細部と葉の対応が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "601b06e0dfbc7477e6ef0aa0c9919c7ea8e6582683a815eade2c38e8840e1d48",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T15:29:06.191848+00:00"
+}

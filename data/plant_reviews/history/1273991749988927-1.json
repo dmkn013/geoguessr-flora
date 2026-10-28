@@ -1,0 +1,203 @@
+{
+  "schema_version": 1,
+  "image_id": "1273991749988927",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.033,
+        0,
+        0.565,
+        0.818
+      ],
+      "label": "左のマツ類高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "長い幹と横枝先に細葉状の房があり上幹が赤褐色を帯びる"
+      ],
+      "limitations": "束生数・葉鞘・球果が未解像でマツ属は暫定、幹色だけで種を確定しない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.619,
+        0.026,
+        0.381,
+        0.796
+      ],
+      "label": "右のマツ類高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "横枝に長い針状葉が束状に集まり房を作る"
+      ],
+      "limitations": "針葉束生数・葉鞘・球果が不足し種以下は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.1,
+        0.19,
+        0.68
+      ],
+      "label": "左端の広葉低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸く浅い裂片を持つように見える広葉が多数付く"
+      ],
+      "limitations": "葉柄接続・葉縁・果実が不鮮明でコナラ属は候補",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Quercus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.372,
+        0.24,
+        0.247,
+        0.533
+      ],
+      "label": "中央奥の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い枝に長楕円形状の広葉が付く"
+      ],
+      "limitations": "単葉・複葉の接続と葉序・花果が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.591,
+        0.504,
+        0.409,
+        0.342
+      ],
+      "label": "右下層の木本・低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細幹と丸い小型葉群が重なる"
+      ],
+      "limitations": "個葉・葉序・花果が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0,
+        0.757,
+        0.502,
+        0.243
+      ],
+      "label": "左地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い黄緑色葉群と細い茎がある"
+      ],
+      "limitations": "小穂・葉鞘・花序が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.523,
+        0.787,
+        0.477,
+        0.213
+      ],
+      "label": "右地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い緑色から黄褐色の被覆がある"
+      ],
+      "limitations": "個葉・花序が不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "4f54cadd4c86c5a043a99057173e36d44fc3103a679de3b783f619ca5cfceca9",
+  "source_size": [
+    1024,
+    771
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-27T05:38:27.056413+00:00"
+}

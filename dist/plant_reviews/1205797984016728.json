@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "image_id": "1205797984016728",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "全景と右の針葉を拡大。文字・道路・景観の地域性を使わず、枝先の針葉状の束を観察。 元画像全景の矩形重ね合わせを目視確認済み。細部が写らない対象は理由付きで保留し、候補は確定タグから除外した。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.538,
+        0,
+        0.462,
+        0.527
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "針葉状の長い葉が枝先にまとまる",
+        "不規則な横枝と疎密のある樹冠"
+      ],
+      "limitations": "束の針葉数と球果が分離できないため種以下は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [
+        {
+          "url": "https://ask.ifas.ufl.edu/publication/FR003",
+          "supports": "マツ属の枝先の針葉束と、種判定に必要な針葉・球果の特徴"
+        }
+      ],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.36,
+        0.356,
+        0.159
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "左側の針葉樹群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "道路奥に尖った緑の樹冠が連なる"
+      ],
+      "limitations": "葉と球果の細部が遠すぎる",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.539,
+        0.467,
+        0.461,
+        0.214
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "右路肩の低木・草本群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細葉の草本と密な小低木が見える"
+      ],
+      "limitations": "花・穂・葉の構造が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "d801fe86557d9a74115107bb857ebdff46e30f3560485b5272d589fd16cc847d",
+  "source_size": [
+    1024,
+    766
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T10:20:08.206577+00:00"
+}

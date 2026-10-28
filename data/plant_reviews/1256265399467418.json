@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "image_id": "1256265399467418",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景を実視認。必要部位は元画素を拡大。植物形態だけを根拠にし、座標・国・文字・道路・地理分布・旧タグを用いない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.292,
+        0.223,
+        0.211,
+        0.322
+      ],
+      "label": "中央奥の針葉状高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直幹と円錐状の密な樹冠がある"
+      ],
+      "limitations": "拡大でも葉付着・断面・球果が解像せずPicea/Abies等を分けられない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea",
+        "Abies",
+        "Pseudotsuga"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0,
+        0.294,
+        0.599
+      ],
+      "label": "左の混交樹冠群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な細葉状の枝葉と広葉が重なる"
+      ],
+      "limitations": "葉序・葉縁・花果が読めず、混在する植物の個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.527,
+        0,
+        0.473,
+        0.562
+      ],
+      "label": "右上の広葉枝葉",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "幅広い楕円状葉が枝に密に付く"
+      ],
+      "limitations": "葉序・鋸歯・芽と花果が十分読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.495,
+        0.248,
+        0.207,
+        0.292
+      ],
+      "label": "右中景の広葉低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さな丸い樹冠に広葉が密生する"
+      ],
+      "limitations": "葉序・葉縁・花果が読めず、混在する植物の個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.488,
+        0.51,
+        0.512,
+        0.391
+      ],
+      "label": "右地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長い細葉草本と小型広葉がある"
+      ],
+      "limitations": "葉序・葉縁・花果が読めず、混在する植物の個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0,
+        0.573,
+        0.332,
+        0.143
+      ],
+      "label": "左地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い草葉と低い広葉草本が林縁にある"
+      ],
+      "limitations": "葉序・葉縁・花果が読めず、混在する植物の個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "45aa0ecff67cf84590ae27fc9dc675e7ce5823ff9d559ff3e78bad149a4d5f8b",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T22:35:43.068456+00:00"
+}

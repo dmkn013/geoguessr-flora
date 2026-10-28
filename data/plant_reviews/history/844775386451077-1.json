@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "image_id": "844775386451077",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "全景の左右端・手前・背景まで確認。必要箇所を元画素から拡大。画像内の植物形態だけを用い、座標・文字・道路様式・地域・既存タグで分類しない。解像度やぼけにより下位同定できない対象にも矩形と理由を保存。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.646,
+        0,
+        0.354,
+        0.773
+      ],
+      "label": "右側の高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細長い明色幹と下垂する狭い葉群が密生"
+      ],
+      "limitations": "ユーカリ類候補だが葉序・花果・樹皮が読めず属は未確定",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Eucalyptus",
+        "Corymbia"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0,
+        0.581,
+        0.402
+      ],
+      "label": "左上の高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "高い細幹から小さな樹冠が疎らに広がる"
+      ],
+      "limitations": "葉や花果の解像度不足。植林配置を分類根拠にしない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.294,
+        0.529,
+        0.63
+      ],
+      "label": "左法面の下層植生",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い草葉、蔓状の枝、広葉の群落が混在する"
+      ],
+      "limitations": "日陰と距離で個別の葉・花・胞子葉を区別できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.808,
+        0.378,
+        0.192,
+        0.34
+      ],
+      "label": "右下層の蔓・低木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "明緑色の広葉が幹の前面を覆う"
+      ],
+      "limitations": "葉序・花果が不明でつる植物の分類も保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "1bfcaf335274e6a264a8d8525d68796532df6e0f9e4309b9025d58a2bab80e99",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T13:30:19.235951+00:00"
+}

@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "image_id": "2369688013422791",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景を左右端・手前・背景まで実際に確認。必要部位は元画素から拡大。植物形態のみを根拠にし、座標・国・文字・道路様式・旧タグを使わない。葉や花果が解像しない対象は候補と限界を保存。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        0.427,
+        0.563
+      ],
+      "label": "左側のしだれる広葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "カバノキ属",
+        "scientific_name": "Betula",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "細枝が下垂し多数の小型の尖る広葉がつく"
+      ],
+      "limitations": "カバノキ属候補。樹皮が葉群に隠れ葉の鋸歯や芽・花序も不鮮明で種属の排他的識別不足",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Betula"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.714,
+        0,
+        0.286,
+        0.665
+      ],
+      "label": "右手前のマツ属",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "高い幹の先の枝に長い針葉の房がまとまり、横枝は疎らに広がる"
+      ],
+      "limitations": "マツ属まで確認。針葉束の本数・鞘と球果の細部が不明で種は確定できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.566,
+        0.259,
+        0.434,
+        0.397
+      ],
+      "label": "右奥の広葉樹・低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "明色の細幹と小型広葉が密生する"
+      ],
+      "limitations": "葉形・葉序・花果が読めず同じ分類群と決めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.525,
+        0.444,
+        0.241
+      ],
+      "label": "左路肩の草本・低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細長い草葉と黄褐色の穂状部分、小型広葉が混生する"
+      ],
+      "limitations": "葉舌・小穂と花の詳細不足",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.57,
+        0.58,
+        0.43,
+        0.24
+      ],
+      "label": "右路肩の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑の草本と黄褐色枯草が密生する"
+      ],
+      "limitations": "葉と花序が不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "816b4f71838bd3c975a379edbf44cecf3bb7e76f6abbf89bbecdc5f635cddb69",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T18:40:25.303741+00:00"
+}

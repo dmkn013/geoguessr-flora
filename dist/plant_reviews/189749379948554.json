@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "image_id": "189749379948554",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景を左右端と手前・背景まで確認。必要部位は元画素拡大を参照。全天球も全幅を見て車体や窓への反射を二重計数しない。植物の見える形態のみを根拠にし地理・国・文字・既存タグは使わない。下位分類不能の理由を記録。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        0.444,
+        0.452
+      ],
+      "label": "左側の羽状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "アブラヤシ属",
+        "scientific_name": "Elaeis",
+        "rank": "genus"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "太い単幹に菱形状の葉基部が残り、長い羽状葉の小葉が複数方向に付いて房状になる"
+      ],
+      "limitations": "アブラヤシ属と確認。花果と小葉配列の細部が不足しguineensis/oleiferaと交雑を分けられない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Elaeis guineensis",
+        "Elaeis oleifera"
+      ],
+      "morphology": [],
+      "sources": [
+        {
+          "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A666802-1/general-information",
+          "supports": "残存葉基部を持つ単幹と不規則に複数平面に付く小葉を照合。花果の細部不足で種は保留"
+        }
+      ],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.449,
+        0,
+        0.551,
+        0.535
+      ],
+      "label": "右側の羽状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "アブラヤシ属",
+        "scientific_name": "Elaeis",
+        "rank": "genus"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "太い葉基部残存幹、大型羽状葉の不規則な小葉、放射状の密な樹冠が見える"
+      ],
+      "limitations": "果房・小葉配列と葉柄の刺が十分見えず、種・交雑・栽培型の判別は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Elaeis guineensis",
+        "Elaeis oleifera"
+      ],
+      "morphology": [],
+      "sources": [
+        {
+          "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A666802-1/general-information",
+          "supports": "残存葉基部を持つ単幹と不規則に複数平面に付く小葉を照合。花果の細部不足で種は保留"
+        }
+      ],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.36,
+        0.431,
+        0.276
+      ],
+      "label": "左手前の草本・低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型の緑葉と多数の黄色い花状部分が密生する"
+      ],
+      "limitations": "花弁・総苞・葉序がぶれて読み取れず個別同定不可",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.518,
+        0.401,
+        0.482,
+        0.241
+      ],
+      "label": "右手前の下草・幹の着生植物",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い草葉と幹の葉基部に生える細かい緑葉の房がある"
+      ],
+      "limitations": "葉形・胞子体と基部が読めず、着生シダ等も下位判定不可",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "6c3f088b0bcae531c81d5c69af0d0940ddba91449a887d40662269abbea7d623",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T14:31:01.141258+00:00"
+}

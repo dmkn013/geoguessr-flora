@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "image_id": "707021574941617",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.697,
+        0.219,
+        0.303,
+        0.46
+      ],
+      "label": "右手前の裸枝高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "太い幹から多数の細枝が分岐し横に広い樹冠を作る"
+      ],
+      "limitations": "葉・刺・花序・莢が不足し傘形樹冠だけで科属を確定しない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Vachellia",
+        "Senegalia"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.599,
+        0.44,
+        0.199,
+        0.208
+      ],
+      "label": "右中景の小葉状葉群を持つ木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "多数の細枝に小型の緑色葉状部が疎らに付く"
+      ],
+      "limitations": "小葉軸・葉序・刺・花果が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.431,
+        0.341,
+        0.267
+      ],
+      "label": "左の低木・高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い分枝幹と密な小葉状葉群、裸枝が混在する"
+      ],
+      "limitations": "個葉・刺・花果と個体境界が不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.356,
+        0.47,
+        0.158,
+        0.123
+      ],
+      "label": "中央左奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "横へ張る細枝と疎らな緑色葉群がある"
+      ],
+      "limitations": "遠景で複葉構造・花果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.653,
+        0.202,
+        0.079
+      ],
+      "label": "左地表の植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い褐色茎と疎らな低い葉群がある"
+      ],
+      "limitations": "葉鞘・花序が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.785,
+        0.537,
+        0.215,
+        0.212
+      ],
+      "label": "右地表の低木・草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "地面近くに細枝と小型葉群が散在する"
+      ],
+      "limitations": "個体境界と葉序・花果が不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "4ac3814630fdebaf7b3f59a085f919260fcc6644cf3fd2fb7aacc3a22d1f1b97",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-27T04:37:07.032634+00:00"
+}

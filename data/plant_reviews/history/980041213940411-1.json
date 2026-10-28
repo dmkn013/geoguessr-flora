@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "image_id": "980041213940411",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.362,
+        0.015,
+        0.314,
+        0.263
+      ],
+      "label": "中央奥の針葉状高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "直立する細い幹に円錐状の細葉樹冠が付く"
+      ],
+      "limitations": "動体ぼけで葉の付着と球果が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cryptomeria",
+        "Chamaecyparis"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.693,
+        0,
+        0.307,
+        0.311
+      ],
+      "label": "右手前の針葉状木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "直立幹と暗緑色の細葉状葉群がある"
+      ],
+      "limitations": "ぼけと画面端で葉・球果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0,
+        0.355,
+        0.222
+      ],
+      "label": "左斜面の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直立幹と緑色葉群が連続する"
+      ],
+      "limitations": "裸枝・細葉状部が混在し葉序・花果と個体境界が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.67,
+        0.091,
+        0.159,
+        0.173
+      ],
+      "label": "右中景の明緑色広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細幹に透ける明緑色の広葉樹冠がある"
+      ],
+      "limitations": "個葉・花果が不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "6e0b7299c9ebfc8d8d2b86f89b8cec870d33028f3a149edfcc1da345a75e3176",
+  "source_size": [
+    1023,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-27T05:32:58.281530+00:00"
+}

@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "image_id": "3997669536981765",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像の全景、左右端・手前・背景を確認。必要部位を元画素で拡大し、全天球は全幅を確認。画像上の植物形態だけを根拠にし、国・座標・文字・道路・旧タグを使わない。分類できない対象にも見えた形態と同定限界を記録。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        0.365,
+        0.806
+      ],
+      "label": "左側の高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "広い緑の葉群が密生し樹冠が重なる"
+      ],
+      "limitations": "強い逆光とぶれで葉形・葉序・花果が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.342,
+        0.428,
+        0.257,
+        0.304
+      ],
+      "label": "中央奥の高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹と枝先の大きめの葉群が疎らに付く"
+      ],
+      "limitations": "葉序・花果が解像しない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.668,
+        0.167,
+        0.216,
+        0.344
+      ],
+      "label": "右奥の羽状葉ヤシ",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "高い直立幹の頂から羽状葉が放射する"
+      ],
+      "limitations": "逆光で小葉・果実と幹の細部が読めず属以下不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.781,
+        0.284,
+        0.219,
+        0.343
+      ],
+      "label": "右端の大型葉草本",
+      "scope": "group",
+      "taxon": {
+        "name": "バショウ属",
+        "scientific_name": "Musa",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "大型の長楕円葉が立ち上がり横に広がり、一部が裂ける"
+      ],
+      "limitations": "バショウ属候補だが偽茎と花序は見えずStrelitzia等の排除不足",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Musa",
+        "Strelitzia"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.572,
+        0.231,
+        0.241,
+        0.531
+      ],
+      "label": "右手前の広葉樹",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "分枝した幹と濃い緑の丸い葉群"
+      ],
+      "limitations": "逆光で葉序・葉形・花果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.319,
+        0.69,
+        0.681,
+        0.31
+      ],
+      "label": "右法面の下草",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "地面を短い緑の植生が覆う"
+      ],
+      "limitations": "日陰とぶれで葉・花が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "57fe2430bbccc16358981c7bbed1a03c0f976d11d506218cf07d8ed63ca5a67f",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T15:29:05.946617+00:00"
+}

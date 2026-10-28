@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "image_id": "747843387078060",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "全天球の全幅を確認。針葉樹群と枝葉のない木、下層を分ける。針葉束・球果が見えないため属候補を確定しない。 矩形重ね合わせを元画像全景で目視確認済み。候補の確定タグへの混入なし。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.537,
+        0.218,
+        0.463,
+        0.335
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "右側のマツ属候補群",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "長い直立幹の上部に針葉状の樹冠が集中"
+      ],
+      "limitations": "針葉の束の構造・球果・樹皮の細部が不明",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "マツ属"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.019,
+        0.175,
+        0.476,
+        0.401
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "左側の針葉樹群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "直立幹と不規則な緑の樹冠"
+      ],
+      "limitations": "逆光で針葉の付き方と球果が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.396,
+        0.306,
+        0.078,
+        0.181
+      ],
+      "scope": "individual",
+      "taxon": {
+        "name": "中央左の落葉樹",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "裸の細枝が見える"
+      ],
+      "limitations": "葉・芽・樹皮の診断形質が不足",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.543,
+        0.487,
+        0.292,
+        0.096
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "右の下層草本・低木",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い乾いた茎葉が見える"
+      ],
+      "limitations": "花果・葉の構造が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "b122eebab94a81702612d1e4eb77b8d0d24d7f74df2c3f1a1ba58d1a54b39c82",
+  "source_size": [
+    1024,
+    512
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T12:20:57.017698+00:00"
+}

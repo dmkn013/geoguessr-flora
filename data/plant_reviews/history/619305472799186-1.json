@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "image_id": "619305472799186",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景を実視認し必要部位を元画素拡大。植物形態だけを根拠とし、座標・国・文字・道路・地理分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.576,
+        0.491,
+        0.142,
+        0.103
+      ],
+      "label": "中央右の低木",
+      "scope": "individual",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低く分岐した暗色幹に細かい葉状部分が横へ広がる"
+      ],
+      "limitations": "拡大でも複葉の接続・托葉・刺・花果が読めず科属保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Fabaceae",
+        "Vachellia",
+        "Senegalia"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.83,
+        0.353,
+        0.17,
+        0.373
+      ],
+      "label": "右端の低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い分枝が密に広がり小さな葉状部分がある"
+      ],
+      "limitations": "画面端で葉構造・刺・花果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Fabaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.518,
+        0.575,
+        0.065
+      ],
+      "label": "左奥の木本・低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さな丸い低木樹冠が点在する"
+      ],
+      "limitations": "遠景で葉・枝が判別できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.573,
+        0.412,
+        0.357
+      ],
+      "label": "左地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い黄褐色の草葉と細い枯茎がまばらにある"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が読めず個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.557,
+        0.566,
+        0.443,
+        0.222
+      ],
+      "label": "右地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い草葉と小型広葉株がまばらにある"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が読めず個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "149752b92685b2cf14e643c2cbf70ccdea7dc82b29b30f5c851170c41114d8cc",
+  "source_size": [
+    1023,
+    767
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-27T00:42:25.829648+00:00"
+}

@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "image_id": "4813437375406509",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "全景と左のヤシを拡大。手前の草本や右上の広葉樹も記録し、背景の小さなヤシだけに注意を限定しない。 元画像全景の矩形重ね合わせを目視確認済み。細部が写らない対象は理由付きで保留し、候補は確定タグから除外した。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.293,
+        0.2,
+        0.167,
+        0.2
+      ],
+      "scope": "individual",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "羽状の大型葉が単一の株元方向から開く"
+      ],
+      "limitations": "幹・葉柄の刺・果実が遮蔽され属を確定できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0,
+        0.249,
+        0.73
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "左手前の草本・低木群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長い細葉の草本と小葉の低木が混在する"
+      ],
+      "limitations": "葉の付け根・穂・花が確認できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.548,
+        0,
+        0.452,
+        0.505
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "右上の広葉樹群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "大きな暗い樹冠と細長く見える葉がある"
+      ],
+      "limitations": "逆光で葉縁・葉序・花果が見えずマンゴー等を確定しない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.244,
+        0.01,
+        0.306,
+        0.429
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "左奥の広葉高木群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "複数の丸い樹冠が重なる"
+      ],
+      "limitations": "距離・遮蔽で葉や樹皮の診断形質が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.433,
+        0.287,
+        0.123,
+        0.183
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "中央のヤシ群",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "細い幹の上に羽状の葉が集中する"
+      ],
+      "limitations": "細部が遠景でつぶれており属は未確定",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.532,
+        0.173,
+        0.019,
+        0.028
+      ],
+      "scope": "individual",
+      "taxon": {
+        "name": "遠景の高いヤシ",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "非常に小さい放射状の葉冠と細い幹が見える"
+      ],
+      "limitations": "葉形・幹・果実が小さすぎる",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "3400bad3779ac7499ee8b15af4855e2180434c5dd604f919bfa52b8dfbb05532",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T10:20:08.314674+00:00"
+}

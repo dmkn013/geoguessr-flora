@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "image_id": "316085393370200",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "全景確認。疎な木立と下層の小低木を別々に記録。植生景観や道路は分類の根拠にせず、決め手の不足を残す。 矩形重ね合わせを全景で目視確認済み。候補は確定タグに入れず、画像にない特徴は推測しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.143,
+        0.334,
+        0.09,
+        0.264
+      ],
+      "scope": "individual",
+      "taxon": {
+        "name": "左手前の高木",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "明るい細い幹と疎な小葉状の樹冠"
+      ],
+      "limitations": "葉脈・葉序・花蕾・果実が見えず属不明",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "ユーカリ類",
+        "他の広葉樹"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.665,
+        0.357,
+        0.335,
+        0.223
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "右側の高木群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "曲がった枝と疎な樹冠、裸の枝が混在する"
+      ],
+      "limitations": "葉・樹皮・花果の細部が解像しない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.527,
+        0.441,
+        0.192
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "左の低木群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い丸い株が点在する"
+      ],
+      "limitations": "小さく葉・花の診断形質が見えない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.542,
+        0.546,
+        0.458,
+        0.088
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "右の低木群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低く細かい樹冠が点在する"
+      ],
+      "limitations": "遠景で葉・花果が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "ab7abeeae56cff0c03a3d49d103c44014b28734aa0021c329c0cebf981ab8730",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T11:21:12.133644+00:00"
+}

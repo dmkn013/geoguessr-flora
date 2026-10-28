@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "image_id": "172712914758076",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景を実視認し必要部位を元画素拡大。植物形態のみを根拠とし、座標・国・文字・道路・地理分布・旧タグは用いない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.212,
+        0.197,
+        0.279,
+        0.216
+      ],
+      "label": "左の赤い花状部を持つ高木",
+      "scope": "individual",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "横枝が広がる扁平な樹冠に細かい羽状葉状部分と赤い花状部がある"
+      ],
+      "limitations": "拡大でも二回羽状葉の接続・花弁構造・莢が読めず科属と種は候補まで",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Fabaceae",
+        "Delonix regia"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0,
+        0.279,
+        0.341
+      ],
+      "label": "左端の広葉高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型広葉が太い枝に密生する"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が読めず個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.678,
+        0.037,
+        0.322,
+        0.406
+      ],
+      "label": "右の広葉高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "太い幹が分岐し幅広い葉群が密な丸い樹冠を作る"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が読めず個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.437,
+        0.352,
+        0.254,
+        0.051
+      ],
+      "label": "中央奥の木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい丸い樹冠が連なる"
+      ],
+      "limitations": "遠景で葉と花果が見分けられない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.6,
+        0.402,
+        0.4,
+        0.178
+      ],
+      "label": "右地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い草葉と小型広葉が連続する"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が読めず個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.007,
+        0.438,
+        0.229,
+        0.057
+      ],
+      "label": "左地面の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色草葉と小型広葉がある"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が読めず個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "5b2b1813b5ef78d8b73bc5cdcd5eedac8cb7b8b9609e19d326977d7c943c61f3",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-27T00:30:38.318760+00:00"
+}

@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "image_id": "1762164084387303",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像の全景、左右端・手前・背景を確認。必要部位を元画素で拡大し、全天球は全幅を確認。画像上の植物形態だけを根拠にし、国・座標・文字・道路・旧タグを使わない。分類できない対象にも見えた形態と同定限界を記録。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        0.485,
+        0.621
+      ],
+      "label": "左手前の二回羽状複葉の木",
+      "scope": "group",
+      "taxon": {
+        "name": "マメ科",
+        "scientific_name": "Fabaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "多数の対生する小型小葉を持つ羽片が大きな葉軸に並び、枝が横に広がる。小さい赤色花状部分がある"
+      ],
+      "limitations": "Delonix類に整合するが花冠・萼と果実の形が不鮮明。二回羽状複葉だけで類似するPeltophorumやAlbizia等を排除できず属種は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Delonix regia",
+        "Peltophorum",
+        "Albizia"
+      ],
+      "morphology": [],
+      "sources": [
+        {
+          "url": "https://www.nparks.gov.sg/florafaunaweb/flora/2/8/2838",
+          "supports": "二回羽状複葉と小葉、花果の特徴を候補比較。花果不鮮明でDelonix種は確定しない"
+        }
+      ],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.289,
+        0.418,
+        0.364,
+        0.22
+      ],
+      "label": "中央分離帯の小木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細幹に平たい丸い樹冠と細かな緑葉群が付く"
+      ],
+      "limitations": "手前の木と同属と推定せず、葉・花果不足により個別同定不可",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.733,
+        0.443,
+        0.112,
+        0.174
+      ],
+      "label": "右奥の小木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹から丸い緑の樹冠が広がる"
+      ],
+      "limitations": "葉形・葉序・花果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.312,
+        0.619,
+        0.688,
+        0.062
+      ],
+      "label": "中央分離帯の草本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い緑草が細い帯状に生える"
+      ],
+      "limitations": "遠景で葉と花序不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "24ed06364e1eb399f9abfdb317dd221665115ba73ba3d16af99f9d2b3a45309a",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T15:31:51.687738+00:00"
+}

@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "image_id": "1109547486214670",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景を実視認。必要部位は元画素を切り出し拡大。植物形態だけを根拠にし、座標・国・文字・道路・地理分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.336,
+        0.128,
+        0.13,
+        0.327
+      ],
+      "label": "中央左の針葉状高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "直幹から横枝が階層状に出て枝先が下垂し円錐状樹冠を作る"
+      ],
+      "limitations": "拡大しても針葉の付着・断面と球果が読めず属確定は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea",
+        "Abies",
+        "Pseudotsuga"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.247,
+        0.35,
+        0.207
+      ],
+      "label": "左の裸枝木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "分岐する幹と細い裸枝が広がる"
+      ],
+      "limitations": "葉・芽・花果がなく樹皮細部も不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.505,
+        0.374,
+        0.261,
+        0.096
+      ],
+      "label": "中央右の小型常緑樹冠群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さな密な暗緑色樹冠が複数ある"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が不鮮明で分類保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cupressaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.844,
+        0.347,
+        0.156,
+        0.139
+      ],
+      "label": "右奥の裸枝木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹と裸枝が立ち上がる"
+      ],
+      "limitations": "遠く芽と樹皮細部が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.451,
+        0.418,
+        0.277
+      ],
+      "label": "左地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い草葉と枯茎が雪の間にある"
+      ],
+      "limitations": "雪と枯葉で葉形・花序が見えない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.626,
+        0.478,
+        0.374,
+        0.41
+      ],
+      "label": "右地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い草葉と細い枯茎が疎らにある"
+      ],
+      "limitations": "雪で葉と生殖器官が隠れる",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "6aef9561f60f7f20ba39eb3a4d32f5b9493b1d3a0cce3563f2db4d89a1a346ce",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T22:43:48.087547+00:00"
+}

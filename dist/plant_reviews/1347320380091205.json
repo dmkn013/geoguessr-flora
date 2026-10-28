@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "image_id": "1347320380091205",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像の全景、左右端・手前・背景を確認。必要部位を元画素で拡大し、全天球は全幅を確認。画像上の植物形態だけを根拠にし、国・座標・文字・道路・旧タグを使わない。分類できない対象にも見えた形態と同定限界を記録。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        0.355,
+        0.679
+      ],
+      "label": "左側の針葉樹状群",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "直立幹の高い部分に針葉状の房があり、枝は斜上する"
+      ],
+      "limitations": "マツ属候補だが葉束と鞘・球果が読めず確定しない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.328,
+        0.515,
+        0.3,
+        0.18
+      ],
+      "label": "奥の低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い葉群と直立する枝先が道沿いに点在する"
+      ],
+      "limitations": "葉形・葉序・花果が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.3,
+        0.633,
+        0.14,
+        0.082
+      ],
+      "label": "左路肩の草本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "黄緑色の低い草本が帯状に見える"
+      ],
+      "limitations": "葉・花序の細部なし",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.62,
+        0.06,
+        0.38,
+        0.578
+      ],
+      "label": "荷台の乾燥した植物材",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "黄褐色の細い茎状素材が束ねられ積まれている"
+      ],
+      "limitations": "刈り取られた植物材で、葉・穂・花果が読めず原植物の科・属・種を同定できない。周囲の立木とは別対象",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "794a85e305d2bbe489227547b94beb71e151e694bf42d6a142037b53e90424dd",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T15:31:51.642718+00:00"
+}

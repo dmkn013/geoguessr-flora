@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "image_id": "176184281100618",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景を実視認。必要部位は元画素から拡大。座標・国・文字・道路・地理分布・旧タグを根拠にしない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        0.527,
+        0.648
+      ],
+      "label": "左手前の羽状葉ヤシ",
+      "scope": "individual",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "太い単幹に旧葉基部が残り長い羽状葉が放射する"
+      ],
+      "limitations": "樹冠が画面外に切れ葉柄の刺と果房が不鮮明で別個体は属確定を保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Elaeis"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.22,
+        0.244,
+        0.306,
+        0.573
+      ],
+      "label": "左中央のアブラヤシ属",
+      "scope": "individual",
+      "taxon": {
+        "name": "アブラヤシ属",
+        "scientific_name": "Elaeis",
+        "rank": "genus"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "旧葉基部を持つ粗い単幹、密な羽状葉の樹冠、小葉が複数面へ向く葉を持つ"
+      ],
+      "limitations": "アブラヤシ属まで確認。葉柄の刺と花果が不鮮明でE.guineensis/E.oleiferaと種以下は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Elaeis guineensis",
+        "Elaeis oleifera"
+      ],
+      "morphology": [],
+      "sources": [
+        {
+          "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A666802-1/general-information",
+          "supports": "旧葉基部を持つ単幹・羽状葉と複数面に付く小葉を比較。花果不足で種確定は保留"
+        }
+      ],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.573,
+        0.428,
+        0.427,
+        0.326
+      ],
+      "label": "右奥の羽状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "長い葉軸に線形小葉が並ぶ羽状葉の樹冠が複数ある"
+      ],
+      "limitations": "幹頂・果房と葉柄が隠れ属以下保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Elaeis"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.894,
+        0.566,
+        0.106,
+        0.168
+      ],
+      "label": "右端の大型葉株",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "幅広い長い葉身が立ち上がり一部が裂ける"
+      ],
+      "limitations": "偽茎と葉基部が隠れ科属は候補まで",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Musaceae",
+        "Musa"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.203,
+        0.229,
+        0.627
+      ],
+      "label": "左下層の広葉木・低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細幹と小型広葉、蔓状茎が重なる"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が読めず個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.638,
+        0.665,
+        0.362,
+        0.335
+      ],
+      "label": "右下層の低木・草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型広葉と長い草葉が密生する"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が読めず個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "0c93a06e352fdc14122a26f73e0b0d1f13e49309d748c5a569e3dfd5a636cd02",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T23:45:10.045262+00:00"
+}

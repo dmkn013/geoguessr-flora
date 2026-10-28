@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "image_id": "913103996154301",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.222,
+        0.361,
+        0.525
+      ],
+      "label": "左の積雪した針葉状高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い横枝と枝先の細葉状葉群に雪が付着し不規則な樹冠を作る"
+      ],
+      "limitations": "雪で葉の付着・形と球果が隠れ科属は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus",
+        "Picea",
+        "Abies"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.528,
+        0,
+        0.472,
+        0.714
+      ],
+      "label": "右の積雪した針葉状高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "多数の横枝と細葉状の葉群があり積雪で先が垂れる"
+      ],
+      "limitations": "雪で針葉・球果が判別できず属種は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus",
+        "Picea",
+        "Abies"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.161,
+        0.275,
+        0.3,
+        0.404
+      ],
+      "label": "左奥の裸枝状高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直立幹と細枝の樹冠に雪が付く"
+      ],
+      "limitations": "葉の有無・芽・樹皮細部・花果が判別できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.616,
+        0,
+        0.384,
+        0.542
+      ],
+      "label": "右奥の疎らな樹冠の高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直立幹の先に疎らな細枝状樹冠が見える"
+      ],
+      "limitations": "積雪と重なりで針葉・広葉・裸枝の区別と分類形質が不足",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "104d1f250dc5b77380db89b81579869c36e9ab33903ae9e9f55b90ba73ca21a3",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-27T07:41:03.111680+00:00"
+}

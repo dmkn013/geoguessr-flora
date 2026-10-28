@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "image_id": "160158772645929",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "全景確認。暗い近景高木と背景の木立、畑状の草本面を分ける。耕作形態や地域景観は分類の根拠にしない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.765,
+        0.001,
+        0.235,
+        0.711
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "右手前の高木群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "縦長の暗い樹冠と直立した幹"
+      ],
+      "limitations": "逆光で葉・花果が見えない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.676,
+        0.314,
+        0.324
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "左の高木群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "直立幹と細長い樹冠がまとまる"
+      ],
+      "limitations": "葉序・花果が暗く不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.403,
+        0.577,
+        0.374,
+        0.205
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "背景の木立",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "離れた高木が点在する"
+      ],
+      "limitations": "遠景で葉と幹の診断形質が見えない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.115,
+        0.791,
+        0.389,
+        0.209
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "手前の草本面",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑葉が面状に広がる"
+      ],
+      "limitations": "個別の茎葉と花穂が分からない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "35f39b5ce946d63f6730a0f058eaa6e72d30d80644bc3f7a911882fcc7bf8246",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T12:22:34.868594+00:00"
+}

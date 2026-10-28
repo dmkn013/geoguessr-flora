@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "image_id": "299150241822874",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・背景・手前を実視認。必要な部位は元画素を切り出して拡大。座標・国・文字・道路・地理分布・旧タグを根拠にしない。読めない診断形質を明記して保留。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.634,
+        0.465,
+        0.226,
+        0.247
+      ],
+      "label": "右の裸枝高木",
+      "scope": "individual",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "太い幹の上で細い裸枝が広がる"
+      ],
+      "limitations": "葉・花果・樹皮の診断形質不足。樹上の緑色塊を宿主の葉と同一視しない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.681,
+        0.479,
+        0.172,
+        0.16
+      ],
+      "label": "裸枝上の緑色の塊状葉群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "裸枝の複数箇所に局所的な球状の緑色葉群がある"
+      ],
+      "limitations": "着生植物・寄生植物・宿主の葉残存の区別に必要な葉形と接続部が不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Viscum",
+        "Phoradendron"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.59,
+        0.279,
+        0.116
+      ],
+      "label": "左奥の裸枝木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い裸枝が低い樹冠を作る"
+      ],
+      "limitations": "葉・芽・樹皮細部が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.54,
+        0.574,
+        0.46,
+        0.207
+      ],
+      "label": "右斜面の低木・草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い裸枝と枯れた高茎草本が密生する"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が判別できず、混在する植物の個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.444,
+        0.652,
+        0.079,
+        0.078
+      ],
+      "label": "中央奥の常緑樹冠",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸く密な濃緑の葉群がある"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が判別できず、混在する植物の個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0,
+        0.674,
+        0.377,
+        0.146
+      ],
+      "label": "左地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い緑色草葉と乾燥した茎葉がある"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が判別できず、混在する植物の個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.577,
+        0.717,
+        0.423,
+        0.164
+      ],
+      "label": "右地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色の草葉が地面を覆う"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が判別できず、混在する植物の個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "9936ca4232b3aac7a03d32c1cb50d1a77f7c8f17210fb484e1fdae93441c4a05",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T19:31:59.595765+00:00"
+}

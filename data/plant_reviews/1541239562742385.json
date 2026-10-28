@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "image_id": "1541239562742385",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景を実視認。必要部位は元画素から拡大。植物形態だけを根拠にし、座標・国・文字・道路・地理分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.606,
+        0,
+        0.394,
+        0.909
+      ],
+      "label": "右手前の白い幹の高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "カバノキ属",
+        "scientific_name": "Betula",
+        "rank": "genus"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "白い幹に黒い横斑状部分があり、細い枝に小さな先の尖った卵形から三角状の葉が付く"
+      ],
+      "limitations": "カバノキ属まで確認。葉の鋸歯・芽・果穂が不鮮明で種・亜種・変種は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Betula pendula",
+        "Betula pubescens"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.487,
+        0.395,
+        0.149,
+        0.39
+      ],
+      "label": "右奥の疎らな広葉高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "明色幹と垂れた細枝に小型の葉群がある"
+      ],
+      "limitations": "遠く葉・芽・樹皮細部が読めず別個体群は属保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Betula"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.686,
+        0.475,
+        0.08
+      ],
+      "label": "左遠景の広葉木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い樹冠と裸枝状の樹冠が連なる"
+      ],
+      "limitations": "遠景で葉と樹皮の細部が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.75,
+        0.436,
+        0.229
+      ],
+      "label": "左地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長い細葉と低い広葉草本が密生する"
+      ],
+      "limitations": "花序・葉鞘と葉舌が不鮮明で科属保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Poaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.6,
+        0.78,
+        0.4,
+        0.22
+      ],
+      "label": "右地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い草葉と小型広葉がある"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が不鮮明で個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "97d13404fc343143359ea7094034ea50acdb81c630622b23f611175388ca8cbc",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T22:38:27.592684+00:00"
+}

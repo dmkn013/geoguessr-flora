@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "image_id": "384699589420328",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。 中央分離帯は金属柵と反射のため植物を明瞭に確認できず、仮の地表植物矩形を取り下げた。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.253,
+        0.478,
+        0.297
+      ],
+      "label": "左の明色幹広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "カバノキ属",
+        "scientific_name": "Betula",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "細い白灰色幹と細枝に小型葉群が付き樹冠は疎ら"
+      ],
+      "limitations": "葉縁・芽・果序と樹皮斑が不鮮明でカバノキ属は暫定",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Betula"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.569,
+        0.283,
+        0.241,
+        0.291
+      ],
+      "label": "右奥の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "明色の細幹と小型葉群がある"
+      ],
+      "limitations": "車体遮蔽と距離で葉形・花果が不明",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Betula"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.778,
+        0,
+        0.149,
+        0.307
+      ],
+      "label": "右上の広葉高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直立幹と疎らな小型葉群がある"
+      ],
+      "limitations": "幹下部が遮蔽され葉序・花果が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "42f4db4485f915098c9a0885f629b1739424aa71ca08c71a22f1d6f9d7cfbd5a",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 3,
+  "reviewed_at": "2026-10-27T05:39:23.422409+00:00"
+}

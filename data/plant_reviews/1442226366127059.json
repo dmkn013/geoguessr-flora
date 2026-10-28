@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "image_id": "1442226366127059",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "全景確認。強いピンぼけがあり、背景ヤシの属や路肩草本の種を推定で埋めない。 元画像全景の矩形重ね合わせを目視確認済み。細部が写らない対象は理由付きで保留し、候補は確定タグから除外した。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.024,
+        0.424,
+        0.469
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "左の草本・低木群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細長い葉と茎が斜面を覆う"
+      ],
+      "limitations": "ピンぼけで穂・花・葉の構造が分からない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.719,
+        0,
+        0.281,
+        0.296
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "単幹の上に羽状葉状の冠がある"
+      ],
+      "limitations": "画像上端の切断とピンぼけで属は不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true,
+      "label": "右奥のヤシ群"
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.274,
+        0.033,
+        0.111,
+        0.141
+      ],
+      "scope": "individual",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "羽状葉状の冠が上部に見える"
+      ],
+      "limitations": "樹冠のみで果実・幹の診断形質が見えない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true,
+      "label": "左奥のヤシ"
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.459,
+        0.125,
+        0.126,
+        0.129
+      ],
+      "scope": "individual",
+      "taxon": {
+        "name": "中央奥の広葉樹",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い樹冠がある"
+      ],
+      "limitations": "ピンぼけと距離で葉の形が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.627,
+        0.168,
+        0.373,
+        0.27
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "右の草本群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長い葉の草本が密に生える"
+      ],
+      "limitations": "穂と花・節を確認できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "a0b739e1b7e3760199afd21637a10e60a7f8e0834a4c8629c9a68972fdf9ee58",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 3,
+  "reviewed_at": "2026-10-26T12:25:24.598562+00:00"
+}

@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "image_id": "1193671561103273",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景を実視認。必要部位は元画素から切り出し拡大。植物形態だけを根拠にし座標・国・文字・道路・旧タグ・地理分布は使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        1,
+        0.82
+      ],
+      "label": "林内の常緑針葉状高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "灰褐色の直幹から横枝が出て細い枝先と細葉群が垂れる"
+      ],
+      "limitations": "元画素拡大でも葉の付着・断面・球果が判別できずPicea等を確定できない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea",
+        "Abies",
+        "Pseudotsuga"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.386,
+        1,
+        0.614
+      ],
+      "label": "林床の低木・シダ状植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "褐色の細裂葉・細茎と小型緑色広葉が混在する"
+      ],
+      "limitations": "枯葉が重なり葉序・生葉・胞子嚢群・花果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pteridium"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.272,
+        0.658,
+        0.366,
+        0.342
+      ],
+      "label": "手前の広葉草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "幅広い浅裂状の緑色葉が地際にある"
+      ],
+      "limitations": "葉脈・葉縁・葉序と花果が解像しない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.487,
+        0.616,
+        0.154,
+        0.384
+      ],
+      "label": "倒木上のコケ状被覆",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "倒木表面に鮮緑色の低いマット状被覆がある"
+      ],
+      "limitations": "個々の葉や蒴が見えず分類保留。倒木自体を生きた植物と数えない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "786599550957cec660798cc79ac31c033f718908e0630f7908831be91de7d42d",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T20:31:03.016061+00:00"
+}

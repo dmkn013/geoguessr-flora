@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "image_id": "765129977521257",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        0.415,
+        0.577
+      ],
+      "label": "左の濃緑色針葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "円錐状樹冠と垂れる細枝・細葉状の密な葉"
+      ],
+      "limitations": "針葉断面・付着・球果が見えず属確定不可",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea",
+        "Abies",
+        "Pseudotsuga"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.351,
+        0.014,
+        0.352,
+        0.479
+      ],
+      "label": "中央の明緑色広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細幹と薄い緑色の葉を持つ樹冠"
+      ],
+      "limitations": "葉縁・葉序・芽・果実が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Fagus",
+        "Carpinus",
+        "Betula"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.673,
+        0.171,
+        0.327,
+        0.299
+      ],
+      "label": "奥の混生木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "暗緑の尖塔状樹冠と明緑の丸い樹冠が混じる"
+      ],
+      "limitations": "遠景で葉・枝・球果を分離不能",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.652,
+        0.378,
+        0.291,
+        0.266
+      ],
+      "label": "右の小型木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い枝幹に疎らな葉の低い木本"
+      ],
+      "limitations": "葉形・葉序・花果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.485,
+        0.421,
+        0.256
+      ],
+      "label": "左地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細葉群に小さな黄色い花状点が混生"
+      ],
+      "limitations": "頭花構造・葉形を分離不能",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Poaceae",
+        "Taraxacum"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.593,
+        0.474,
+        0.407,
+        0.276
+      ],
+      "label": "右地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い細葉と広葉の緑色群落"
+      ],
+      "limitations": "花果・葉付着が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "de2b177f46c072c09f5cee14bf02089c07e14c0af2ffff1c58cb027002032f18",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-27T10:40:28.885548+00:00"
+}

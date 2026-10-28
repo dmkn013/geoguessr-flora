@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "image_id": "481164509605927",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。形態のみ使用し座標・文字・道路・分布・旧タグは同定根拠にしない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.216,
+        0.406,
+        0.394
+      ],
+      "label": "左の針葉状木本列",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "直立幹に細葉状の房が密に付き円錐状から丸い樹冠を作る"
+      ],
+      "limitations": "束生針葉の付着と球果が不鮮明でマツ属は暫定",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.731,
+        0.356,
+        0.269,
+        0.378
+      ],
+      "label": "右の針葉状木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な暗緑色の細葉状葉群が円錐状から丸い樹冠を作る"
+      ],
+      "limitations": "葉の付き方と球果が読めず属種は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.651,
+        0.427,
+        0.1,
+        0.222
+      ],
+      "label": "中央右の広葉高木",
+      "scope": "individual",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "淡緑色の細い広葉状葉群がやや垂れて広がる"
+      ],
+      "limitations": "葉序・葉脈・花果・樹皮が不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Eucalyptus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.502,
+        0.538,
+        0.178,
+        0.102
+      ],
+      "label": "右奥の広葉低木・高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い灰緑色から黄緑色樹冠が連続する"
+      ],
+      "limitations": "遠景で個葉・花果が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.515,
+        0.45,
+        0.389
+      ],
+      "label": "左地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "緑色から褐色の細長い葉と細い直立茎が密生する"
+      ],
+      "limitations": "花序・葉鞘が判読できず科以下は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.532,
+        0.607,
+        0.443,
+        0.256
+      ],
+      "label": "右地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "木本下に低い緑色から黄褐色の被覆が広がる"
+      ],
+      "limitations": "個葉・花序が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.4,
+        0.54,
+        0.066,
+        0.038
+      ],
+      "label": "左奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低く小さい樹冠の連なりが見える"
+      ],
+      "limitations": "極小で分類形質・個体境界が不足",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "6fbc75fe1c348ac4765a19ac155153bd892856cdb34b43b43ac9fef8332476fb",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-27T01:35:15.836149+00:00"
+}

@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "image_id": "201353661679480",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景を実視認。必要部位は元画素を切り出し拡大。植物形態だけを根拠にし、座標・国・文字・道路・地理分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.706,
+        0.46,
+        0.145,
+        0.288
+      ],
+      "label": "中央右の鉢植えキョウチクトウ",
+      "scope": "individual",
+      "taxon": {
+        "name": "キョウチクトウ",
+        "scientific_name": "Nerium oleander",
+        "rank": "species"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "細い披針形の全縁葉が対生から3枚輪生状に付き、木質茎の先に桃赤色の花状部が集まる"
+      ],
+      "limitations": "種まで確認。花の細部・花弁数と品種固有形質が読めず花色だけで栽培品種を確定しない",
+      "diagnostic_comparison": "線形の厚い全縁葉・対生〜輪生の葉序・頂生の桃赤色花状部を併せてNerium oleanderと判定。互生でより広い葉を持つ類似低木や掌状/複葉の低木とは葉構造が異なる。花色だけでは判定せず、品種以下は形質不足のため保留",
+      "candidates": [],
+      "morphology": [],
+      "sources": [
+        {
+          "url": "https://landscapeplants.oregonstate.edu/plants/nerium-oleander",
+          "supports": "狭い革質全縁葉の対生/3〜4枚輪生と頂生花房の組合せを比較"
+        },
+        {
+          "url": "https://www.nparks.gov.sg/florafaunaweb/flora/2/2/2264",
+          "supports": "尖った革質葉の対生/3枚輪生と花序形態を比較。品種以下の根拠にはしない"
+        }
+      ],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.01,
+        0.337,
+        0.56
+      ],
+      "label": "左の掌状裂葉の小高木",
+      "scope": "individual",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長い葉柄の先に幅広く3〜5裂する葉が枝に付く"
+      ],
+      "limitations": "隠花果・托葉痕・葉裏が読めず種確定は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Ficus carica"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.711,
+        0.198,
+        0.17,
+        0.227
+      ],
+      "label": "右奥の細葉低木",
+      "scope": "individual",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直立枝に密な小さい線形葉が付く"
+      ],
+      "limitations": "葉の対生・裏面・花冠が解像せず種は候補まで",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Salvia rosmarinus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.805,
+        0.604,
+        0.109,
+        0.214
+      ],
+      "label": "右手前の紫色穂状花序の鉢株",
+      "scope": "individual",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い葉と長い直立花茎の先に紫色の穂状花序が複数ある"
+      ],
+      "limitations": "花冠・苞・葉序が小さくラベンダー類の属種は候補まで",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Lavandula"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.912,
+        0.65,
+        0.079,
+        0.19
+      ],
+      "label": "右端の桃色花状部の鉢株",
+      "scope": "individual",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い葉の株先に桃色の花状部が集まる"
+      ],
+      "limitations": "花冠・花弁の切れ込みと萼が読めず属種保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Dianthus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.623,
+        0.7,
+        0.123,
+        0.11
+      ],
+      "label": "左隣の小型鉢植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型の広葉株と細い葉が放射するロゼット状株が並ぶ"
+      ],
+      "limitations": "小さく葉縁・刺・花果が見分けられない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Aloe",
+        "Haworthia"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.438,
+        0.727,
+        0.32,
+        0.273
+      ],
+      "label": "手前の黄色小花の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い緑色茎葉の先に小さい黄色花序状部分が多数付く"
+      ],
+      "limitations": "頭花か単花か・葉の裂け方が十分読めず科属保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Asteraceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0,
+        0.54,
+        0.34,
+        0.46
+      ],
+      "label": "左地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "乾いた細茎と短い緑色草葉がある"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が不鮮明で分類保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p9",
+      "bbox": [
+        0.65,
+        0.4,
+        0.35,
+        0.2
+      ],
+      "label": "右奥地表の草本・低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い乾燥草茎と小型葉の株がある"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が不鮮明で分類保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "ff387346c0806bc7ef30e0f17fb5a3a215d5ac36c160df7e5c2eac80099e35dc",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T22:45:17.891753+00:00"
+}

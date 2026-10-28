@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "image_id": "1405976268295853",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景を実視認。必要部位は元画素を切り出し拡大。植物形態だけを根拠にし、座標・国・文字・道路・地理分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.302,
+        0.267,
+        0.139,
+        0.228
+      ],
+      "label": "中央左の広葉高木",
+      "scope": "individual",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "幹が分岐し丸い樹冠に幅広い葉が密集する"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が不鮮明で分類保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.478,
+        0.369,
+        0.128,
+        0.101
+      ],
+      "label": "中央奥の木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さな丸い広葉樹冠が重なる"
+      ],
+      "limitations": "遠景で葉と花果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.598,
+        0.357,
+        0.032,
+        0.149
+      ],
+      "label": "右奥のヤシ状若木",
+      "scope": "individual",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い軸先に長い葉状部分が放射する"
+      ],
+      "limitations": "葉の小葉構造が小さく科確定も保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Arecaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.608,
+        0.429,
+        0.392,
+        0.257
+      ],
+      "label": "右手前の低木・草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型広葉と細い茎が密生する"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が不鮮明で分類保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.573,
+        0.217,
+        0.078
+      ],
+      "label": "左地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い草葉と細い枯茎がある"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が不鮮明で分類保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "76679afa1d8e6495f4d7997cbf21a9416229519c7f1d966bbb311dbc5c670e57",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T22:43:48.183561+00:00"
+}

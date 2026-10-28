@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "image_id": "139388841496403",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。全天球は歪んだ上端も確認し、下端の欠損・車体は対象としない。同定は植物形態のみを使用し位置・文字・道路・分布・旧タグは用いない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.664,
+        0.076,
+        0.336,
+        0.552
+      ],
+      "label": "右の針葉状高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "長い明褐色幹に横枝と細葉状の房が付き上部に樹冠を作る"
+      ],
+      "limitations": "針葉の束生数・付着と球果が読めずマツ属は暫定、種は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.168,
+        0.495,
+        0.147,
+        0.295
+      ],
+      "label": "左の黄葉広葉木群",
+      "scope": "group",
+      "taxon": {
+        "name": "カバノキ属",
+        "scientific_name": "Betula",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "明色幹に暗い斑があり細枝に小型の黄葉が付く"
+      ],
+      "limitations": "葉縁・芽・果序が不鮮明でカバノキ属は暫定、種以下は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Betula"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.376,
+        0.485,
+        0.108,
+        0.239
+      ],
+      "label": "中央左の黄葉広葉木",
+      "scope": "individual",
+      "taxon": {
+        "name": "カバノキ属",
+        "scientific_name": "Betula",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "明色の細幹と垂れた細枝に小型の黄葉が密集する"
+      ],
+      "limitations": "葉形・葉縁・果序が読めずカバノキ属は暫定",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Betula"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.568,
+        0.375,
+        0.238
+      ],
+      "label": "左奥の針葉状木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "円錐状の暗緑色樹冠が多数連続する"
+      ],
+      "limitations": "遠景で葉と球果が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea",
+        "Abies"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.469,
+        0.589,
+        0.183,
+        0.126
+      ],
+      "label": "中央奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "針葉状の尖った樹冠と黄緑色の広葉樹冠が混在する"
+      ],
+      "limitations": "個体と葉・花果が分離できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.61,
+        0.572,
+        0.196,
+        0.23
+      ],
+      "label": "右斜面の広葉低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹に小さな黄葉・緑葉が付く"
+      ],
+      "limitations": "葉序・葉縁・花果が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.59,
+        0.719,
+        0.41,
+        0.281
+      ],
+      "label": "右斜面下の草本・低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "黄褐色の細葉と緑色の低い葉群が重なる"
+      ],
+      "limitations": "葉鞘・花序と低木の個葉が判読できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0,
+        0.762,
+        0.231,
+        0.11
+      ],
+      "label": "左手前地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "地表に低い黄緑色から褐色の細葉状被覆がある"
+      ],
+      "limitations": "個葉・花序不鮮明で科以下は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "72ad749c4e76ce2b4f877b654e7d0262e3664fa0f34c0b629f939f7b26a3934c",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-27T02:29:34.557848+00:00"
+}

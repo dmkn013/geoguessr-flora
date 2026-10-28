@@ -1,0 +1,340 @@
+{
+  "schema_version": 1,
+  "image_id": "507185557087052",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景を実視認。必要部位は元画素から切り出し拡大。植物形態だけを根拠にし座標・国・文字・道路・旧タグ・地理分布は使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.258,
+        0,
+        0.443,
+        0.548
+      ],
+      "label": "中央の細い下垂葉の高木",
+      "scope": "individual",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "分岐する暗色幹に細い下垂枝と細かい葉群が付く"
+      ],
+      "limitations": "複葉か単葉か・葉序・花果が解像せず属種は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Schinus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.206,
+        0.172,
+        0.302
+      ],
+      "label": "左端の羽状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "細い直幹の先に羽状葉が放射し、細い小葉が垂れる"
+      ],
+      "limitations": "葉柄基部・果実・幹の細部不足",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Syagrus",
+        "Roystonea"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.166,
+        0.222,
+        0.06,
+        0.269
+      ],
+      "label": "左中央のヤシ",
+      "scope": "individual",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "細い直立幹の上に羽状葉の樹冠がある"
+      ],
+      "limitations": "花果・葉柄基部が遠く読めない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Syagrus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.243,
+        0.298,
+        0.083,
+        0.209
+      ],
+      "label": "左奥のヤシ",
+      "scope": "individual",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "長い葉軸に多数の線形小葉が並ぶ樹冠がある"
+      ],
+      "limitations": "属判定に必要な花果・葉柄基部不足",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Syagrus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.599,
+        0.3,
+        0.066,
+        0.205
+      ],
+      "label": "中央奥のヤシ",
+      "scope": "individual",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "羽状葉が幹頂に集まり放射する"
+      ],
+      "limitations": "遠景で花果・葉柄・幹の細部不足",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.661,
+        0.298,
+        0.115,
+        0.212
+      ],
+      "label": "中央右奥のヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "細い幹頂に羽状葉が集まる"
+      ],
+      "limitations": "個体の重なりと解像度不足で属以下保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.835,
+        0.221,
+        0.116,
+        0.264
+      ],
+      "label": "右上のヤシ",
+      "scope": "individual",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "線形小葉が葉軸の両側に付き長い羽状葉が放射する"
+      ],
+      "limitations": "元画素拡大でも葉柄基部と花果が不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Syagrus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0,
+        0,
+        0.213,
+        0.217
+      ],
+      "label": "左上端の広葉枝葉",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "広い葉が付いた枝が画面上端から張り出す"
+      ],
+      "limitations": "幹・花果が画面外で葉序も不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p9",
+      "bbox": [
+        0.74,
+        0.308,
+        0.26,
+        0.207
+      ],
+      "label": "右奥の広葉高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "横に広がる枝と丸い葉群がある"
+      ],
+      "limitations": "葉序・花果と細かい葉形が読めず、混在する植物の個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p10",
+      "bbox": [
+        0,
+        0.534,
+        1,
+        0.466
+      ],
+      "label": "手前の生垣群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型の広葉が細い枝に密生する"
+      ],
+      "limitations": "葉序・葉縁・花果が不鮮明。分離困難な連続生垣群として記録",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p11",
+      "bbox": [
+        0.005,
+        0.49,
+        0.983,
+        0.062
+      ],
+      "label": "中景地面の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い緑色草葉が地面を覆う"
+      ],
+      "limitations": "葉序・花果と細かい葉形が読めず、混在する植物の個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p12",
+      "bbox": [
+        0.065,
+        0.384,
+        0.399,
+        0.121
+      ],
+      "label": "左奥の広葉木・花壇群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い広葉樹冠と地際の幅広い葉群が重なる"
+      ],
+      "limitations": "葉序・花果と細かい葉形が読めず、混在する植物の個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "0cec15b05cf056569824926f81127f01d331f1ffb7fb4f6045e1fe7075479768",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T20:30:10.661685+00:00"
+}

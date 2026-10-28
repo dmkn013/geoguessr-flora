@@ -1,0 +1,148 @@
+{
+  "Arecaceae": {
+    "name": "ヤシ科",
+    "rank": "family"
+  },
+  "Pinus": {
+    "name": "マツ属",
+    "rank": "genus",
+    "parent": "Pinaceae",
+    "parent_source": "https://www.kew.org/plants/stone-pine"
+  },
+  "Musa": {
+    "name": "バショウ属",
+    "rank": "genus",
+    "parent": "Musaceae",
+    "parent_source": "https://www.nparks.gov.sg/florafaunaweb/flora/7/1/7190"
+  },
+  "Araucaria": {
+    "name": "アラウカリア属",
+    "rank": "genus",
+    "parent": "Araucariaceae",
+    "parent_source": "https://ntbg.org/database/plants/detail/araucaria-columnaris"
+  },
+  "Cocos nucifera": {
+    "name": "ココヤシ",
+    "rank": "species",
+    "parent": "Cocos",
+    "parent_source": "https://www.nparks.gov.sg/florafaunaweb/flora/5/6/5618"
+  },
+  "Populus": {
+    "name": "ポプラ属",
+    "rank": "genus",
+    "parent": "Salicaceae",
+    "parent_source": "https://ipm.ucanr.edu/home-and-landscape/trees-shrubs-and-woody-ornamentals/"
+  },
+  "Picea": {
+    "name": "トウヒ属",
+    "rank": "genus",
+    "parent": "Pinaceae",
+    "parent_source": "https://www.treesandshrubsonline.org/articles/picea/"
+  },
+  "Betula": {
+    "name": "カバノキ属",
+    "rank": "genus",
+    "parent": "Betulaceae",
+    "parent_source": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A77126723-1/general-information"
+  },
+  "Poaceae": {
+    "name": "イネ科",
+    "rank": "family"
+  },
+  "Plumeria": {
+    "name": "インドソケイ属",
+    "rank": "genus",
+    "parent": "Apocynaceae",
+    "parent_source": "https://www.nparks.gov.sg/florafaunaweb/flora/8/6/8620"
+  },
+  "Elaeis": {
+    "name": "アブラヤシ属",
+    "rank": "genus",
+    "parent": "Arecaceae",
+    "parent_source": "https://www.nparks.gov.sg/florafaunaweb/flora/2/6/2625"
+  },
+  "Nerium oleander": {
+    "name": "キョウチクトウ",
+    "rank": "species",
+    "parent": "Nerium",
+    "parent_source": "https://www.nparks.gov.sg/florafaunaweb/flora/2/2/2264"
+  },
+  "Fabaceae": {
+    "name": "マメ科",
+    "rank": "family"
+  },
+  "Pinaceae": {
+    "name": "マツ科",
+    "rank": "family"
+  },
+  "Musaceae": {
+    "name": "バショウ科",
+    "rank": "family"
+  },
+  "Araucariaceae": {
+    "name": "ナンヨウスギ科",
+    "rank": "family"
+  },
+  "Salicaceae": {
+    "name": "ヤナギ科",
+    "rank": "family"
+  },
+  "Betulaceae": {
+    "name": "カバノキ科",
+    "rank": "family"
+  },
+  "Apocynaceae": {
+    "name": "キョウチクトウ科",
+    "rank": "family"
+  },
+  "Cocos": {
+    "name": "ココヤシ属",
+    "rank": "genus",
+    "parent": "Arecaceae",
+    "parent_source": "https://www.nparks.gov.sg/florafaunaweb/flora/5/6/5618"
+  },
+  "Nerium": {
+    "name": "キョウチクトウ属",
+    "rank": "genus",
+    "parent": "Apocynaceae",
+    "parent_source": "https://www.nparks.gov.sg/florafaunaweb/flora/2/2/2264"
+  },
+  "Cactaceae": {
+    "name": "サボテン科",
+    "rank": "family"
+  },
+  "Fagaceae": {
+    "name": "ブナ科",
+    "rank": "family"
+  },
+  "Quercus": {
+    "name": "コナラ属",
+    "rank": "genus",
+    "parent": "Fagaceae",
+    "parent_source": "https://www.kew.org/plants/oak-tree"
+  },
+  "Platanaceae": {
+    "name": "スズカケノキ科",
+    "rank": "family"
+  },
+  "Platanus": {
+    "name": "スズカケノキ属",
+    "rank": "genus",
+    "parent": "Platanaceae",
+    "parent_source": "https://landscapeplants.oregonstate.edu/platanus"
+  },
+  "Ericaceae": {
+    "name": "ツツジ科",
+    "rank": "family"
+  },
+  "Anacardiaceae": {
+    "name": "ウルシ科",
+    "rank": "family"
+  },
+  "Mangifera": {
+    "name": "マンゴー属",
+    "rank": "genus",
+    "parent": "Anacardiaceae",
+    "parent_source": "https://www.nparks.gov.sg/florafaunaweb/flora/3/0/3013"
+  }
+}

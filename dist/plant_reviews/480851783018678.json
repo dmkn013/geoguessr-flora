@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "image_id": "480851783018678",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景を手前・奥・左右端まで確認。必要部分を元画素から拡大。植物の形態だけを根拠にし、画像の座標・国・文字・道路や既存タグは同定根拠にしない。識別できない対象にも見えた特徴と限界を記録。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        0.552,
+        0.716
+      ],
+      "label": "左側の広葉樹林",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "明色の滑らかな幹に小型の卵形から長楕円形の緑葉。細い枝が横に広がる"
+      ],
+      "limitations": "ブナ類等の候補はあるが葉脈・葉縁・果実が解像せず、樹皮と景観だけで決めない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Fagus",
+        "Carpinus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.528,
+        0,
+        0.472,
+        0.732
+      ],
+      "label": "右側の広葉樹林",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "明色幹と細枝、明緑色の小型葉群が斜面を覆う"
+      ],
+      "limitations": "葉形と鋸歯・果実の確認ができず属の区別は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.554,
+        0.51,
+        0.446,
+        0.261
+      ],
+      "label": "右法面の低木・草本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "緑の低い植生と小型広葉が林床を覆う"
+      ],
+      "limitations": "暗さとぶれで葉・花が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "e12cce11fd8831aced392de9086ef4dd070f1492887ad5e65a390f78bd05fbf6",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T14:21:58.602846+00:00"
+}

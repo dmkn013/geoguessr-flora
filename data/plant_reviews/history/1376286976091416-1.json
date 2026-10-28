@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "image_id": "1376286976091416",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.08,
+        0.027,
+        0.182,
+        0.524
+      ],
+      "label": "左の高い羽状葉ヤシ",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "無分枝の太い明色幹と緑色の筒状葉鞘・大きな羽状葉が頂部に集まる"
+      ],
+      "limitations": "小葉の配置・花果・葉鞘寸法がぼけて属種未確定",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Roystonea",
+        "Archontophoenix"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.034,
+        0.345,
+        0.151,
+        0.203
+      ],
+      "label": "左中景の低い羽状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "短い幹の頂部に弓状の羽状葉が集まる"
+      ],
+      "limitations": "幹・花果・小葉基部が読めず属種保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.323,
+        0.043,
+        0.191
+      ],
+      "label": "左端の木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "暗緑色の細かい樹冠が部分的に見える"
+      ],
+      "limitations": "部分像と雨滴ぼけで葉構造不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.398,
+        0.429,
+        0.053,
+        0.091
+      ],
+      "label": "中央奥の小型木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直幹上に緑色の樹冠がある"
+      ],
+      "limitations": "遠景で小葉・葉柄・花果を分離できない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Arecaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.528,
+        0.404,
+        0.09,
+        0.065
+      ],
+      "label": "右奥の低い木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さな緑色の丸い樹冠が連なる"
+      ],
+      "limitations": "葉構造・花果未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0,
+        0.55,
+        0.209,
+        0.096
+      ],
+      "label": "左地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色細葉が帯状に生える"
+      ],
+      "limitations": "雨滴とぼけで小穂や葉鞘不明",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Poaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.557,
+        0.558,
+        0.443,
+        0.291
+      ],
+      "label": "右地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い緑色葉が疎らに群生する"
+      ],
+      "limitations": "葉付着・小穂・花果未解像",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Poaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "fa5cc9d873a78d52ce8deadc3b13922ef82cba3f5c1635500980a7b3b105de9b",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-27T10:44:29.165980+00:00"
+}

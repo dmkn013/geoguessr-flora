@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "image_id": "1061097004449944",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "全景と右手前のヤシを拡大。左手前の高木や背景の広葉樹を含めて確認。羽状葉と枯葉だけではアブラヤシ属を確定しない。 矩形重ね合わせを全景で目視確認済み。候補は確定タグに入れず、画像にない特徴は推測しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.631,
+        0.215,
+        0.126,
+        0.212
+      ],
+      "scope": "individual",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "羽状の長い葉が頂部から弓状に開く",
+        "下に枯葉が垂れ下がる"
+      ],
+      "limitations": "葉柄・果房と幹の診断形質が不鮮明で属以上は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "アブラヤシ属",
+        "他の羽状葉ヤシ"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.402,
+        0.311,
+        0.146,
+        0.1
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "背景のヤシ群",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "複数の羽状葉冠がまとまって見える"
+      ],
+      "limitations": "小さく葉柄や果実が見えない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0,
+        0.454,
+        0.42
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "左の広葉高木群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "太い不規則な枝と丸い樹冠"
+      ],
+      "limitations": "葉の構造と花果が不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.61,
+        0.051,
+        0.175,
+        0.248
+      ],
+      "scope": "individual",
+      "taxon": {
+        "name": "右奥の高い広葉樹",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "直立幹と上部の丸い樹冠"
+      ],
+      "limitations": "葉序・樹皮・花果の診断形質を確かめられない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.751,
+        0.162,
+        0.249,
+        0.251
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "右奥の広葉樹・低木群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "複数の樹冠が重なる"
+      ],
+      "limitations": "距離と遮蔽で葉・花果の細部が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "72575a1ae8cdeb20e647a2314f1280c4e1e31ddfb9b1fa78192b956d5465f7cb",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T11:21:11.979648+00:00"
+}

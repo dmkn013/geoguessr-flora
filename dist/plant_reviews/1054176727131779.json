@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "image_id": "1054176727131779",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.304,
+        0.121,
+        0.134,
+        0.351
+      ],
+      "label": "中央左の細長い針葉状高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "直幹と密な暗緑色の細長い円錐樹冠"
+      ],
+      "limitations": "針葉か鱗片葉か・球果が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cryptomeria",
+        "Chamaecyparis"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0,
+        0.158,
+        0.18
+      ],
+      "label": "左上端の針葉状木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細かい暗緑色樹冠が画面外へ続く"
+      ],
+      "limitations": "部分像で葉・球果不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.103,
+        0.308,
+        0.528
+      ],
+      "label": "左の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型の明緑色葉が密に樹冠を作る"
+      ],
+      "limitations": "葉縁・葉序・花果未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.421,
+        0.26,
+        0.33,
+        0.329
+      ],
+      "label": "中央奥の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "明緑色の丸い樹冠が斜面を覆う"
+      ],
+      "limitations": "遠景で葉序・花果・個体境界不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.751,
+        0.209,
+        0.213,
+        0.411
+      ],
+      "label": "右の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "多数の細枝と緑色の広葉樹冠"
+      ],
+      "limitations": "反射とぼけで葉序・花果未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0,
+        0.443,
+        0.202,
+        0.356
+      ],
+      "label": "左手前の小型木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細幹が分かれ小さな明緑色葉を付ける"
+      ],
+      "limitations": "葉縁・葉序・芽と花果不足",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.186,
+        0.641,
+        0.368,
+        0.182
+      ],
+      "label": "手前の丸葉草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "大きい円形〜腎形状葉が長い葉柄上にまとまる"
+      ],
+      "limitations": "葉柄付着・葉裏毛・葉縁・花が未解像で種保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Petasites japonicus",
+        "Petasites"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0.474,
+        0.595,
+        0.218,
+        0.173
+      ],
+      "label": "中央の地表草本低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型広葉と細葉の密な緑色群落"
+      ],
+      "limitations": "葉序・花果・個体境界不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "92870969b26eec5f02adf187eb7c71143a01d60b10454f1f0d448f893b618f19",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-27T11:42:21.507553+00:00"
+}

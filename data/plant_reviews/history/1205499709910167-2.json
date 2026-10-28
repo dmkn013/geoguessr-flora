@@ -1,0 +1,284 @@
+{
+  "schema_version": 1,
+  "image_id": "1205499709910167",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.038,
+        0.479,
+        0.125,
+        0.252
+      ],
+      "label": "左の円錐状細葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な横枝が階段状に広がり尖った樹頂を作る"
+      ],
+      "limitations": "針葉付着・葉裏・球果が読めず属種は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cedrus",
+        "Picea",
+        "Abies"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.145,
+        0.365,
+        0.378,
+        0.35
+      ],
+      "label": "左奥の広葉高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "明色幹の分枝に長楕円形状の灰緑色葉群が付く"
+      ],
+      "limitations": "葉序・葉脈・花果が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Eucalyptus",
+        "Corymbia"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.492,
+        0.412,
+        0.508,
+        0.349
+      ],
+      "label": "右奥の広葉・細葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い密な緑色葉群と細葉状の尖った樹冠が混在する"
+      ],
+      "limitations": "個葉・球果・花果と個体境界が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.329,
+        0.624,
+        0.094,
+        0.08
+      ],
+      "label": "中央左の刈込状低木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細枝に小型広葉が密集して丸い樹冠を作る"
+      ],
+      "limitations": "葉序・花果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.515,
+        0.603,
+        0.064,
+        0.084
+      ],
+      "label": "中央右の刈込状低木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型の密な丸い葉群がある"
+      ],
+      "limitations": "葉序・花果が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.585,
+        0.758,
+        0.124,
+        0.175
+      ],
+      "label": "右手前の裸枝・広葉低木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い分枝に少量の小型葉がある"
+      ],
+      "limitations": "葉序・葉縁・花果が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.52,
+        0.699,
+        0.046,
+        0.119
+      ],
+      "label": "中央手前の小型木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直立茎に狭い葉身状部が付く"
+      ],
+      "limitations": "葉の付着と花果が不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0,
+        0.752,
+        0.31,
+        0.06
+      ],
+      "label": "左地表の低木列",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色の小型葉群が列状に連続する"
+      ],
+      "limitations": "個葉・花果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p9",
+      "bbox": [
+        0,
+        0.8,
+        1,
+        0.2
+      ],
+      "label": "手前の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い黄褐色茎と短い緑色葉群が地表を覆う"
+      ],
+      "limitations": "小穂・葉鞘・花序が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p10",
+      "bbox": [
+        0,
+        0.548,
+        0.051,
+        0.188
+      ],
+      "label": "左端の見切れた木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な細葉状から広葉状の緑色葉群が画面端にある"
+      ],
+      "limitations": "大半が画面外で葉付着・花果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "cca40ba0d251eb41100eddfc7cef211452bff1de55498914009a69e7b956235c",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-27T08:51:51.570475+00:00"
+}

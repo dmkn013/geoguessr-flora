@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "image_id": "1764303030886687",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景と中央ヤシの切り出しを確認。中央ヤシ・左の高木・背景の列植・右の広葉樹を分離。画面下の撮影情報は同定に使用していない。詳細資料の照合は未了。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.487,
+        0.535,
+        0.06,
+        0.24
+      ],
+      "scope": "individual",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "幹頂に掌状に分裂した大型葉が集中",
+        "葉冠下に垂れ下がる枯葉"
+      ],
+      "limitations": "葉柄の刺・果実・葉の裂け方の細部が不足し、オウギヤシ属などの掌状葉ヤシを区別できない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "オウギヤシ属",
+        "他の掌状葉ヤシ"
+      ],
+      "morphology": [
+        "掌状葉",
+        "単幹"
+      ],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.351,
+        0.445,
+        0.097,
+        0.351
+      ],
+      "scope": "individual",
+      "taxon": {
+        "name": "広葉樹・属未確定",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直立幹と縦長の疎な樹冠"
+      ],
+      "limitations": "葉の形と付き方、樹皮の細部が解像しない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [
+        "直立高木"
+      ],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.598,
+        0.54,
+        0.164,
+        0.208
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "広葉樹の列植・属未確定",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "複数の細い幹と縦長の樹冠が列状に並ぶ"
+      ],
+      "limitations": "個々の葉・花・果実が見えず属を確定できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.758,
+        0.404,
+        0.176,
+        0.345
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "右側の広葉樹・属未確定",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "濃い葉の丸みを帯びた樹冠と、その背後の疎な高木"
+      ],
+      "limitations": "重なった樹冠の境界と葉の細部が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "e389082956cc9006526509504dbee5c060c5cf0251845c584a6eeedf76ad2402",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T09:13:20.322776+00:00"
+}

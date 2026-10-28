@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "image_id": "162438819131887",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景と中央の高いヤシの拡大を確認。背景のヤシ群と手前の水際の広葉樹群を分けた。水際という環境は分類の確定根拠にしない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.022,
+        0.309,
+        0.978,
+        0.174
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "細長い幹の頂部に羽状の大型葉が放射状に集まる"
+      ],
+      "limitations": "個々の幹・果実・葉柄の細部が不足し、全個体を同一属とする根拠はない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "ココヤシ",
+        "他の羽状葉ヤシ"
+      ],
+      "morphology": [
+        "羽状葉",
+        "高い単幹"
+      ],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.001,
+        0.395,
+        0.999,
+        0.164
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "手前の広葉樹群・属未確定",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い位置に連続する密な緑葉樹冠"
+      ],
+      "limitations": "葉・根・花果の診断形質が見えず、マングローブ等の呼称から属を逆算しない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "b356225c66ff7aa6d4ddb44fe15af1514755b011f2cb703d2960cf550cd4ac00",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T09:13:20.434504+00:00"
+}

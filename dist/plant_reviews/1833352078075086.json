@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "image_id": "1833352078075086",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の手前・奥・左右端を確認。必要部位は元画素で拡大。全天球画像は全幅を確認し反射像を別植物として二重計数しない。画像上の形態だけを根拠にし地理・文字・道路・旧タグを使わない。下位分類不能な対象の理由を記録。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.537,
+        0,
+        0.463,
+        0.742
+      ],
+      "label": "右側の針葉樹状群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い針葉状の葉が細枝に密生。横枝が疎らに何段も出て樹冠を作る"
+      ],
+      "limitations": "葉枕や針葉の付き方・球果が読めずトウヒ・モミ・カラマツ等を区別不可",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea",
+        "Abies",
+        "Larix"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.133,
+        0.338,
+        0.392
+      ],
+      "label": "左側の針葉樹状群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "暗緑色で狭い円錐形樹冠と密な短枝"
+      ],
+      "limitations": "葉と球果が不明で属を確定できない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea",
+        "Abies"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.103,
+        0.018,
+        0.329,
+        0.451
+      ],
+      "label": "左の広葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い明色幹に丸みある緑葉が集まる"
+      ],
+      "limitations": "ポプラ類候補だが葉縁・葉柄と芽が不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Populus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.411,
+        0.464,
+        0.322
+      ],
+      "label": "左林縁の低木・草本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型広葉の低木と草本が密生する"
+      ],
+      "limitations": "花果や葉序が読めず群落の個体分離困難",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.531,
+        0.361,
+        0.469,
+        0.639
+      ],
+      "label": "右林床の低木・草本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型広葉の低木、草本と灰白色の地衣状マットが地面を覆う"
+      ],
+      "limitations": "地衣状マットの細部や葉・花が不明。植物と地衣状部分を区別して記録するが下位分類不可",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "ab3e918d1311fc2d4b9a5483e8fb7c913b3a8336ba1ee500ee6023a583b1eaf5",
+  "source_size": [
+    1024,
+    896
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T14:26:31.076032+00:00"
+}

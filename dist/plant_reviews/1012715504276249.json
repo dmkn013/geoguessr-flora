@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "image_id": "1012715504276249",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景を実視認し必要部位を元画素で拡大。植物形態のみ使用、座標・文字・道路・分布・旧タグは同定に使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.088,
+        0,
+        0.337,
+        0.473
+      ],
+      "label": "左の明色幹広葉木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "白灰色の幹に暗い横斑があり細枝が下垂し小型葉が付く"
+      ],
+      "limitations": "葉縁・芽・果序が不鮮明でカバノキ属は候補に留める",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Betula"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.409,
+        0.107,
+        0.093,
+        0.35
+      ],
+      "label": "中央左の針葉状高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "暗緑色の円錐状樹冠と横枝が見える"
+      ],
+      "limitations": "針葉の付き方と球果が読めず科属は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea",
+        "Abies"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.125,
+        0.217,
+        0.326
+      ],
+      "label": "左奥の針葉状木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "尖った樹頂と密な細葉状枝がある"
+      ],
+      "limitations": "陰と距離で葉・球果が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.632,
+        0,
+        0.368,
+        0.484
+      ],
+      "label": "右の裸枝と新緑の広葉高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "多数分枝する幹と細枝に少量の新緑葉がある"
+      ],
+      "limitations": "葉形・葉序・花果が判読できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.386,
+        0.215,
+        0.309,
+        0.245
+      ],
+      "label": "奥の低木・若木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直立枝と黄緑色の新葉群が連続する"
+      ],
+      "limitations": "個葉と個体境界が不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0,
+        0.376,
+        0.411,
+        0.326
+      ],
+      "label": "左地表の低木・草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "緑色の低い被覆に小枝と葉群が重なる"
+      ],
+      "limitations": "葉・花序と草本木本の境界が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.595,
+        0.448,
+        0.405,
+        0.297
+      ],
+      "label": "右地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い草丈の緑色被覆が地表を覆う"
+      ],
+      "limitations": "葉の付着や花序が見えず科以下は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "77f6c2510e88ceb71c01e75c5e760fb6670f6fadde10b07d3d8ddedc2c6334bd",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-27T01:33:42.740787+00:00"
+}

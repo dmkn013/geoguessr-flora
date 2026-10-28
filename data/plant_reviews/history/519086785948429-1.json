@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "image_id": "519086785948429",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・背景・手前を確認。必要部位は元画素から拡大。植物形態だけを根拠にし、座標・国・文字・道路・旧タグを同定に使わない。遮蔽・ぼけ・距離による下位同定の限界を対象ごとに記録。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.467,
+        0.087,
+        0.208,
+        0.292
+      ],
+      "label": "中央奥の羽状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "細い幹の頂に大型の羽状葉が弧状に開く"
+      ],
+      "limitations": "強いぼけで葉柄・葉痕と果実が不明。ココヤシ等の属種を確定できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.808,
+        0.213,
+        0.142,
+        0.249
+      ],
+      "label": "右奥のヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "羽状葉の葉冠と細い幹が見える"
+      ],
+      "limitations": "ぼけと広葉樹の遮蔽で属の特徴が不足",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.276,
+        0.461,
+        0.337
+      ],
+      "label": "左側の広葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "大小の丸い樹冠が連続する"
+      ],
+      "limitations": "ぼけで葉形・葉序・花果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.525,
+        0.157,
+        0.3,
+        0.42
+      ],
+      "label": "中央の広葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な丸い葉群と分枝した幹がある"
+      ],
+      "limitations": "ヤシと重なり葉の付き方・花果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.551,
+        0.969,
+        0.209
+      ],
+      "label": "手前の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑の草本が広く地面を覆う"
+      ],
+      "limitations": "葉・花がぼけて各分類群を分離できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "a20b40cba70bae643c2edd1893ac7ab4470f3f945b71fc9e1354c867c3c827f7",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T18:33:02.798246+00:00"
+}

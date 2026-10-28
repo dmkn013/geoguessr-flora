@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "image_id": "2996553437246643",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景を実視認。必要部位は元画素拡大。植物形態だけを根拠にし、座標・国・文字・道路・旧タグ・地理分布は用いない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        0.368,
+        0.603
+      ],
+      "label": "左手前の裸枝高木",
+      "scope": "individual",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "太く分岐する暗灰色幹と多数の裸枝がある"
+      ],
+      "limitations": "葉・芽・花果と樹皮の細部不足",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.235,
+        0.182,
+        0.27,
+        0.361
+      ],
+      "label": "左中央の裸枝木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細幹から細い裸枝が密に伸びる"
+      ],
+      "limitations": "葉・芽・花果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.647,
+        0.195,
+        0.353,
+        0.263
+      ],
+      "label": "右奥の混交樹冠群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "暗緑色の密な細葉状樹冠と裸枝木が重なる"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が読めず、混在する植物の分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.531,
+        0.223,
+        0.126,
+        0.15
+      ],
+      "label": "中央奥の裸枝木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い明色幹と裸枝が立ち上がる"
+      ],
+      "limitations": "遠く葉・芽・花果が判別できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.471,
+        0.237,
+        0.18
+      ],
+      "label": "左地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い草葉と乾燥した細茎がある"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が読めず、混在する植物の分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.71,
+        0.495,
+        0.29,
+        0.328
+      ],
+      "label": "右地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い草葉と小さい広葉草本が混在する"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が読めず、混在する植物の分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "efc93d6cb99e34cb9dc0e80907286c954041e256a5b473e874e14afa1b71f6c6",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T22:32:00.212205+00:00"
+}

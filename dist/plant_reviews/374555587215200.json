@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "image_id": "374555587215200",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端と背景・手前を実視認。必要部位は元画素から拡大。座標・国・文字・道路・地理分布・旧タグを根拠にしない。判別不能の形質を明記して保留。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.609,
+        0.29,
+        0.167,
+        0.23
+      ],
+      "label": "右中景の羽状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "長い葉軸に細い小葉が付き、葉が放射状に広がる"
+      ],
+      "limitations": "強いピントぼけで果実・葉柄・幹が読めず属以下保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.874,
+        0.325,
+        0.126,
+        0.258
+      ],
+      "label": "右端の大型葉株",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長く幅の広い葉が立ち上がり一部が裂ける"
+      ],
+      "limitations": "ぼけと画面端切れで偽茎・葉基部が読めず属確定は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Musa",
+        "Strelitzia"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.74,
+        0.002,
+        0.26,
+        0.51
+      ],
+      "label": "右上の広葉高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "太い枝の先に丸い濃緑の葉群が重なる"
+      ],
+      "limitations": "個々の葉序・花果の細部が読めず、混在する植物の分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.415,
+        0.369,
+        0.235
+      ],
+      "label": "左の高木・低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "複数の丸い広葉状樹冠と低木が重なる"
+      ],
+      "limitations": "個々の葉序・花果の細部が読めず、混在する植物の分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.418,
+        0.438,
+        0.216,
+        0.195
+      ],
+      "label": "中央右の広葉木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い密な葉群が地面近くまで伸びる"
+      ],
+      "limitations": "個々の葉序・花果の細部が読めず、混在する植物の分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.42,
+        0.55,
+        0.58,
+        0.192
+      ],
+      "label": "右手前の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長い細葉と小型広葉が密生する"
+      ],
+      "limitations": "個々の葉序・花果の細部が読めず、混在する植物の分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0,
+        0.622,
+        0.077,
+        0.125
+      ],
+      "label": "左手前の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い草葉と細茎が地面にある"
+      ],
+      "limitations": "個々の葉序・花果の細部が読めず、混在する植物の分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "2ba82604ef6209f0d1404fb16f380936ada74c6377040235d103cf5b6a9f39fb",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T19:29:30.446695+00:00"
+}

@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "image_id": "496857086199825",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景を実視認。必要部位は元画素から切り出して拡大。植物形態だけを根拠にし、座標・国・文字・道路・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.249,
+        0.455,
+        0.316
+      ],
+      "label": "左の灰緑色の低木・小高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低く分岐する幹と丸い灰緑の細葉樹冠が複数ある"
+      ],
+      "limitations": "葉序・葉裏・花果が小さく読めず属種を分けられない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Olea"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.6,
+        0.38,
+        0.4,
+        0.17
+      ],
+      "label": "右の灰緑色の木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細葉状の灰緑色樹冠が低い位置に広がる"
+      ],
+      "limitations": "葉序・花果・樹皮の細部不足",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Olea"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.51,
+        0.44,
+        0.18
+      ],
+      "label": "左地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色の草葉と乾いた細茎が混在する"
+      ],
+      "limitations": "葉序・花序・果実が読めず、混在する植物を個別分類できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.59,
+        0.5,
+        0.41,
+        0.2
+      ],
+      "label": "右地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "地面に低い草本がまばらに生える"
+      ],
+      "limitations": "葉序・花序・果実が読めず、混在する植物を個別分類できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "ffb3d13877d2610e506699578b72f1d5700b6ebf3413c76bb5d27d26d4b22aa0",
+  "source_size": [
+    1024,
+    771
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T18:47:31.551205+00:00"
+}

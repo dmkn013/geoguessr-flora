@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "image_id": "304429671244836",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.027,
+        0.094,
+        0.472,
+        0.456
+      ],
+      "label": "左の高い広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長い直幹の上部に平たい疎らな樹冠を持つ"
+      ],
+      "limitations": "葉形・葉序・花果・樹皮細部未解像",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Eucalyptus",
+        "Corymbia"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.555,
+        0.1,
+        0.412,
+        0.439
+      ],
+      "label": "右奥の高い広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "明色の細幹上部に小型の疎らな樹冠がある"
+      ],
+      "limitations": "遠景で葉・花果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Eucalyptus",
+        "Corymbia"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.269,
+        0.489,
+        0.302
+      ],
+      "label": "左下層の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "暗緑色の密な細枝樹冠と細い直幹が混生"
+      ],
+      "limitations": "葉構造・葉序・花果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.519,
+        0.267,
+        0.476,
+        0.322
+      ],
+      "label": "右下層の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な濃緑色の丸い樹冠が重なる"
+      ],
+      "limitations": "葉序・葉形・花果未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.153,
+        0.458,
+        0.196,
+        0.102
+      ],
+      "label": "左地表の剣状葉草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長い狭葉が基部付近から束状に出る"
+      ],
+      "limitations": "葉縁・付着・花果が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Poaceae",
+        "Cyperaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.515,
+        0.509,
+        0.434,
+        0.126
+      ],
+      "label": "右地表の草本低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型の緑色広葉株と褐色の細茎が混じる"
+      ],
+      "limitations": "葉形・葉序・花果不足",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "022e5147f2abef04dc5cbc758d5c6db8e0ed85ccad3c42f18e93b5aa2f506580",
+  "source_size": [
+    1024,
+    512
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-27T11:40:00.930879+00:00"
+}

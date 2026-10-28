@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "image_id": "608164530530906",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景で左右の樹冠を確認。ガラスの反射・汚れが強く、傘形樹冠だけでアカシア等の属を確定しない。 元画像全景の矩形重ね合わせを目視確認済み。判別不能な細部は理由付きで保留し、候補を確定扱いしない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.557,
+        0.232,
+        0.443,
+        0.493
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "右側の広葉樹群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細かい葉を持つ水平に広がった樹冠"
+      ],
+      "limitations": "反射と汚れで複葉の構造、刺、花果が見えない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "マメ科",
+        "他の小葉の広葉樹"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.118,
+        0.418,
+        0.257,
+        0.237
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "左側の広葉樹群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "広く平たい密な樹冠"
+      ],
+      "limitations": "葉序・花果の診断形質が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.35,
+        0.535,
+        0.214,
+        0.111
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "道路奥の樹木群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さな低い樹冠が並ぶ"
+      ],
+      "limitations": "遠景で分類不能",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "5b4b40154b8ab41bf82dbd9e2d595632af117ecba15f0c2e06a356c8e0ca899d",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T11:23:15.305658+00:00"
+}

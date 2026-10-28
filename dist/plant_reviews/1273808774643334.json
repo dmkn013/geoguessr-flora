@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "image_id": "1273808774643334",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景を左右端・手前・背景まで実際に確認。必要部位は元画素から拡大。植物形態のみを根拠にし、座標・国・文字・道路様式・旧タグを使わない。葉や花果が解像しない対象は候補と限界を保存。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.276,
+        0.674,
+        0.481
+      ],
+      "label": "左側の裸枝樹林",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "明色の細幹と裸の細枝が密生する"
+      ],
+      "limitations": "樹皮模様・芽・花が見えず属以下の区別不可",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.373,
+        0.424,
+        0.263
+      ],
+      "label": "左奥の常緑針葉樹状群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "裸枝木の後ろに狭い暗緑の尖った樹冠が連続する"
+      ],
+      "limitations": "遠景で針葉と球果が不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.66,
+        0.199,
+        0.34,
+        0.632
+      ],
+      "label": "右上の裸枝樹木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直立幹と多数の上向き裸枝がある"
+      ],
+      "limitations": "芽と樹皮・葉が不明で分類不能",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.755,
+        0.375,
+        0.245,
+        0.463
+      ],
+      "label": "右手前の針葉樹状木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "狭い円錐形樹冠と密な短い枝葉が見える"
+      ],
+      "limitations": "針葉・葉枕・球果が不鮮明でトウヒ・モミ等の区別不可",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea",
+        "Abies"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.698,
+        0.802,
+        0.302,
+        0.146
+      ],
+      "label": "右林床の低木・草本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "雪の切れ間に枯れた細い茎と小草本がある"
+      ],
+      "limitations": "積雪と暗さで葉・花の識別不可",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "9c29a85126e3e2558c9e808dd5d3116ee90a365c29e2ab8ab5d2e844917ef181",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T18:42:15.409259+00:00"
+}

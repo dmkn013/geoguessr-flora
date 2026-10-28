@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "image_id": "211659587888108",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景を実視認し必要部位を元画素拡大。座標・国・文字・道路・地理分布・旧タグを根拠にしない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.048,
+        0,
+        0.457,
+        0.67
+      ],
+      "label": "左手前の斑模様樹皮の高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "スズカケノキ属",
+        "scientific_name": "Platanus",
+        "rank": "genus"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "太い幹が白灰色と暗色の斑模様を示し、板状に剥がれた樹皮面と幅広い掌状裂葉がある"
+      ],
+      "limitations": "スズカケノキ属まで確認。葉序・葉基部・裂片の深さと球状果序が読めず種や交雑種は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Platanus occidentalis",
+        "Platanus orientalis",
+        "Platanus × hispanica"
+      ],
+      "morphology": [],
+      "sources": [
+        {
+          "url": "https://landscapeplants.oregonstate.edu/platanus",
+          "supports": "薄い板状に剥離する斑模様樹皮と掌状裂葉を比較。果序と葉の細部不足で種は保留"
+        }
+      ],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.534,
+        0,
+        0.18,
+        0.623
+      ],
+      "label": "右路肩の広葉高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "太い幹の先に小型の広葉群が密集する"
+      ],
+      "limitations": "逆光で葉序・葉縁と樹皮が読めず手前の属判定を流用しない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.665,
+        0.25,
+        0.335,
+        0.306
+      ],
+      "label": "右奥の針葉状樹冠群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "直幹の上に房状の細葉群がある"
+      ],
+      "limitations": "針葉束と球果が遠く不鮮明でマツ属は候補まで",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.306,
+        0.155,
+        0.304
+      ],
+      "label": "左端の小高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い分岐枝と小型広葉が重なる"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が読めず個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.612,
+        0.449,
+        0.19
+      ],
+      "label": "左地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い草葉と小型広葉がある"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が読めず個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.568,
+        0.604,
+        0.432,
+        0.3
+      ],
+      "label": "右地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長い細葉と黄色の小花状部分が点在する"
+      ],
+      "limitations": "花冠と葉の細部が読めず花色だけで分類しない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "853355b0a77a9c8adce2757e98ad4df204d5720b93105a82ce5ead3cfb2cbd66",
+  "source_size": [
+    1023,
+    575
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-27T00:34:53.371945+00:00"
+}

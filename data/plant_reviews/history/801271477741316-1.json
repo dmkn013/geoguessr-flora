@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "image_id": "801271477741316",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        0.298,
+        0.747
+      ],
+      "label": "左手前の掌状葉状部を持つ高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直立幹と斜上枝先に大きな掌状に裂けたように見える葉群がある"
+      ],
+      "limitations": "葉裂片・葉柄挿入・葉裏・花果がぼけて読めず科属は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cecropia",
+        "Carica"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.735,
+        0.422,
+        0.23,
+        0.226
+      ],
+      "label": "右の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "多数の細枝に小型葉群が疎らに付く"
+      ],
+      "limitations": "逆光と汚れで葉序・葉縁・花果が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.488,
+        0.575,
+        0.085
+      ],
+      "label": "左奥の大型葉・木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "大きな長楕円形葉状部と丸い小型樹冠が混在する"
+      ],
+      "limitations": "極小で葉の基部と花果が読めず科属は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Musaceae",
+        "Arecaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.644,
+        0.453,
+        0.11,
+        0.156
+      ],
+      "label": "右中景の大型葉植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長い葉身状部が斜上して付く"
+      ],
+      "limitations": "葉基部・葉脈・花序が不鮮明で科属は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.563,
+        0.404,
+        0.367
+      ],
+      "label": "左地表の植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色から褐色の葉群が疎らにある"
+      ],
+      "limitations": "砂塵・反射で個葉・花序と個体境界が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "4b43b7e42067c3f043f40662dc6394a757b409990bcad85b2316d43d8fbcb41a",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-27T08:41:13.267287+00:00"
+}

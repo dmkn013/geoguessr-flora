@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "image_id": "1047216649953314",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.741,
+        0.565,
+        0.259,
+        0.287
+      ],
+      "label": "右手前の広葉木本列",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "太めの分枝幹に細長い灰緑色葉群が疎らに付く"
+      ],
+      "limitations": "ぼけが強く対生葉・葉裏・花果が確認できずオリーブ等は候補",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Olea"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.562,
+        0.691,
+        0.199,
+        0.125
+      ],
+      "label": "右奥の広葉木本列",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い幹と丸みのある灰緑色樹冠が連続する"
+      ],
+      "limitations": "個葉と花果が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.796,
+        0.406,
+        0.151
+      ],
+      "label": "左路肩の地表植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い黄褐色茎と疎らな緑色葉群がある"
+      ],
+      "limitations": "葉鞘・花序が読めず作物・科以下は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.219,
+        0.718,
+        0.255,
+        0.04
+      ],
+      "label": "左奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "遠景に小さな樹冠が散在する"
+      ],
+      "limitations": "極小で個葉と花果が識別できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "e18d057589ffce9ce77f0376e358a5e0c697477c5555a3a8cd483d257f382de3",
+  "source_size": [
+    1024,
+    759
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-27T03:38:07.277578+00:00"
+}

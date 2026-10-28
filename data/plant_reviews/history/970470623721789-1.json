@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "image_id": "970470623721789",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景を実視認。必要部位は元画素から拡大。座標・国・文字・道路・地理分布・旧タグを根拠にしない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.073,
+        0.368,
+        0.875,
+        0.239
+      ],
+      "label": "桃色花状部を持つ低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "枝先に桃色の花状部分が多数集まり密な濃緑葉群がある"
+      ],
+      "limitations": "拡大しても葉序・細長い革質葉と花冠が十分読めず種属の確定は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Nerium oleander",
+        "Lagerstroemia"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.24,
+        0.252,
+        0.316
+      ],
+      "label": "左奥の広葉木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い分岐枝と小型葉が集まる丸い樹冠がある"
+      ],
+      "limitations": "葉序・葉縁・花果が読めず個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.899,
+        0.317,
+        0.101,
+        0.263
+      ],
+      "label": "右奥の広葉木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い枝と密な小型広葉がある"
+      ],
+      "limitations": "葉序・葉縁・花果が読めず個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.571,
+        1,
+        0.233
+      ],
+      "label": "手前地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長い細葉と乾燥茎、低い広葉草本が混在する"
+      ],
+      "limitations": "葉序・葉縁・花果が読めず個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "3a2eeb0d5bd5afab2c793960264532b9e8d5f1afa04cae14270c72d2f174933c",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T23:31:22.430221+00:00"
+}

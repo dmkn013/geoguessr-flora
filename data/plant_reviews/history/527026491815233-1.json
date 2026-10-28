@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "image_id": "527026491815233",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "全景の左右端・手前・背景まで確認。必要箇所を元画素から拡大。画像内の植物形態だけを用い、座標・文字・道路様式・地域・既存タグで分類しない。解像度やぼけにより下位同定できない対象にも矩形と理由を保存。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        0.493,
+        0.765
+      ],
+      "label": "左側の高木林",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細長い暗緑の樹冠と円錐状の枝、明色幹の木が混在"
+      ],
+      "limitations": "走行ぶれと日陰で針葉/広葉の対応・葉序・樹皮が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.489,
+        0,
+        0.511,
+        0.62
+      ],
+      "label": "右斜面上の樹木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "背の高い直立幹と密な葉群が重なる"
+      ],
+      "limitations": "ブレと遮蔽で葉・球果・果実が判別不能",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.51,
+        0.407,
+        0.49,
+        0.51
+      ],
+      "label": "右法面の下草",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "緑の短い草本と低木が落葉の間に生える"
+      ],
+      "limitations": "葉と花の細部なし、下層個体を分けられない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "b455423c5b86598fbafa7dba580024e0e909628b9bec6dce1cf636998021ab27",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T13:30:19.389930+00:00"
+}

@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "image_id": "794855401436708",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景を実視認。必要部位は元画素を拡大。植物形態だけを根拠にし、座標・国・文字・道路・地理分布・旧タグを用いない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.459,
+        0.051,
+        0.414,
+        0.494
+      ],
+      "label": "右中央の針葉高木",
+      "scope": "individual",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "横枝の先に長い針葉が束状の房を作り、樹冠が広く広がる"
+      ],
+      "limitations": "マツ属まで確認。束の本数・鞘と球果が読めず種以下は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus radiata",
+        "Pinus pinaster"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0,
+        0.334,
+        0.427
+      ],
+      "label": "左の針葉高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "細長い針葉の房が枝先に付き暗色の幹が分岐する"
+      ],
+      "limitations": "針葉束の本数と球果が不鮮明で種は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.845,
+        0.145,
+        0.155,
+        0.441
+      ],
+      "label": "右端の密な細葉樹冠群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "直立枝に密な暗緑色の細葉状葉群がある"
+      ],
+      "limitations": "葉の型・付着・球果が読めず属科は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cupressaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.168,
+        0.445,
+        0.436
+      ],
+      "label": "左下層の広葉木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い広葉樹冠と細い葉群が重なる"
+      ],
+      "limitations": "葉序・葉縁・花果が読めず、混在する植物の個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.527,
+        0.456,
+        0.473,
+        0.211
+      ],
+      "label": "右下層の低木・草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い枝と小型広葉、長い草葉が混在する"
+      ],
+      "limitations": "葉序・葉縁・花果が読めず、混在する植物の個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0,
+        0.551,
+        0.367,
+        0.108
+      ],
+      "label": "左地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い草葉が地面を覆う"
+      ],
+      "limitations": "葉序・葉縁・花果が読めず、混在する植物の個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "b368793a44c286605e7d8a7d600a106914270d8388f30e6063c25fd9ddf1d52a",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T22:35:42.977296+00:00"
+}

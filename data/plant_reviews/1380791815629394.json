@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "image_id": "1380791815629394",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        0.225,
+        0.538
+      ],
+      "label": "左手前の針葉状木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "横枝の先に細葉状の房が密集し不規則な樹冠を作る"
+      ],
+      "limitations": "束生針葉の付着・葉鞘・球果が不足しマツ属は暫定",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.211,
+        0.385,
+        0.789,
+        0.225
+      ],
+      "label": "中央から右の針葉状木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "暗緑色の細葉状葉群と丸い樹冠が連続する"
+      ],
+      "limitations": "葉の付着と球果が遠く不明",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus",
+        "Juniperus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.473,
+        0.361,
+        0.365
+      ],
+      "label": "左地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "黄褐色の短い細葉状被覆と細い茎がある"
+      ],
+      "limitations": "葉鞘・花序・個葉が不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.367,
+        0.535,
+        0.633,
+        0.288
+      ],
+      "label": "右地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い緑色から黄褐色葉状部が連続する"
+      ],
+      "limitations": "花序・葉鞘が読めず科以下は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "f599968d5fdd34e3ac2a8949b83c772aa36bb6a0fe5932e79a93f4932f8497d7",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-27T04:30:15.194164+00:00"
+}

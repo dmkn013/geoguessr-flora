@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "image_id": "175347837807049",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・背景・手前を確認。必要部位は元画素から拡大。植物形態だけを根拠にし、座標・国・文字・道路・旧タグを同定に使わない。遮蔽・ぼけ・距離による下位同定の限界を対象ごとに記録。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.123,
+        0,
+        0.252,
+        0.729
+      ],
+      "label": "左の針葉樹",
+      "scope": "group",
+      "taxon": {
+        "name": "トウヒ属",
+        "scientific_name": "Picea",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "尖る狭い円錐樹冠、横枝と下垂した細枝に短い針葉が密生する"
+      ],
+      "limitations": "トウヒ属に整合するが左個体は葉の付き方が遠く不鮮明で属は候補。樹形だけでPicea abiesに決めない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea",
+        "Abies"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.637,
+        0,
+        0.363,
+        0.774
+      ],
+      "label": "右手前の針葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "トウヒ属",
+        "scientific_name": "Picea",
+        "rank": "genus"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "水平に広がる枝から細枝が垂れ、短い針葉が小枝の周囲に密につく"
+      ],
+      "limitations": "トウヒ属まで確認。針葉断面・葉枕と球果鱗片の細部が不足し種は確定しない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [
+        {
+          "url": "https://www.treesandshrubsonline.org/articles/picea/",
+          "supports": "小枝周囲の短い針葉と枝の構造を属形質として比較。葉枕・球果不足で種は保留"
+        }
+      ],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.499,
+        0.13,
+        0.229
+      ],
+      "label": "左奥の針葉樹状林",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な狭い円錐状樹冠が斜面を覆う"
+      ],
+      "limitations": "遠景で葉と球果の形が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.377,
+        0.518,
+        0.261,
+        0.209
+      ],
+      "label": "中央奥の針葉樹状林",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "尖った細い樹冠が連続する"
+      ],
+      "limitations": "葉・球果の解像度不足",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.716,
+        0.394,
+        0.159
+      ],
+      "label": "左手前の草本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い草本が地面を覆う"
+      ],
+      "limitations": "葉・穂・花が小さすぎる",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.685,
+        0.76,
+        0.315,
+        0.23
+      ],
+      "label": "右手前の草本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い草葉と低い広葉草本が混生する"
+      ],
+      "limitations": "葉序と花の細部が不足",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "544c8b6483a1bd50ed855fc17703c727dceb476b0bda432582d865ce9d172ab5",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T18:34:22.625686+00:00"
+}

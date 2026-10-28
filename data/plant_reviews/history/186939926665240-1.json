@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "image_id": "186939926665240",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景を実視認し必要部位を元画素拡大。植物形態のみを根拠とし、座標・国・文字・道路・地理分布・旧タグは用いない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.251,
+        0.331,
+        0.749,
+        0.252
+      ],
+      "label": "灰緑色の広葉木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細く分岐した暗色幹に小型の灰緑色葉群が密生する"
+      ],
+      "limitations": "拡大でも葉が単葉か複葉か・葉序・葉裏・花果が読めず属は候補まで",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Olea",
+        "Elaeagnus",
+        "Salix"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.644,
+        0.258,
+        0.239,
+        0.181
+      ],
+      "label": "右奥の細葉状高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な暗緑色の房状樹冠がある"
+      ],
+      "limitations": "葉の型と針葉束・球果が読めず属確定保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.335,
+        0.302,
+        0.13,
+        0.216
+      ],
+      "label": "中央奥の高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細幹の先に密な暗色葉群がある"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が読めず個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.864,
+        0.208,
+        0.136,
+        0.213
+      ],
+      "label": "右端奥の裸枝木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "明色の細幹に細い裸枝が立ち上がる"
+      ],
+      "limitations": "葉・芽・樹皮の細部が不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.578,
+        0.476,
+        0.322
+      ],
+      "label": "手前の灰緑色低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "地際から多数の細枝と小さい灰緑色葉群が広がる"
+      ],
+      "limitations": "葉の裂け方・毛・花果が読めず属種は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Artemisia"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0,
+        0.519,
+        1,
+        0.361
+      ],
+      "label": "地表の乾燥草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い乾燥草葉と細い枯茎がある"
+      ],
+      "limitations": "低木と混在し葉鞘・花序が読めず個別分類保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "69eb092890224778eb8819560c18c4c7f5a7e416e26fd8a003fbb9ffdab7fc15",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-27T00:30:38.174219+00:00"
+}

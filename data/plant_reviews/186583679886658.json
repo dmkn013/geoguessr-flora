@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "image_id": "186583679886658",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.09,
+        0.562,
+        0.15,
+        0.118
+      ],
+      "label": "左手前の灰緑色低株群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短く分枝する細茎に疎らな灰緑色葉状部分がある"
+      ],
+      "limitations": "個葉・花序・葉序がぼけて読めず草本木本の別も保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.481,
+        0.489,
+        0.207
+      ],
+      "label": "左地表の低株・草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "裸地に小さい灰緑色株と細茎が散在する"
+      ],
+      "limitations": "個葉・花序と個体境界が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.604,
+        0.443,
+        0.396,
+        0.065
+      ],
+      "label": "右奥の木本・低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い丸い緑色樹冠が連続する"
+      ],
+      "limitations": "遠景で個葉・花果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.692,
+        0.49,
+        0.308,
+        0.138
+      ],
+      "label": "右地表の低株・草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い褐色茎と灰緑色葉群が散在する"
+      ],
+      "limitations": "葉序・花序と個体境界が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.465,
+        0.55,
+        0.022
+      ],
+      "label": "左水平線の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "地平線に小さな緑色樹冠が連続する"
+      ],
+      "limitations": "極小で葉と花果が識別できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "e5b95d24fa7b00d9bd36512cc8fe69fe9e794107ed04fb8411d8a125737d0dec",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-27T08:46:44.203985+00:00"
+}

@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "image_id": "767484642357151",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景を左右端・手前・背景まで確認。必要対象は元画素拡大で葉と軸を比較。植物の形態のみを根拠にし座標・国・画像の文字・道路・旧タグを使わない。下位同定できない理由を対象ごとに記録。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        0.301,
+        0.4
+      ],
+      "label": "左上のマツ属",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "横に広がる枝先に長い針葉が房状にまとまり、幹の上部に褐色の樹皮が見える"
+      ],
+      "limitations": "マツ属まで確認。葉束の本数・鞘と球果鱗片が読めず種以下は不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.25,
+        0.264,
+        0.198,
+        0.296
+      ],
+      "label": "中央左の針葉樹状群",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "斜上する枝に針葉状の房がつく"
+      ],
+      "limitations": "遠景で葉束と球果が不明でマツ属は候補",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.533,
+        0,
+        0.467,
+        0.545
+      ],
+      "label": "右斜面の針葉樹状林",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "多数の小さな尖った樹冠と針葉状の枝先が斜面を覆う"
+      ],
+      "limitations": "個々の針葉・球果が小さくマツ・カラマツ等を区別できない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus",
+        "Larix"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.622,
+        0.345,
+        0.378,
+        0.5
+      ],
+      "label": "右手前の草本・低木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "岩の間に黄褐色草葉と細枝、短い緑葉が点在する"
+      ],
+      "limitations": "葉序・花序の細部が不足",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.053,
+        0.362,
+        0.384,
+        0.236
+      ],
+      "label": "左下層の広葉低木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型の緑葉群が針葉樹状木の足元で重なる"
+      ],
+      "limitations": "逆光と反射で葉・花果が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "7be8ba1a86fefedba4a7a10a752ed83a7438e34c6b5cac94dc76129b83faa874",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T18:36:44.180342+00:00"
+}

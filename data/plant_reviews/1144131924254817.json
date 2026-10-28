@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "image_id": "1144131924254817",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の手前・奥・左右端を確認。必要部位は元画素で拡大。全天球画像は全幅を確認し反射像を別植物として二重計数しない。画像上の形態だけを根拠にし地理・文字・道路・旧タグを使わない。下位分類不能な対象の理由を記録。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.079,
+        0.393,
+        0.788
+      ],
+      "label": "左の開花木",
+      "scope": "individual",
+      "taxon": {
+        "name": "インドソケイ属",
+        "scientific_name": "Plumeria",
+        "rank": "genus"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "太く滑らかな分岐枝、枝端に集まる革質の長楕円葉、白から淡黄色の5裂した花が房状につく"
+      ],
+      "limitations": "Plumeria属まで確認。葉先は尖るように見えるが葉裏の毛・葉縁・花の細部が不足しrubra/albaや園芸交雑を区別できない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Plumeria rubra",
+        "Plumeria alba",
+        "Plumeria obtusa"
+      ],
+      "morphology": [],
+      "sources": [
+        {
+          "url": "https://www.nparks.gov.sg/florafaunaweb/flora/8/6/8620",
+          "supports": "革質葉・太い分枝・枝端の房状花を属の形質として照合"
+        },
+        {
+          "url": "https://ntbg.org/database/plants/detail/plumeria-rubra",
+          "supports": "尖る葉先を候補比較に利用。ただし葉裏など他種との差が不足し種は確定しない"
+        }
+      ],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.389,
+        0.097,
+        0.511,
+        0.786
+      ],
+      "label": "右の開花木",
+      "scope": "individual",
+      "taxon": {
+        "name": "インドソケイ属",
+        "scientific_name": "Plumeria",
+        "rank": "genus"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "太い枝の先に長い革質葉と白黄の5裂花が房状につく"
+      ],
+      "limitations": "尖り気味の葉はrubra候補だが葉裏・葉縁が見えず類似種と園芸交雑の排除不足。花色だけで栽培品種は決められない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Plumeria rubra",
+        "Plumeria alba",
+        "Plumeria obtusa"
+      ],
+      "morphology": [],
+      "sources": [
+        {
+          "url": "https://www.nparks.gov.sg/florafaunaweb/flora/8/6/8620",
+          "supports": "革質葉・太い分枝・枝端の房状花を属の形質として照合"
+        },
+        {
+          "url": "https://ntbg.org/database/plants/detail/plumeria-rubra",
+          "supports": "尖る葉先を候補比較に利用。ただし葉裏など他種との差が不足し種は確定しない"
+        }
+      ],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.27,
+        0,
+        0.395,
+        0.245
+      ],
+      "label": "中央奥の裸枝高木",
+      "scope": "individual",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "裸の細枝が太い幹から広がる"
+      ],
+      "limitations": "葉・芽・花果が確認できず属不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.735,
+        0,
+        0.265,
+        0.341
+      ],
+      "label": "右奥の広葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な緑色樹冠と複数の直立幹"
+      ],
+      "limitations": "遠景で葉序・花果が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.256,
+        0.219,
+        0.184,
+        0.539
+      ],
+      "label": "左奥の低木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細かく分岐した枝に小さい葉群がつく"
+      ],
+      "limitations": "葉の付き方と花果が不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0,
+        0.68,
+        1,
+        0.262
+      ],
+      "label": "手前の草本・下草",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細葉草本と小型広葉草本が地面に混在する"
+      ],
+      "limitations": "花と葉序が不足し個別同定不可",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "57454a6ac4e35e90ca79ffe38ab2f83393232024ce45ec9a6da835427280bf02",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T14:26:30.942235+00:00"
+}

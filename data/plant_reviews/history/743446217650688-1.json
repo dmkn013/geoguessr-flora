@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "image_id": "743446217650688",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端と背景・手前を実視認。必要部位は元画素から拡大。座標・国・文字・道路・地理分布・旧タグを根拠にしない。判別不能の形質を明記して保留。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.024,
+        0.062,
+        0.408,
+        0.427
+      ],
+      "label": "左の裸枝高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "太い幹の上で多数の細枝が広い樹冠を作る"
+      ],
+      "limitations": "葉・芽・花果と樹皮細部が読めず属種不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.53,
+        0.116,
+        0.459,
+        0.455
+      ],
+      "label": "右の常緑細葉樹冠群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "直幹に密な暗緑色の細葉状枝群が付く"
+      ],
+      "limitations": "葉が針葉か鱗片葉か不明。樹形だけで属科を確定しない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cryptomeria",
+        "Chamaecyparis"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.322,
+        0.284,
+        0.079,
+        0.197
+      ],
+      "label": "左中央奥の常緑樹冠",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "横に伸びる枝と細葉状の密な葉群がある"
+      ],
+      "limitations": "葉の付着と球果が不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.365,
+        0.443,
+        0.204
+      ],
+      "label": "左斜面の下層植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い細茎と緑色の被覆がある"
+      ],
+      "limitations": "個々の葉序・花果の細部が読めず、混在する植物の分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.525,
+        0.446,
+        0.464,
+        0.134
+      ],
+      "label": "右の林床下層植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い暗色の茎葉が地面沿いにある"
+      ],
+      "limitations": "個々の葉序・花果の細部が読めず、混在する植物の分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "d08c045ad6a0ee997db1a23baa1a728fdfd8148d26d08c5f3c4cac2a63a1c4cb",
+  "source_size": [
+    1024,
+    512
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T19:28:47.418461+00:00"
+}

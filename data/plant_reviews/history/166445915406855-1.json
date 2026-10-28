@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "image_id": "166445915406855",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像の全景を左右端・手前・背景まで確認。必要対象の元画素拡大を参照。画像に見えた形態だけを使い、座標・文字・地域・旧タグは同定根拠に使わない。種以下の診断形質が不足する対象は限界と候補を記録。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.47,
+        0.48,
+        0.35
+      ],
+      "label": "左側の疎林",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹と疎らな小葉状の樹冠。裸枝の木も混在"
+      ],
+      "limitations": "反射と距離で葉序・葉形・樹皮が読めない。疎林の景観からユーカリ等に限定しない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.62,
+        0.43,
+        0.38,
+        0.36
+      ],
+      "label": "右側の疎林",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細長い幹から不規則に分枝し疎らな樹冠を作る"
+      ],
+      "limitations": "葉と果実が不鮮明。属判定に必要な特徴が不足",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.02,
+        0.66,
+        0.42,
+        0.24
+      ],
+      "label": "左法面の草本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "黄褐色の細い草葉が地表を覆う"
+      ],
+      "limitations": "穂と葉鞘が見えず、イネ科と他の細葉草本の区別不可",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.58,
+        0.69,
+        0.39,
+        0.21
+      ],
+      "label": "右路肩の草本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い黄褐色草本の群落"
+      ],
+      "limitations": "葉や穂の細部不足",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "0821f822f1575a513409918df25e72e84a649391123de0e2a8438d1e516612ef",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T13:27:06.011563+00:00"
+}

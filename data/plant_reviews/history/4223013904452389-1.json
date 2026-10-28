@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "image_id": "4223013904452389",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の手前・奥・左右端を確認。必要部位は元画素で拡大。全天球画像は全幅を確認し反射像を別植物として二重計数しない。画像上の形態だけを根拠にし地理・文字・道路・旧タグを使わない。下位分類不能な対象の理由を記録。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.088,
+        0.042,
+        0.672,
+        0.797
+      ],
+      "label": "中央の細葉低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "広く枝分かれする細枝に多数の小葉状葉群がつき、枝先が弓状に伸びる"
+      ],
+      "limitations": "複葉らしいが小葉・羽片の数、刺・花果が読めずマメ科や旧アカシア類・Prosopis類等を区別できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.665,
+        0.146,
+        0.335,
+        0.854
+      ],
+      "label": "右側の低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細かい緑葉が密生し多くの枝が地際から広がる"
+      ],
+      "limitations": "ぶれで葉構造・刺・花果が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.021,
+        0.427,
+        0.176,
+        0.083
+      ],
+      "label": "左奥の草本群落",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直立茎が揃って緑黄の帯を作る"
+      ],
+      "limitations": "遠景で葉と穂が判別できず作物名等を推定しない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "4f8589829188a8af244bfab90ffcaed8ab87b1a92e24665d23aa5e2e167e7d44",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T14:24:32.335309+00:00"
+}

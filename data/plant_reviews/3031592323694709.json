@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "image_id": "3031592323694709",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "全天球画像を中央だけに切らず全幅で確認し、幹と樹冠を拡大。針葉樹の幹は見えるが樹皮だけで属を確定しない。下層植生を別に記録。 全景の矩形重ね合わせを目視で確認し、見える形質の範囲で下位分類の可否を判断済み。未確定候補は確定タグに含めない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.015,
+        0.005,
+        0.971,
+        0.77
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "針葉樹群・属未確定",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "直立した複数の太い幹",
+        "高い位置に針葉状の枝葉が重なる"
+      ],
+      "limitations": "全天球の歪みと逆光・ブレがあり針葉・鱗片葉の付き方、球果が見えない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.038,
+        0.456,
+        0.423,
+        0.382
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "左下層の草本・低木群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "地表付近に細長い緑葉の株が点在する"
+      ],
+      "limitations": "葉脈・節・葉序が見えず竹類等を確定できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.514,
+        0.442,
+        0.472,
+        0.381
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "右斜面の草本・低木群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "暗緑色の細い葉がまとまった株がある"
+      ],
+      "limitations": "日陰と解像度不足で分類の決め手がない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "95730ca2097d017c1bad5c93874f6cf590e85370a16e14c2b68f690e0be48245",
+  "source_size": [
+    1024,
+    512
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T10:17:18.055212+00:00"
+}

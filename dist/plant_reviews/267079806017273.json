@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "image_id": "267079806017273",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景を実視認。必要部位は元画素を拡大。植物形態だけを根拠にし、座標・国・文字・道路・地理分布・旧タグを用いない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.823,
+        0.277,
+        0.156,
+        0.226
+      ],
+      "label": "右奥の羽状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "太い単幹に密な羽状葉が放射し、葉軸に線形小葉が並ぶ"
+      ],
+      "limitations": "葉柄の刺・小葉配置・花果が読めずPhoenix等は候補まで",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Phoenix"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.658,
+        0.412,
+        0.071,
+        0.121
+      ],
+      "label": "中央奥のヤシ状低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長い葉状部分が地際から放射する"
+      ],
+      "limitations": "葉の小葉構造・幹頂が小さく不鮮明で科確定保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Arecaceae",
+        "Phoenix"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0,
+        0.429,
+        0.656
+      ],
+      "label": "左上から左端の広葉木・蔓群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "画面上端と左端の連続する樹冠に広葉と細い茎が密生する"
+      ],
+      "limitations": "全天球端で歪むが全景を確認。個々の葉序と花果は読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.429,
+        0.409,
+        0.225,
+        0.159
+      ],
+      "label": "中央奥の低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細枝に小型葉が疎らに付く",
+        "左端に小さな羽状葉状の樹冠もあるが葉構造と幹頂が遠く読めない"
+      ],
+      "limitations": "葉序・葉縁・花果が読めず、混在する植物の個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Arecaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.815,
+        0,
+        0.185,
+        0.372
+      ],
+      "label": "右上端の広葉枝葉",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型広葉を持つ枝が画面上端に広がる"
+      ],
+      "limitations": "幹と花果が画面外で葉序も不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.752,
+        0.394,
+        0.065,
+        0.084
+      ],
+      "label": "奥の赤葉状小高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "赤褐色の小さな樹冠がある"
+      ],
+      "limitations": "遠景で葉と枝構造が判別できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "f84d5b00f837bb02442a6b7b1e75ff72719319b78fe7eb5f98f9f11ea2d90e9a",
+  "source_size": [
+    1024,
+    512
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T22:35:44.275454+00:00"
+}

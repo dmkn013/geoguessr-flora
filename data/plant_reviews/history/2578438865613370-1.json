@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "image_id": "2578438865613370",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景を実視認し必要部位を元画素で拡大。植物形態のみ使用、座標・文字・道路・分布・旧タグは同定に使用しない。 夜間でほぼ全景が暗く、左右の路肩を含め植物と非植物を確実に区別できない。植物が存在しないという判定ではなく、画像の露出・ノイズによる視認不能。補正・生成で特徴を補完せず、分類・矩形は保留。",
+  "objects": [],
+  "empty_reason": "unusable_image",
+  "source_sha256": "e5aca4ab179a88144a3e3695c0c3cc313666b216a65a6e304a6e96f9e7005427",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-27T01:33:34.271293+00:00"
+}

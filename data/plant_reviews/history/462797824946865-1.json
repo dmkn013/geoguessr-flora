@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "image_id": "462797824946865",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景を手前・奥・左右端まで確認。必要部分を元画素から拡大。植物の形態だけを根拠にし、画像の座標・国・文字・道路や既存タグは同定根拠にしない。識別できない対象にも見えた特徴と限界を記録。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.468,
+        0,
+        0.532,
+        0.773
+      ],
+      "label": "右側の針葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "細長い針葉が枝先に束状に集まり、上向きに房状の葉群を作る。幹は高く直立する"
+      ],
+      "limitations": "針葉束の本数・鞘と球果が解像せず、種や変種の識別は不可",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus taeda",
+        "Pinus elliottii",
+        "Pinus palustris"
+      ],
+      "morphology": [],
+      "sources": [
+        {
+          "url": "https://ask.ifas.ufl.edu/publication/FR003",
+          "supports": "針葉が束になるマツ属の特徴を照合。束の本数と球果は不鮮明で種には用いない"
+        }
+      ],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.153,
+        0.43,
+        0.554
+      ],
+      "label": "左側の針葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "幹の上方に針葉状の房が付き、横枝が階層状に広がる"
+      ],
+      "limitations": "針葉の束と球果は遠景で不鮮明。右群と同属と推測せず候補に留める",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.24,
+        0.298,
+        0.475
+      ],
+      "label": "左手前の広葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "針葉樹の手前に密な緑の広葉状葉群が重なる"
+      ],
+      "limitations": "葉形・葉序・花果が不明で個体別の種識別不可",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.873,
+        0,
+        0.127,
+        0.704
+      ],
+      "label": "右端の広葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "針葉樹に重なる大きめの広葉状葉群がある"
+      ],
+      "limitations": "葉が暗く重なり葉縁・葉序・花果が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.479,
+        0.655,
+        0.521,
+        0.271
+      ],
+      "label": "右側の草本帯",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細葉の短い緑色草本と枯れ草が混在する"
+      ],
+      "limitations": "葉舌・穂が読めず科以下の識別不可",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0,
+        0.691,
+        0.365,
+        0.08
+      ],
+      "label": "左側の草本帯",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "道路沿いに短い緑草が帯状に生える"
+      ],
+      "limitations": "遠景で葉と花序の細部不足",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "01ee7ebda60fabd361ee40c5c5ce093084b49d4dafe6a35a7e0205c4a1c677b4",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T14:21:06.323483+00:00"
+}

@@ -1,0 +1,259 @@
+{
+  "schema_version": 1,
+  "image_id": "1034797620583963",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.271,
+        0.192,
+        0.241,
+        0.302
+      ],
+      "label": "左奥の羽状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "細い幹頂部に線形小葉を持つ長い羽状葉が放射し垂れる"
+      ],
+      "limitations": "果房・葉柄基部と小葉配置が読めずココヤシは候補",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.535,
+        0.171,
+        0.314,
+        0.323
+      ],
+      "label": "中央右奥の羽状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "細長い幹に長い羽状葉が弓状に垂れ複数幹が傾く"
+      ],
+      "limitations": "果実らしい塊がぼけて形・寸法が判別できず種以下は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0,
+        0.334,
+        0.496
+      ],
+      "label": "左端の広葉高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "太い分枝幹に緑色広葉が密集する"
+      ],
+      "limitations": "葉序・葉縁・花果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.796,
+        0.279,
+        0.204,
+        0.217
+      ],
+      "label": "右奥の広葉高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い密な明緑色樹冠が連続する"
+      ],
+      "limitations": "個葉と花果が遠く不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.183,
+        0.296,
+        0.422,
+        0.219
+      ],
+      "label": "奥のつる状植物・低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な緑色広葉群が幹と樹冠下部を覆う"
+      ],
+      "limitations": "葉序・花果・個体境界が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.487,
+        0.633,
+        0.075,
+        0.132
+      ],
+      "label": "中央手前の大型葉株",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長い葉柄状部に大きな矢じり状葉身が付く"
+      ],
+      "limitations": "葉柄挿入・葉脈・花序が不明でサトイモ類は候補",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Araceae",
+        "Colocasia",
+        "Alocasia"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.315,
+        0.674,
+        0.685,
+        0.326
+      ],
+      "label": "右手前の草本・つる植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型広葉と細い茎が地表と資材の間に広がる"
+      ],
+      "limitations": "葉序・花序と個体境界が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0,
+        0.62,
+        0.332,
+        0.38
+      ],
+      "label": "左手前の地表草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "疎らな緑色の細葉と低い広葉群がある"
+      ],
+      "limitations": "葉鞘・花序が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p9",
+      "bbox": [
+        0.103,
+        0.504,
+        0.203,
+        0.127
+      ],
+      "label": "左中景の低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い密な小型葉群がある"
+      ],
+      "limitations": "葉序と花果が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "7e8adb762967124637bd120aedfb9e6e5cd48cf43d77838505eddf54faf47a52",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-27T05:41:15.465136+00:00"
+}

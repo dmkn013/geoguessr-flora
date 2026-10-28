@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "image_id": "294873518740164",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・背景・手前を確認。必要部位は元画素から拡大。植物形態だけを根拠にし、座標・国・文字・道路・旧タグを同定に使わない。遮蔽・ぼけ・距離による下位同定の限界を対象ごとに記録。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        0.35,
+        0.533
+      ],
+      "label": "左側の針葉樹状高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "高い幹の上部に針葉状の房が広がり横枝が疎らに出る"
+      ],
+      "limitations": "葉束・鞘と球果が読めずマツ属は候補",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.354,
+        0.467,
+        0.39
+      ],
+      "label": "左側の広葉樹・低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い丸い葉群と高い広葉樹冠が混在する"
+      ],
+      "limitations": "逆光で葉形・葉序・果実が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.519,
+        0,
+        0.481,
+        0.778
+      ],
+      "label": "右側の森林",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "暗い広葉状樹冠と直立幹が密生する"
+      ],
+      "limitations": "日陰と反射で葉・花果が読めず針葉樹の混在も個別に対応できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "ab9f2443a27e40beb93446e4bc048d6829f774d61f221af0fc2acfef2000dbff",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T18:34:22.777430+00:00"
+}

@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "image_id": "1143059606733914",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景を確認。必要対象は元画素で拡大。全天球は全幅を見て反射像を二重計数しない。植物形態だけを根拠にし、文字・国・座標・道路や旧タグは同定根拠に使わない。下位分類の限界を対象ごとに記録。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.12,
+        0.055,
+        0.332,
+        0.738
+      ],
+      "label": "左手前の針葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い針葉状葉が枝に密生し、枝先に房状の新梢。細い横枝が何段も出る"
+      ],
+      "limitations": "トウヒ・モミ等の候補。針葉断面・葉枕・球果が見えず属を確定できない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea",
+        "Abies"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.653,
+        0.113,
+        0.297,
+        0.776
+      ],
+      "label": "右手前の針葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "直立幹から多数の横枝が出て短い針葉状葉を付ける"
+      ],
+      "limitations": "葉の付き方と球果が読めずトウヒ・モミ等の区別不可",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea",
+        "Abies"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.278,
+        0.21,
+        0.419
+      ],
+      "label": "左奥の細い針葉樹状群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "狭い円錐状樹冠と短い枝が並ぶ"
+      ],
+      "limitations": "遠景で葉と球果が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.391,
+        0.22,
+        0.278,
+        0.38
+      ],
+      "label": "中央奥の針葉樹状群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直立幹と狭い円錐状樹冠"
+      ],
+      "limitations": "葉・球果が解像しない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.584,
+        0.457,
+        0.397
+      ],
+      "label": "左林床の低木・草本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型の緑葉と黄緑葉が密生し地面を覆う"
+      ],
+      "limitations": "葉序・花果が不鮮明で種属不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.608,
+        0.6,
+        0.392,
+        0.355
+      ],
+      "label": "右林床の低木・草本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型の広葉状葉群と低い草本が混在する"
+      ],
+      "limitations": "細部が不明で群落の個体別識別不可",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "5e5f3e290cac7bf469479d3b054e7b3ea0cade1ec09df3920075d0c53e37fe31",
+  "source_size": [
+    1024,
+    512
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T15:26:09.474655+00:00"
+}

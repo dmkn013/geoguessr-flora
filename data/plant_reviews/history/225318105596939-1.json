@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "image_id": "225318105596939",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景を実視認。必要部位は元画素から切り出し拡大。植物形態だけを根拠にし座標・国・文字・道路・旧タグ・地理分布は使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.528,
+        0.423,
+        0.366
+      ],
+      "label": "左の広葉低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細かく分枝した枝に小型の黄緑葉が付き、一部は裸枝である"
+      ],
+      "limitations": "葉序・葉縁・芽・花果が読めず種属を判定できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.668,
+        0.649,
+        0.269,
+        0.244
+      ],
+      "label": "右の広葉低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い枝に小型葉が疎らに付き、裸枝も混在する"
+      ],
+      "limitations": "葉序・花果と細かい葉形が読めず、混在する植物の個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.42,
+        0.704,
+        0.283,
+        0.044
+      ],
+      "label": "遠景の木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい丸い樹冠が地平線沿いに見える"
+      ],
+      "limitations": "遠景で葉・幹が判別できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.411,
+        0.744,
+        0.094,
+        0.055
+      ],
+      "label": "左奥地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色の葉群が地面を覆う"
+      ],
+      "limitations": "葉序・花果と細かい葉形が読めず、混在する植物の個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.549,
+        0.751,
+        0.451,
+        0.249
+      ],
+      "label": "右の低い草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い緑色葉が地面に連続する"
+      ],
+      "limitations": "生殖器官が見えず草地の見かけだけでイネ科や作物種を確定しない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "dbc61bccda0c0b8102826fd7dd914d01b25e7d4c28f614a1e232a540e5aa5fdf",
+  "source_size": [
+    1023,
+    749
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T20:30:10.614819+00:00"
+}

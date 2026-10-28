@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "image_id": "140772134700944",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景を実視認。必要部位は元画素を拡大。植物形態だけを根拠にし、座標・国・文字・道路・地理分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.765,
+        0.309,
+        0.235,
+        0.371
+      ],
+      "label": "右手前の赤花状部を持つ細葉低木",
+      "scope": "group",
+      "taxon": {
+        "name": "キョウチクトウ属",
+        "scientific_name": "Nerium",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "長く狭い全縁葉が対生から輪生状に付き枝先に赤い花状部分が集まる"
+      ],
+      "limitations": "キョウチクトウ属に整合するが枝の接続・輪生葉の枚数と花冠細部が不鮮明で属確定・種・品種は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Nerium oleander"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.727,
+        0.202,
+        0.273,
+        0.312
+      ],
+      "label": "右奥の広葉高木",
+      "scope": "individual",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な丸い樹冠に幅広い葉がある"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が読めず個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.46,
+        0.511,
+        0.049,
+        0.087
+      ],
+      "label": "中央奥の羽状葉ヤシ",
+      "scope": "individual",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "細い幹頂部に線形小葉を持つ羽状葉が放射する"
+      ],
+      "limitations": "遠く果房・葉柄基部が不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.536,
+        0.444,
+        0.104
+      ],
+      "label": "左奥の木本・低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い低木樹冠と細い枝群がある"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が読めず個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.596,
+        0.467,
+        0.284
+      ],
+      "label": "左地表の高い細葉草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長い線形葉が密生し細い直立茎が伸びる"
+      ],
+      "limitations": "穂・葉鞘・葉舌が読めず科属は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Poaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.687,
+        0.641,
+        0.313,
+        0.26
+      ],
+      "label": "右地表の細葉草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長い細葉と低い広葉草本が密生する"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が読めず個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "d146cefff431cbea72162433e5f02b98c70f263f4c85fc3826972b4fd5956fb8",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-27T00:40:20.239646+00:00"
+}

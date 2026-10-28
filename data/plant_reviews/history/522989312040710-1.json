@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "image_id": "522989312040710",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "全景と左の羽状葉群を拡大。左右のヤシと他の広葉樹を分け、果実がないため油ヤシ等の種名を推定で付けない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.05,
+        0.684,
+        0.28,
+        0.158
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "多数の羽状葉が低い位置から密に放射状に開く"
+      ],
+      "limitations": "アブラヤシ属などに整合するが幹の葉痕・葉柄・果房が読めず属も保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "アブラヤシ属",
+        "他の羽状葉ヤシ"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.579,
+        0.157,
+        0.219
+      ],
+      "scope": "individual",
+      "taxon": {
+        "name": "左側の高い広葉樹",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "高い幹から水平に枝分かれし小さな樹冠が段状に出る"
+      ],
+      "limitations": "葉・花果の形が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.671,
+        0.675,
+        0.119,
+        0.136
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "右側のヤシ群",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "弓状に開いた羽状葉の冠がある"
+      ],
+      "limitations": "距離があり葉柄や果房・幹の形が見えない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.663,
+        0.594,
+        0.337,
+        0.252
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "右側の広葉高木・低木群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い樹冠と水平に広がった樹冠が重なる"
+      ],
+      "limitations": "葉と花果の細部が分離できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.813,
+        0.438,
+        0.105
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "左路肩の草本群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い緑葉が連続する"
+      ],
+      "limitations": "穂・花・節が見えない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "014832f8226e1b412f0ed23320756cceffde08ca8eed4a4cd0c36451c8be61e6",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T10:19:22.538542+00:00"
+}

@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "image_id": "195636302376112",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.025,
+        0.074,
+        0.196,
+        0.532
+      ],
+      "label": "左手前の針葉状木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "横枝の先に細い濃緑色の葉状部分が房状に密集する"
+      ],
+      "limitations": "針葉の束生数と球果が不明でマツ属は暫定",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.009,
+        0,
+        0.17,
+        0.535
+      ],
+      "label": "左端の裸枝高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "直立する明色の幹から細い枝が多数分かれる"
+      ],
+      "limitations": "葉・芽・花果がなく分類保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.247,
+        0.264,
+        0.222,
+        0.301
+      ],
+      "label": "左中景の針葉状木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "円錐状の細葉状樹冠があり細い横枝が広がる"
+      ],
+      "limitations": "葉の付着と球果が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus",
+        "Picea",
+        "Larix"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.524,
+        0,
+        0.476,
+        0.625
+      ],
+      "label": "右の針葉状高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な濃緑色の細葉状葉群と横枝がある"
+      ],
+      "limitations": "暗部とぼけで針葉と球果が識別できない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus",
+        "Picea"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.753,
+        0.382,
+        0.247,
+        0.473
+      ],
+      "label": "右手前の裸枝低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "多数の細い木質状枝が雪面より立ち上がる"
+      ],
+      "limitations": "葉・花・果実がなく分類保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.153,
+        0.392,
+        0.188,
+        0.213
+      ],
+      "label": "左の裸枝低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い褐色の枝群が地表から立ち上がる"
+      ],
+      "limitations": "葉・芽・花果が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.425,
+        0.458,
+        0.096,
+        0.091
+      ],
+      "label": "中央左奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さな裸枝状から濃緑色の樹冠が連続する"
+      ],
+      "limitations": "遠景で個葉と個体境界が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "f91a1c96ea2b08bf0506d78e9a5b458eb3b4143f94aad1426898f417ec7e8e2c",
+  "source_size": [
+    1024,
+    432
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-27T03:34:18.750903+00:00"
+}

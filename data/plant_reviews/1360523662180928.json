@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "image_id": "1360523662180928",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "全景確認。道路や撮影座標から分類を決めず、左右の広葉樹・低木を記録。 矩形重ね合わせを元画像全景で目視確認済み。候補の確定タグへの混入なし。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.602,
+        0,
+        0.398,
+        0.447
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "右側の広葉高木群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "明るい幹と縦長・丸い樹冠が重なる"
+      ],
+      "limitations": "葉の付き方・樹皮・花果が解像しない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.008,
+        0.193,
+        0.267,
+        0.227
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "左側の広葉樹群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "高さと葉色が異なる樹冠が並ぶ"
+      ],
+      "limitations": "葉序・葉縁・花果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.353,
+        0.218,
+        0.067,
+        0.139
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "中央左の直立広葉樹",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "狭く直立した樹冠"
+      ],
+      "limitations": "葉・芽が小さくポプラ等を確定できない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "ポプラ属",
+        "他の直立広葉樹"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.559,
+        0.263,
+        0.441,
+        0.292
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "右の低木・草本群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "道沿いに低い緑葉が密生する"
+      ],
+      "limitations": "葉序・花序が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "b925141e08618d7427984f64f293c841b4bc86c327fff70f5bfe07cd9a1d17ab",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T12:20:57.114581+00:00"
+}

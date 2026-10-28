@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "image_id": "1146499930169221",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景を実視認。必要部位は元画素から切り出し拡大。植物形態だけを根拠にし座標・国・文字・道路・旧タグ・地理分布は使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.211,
+        0.355,
+        0.331
+      ],
+      "label": "左斜面上の高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直立幹の上に細長い葉状の疎らな樹冠がある"
+      ],
+      "limitations": "葉序・樹皮・花果が読めず両属を分けられない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Eucalyptus",
+        "Corymbia"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.084,
+        0.548,
+        0.255,
+        0.09
+      ],
+      "label": "左下の剣状葉ロゼット群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "厚そうな長い剣状葉が地際から放射状に広がる"
+      ],
+      "limitations": "拡大でも葉縁の刺・葉先・花茎が不鮮明で属種を分けられない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Agave",
+        "Furcraea"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.496,
+        0.509,
+        0.504,
+        0.11
+      ],
+      "label": "奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹と小さな暗緑色樹冠が連なる"
+      ],
+      "limitations": "遠すぎて葉・幹の細部が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.566,
+        0.096,
+        0.098
+      ],
+      "label": "左下の低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい緑色葉群が地面近くに密生する"
+      ],
+      "limitations": "葉序・花果と細かい葉形が読めず、混在する植物の個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.629,
+        0.343,
+        0.107
+      ],
+      "label": "左地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い緑色草葉と乾燥茎葉が混在する"
+      ],
+      "limitations": "葉序・花果と細かい葉形が読めず、混在する植物の個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.556,
+        0.606,
+        0.444,
+        0.104
+      ],
+      "label": "右地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色草葉と細い枯茎がまばらにある"
+      ],
+      "limitations": "葉序・花果と細かい葉形が読めず、混在する植物の個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "7b993f5215f0c193ca1af5e8c6454713e35921d968acd56a8b8e080456c3e360",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T20:31:01.859308+00:00"
+}

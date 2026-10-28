@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "image_id": "503892300615592",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景を実視認。必要部位は元画素を拡大。植物形態だけを根拠にし、座標・国・文字・道路・地理分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.091,
+        0.008,
+        0.265,
+        0.564
+      ],
+      "label": "左の白い幹の広葉木群",
+      "scope": "group",
+      "taxon": {
+        "name": "カバノキ属",
+        "scientific_name": "Betula",
+        "rank": "genus"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "白い細幹に暗色斑があり小型の先の尖る卵形状葉が細枝に付く"
+      ],
+      "limitations": "カバノキ属まで確認。葉の鋸歯・芽・果穂が不鮮明で種以下保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Betula pendula",
+        "Betula pubescens"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0,
+        0.371,
+        0.604
+      ],
+      "label": "左の他の広葉木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "暗色の細幹に密な小型広葉樹冠がある"
+      ],
+      "limitations": "白幹木と別群として記録。葉序と花果が不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.507,
+        0,
+        0.493,
+        0.685
+      ],
+      "label": "右の広葉木・低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹と密な広葉樹冠が重なる"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が読めず個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.36,
+        0.349,
+        0.162,
+        0.19
+      ],
+      "label": "中央奥の広葉若木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "明色の細幹と小さい広葉樹冠が連なる"
+      ],
+      "limitations": "遠景で葉と樹皮の細部が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.603,
+        0.37,
+        0.168
+      ],
+      "label": "左地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い草葉と低い広葉草本がある"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が読めず個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.517,
+        0.59,
+        0.483,
+        0.266
+      ],
+      "label": "右地表の草本・シダ状群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細葉草本と羽状に裂けた葉状部分がある"
+      ],
+      "limitations": "葉の分岐・胞子嚢群と花序が不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "b2f189b806ca2d019961bd150913e7f0856804baee447d1c3010aea7b9e52277",
+  "source_size": [
+    1023,
+    764
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-27T00:40:19.296129+00:00"
+}

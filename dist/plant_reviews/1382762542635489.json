@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "image_id": "1382762542635489",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景を実視認。必要部位は元画素から拡大。座標・国・文字・道路・地理分布・旧タグを根拠にしない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        0.947,
+        0.437
+      ],
+      "label": "背景の裸枝状木・常緑細葉樹冠群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直幹に疎らな裸枝状枝群と密な円錐状常緑樹冠が混在する"
+      ],
+      "limitations": "短枝・針葉付着・球果が不鮮明でLarix/Picea等は候補まで",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Larix",
+        "Picea",
+        "Abies"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.747,
+        0.405,
+        0.097,
+        0.255
+      ],
+      "label": "右手前の針葉状若木",
+      "scope": "individual",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "枝先に密な房状の細葉群があり円錐状の樹冠を作る"
+      ],
+      "limitations": "拡大しても針葉束と球果が読めず属確定保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.934,
+        0.278,
+        0.066,
+        0.347
+      ],
+      "label": "右端の針葉状枝葉",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い細葉状葉群が小枝に密生する"
+      ],
+      "limitations": "幹・葉付着と球果が画面外/不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.4,
+        0.36,
+        0.075
+      ],
+      "label": "左奥地表の低い草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "雪のない地面に褐色細茎と低い緑の株がある"
+      ],
+      "limitations": "雪と枯葉で葉・花果が判別できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.827,
+        0.382,
+        0.068,
+        0.234
+      ],
+      "label": "右手前の裸枝状若木",
+      "scope": "individual",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直幹の周りに短い細枝が疎らに伸びる"
+      ],
+      "limitations": "葉・短枝・球果が確認できずLarix等の確定は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Larix"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "06f3e544177d5da21adc34e1b347defb92b72d8cecf77cfc6994c99706f6f9d5",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T23:38:55.513014+00:00"
+}

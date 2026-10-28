@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "image_id": "467636464518735",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "全景を元画質で確認。左の高木・低木・路肩草本を分け、右奥も確認。小葉の輪郭だけでネムノキやアカシア等に決めない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.376,
+        0.499,
+        0.249
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "左側の広葉高木・低木群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "異なる高さの開いた樹冠と丸い樹冠が重なる"
+      ],
+      "limitations": "葉序・複葉の構造と花果が分離できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.511,
+        0.502,
+        0.272
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "左路肩の草本群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細長い葉と直立茎が密に茂る"
+      ],
+      "limitations": "穂・花・節の診断形質が見えない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.624,
+        0.461,
+        0.376,
+        0.065
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "右奥の低木群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い濃緑の樹冠が連なる"
+      ],
+      "limitations": "遠景で葉の形と花果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "5c4a1853b05fd92082ce815d2bec7a7a7795f9d469d4476cecec411def171f29",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T10:19:22.382830+00:00"
+}

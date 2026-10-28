@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "image_id": "526039218555841",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・背景・手前を実視認。必要箇所は元画素から拡大。植物形態だけを根拠にし、座標・国・文字・道路・地理分布・旧タグは用いない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.372,
+        0.159,
+        0.628,
+        0.748
+      ],
+      "label": "右手前の複葉状の低木・小高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い軸から対になる小型葉片状部分が多数並ぶ羽状から二回羽状の葉群が広がる"
+      ],
+      "limitations": "複葉軸の接続・托葉・花果が読めず似た科属を排除できない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Fabaceae",
+        "Albizia",
+        "Leucaena",
+        "Delonix",
+        "Jacaranda"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.192,
+        0.428,
+        0.195,
+        0.295
+      ],
+      "label": "左中央の羽状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "長い単幹頂に長い葉軸と多数の線形小葉の羽状葉が放射する"
+      ],
+      "limitations": "果実・葉柄基部が隠れ属種は候補まで",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.175,
+        0.204,
+        0.536
+      ],
+      "label": "左の広葉樹冠群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い樹冠に広い細長葉が密集する"
+      ],
+      "limitations": "葉脈・葉序・花果が不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Mangifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.482,
+        0,
+        0.518,
+        0.278
+      ],
+      "label": "右上の大きな広葉高木",
+      "scope": "individual",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "太い分岐幹に細長い葉群が密生する"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が読めず個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.354,
+        0.292,
+        0.167,
+        0.448
+      ],
+      "label": "中央奥の樹冠群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い広葉樹冠と細い葉群が重なる"
+      ],
+      "limitations": "遠景と重なりで葉と花果が不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0,
+        0.798,
+        0.36,
+        0.202
+      ],
+      "label": "左地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型広葉と短い草葉が地面を覆う"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が読めず個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "d98d20ebb5f13aa7b7b0ae25ca7367941a229c2a290d473022d5825308f8e5e4",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T22:40:29.092633+00:00"
+}

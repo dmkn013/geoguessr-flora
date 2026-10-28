@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "image_id": "1063841237672644",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像の全景を左右端・手前・背景まで確認。必要対象の元画素拡大を参照。画像に見えた形態だけを使い、座標・文字・地域・旧タグは同定根拠に使わない。種以下の診断形質が不足する対象は限界と候補を記録。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.578,
+        1,
+        0.153
+      ],
+      "label": "中央の高茎作物群落",
+      "scope": "group",
+      "taxon": {
+        "name": "イネ科",
+        "scientific_name": "Poaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "直立茎に長い線形から披針形の葉がつく作物が密生"
+      ],
+      "limitations": "イネ科と確認。雄穂・雌穂が暗く不明瞭でトウモロコシとソルガム等の識別は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Zea mays",
+        "Sorghum"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.513,
+        1,
+        0.114
+      ],
+      "label": "奥の樹木・低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "大小の丸い樹冠が地平線に連続する"
+      ],
+      "limitations": "遠景で葉形・枝・花果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.696,
+        1,
+        0.304
+      ],
+      "label": "手前と道沿いの草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い草葉と小型広葉草本が混生"
+      ],
+      "limitations": "葉と花の細部が不足し個別同定不可",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "9f1e185390a8780ab60cc41aac144ad78504444e6048ec5a5af91faa1888e801",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T13:27:50.906481+00:00"
+}

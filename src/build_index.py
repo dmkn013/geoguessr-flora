@@ -18,6 +18,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from build_tagmap import project  # noqa: E402
 from coverage import is_covered, ja  # noqa: E402
 from paths import DATA, DIST  # noqa: E402
+from taxon_hierarchy import parent_names, most_specific, summarize_tags  # noqa: E402
 
 def _mostly_split(tag, parent_of, total, bare):
     """その上位タグの点のうち、3割以上が下位まで落ちているか。
@@ -33,6 +34,10 @@ def _mostly_split(tag, parent_of, total, bare):
 
 def main():
     tags = json.loads((DATA / "tags.json").read_text(encoding="utf-8"))
+    # 詳細確認を完了した画像だけ新結果を採用。旧タグは入力として保存する。
+    reviewed = DATA / "plant_review_tags.json"
+    reviewed_tags = json.loads(reviewed.read_text(encoding="utf-8")) if reviewed.exists() else {}
+    tags.update(reviewed_tags)
     idx = {x["img_id"]: x for x in
            json.loads((DATA / "random_index.json").read_text(encoding="utf-8"))}
 
@@ -60,7 +65,7 @@ def main():
         pts.append([x, y, round(it["lat"], 3), round(it["lon"], 3),
                     img_id, names, ja(where.get(img_id) or "")])
 
-    c = Counter(n for p in pts for n in p[5])
+    direct = Counter(n for p in pts for n in set(p[5]))
 
     # 点の色。出現数の多い12タグに固有色を割り当て、それ以外は「その他」。
     # 全部を色分けしても53色は見分けられないので、地図で意味を持つ
@@ -85,16 +90,14 @@ def main():
         "ヨーロッパトウヒ": "トウヒ属",
         "バナナ": "バショウ属",
     }
+    catalog = json.loads((DATA / 'taxon_catalog.json').read_text(encoding='utf-8'))
+    PARENT_OF = parent_names(catalog, PARENT_OF)
+    taxonomy = summarize_tags({p[4]: p[5] for p in pts}, PARENT_OF)
+    c = Counter(taxonomy['inclusive_image_counts'])
     # 上位タグのうち、その点に下位が付いていない数だけを数え直す
     bare = Counter()
     for pt in pts:
-        names = set(pt[5])
-        lowers = {n for n in names if n in PARENT_OF}
-        parents_covered = {PARENT_OF[n] for n in lowers}
-        for n in names:
-            if n in parents_covered:
-                continue          # 下位が付いているので上位は数えない
-            bare[n] += 1
+        bare.update(most_specific(pt[5], PARENT_OF))
     top = [t for t, _ in bare.most_common(12)]
     cidx = {t: i for i, t in enumerate(top)}
     for pt in pts:
@@ -102,24 +105,23 @@ def main():
         # ヤシ科とココヤシが両方付いた点は「ココヤシ」で塗る方が
         # 地図として情報量が多い。
         # 下位が付いていれば上位は候補から外す
-        names = set(pt[5])
-        lowers = {n for n in names if n in PARENT_OF}
-        skip = {PARENT_OF[n] for n in lowers}
-        cand = [n for n in names if n not in skip] or list(names)
+        cand = most_specific(pt[5], PARENT_OF)
         ranks = [cidx.get(n, 99) for n in cand]
         best = max(ranks)
         pt.append(best if best < 12 else 12)       # [7] 色番号。12 = その他
 
     payload = json.dumps({
         "pts": pts,
+        "reviewed": sorted(reviewed_tags),
         "n": len(pts),
         "hit": sum(1 for p in pts if p[5]),
-        "tags": c.most_common(),
+        "tags": direct.most_common(),
+        "taxonomy": taxonomy,
         # 下位分類が**実際に多く付いている**上位タグだけ「（不明）」と補う。
         # ヤシ科は半数近くが属まで落ちたので、凡例の「ヤシ科」は
         # 「そこまでしか分からなかった点」を意味する。
         # マツ属のように下位がほとんど無いものは補わない（不自然なので）。
-        "legend": [t + "（属不明）" if _mostly_split(t, PARENT_OF, c, bare)
+        "legend": [t + "（下位分類未確定）" if _mostly_split(t, PARENT_OF, c, bare)
                    else t for t in top],
     }, ensure_ascii=False, separators=(",", ":"))
 
@@ -135,13 +137,15 @@ def main():
     out = DIST / "index.html"
     out.write_text(html, encoding="utf-8")
     print(f"書き出し: {out}  ({len(html.encode())/1048576:.1f} MB)")
-    print(f"  点 {len(pts)} / タグ {len(c)}種類")
+    print(f"  点 {len(pts)} / タグ {len(direct)}種類")
     print(f"  除外: 属を特定できず {skip_none} / 非カバー国 {skip_uncov}")
 
 
 TEMPLATE = r"""<!doctype html><html lang="ja"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 <title>世界の道端の植物</title>
+<link rel="stylesheet" href="plant_boxes.css">
+<script src="plant_boxes.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
@@ -622,7 +626,10 @@ function openCard(i) {
     cbody.innerHTML = '';
     const box = document.createElement('div');
     box.className = 'shotbox';
-    box.appendChild(im);
+    const stage = document.createElement('div');
+    stage.className = 'plant-stage';
+    stage.appendChild(im);
+    box.appendChild(stage);
     box.insertAdjacentHTML('beforeend',
       '<button class="xphoto" aria-label="写真を閉じる">✕</button>');
     // 写真だけ消す。タグと座標は残るので、
@@ -633,13 +640,14 @@ function openCard(i) {
     });
     cbody.appendChild(box);
     cbody.insertAdjacentHTML('beforeend', tail);
-    enableZoom(box, im);
+    enableZoom(box, stage);
+    PlantBoxes.attach(box, stage, id);
   };
   im.onerror = () => {
     if (want !== id) return;
     cbody.innerHTML = '<div class="ld">写真を読み込めませんでした</div>' + tail;
   };
-  im.src = 'photos/' + id + '.jpg';
+  im.src = (D.reviewed.includes(id) ? 'review_photos/' : 'photos/') + id + '.jpg';
 }
 
 function closeCard() {

@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "image_id": "855891083738509",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "全景と左の針葉樹を拡大。長い針葉が枝先に束状に見えるためマツ属と判断し、種に必要な束の本数・球果は不明と記録。 矩形重ね合わせを元画像全景で目視確認済み。種候補は確定タグに含めない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        0.431,
+        0.703
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "長い針葉が枝先にまとまる",
+        "水平に広がる横枝"
+      ],
+      "limitations": "針葉束の本数・球果・詳細な樹皮が不鮮明で種以下は確定できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true,
+      "label": "左側のマツ属"
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.505,
+        0,
+        0.495,
+        0.638
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "右側の落葉広葉樹・針葉樹群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "裸の枝と暗緑の樹冠が重なる"
+      ],
+      "limitations": "樹皮や芽・針葉の診断形質が見えない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.576,
+        0.517,
+        0.424,
+        0.293
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "右斜面の草本・低木群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "乾いた茎葉と小低木が斜面を覆う"
+      ],
+      "limitations": "花穂・葉鞘・葉序を読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "e11640b597fb41a90b401cd5b780bde5404aeb854f6ca485407e192323a47cf3",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 3,
+  "reviewed_at": "2026-10-26T12:25:25.112707+00:00"
+}

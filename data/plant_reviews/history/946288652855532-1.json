@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "image_id": "946288652855532",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景と左側針葉樹の切り出しを確認。左右の針葉樹群、中央左の疎な針葉樹、中央の落葉樹を分けた。雪による形状変化があり資料照合を残す。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.158,
+        0.035,
+        0.12,
+        0.509
+      ],
+      "scope": "individual",
+      "taxon": {
+        "name": "トウヒ属候補",
+        "scientific_name": "Picea",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "先端が尖る円錐形の樹冠",
+        "水平枝と垂れ下がる細枝が密に重なる"
+      ],
+      "limitations": "針葉の付き方と球果が見えずモミ属等との決定的な区別がない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "トウヒ属",
+        "モミ属"
+      ],
+      "morphology": [
+        "円錐形樹冠"
+      ],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.265,
+        0.17,
+        0.091,
+        0.354
+      ],
+      "scope": "individual",
+      "taxon": {
+        "name": "マツ属候補",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "下部が疎で枝先に葉がまとまる",
+        "上部樹冠の輪郭が不規則"
+      ],
+      "limitations": "針葉の束の本数・球果・樹皮が見えず属も暫定",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "マツ属"
+      ],
+      "morphology": [
+        "疎な針葉樹冠"
+      ],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.518,
+        0,
+        0.482,
+        0.582
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "右側の針葉樹群・属未確定",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "針葉状の暗い樹冠と積雪した枝が重なる"
+      ],
+      "limitations": "枝の重なりと積雪で属の診断形質を確認できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.454,
+        0,
+        0.106,
+        0.538
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "落葉広葉樹・属未確定",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "葉のない細枝と明るい幹が見える"
+      ],
+      "limitations": "樹皮の模様が不足しカバノキ属等を確定できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "551f70e430002b2f43c111eaa3b02e9d099e8aa95505e80208cbc63fc1256aae",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T09:13:20.360810+00:00"
+}

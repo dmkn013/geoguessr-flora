@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "image_id": "798171302909859",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の手前・奥・左右端を確認。必要部位は元画素で拡大。全天球画像は全幅を確認し反射像を別植物として二重計数しない。画像上の形態だけを根拠にし地理・文字・道路・旧タグを使わない。下位分類不能な対象の理由を記録。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.341,
+        0.412,
+        0.179,
+        0.103
+      ],
+      "label": "中央奥のヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "羽状葉の樹冠が複数屋根の上に出る"
+      ],
+      "limitations": "逆光と遠景で果実・葉柄や幹が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.292,
+        0.385,
+        0.04,
+        0.201
+      ],
+      "label": "左奥の直立樹",
+      "scope": "individual",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型の密な円錐状樹冠と直立幹"
+      ],
+      "limitations": "葉が針葉か広葉かも不鮮明で樹形だけの分類不可",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.513,
+        0.433,
+        0.135,
+        0.144
+      ],
+      "label": "中央奥の広葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "濃い緑色の丸い樹冠が重なる"
+      ],
+      "limitations": "逆光で葉と花果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.738,
+        0.2,
+        0.262,
+        0.558
+      ],
+      "label": "右手前の植栽木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細かく分枝した枝に小型葉群がある"
+      ],
+      "limitations": "日陰で葉序・複葉の構造・花果が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.746,
+        0.465,
+        0.185,
+        0.27
+      ],
+      "label": "右花壇の低木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "赤い葉または花状部分を持つ直立株と丸い緑低木"
+      ],
+      "limitations": "暗く花か葉かの区別も不足。赤色だけで分類しない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "03844df41023b73c9f2b21934af5e2f57aed47b381abb2dbe19e2938db31a121",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T14:24:32.290183+00:00"
+}

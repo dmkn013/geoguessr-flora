@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "image_id": "3811314699157852",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・背景・手前を確認。必要対象は元画素で拡大した。植物の見える形態のみで判定し地理情報・文字・道路・旧タグは根拠にしない。葉・花果の解像度やぶれにより下位分類できない対象も、その限界を記録する。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.01,
+        0,
+        0.389,
+        0.554
+      ],
+      "label": "左側の針葉樹状高木",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "橙褐色の上部樹皮を持つ直立幹と高所に集まる針葉状の樹冠"
+      ],
+      "limitations": "マツ属と整合するが針葉の束・鞘・球果は不鮮明。種は樹皮色だけで決めない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.668,
+        0,
+        0.332,
+        0.629
+      ],
+      "label": "右側の針葉樹状高木",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "細い直立幹と高い針葉状樹冠、明るい上部樹皮"
+      ],
+      "limitations": "葉の束と球果を確認できず属は候補",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0,
+        0.451,
+        0.565
+      ],
+      "label": "左側の広葉樹・下層木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "卵形に見える緑葉が枝に広がり針葉樹状の幹に重なる"
+      ],
+      "limitations": "葉縁・葉序と花果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.49,
+        0,
+        0.51,
+        0.632
+      ],
+      "label": "右側の広葉樹・下層木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "大きな緑葉を付けた木と小型葉の低木が重なる"
+      ],
+      "limitations": "複数の葉群が重なり葉序・葉縁・花果が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.51,
+        0.293,
+        0.191
+      ],
+      "label": "左林床の草本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "緑の低い草本が密生する"
+      ],
+      "limitations": "葉・花の識別不可",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.594,
+        0.546,
+        0.406,
+        0.208
+      ],
+      "label": "右林床の草本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い草葉と小草本が林縁に広がる"
+      ],
+      "limitations": "暗所で葉と花序の細部なし",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "6041ffb4b624c1fdd06981cd8d33d523b70e9f36135f9606ba8d710ddccdff6c",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T13:34:19.840315+00:00"
+}

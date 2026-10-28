@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "image_id": "753344248881708",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景を実視認。必要部位は元画素を拡大。座標・国・文字・道路・地理分布・旧タグを根拠にしない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.038,
+        0.626,
+        0.962
+      ],
+      "label": "左手前の大型葉偽茎植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "バショウ科",
+        "scientific_name": "Musaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "太い偽茎状部分から大きな長楕円葉が伸び、太い中肋と密な平行側脈、裂けた葉身がある"
+      ],
+      "limitations": "バショウ科まで確認。花序・果実・基部の全体がなくMusa/Enseteと種・品種以下は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Musa",
+        "Ensete"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.229,
+        0.426,
+        0.322,
+        0.477
+      ],
+      "label": "中央の広葉高木",
+      "scope": "individual",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い分岐枝に密な広葉樹冠がある"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が読めず個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.583,
+        0.669,
+        0.327,
+        0.274
+      ],
+      "label": "右奥の広葉高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細幹と丸い疎らな葉群がある"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が読めず個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.522,
+        0.919,
+        0.351,
+        0.081
+      ],
+      "label": "右手前の高茎作物状群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長い線形葉が茎から広がる"
+      ],
+      "limitations": "花序・雌穂・葉鞘が遠く不鮮明で科属は候補まで",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Poaceae",
+        "Zea mays"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.845,
+        0.134,
+        0.155
+      ],
+      "label": "左地表の低木・草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い広葉と細い茎が重なる"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が読めず個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "d085ba4e1205801fbb9d6ca6e28de4f3bac6d4beda53ea1568099fa1e567324d",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T23:35:25.165192+00:00"
+}

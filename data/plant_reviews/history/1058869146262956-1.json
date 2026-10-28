@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "image_id": "1058869146262956",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景を実視認。必要部位は元画素から拡大。植物形態だけを根拠にし、座標・国・文字・道路・地理分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.374,
+        0,
+        0.344,
+        0.254
+      ],
+      "label": "奥の円錐状針葉樹冠群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直幹に密な細葉状の枝群が付き円錐形樹冠を作る"
+      ],
+      "limitations": "拡大しても葉の付着・断面・球果が読めず属確定は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cryptomeria",
+        "Cunninghamia"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0,
+        0.357,
+        0.232
+      ],
+      "label": "左奥の竹状木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直立稈状軸と細長い小葉状群がある"
+      ],
+      "limitations": "節・稈鞘・分岐が読めず竹類の確定は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Bambusoideae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.687,
+        0,
+        0.313,
+        0.308
+      ],
+      "label": "右奥の混交樹冠群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細幹と疎らな広葉群、密な細葉状樹冠が混在する"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が不鮮明で個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.746,
+        0.258,
+        0.224,
+        0.061
+      ],
+      "label": "右奥地表の草本・低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い葉群と細い茎が地面沿いにある"
+      ],
+      "limitations": "車と影で大部分が隠れ細部判別不能",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "d2dfa962b5bd97fe35fcdc3213050d22415476d31b175ccb1b38e010a85ef5b9",
+  "source_size": [
+    1023,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T22:37:28.502996+00:00"
+}

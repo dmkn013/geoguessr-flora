@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "image_id": "372102784157067",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景を実視認。必要部位は元画素から拡大。座標・国・文字・道路・地理分布・旧タグを根拠にしない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.03,
+        0,
+        0.32,
+        0.561
+      ],
+      "label": "左の針葉高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "横枝の先に長い細い針葉が束状の房を作る"
+      ],
+      "limitations": "マツ属まで確認。束の本数・鞘・球果が不鮮明で種以下保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.311,
+        0,
+        0.289,
+        0.551
+      ],
+      "label": "中央の赤葉を持つ広葉木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い分岐幹に赤く色づいた小型広葉が付く"
+      ],
+      "limitations": "拡大でも葉の裂片・葉序と果実が十分読めず、紅葉色で同定しない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Acer"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.613,
+        0,
+        0.387,
+        0.641
+      ],
+      "label": "右の混交樹冠群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型広葉の赤黄葉群と暗色の細葉状樹冠が重なる"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が読めず個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.494,
+        1,
+        0.294
+      ],
+      "label": "林床の草本・低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型広葉と細い茎が落葉の間にある"
+      ],
+      "limitations": "落葉と枝が重なり葉序・花果を判別できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0,
+        0.2,
+        0.5
+      ],
+      "label": "左端の紅黄葉広葉木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "針葉樹冠の手前に赤黄に色づいた小型広葉群がある"
+      ],
+      "limitations": "葉序・裂片と果実が不鮮明で紅葉色だけで判定しない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Acer"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "a21822602a9ec57556c5217beabae95fb001567adfa9c3365e86f88165ce905c",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T23:42:45.020150+00:00"
+}

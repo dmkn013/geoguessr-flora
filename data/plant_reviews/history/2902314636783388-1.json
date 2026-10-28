@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "image_id": "2902314636783388",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.399,
+        0.195,
+        0.042,
+        0.35
+      ],
+      "label": "中央左の腕状柱状サボテン",
+      "scope": "group",
+      "taxon": {
+        "name": "サボテン科",
+        "scientific_name": "Cactaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "縦稜のある肉厚円柱茎と上向きの側枝"
+      ],
+      "limitations": "刺座・稜数・花果と枝基部が不鮮明で種未確定",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Carnegiea gigantea",
+        "Pachycereus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.6,
+        0.325,
+        0.015,
+        0.217
+      ],
+      "label": "中央右の柱状サボテン",
+      "scope": "group",
+      "taxon": {
+        "name": "サボテン科",
+        "scientific_name": "Cactaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "直立した肉厚緑色柱状茎と縦稜"
+      ],
+      "limitations": "花果・刺座・稜数未解像で属種未確定",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Carnegiea gigantea",
+        "Pachycereus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.349,
+        0.323,
+        0.154,
+        0.226
+      ],
+      "label": "中央左の細枝低木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "多数の黄緑色細枝が丸い樹冠を作る"
+      ],
+      "limitations": "葉構造・枝色・花果がぼけて未解像",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Parkinsonia"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.13,
+        0.445,
+        0.086,
+        0.137
+      ],
+      "label": "左の株立ち細茎植物",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "基部から多数の細い直立茎が開く"
+      ],
+      "limitations": "棘・葉付着・花果未解像",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Fouquieria"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.812,
+        0.52,
+        0.09,
+        0.102
+      ],
+      "label": "右手前の株立ち植物",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "多数の長い上向き円柱状部が基部から伸びる"
+      ],
+      "limitations": "刺座・稜・葉の有無が不鮮明で科保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cactaceae",
+        "Fouquieria"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0,
+        0.485,
+        0.134,
+        0.121
+      ],
+      "label": "左端の低木草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型の灰緑色株と枯色細茎が混生"
+      ],
+      "limitations": "ぼけと反射で葉・花果を分離不能",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.255,
+        0.411,
+        0.104,
+        0.135
+      ],
+      "label": "左奥の低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "灰緑色の小型丸い樹冠が連なる"
+      ],
+      "limitations": "葉形・葉序・花果不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0.479,
+        0.419,
+        0.107,
+        0.193
+      ],
+      "label": "中央地表の低木草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "疎らな小型株と褐色細茎"
+      ],
+      "limitations": "土埃で葉・花果不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p9",
+      "bbox": [
+        0.642,
+        0.469,
+        0.358,
+        0.171
+      ],
+      "label": "右の低木草本混生群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型の丸い灰緑色株と褐色細枝群"
+      ],
+      "limitations": "遠景で刺座・葉・花果を分離不能",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "f44325ddbfe1d511cd006732f904c71670bf092792e0a3297963d6aeaf0b19e0",
+  "source_size": [
+    1024,
+    512
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-27T11:41:50.669961+00:00"
+}

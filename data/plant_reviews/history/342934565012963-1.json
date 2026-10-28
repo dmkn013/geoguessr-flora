@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "image_id": "342934565012963",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "全景と左の大きな葉を拡大しバショウ属を確認。右上の大きなヤシ、背景のヤシ、路肩植生も分ける。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.263,
+        0.488,
+        0.155,
+        0.125
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "バショウ属",
+        "scientific_name": "Musa",
+        "rank": "genus"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "直立した偽茎状の軸から大型の長楕円形の葉が開く",
+        "葉身が側方に裂ける"
+      ],
+      "limitations": "花序・果実・葉柄が不明で種/品種は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.912,
+        0.306,
+        0.088,
+        0.158
+      ],
+      "scope": "individual",
+      "taxon": {
+        "name": "右上のヤシ",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "単幹頂部に羽状葉が集中する"
+      ],
+      "limitations": "幹基部や果実・葉柄が見えず属は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.173,
+        0.46,
+        0.094,
+        0.1
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "左奥のヤシ群",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "羽状の葉冠が樹木の上に出る"
+      ],
+      "limitations": "小さく幹と果実が見えない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.546,
+        0.498,
+        0.101,
+        0.069
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "道路奥のヤシ群",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "放射状に開く葉冠が点在する"
+      ],
+      "limitations": "遠景で葉形以上の診断形質は読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.491,
+        0.276,
+        0.246
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "左路肩の低木・草本群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細葉と広い葉が重なる密な下層"
+      ],
+      "limitations": "花序と葉序が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.592,
+        0.439,
+        0.408,
+        0.43
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "右の広葉樹・低木群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "葉の大きさや高さが異なる多数の樹冠"
+      ],
+      "limitations": "個別の葉・花果が分離できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "669e9949bb002c179a5e94601acdff5cf4560aabdec3581157c609e2854c9961",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T12:17:17.346060+00:00"
+}

@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "image_id": "167030088594876",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景を左右端・手前・背景まで確認。必要対象は元画素拡大で葉と軸を比較。植物の形態のみを根拠にし座標・国・画像の文字・道路・旧タグを使わない。下位同定できない理由を対象ごとに記録。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.001,
+        0.367,
+        0.543,
+        0.17
+      ],
+      "label": "左奥の遠景樹林",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さな密な樹冠が地平線に沿って連続する"
+      ],
+      "limitations": "遠すぎて葉・幹・花果が読めず分類不能",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.145,
+        0.501,
+        0.048,
+        0.161
+      ],
+      "label": "左路肩の小低木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い分枝幹に小さな緑葉群が上向きにつく"
+      ],
+      "limitations": "葉序・葉縁・花果が小さく不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.565,
+        0.457,
+        0.243
+      ],
+      "label": "左路肩の草本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い黄褐色の草本と枯茎が地面を覆う"
+      ],
+      "limitations": "葉と花序が読めず牧草等の種名を推定しない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.517,
+        0.548,
+        0.483,
+        0.311
+      ],
+      "label": "右側の草本群落",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い黄褐色草本が連続し長い枯茎も点在する"
+      ],
+      "limitations": "穂と葉鞘の細部不足",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "66169ff74239c0851d0f8c17a2a85d3fb53f6aedb79fb83e0b38a1ec3bd80512",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T18:36:44.386286+00:00"
+}

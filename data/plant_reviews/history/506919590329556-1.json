@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "image_id": "506919590329556",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "全景と左の樹冠を拡大確認。細かい葉の広葉樹群だが、複葉や刺を確かめられず旧来のアカシア類を推定で確定しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.316,
+        0.455,
+        0.285
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "左側の小葉状の広葉樹群",
+        "scientific_name": "",
+        "rank": "family"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "細かい葉を持つ不規則な開いた樹冠"
+      ],
+      "limitations": "小葉・葉軸・刺・花果の構造が読めずVachellia/Senegalia等を確定できない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "マメ科",
+        "他の小葉の広葉樹"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.652,
+        0.45,
+        0.348,
+        0.193
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "右側の低木・高木群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な丸い樹冠と疎な樹冠が重なる"
+      ],
+      "limitations": "葉・刺・花果の診断形質を判別できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.143,
+        0.58,
+        0.827,
+        0.225
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "地表の草本群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "砂地に乾いた細い茎葉が点在する"
+      ],
+      "limitations": "小さく穂や花が見えない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "2f0f7a42aac6dc667b3f02010ad9e16ee56f0bc62639e4fb4ec267fa681ebf96",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T10:16:36.524081+00:00"
+}

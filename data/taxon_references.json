@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "references": [
+    {
+      "taxon": "Borassus",
+      "url": "https://www.nparks.gov.sg/FloraFaunaWeb/Flora/2/6/2602",
+      "checked_at": "2026-10-26",
+      "identification_notes": "掌状葉・単幹・枯葉残存は候補の特徴。葉柄の刺や果実を確認しないと類似属を排除できない"
+    },
+    {
+      "taxon": "Washingtonia",
+      "url": "https://landscapeplants.oregonstate.edu/plants/washingtonia-filifera",
+      "checked_at": "2026-10-26",
+      "identification_notes": "掌状葉と枯葉スカートを持つ。葉縁の糸状繊維などを確認する。スカートだけで属を決めない"
+    },
+    {
+      "taxon": "Pinus",
+      "url": "https://ask.ifas.ufl.edu/publication/FR003",
+      "checked_at": "2026-10-26",
+      "identification_notes": "針葉束と鞘を確認。種判定は針葉長・束の本数・球果等を照合し樹形だけで確定しない"
+    },
+    {
+      "taxon": "Picea",
+      "url": "https://www.treesandshrubsonline.org/articles/picea/",
+      "checked_at": "2026-10-26",
+      "identification_notes": "針葉・葉枕・球果を照合。円錐形樹冠だけでモミ属などを排除しない"
+    },
+    {
+      "taxon": "Araucaria",
+      "url": "https://www.nparks.gov.sg/florafaunaweb/flora/2/7/2722",
+      "checked_at": "2026-10-26",
+      "identification_notes": "規則的な輪生枝・階層状の樹冠・枝を密に覆う葉を観察"
+    },
+    {
+      "taxon": "Araucaria columnaris/heterophylla",
+      "url": "https://naturalhistory2.si.edu/botany/hawaiianflora/speciesdescr.cfm?genus=Araucaria&species=columnaris",
+      "checked_at": "2026-10-26",
+      "identification_notes": "近似種の区別に樹冠と成葉の形・縦横比などを確認。幼木の輪郭だけでは確定しない"
+    },
+    {
+      "taxon": "Musa",
+      "url": "https://www.nparks.gov.sg/florafaunaweb/flora/8/0/8036",
+      "checked_at": "2026-10-26",
+      "identification_notes": "大型の葉と葉鞘からなる偽茎。種・栽培品種は葉の大きさだけで決めない"
+    },
+    {
+      "taxon": "Musa",
+      "url": "https://www.nparks.gov.sg/florafaunaweb/flora/7/1/7190",
+      "checked_at": "2026-10-26",
+      "identification_notes": "別種も偽茎を持つ。花序・果実や葉の診断形質が不足すれば属で止める"
+    },
+    {
+      "taxon": "Cocos nucifera",
+      "url": "https://www.nparks.gov.sg/florafaunaweb/flora/5/6/5618",
+      "checked_at": "2026-10-26",
+      "identification_notes": "単幹・葉痕・羽状葉・大きな果実。葉の輪郭だけで確定せず、幹や果実を照合する"
+    },
+    {
+      "taxon": "Dicranopteris",
+      "url": "https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?lvl=gn&name=Dicranopteris&page=nswfl",
+      "checked_at": "2026-10-26",
+      "identification_notes": "葉の二叉分岐と分岐部の芽、葉脈などを照合。竹の葉の輪郭だけとの混同を避ける"
+    },
+    {
+      "taxon": "Senna siamea",
+      "url": "https://www.nparks.gov.sg/florafaunaweb/flora/3/1/3118",
+      "checked_at": "2026-10-26",
+      "identification_notes": "複葉の構造・小葉・花序・莢を確認。樹冠だけで種を決めない"
+    },
+    {
+      "taxon": "Betula",
+      "url": "https://www.treesandshrubsonline.org/articles/betula/",
+      "checked_at": "2026-10-26",
+      "identification_notes": "白い樹皮だけで種は識別しない。葉・花序・樹皮の剥離を確認"
+    },
+    {
+      "taxon": "Zea mays",
+      "url": "https://www.nparks.gov.sg/florafaunaweb/flora/2/5/2568",
+      "checked_at": "2026-10-26",
+      "identification_notes": "幅広い線形葉。頂部の雄花序と葉腋の雌穂を確認しソルガム等と区別"
+    },
+    {
+      "taxon": "Chrysalidocarpus lutescens",
+      "url": "https://www.nparks.gov.sg/florafaunaweb/flora/2/6/2622",
+      "checked_at": "2026-10-26",
+      "identification_notes": "株立ち・黄緑色の茎/葉軸・環状葉痕。類似する株立ちヤシとの葉先の差を確認"
+    },
+    {
+      "taxon": "Phoenix dactylifera",
+      "url": "https://www.greening.gov.hk/filemanager/greening/en/content_95/Pho_dac.pdf",
+      "checked_at": "2026-10-26",
+      "identification_notes": "葉基部の鋭い刺などを確認。羽状葉の樹形だけで種に確定しない"
+    },
+    {
+      "taxon": "Plumeria",
+      "url": "https://www.nparks.gov.sg/florafaunaweb/flora/8/6/8620",
+      "checked_at": "2026-10-26",
+      "identification_notes": "太い分枝、革質葉、枝先の房状花を照合。葉先だけで種を確定しない"
+    },
+    {
+      "taxon": "Plumeria rubra",
+      "url": "https://ntbg.org/database/plants/detail/plumeria-rubra",
+      "checked_at": "2026-10-26",
+      "identification_notes": "葉先は鋭く尖りobtusaの丸い葉先と比較できる。ただし他種や園芸交雑の排除を別途確認"
+    },
+    {
+      "taxon": "Plumeria（和名）",
+      "url": "https://www1.ous.ac.jp/garden/hada/plantsdic/angiospermae/dicotyledoneae/sympetalae/apocynaceae/plumeria/plumeria.htm",
+      "checked_at": "2026-10-26",
+      "identification_notes": "属名Plumeriaに対応する和名はインドソケイ属"
+    },
+    {
+      "taxon": "Elaeis guineensis",
+      "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A666802-1/general-information",
+      "checked_at": "2026-10-26",
+      "identification_notes": "単幹の残存葉基部、長い羽状葉、複数平面に付く小葉。葉柄の刺・花果も確認し、種や交雑型を樹形だけで決めない"
+    },
+    {
+      "taxon": "Nerium oleander",
+      "url": "https://www.nparks.gov.sg/florafaunaweb/flora/2/2/2264",
+      "checked_at": "2026-10-27",
+      "identification_notes": "尖る厚い細長葉が対生/3輪生する。花房を含め比較する"
+    },
+    {
+      "taxon": "Nerium oleander",
+      "url": "https://landscapeplants.oregonstate.edu/plants/nerium-oleander",
+      "checked_at": "2026-10-27",
+      "identification_notes": "革質の細い披針形葉、対生/輪生、頂生花房。花色だけで栽培品種を決めない"
+    },
+    {
+      "taxon": "Delonix regia",
+      "url": "https://www.nparks.gov.sg/florafaunaweb/flora/2/8/2838",
+      "checked_at": "2026-10-27",
+      "identification_notes": "二回羽状複葉と多数小葉、花・長い木質莢を照合。葉だけでは類似属を排除しない"
+    },
+    {
+      "taxon": "Opuntia",
+      "url": "https://weeds.dpi.nsw.gov.au/Weed/IndianFig",
+      "checked_at": "2026-10-27",
+      "identification_notes": "扁平な楕円形の茎節を比較。刺座・刺と花果が不鮮明なら属・種は候補まで。"
+    },
+    {
+      "taxon": "Hesperocyparis macrocarpa",
+      "url": "https://dendro.cnre.vt.edu/dendrology/syllabus/factsheet.cfm?ID=783",
+      "checked_at": "2026-10-27",
+      "identification_notes": "鱗片葉の対生・密生と球果を比較。成熟樹冠だけでは同定しない。"
+    },
+    {
+      "taxon": "Cupressus macrocarpa",
+      "url": "https://www.nzflora.info/factsheet/taxon/Cupressus-macrocarpa.html",
+      "checked_at": "2026-10-27",
+      "identification_notes": "成葉の鱗片状構造と小枝・球果を比較。樹形だけで種を確定しない。"
+    },
+    {
+      "taxon": "Quercus",
+      "url": "https://www.kew.org/plants/oak-tree",
+      "checked_at": "2026-10-27",
+      "identification_notes": "羽状に丸い裂片を持つ葉を比較。種判定には葉柄長・葉基部と果柄/堅果等が必要。"
+    },
+    {
+      "taxon": "Olea europaea",
+      "url": "https://www.nparks.gov.sg/florafaunaweb/flora/4/4/4495",
+      "checked_at": "2026-10-27",
+      "identification_notes": "細長い革質葉と銀白色外観を比較。画像で鱗片・葉序・花果が読めなければ候補まで。"
+    },
+    {
+      "taxon": "Platanus",
+      "url": "https://landscapeplants.oregonstate.edu/platanus",
+      "checked_at": "2026-10-27",
+      "identification_notes": "薄い板状に剥離する斑模様樹皮と掌状裂葉を比較。葉序・葉基部・果序の不足により種・交雑分類は保留。"
+    },
+    {
+      "taxon": "Vaccinium vitis-idaea",
+      "url": "https://landscapeplants.oregonstate.edu/plants/vaccinium-vitis-idaea",
+      "checked_at": "2026-10-27",
+      "identification_notes": "小型倒卵形で革質の互生葉と赤い果実を照合。葉裏の点状腺・葉縁・花・果頂が読めない場合はArctostaphylos等を排除せず候補に留める。"
+    },
+    {
+      "taxon": "Mangifera indica",
+      "url": "https://www.nparks.gov.sg/florafaunaweb/flora/3/0/3013",
+      "checked_at": "2026-10-27",
+      "identification_notes": "単葉で長楕円形から披針形の全縁葉、先端の大きな円錐花序を照合。花の細部・葉序・側脈・果実不足では種・品種を確定しない。"
+    }
+  ]
+}

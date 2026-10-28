@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "image_id": "970822644463033",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景を実視認。必要部位は元画素から切り出して拡大。植物形態だけを根拠にし、座標・国・文字・道路・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.66,
+        0,
+        0.34,
+        0.51
+      ],
+      "label": "右手前の大きな高木",
+      "scope": "individual",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "太い幹が複数に分岐し、水平に広がる密な暗緑の枝葉を付ける"
+      ],
+      "limitations": "元画素拡大でも鱗片葉・球果が読めず属・種を分けられない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cupressus",
+        "Hesperocyparis"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.43,
+        0.52,
+        0.41
+      ],
+      "label": "左の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色の草葉が地面を覆う"
+      ],
+      "limitations": "葉序・花序・果実が読めず、混在する植物を個別分類できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.6,
+        0.46,
+        0.4,
+        0.24
+      ],
+      "label": "右の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い草葉と乾いた細茎が混在する"
+      ],
+      "limitations": "葉序・花序・果実が読めず、混在する植物を個別分類できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.416,
+        0.7,
+        0.049
+      ],
+      "label": "遠景の木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "地平線に小さい丸い樹冠が点在する"
+      ],
+      "limitations": "遠すぎて葉・幹・花果が判別できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "8b156b2378fd79655e582be0fada4479bcc7acd79fc6f2f451e8f78585190671",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T18:48:29.683949+00:00"
+}

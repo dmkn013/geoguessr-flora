@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "image_id": "500989367885406",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・背景・手前を実視認。必要な部位は元画素を切り出して拡大。座標・国・文字・道路・地理分布・旧タグを根拠にしない。読めない診断形質を明記して保留。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.687,
+        0.322,
+        0.313,
+        0.395
+      ],
+      "label": "右手前の高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "明色の細幹が枝分かれし、細長い下垂葉状の枝葉が疎らに付く"
+      ],
+      "limitations": "元画素拡大でも葉序・樹皮・花果が読めず両属を分けられない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Eucalyptus",
+        "Corymbia"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.392,
+        0.546,
+        0.304,
+        0.175
+      ],
+      "label": "右中景の高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直幹の上方に丸い疎らな細葉状樹冠がある"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が判別できず、混在する植物の個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Eucalyptus",
+        "Corymbia"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.375,
+        0.658,
+        0.625,
+        0.111
+      ],
+      "label": "右下層の低木・草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型広葉と長い細葉の草本が地面沿いに密生する"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が判別できず、混在する植物の個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.663,
+        0.343,
+        0.088
+      ],
+      "label": "左の木本・低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い低木と細い柱状の高木樹冠が点在する"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が判別できず、混在する植物の個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.739,
+        0.17,
+        0.057
+      ],
+      "label": "左手前の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い草葉が地面を覆う"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が判別できず、混在する植物の個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "3ab37ce7d9bbd25ca64ddf8cc2327f9cad5ef3c4e9f601ed60ab8491de38cf06",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T19:31:22.340009+00:00"
+}

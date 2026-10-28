@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "image_id": "932092567582639",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・背景・手前を確認。必要対象は元画素で拡大した。植物の見える形態のみで判定し地理情報・文字・道路・旧タグは根拠にしない。葉・花果の解像度やぶれにより下位分類できない対象も、その限界を記録する。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.03,
+        0.407,
+        0.644
+      ],
+      "label": "左側の広葉樹林",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "広い丸い樹冠と小型の葉群、直立幹が連続する"
+      ],
+      "limitations": "コナラ類に似る対象もあるが葉の裂片・鋸歯・果実が読めず属確定不可",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Quercus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.471,
+        0,
+        0.529,
+        0.623
+      ],
+      "label": "右側の広葉樹林",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "大きな横枝と密な小型葉、明色の幹が混在"
+      ],
+      "limitations": "葉形・葉序・果実が不鮮明で属以下は不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.613,
+        0.391,
+        0.135
+      ],
+      "label": "左の低い草本帯",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色草本が道路と林床の間に密生"
+      ],
+      "limitations": "葉や穂の細部が足りない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.48,
+        0.602,
+        0.52,
+        0.249
+      ],
+      "label": "右の高い草本帯",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "黄緑色の細長い草葉と直立した穂状部分がある"
+      ],
+      "limitations": "穂の小穂や葉舌が不明で種属不可",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "4b482d9a67bf5bd47d968ba1744476c0f101613d0febab143c3a99ce5a8572aa",
+  "source_size": [
+    1023,
+    764
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T13:33:39.657626+00:00"
+}

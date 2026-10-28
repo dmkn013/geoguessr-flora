@@ -1,0 +1,201 @@
+{
+  "schema_version": 1,
+  "image_id": "26056843630566717",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.483,
+        0.241,
+        0.415,
+        0.12
+      ],
+      "label": "右の長葉・太稈草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "イネ科",
+        "scientific_name": "Poaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "太い直立稈が並び上部に長い線形葉と葉鞘状基部がある"
+      ],
+      "limitations": "節の形・小穂・花序が不鮮明でサトウキビ等の属種・品種は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Saccharum"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.092,
+        0.207,
+        0.098,
+        0.104
+      ],
+      "label": "左上の羽状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "直立幹頂部から多数の細い小葉を持つ羽状葉が弓状に放射する"
+      ],
+      "limitations": "幹基部・花果・葉柄が未解像で属種は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.156,
+        0.407,
+        0.359
+      ],
+      "label": "左の広葉木本・つる状植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型広葉の密な葉群が幹や細枝に重なる"
+      ],
+      "limitations": "葉序・花果・個体境界が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.862,
+        0.093,
+        0.138,
+        0.271
+      ],
+      "label": "右端の広葉高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "横に張る細い枝に小型広葉が付く"
+      ],
+      "limitations": "葉序・複葉構造・花果が不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.434,
+        0.302,
+        0.14,
+        0.061
+      ],
+      "label": "中央奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型の丸い樹冠がある"
+      ],
+      "limitations": "遠景で個葉・花果が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.489,
+        0.35,
+        0.511,
+        0.338
+      ],
+      "label": "右地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い緑色の葉と褐色の細茎が地表を覆う"
+      ],
+      "limitations": "葉鞘・花序が読めず科以下は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0,
+        0.449,
+        0.238,
+        0.157
+      ],
+      "label": "左路肩の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い緑色細葉状被覆がある"
+      ],
+      "limitations": "葉基部と花序が識別できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "59a85f1e1685c288471fdbc34e43288124bd6bb3c7ed9d814b8c5836f0f44c7b",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-27T03:39:47.423406+00:00"
+}

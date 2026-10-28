@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "image_id": "143568651083675",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・背景・手前を実視認し必要部位を元画素拡大。植物形態だけを根拠にし、座標・国・文字・道路・地理分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.487,
+        0.422,
+        0.513,
+        0.274
+      ],
+      "label": "右の柱状広葉高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "ポプラ属",
+        "scientific_name": "Populus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "細い明色直幹と上向き枝があり、小型の広い葉群が細い樹冠を作る"
+      ],
+      "limitations": "拡大でも葉形・葉序・樹皮が十分読めず属確定と種・柱状栽培品種判定は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Populus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.577,
+        0.242,
+        0.125
+      ],
+      "label": "左の針葉状樹冠群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "円錐状樹冠に細い横枝と暗緑色の細葉状部分がある"
+      ],
+      "limitations": "葉の付き方・断面・球果が不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea",
+        "Abies"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.238,
+        0.609,
+        0.182,
+        0.081
+      ],
+      "label": "左奥の広葉樹冠群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い丸い緑色樹冠が重なる"
+      ],
+      "limitations": "葉序・花果・葉縁等の細部が読めず分類保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.41,
+        0.573,
+        0.054,
+        0.11
+      ],
+      "label": "中央奥の細い樹冠群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細長く直立する小さな樹冠がある"
+      ],
+      "limitations": "遠すぎて葉と幹が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Populus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.677,
+        0.284,
+        0.118
+      ],
+      "label": "左地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "黄褐色の細葉と枯茎がある"
+      ],
+      "limitations": "葉序・花果・葉縁等の細部が読めず分類保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.533,
+        0.673,
+        0.467,
+        0.117
+      ],
+      "label": "右地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い乾燥茎と短い草葉がある"
+      ],
+      "limitations": "葉序・花果・葉縁等の細部が読めず分類保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "884b89257082bb47571b7a3a4e07f3c8ca728d8acda13ee3f553c1c676e8a246",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T20:32:24.724461+00:00"
+}

@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "image_id": "1561334911773870",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景を左右端・手前・背景まで確認。必要対象は元画素拡大で葉と軸を比較。植物の形態のみを根拠にし座標・国・画像の文字・道路・旧タグを使わない。下位同定できない理由を対象ごとに記録。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.25,
+        0.183,
+        0.276,
+        0.412
+      ],
+      "label": "左の大型葉草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "バショウ属",
+        "scientific_name": "Musa",
+        "rank": "genus"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "偽茎状の軸から長い葉柄と大きな長楕円形の葉が開き、葉身は中肋に沿って裂ける"
+      ],
+      "limitations": "バショウ属まで確認。花序・果実・葉柄溝と葉基部の細部が不足し種、交雑群と栽培品種は不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.65,
+        0.109,
+        0.35,
+        0.493
+      ],
+      "label": "右側の大型葉草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "バショウ属",
+        "scientific_name": "Musa",
+        "rank": "genus"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "大型の裂けた長楕円形葉と直立する偽茎状の軸が複数並ぶ"
+      ],
+      "limitations": "バショウ属。花序・果房と葉基部が隠れ、種や栽培品種の判定はできない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.506,
+        0.194,
+        0.171,
+        0.406
+      ],
+      "label": "中央の羽状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "羽状の細長い葉が冠から弧状に放射する"
+      ],
+      "limitations": "幹・葉柄の刺と果実が暗く不明で属以下保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.301,
+        0.282,
+        0.295
+      ],
+      "label": "左奥の広葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な緑色葉群と大小の丸い樹冠が見える"
+      ],
+      "limitations": "葉序・葉形・花果の識別不可",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.145,
+        0.51,
+        0.032,
+        0.088
+      ],
+      "label": "左の鉢植えの剣状葉株",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さな株元から細長い葉が放射する"
+      ],
+      "limitations": "葉基部・葉縁・花が不明で属/園芸品種を区別できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.402,
+        0.535,
+        0.031,
+        0.069
+      ],
+      "label": "中央の鉢植えの剣状葉株",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細長い黄緑の葉が鉢から放射する"
+      ],
+      "limitations": "花と葉の付き方の細部が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "d8ecd6ca2447f90a8b88f3320cf98cb87ad8ea1198786ec1e06f2ae775c3b1cf",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T18:38:11.126697+00:00"
+}

@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "image_id": "1562028648054258",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "全景と右側のしだれる枝葉を拡大確認。樹形だけではヤナギ・ユーカリ類・コショウボク類等を排除できないため、画像だけの判断として保留する。 元画像全景の矩形重ね合わせを目視確認済み。細部が写らない対象は理由付きで保留し、候補は確定タグから除外した。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        0.399,
+        0.682
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "左側のしだれる広葉樹群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長い細い枝葉が垂れ下がる",
+        "幹の下部と枝先の樹冠が見える"
+      ],
+      "limitations": "単葉と複葉・葉序・花果が不鮮明で属を確定できない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "ヤナギ属",
+        "ユーカリ類",
+        "コショウボク属",
+        "他のしだれる広葉樹"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.472,
+        0.013,
+        0.302,
+        0.697
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "右側のしだれる広葉樹群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細長い葉状の輪郭が多数垂れる"
+      ],
+      "limitations": "ガラスの反射とブレで葉の付き方と葉脈が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.836,
+        0.015,
+        0.164,
+        0.83
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "右端の広葉樹群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な細枝と葉がある"
+      ],
+      "limitations": "車内の部品が遮り葉・幹の全体が見えない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "07be7bd68954b0a6429d252107ab368529c23b6460d1ab4b44a91b240b0e6322",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T10:20:08.423711+00:00"
+}

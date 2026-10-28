@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "image_id": "123682673682414",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.154,
+        0.038,
+        0.454,
+        0.844
+      ],
+      "label": "中央手前の針葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "水平の太枝から細い枝が垂れ細葉が密に付く"
+      ],
+      "limitations": "葉の束生・付着・断面・球果が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea",
+        "Larix",
+        "Abies"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.609,
+        0.127,
+        0.191,
+        0.598
+      ],
+      "label": "右中央の針葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直幹から段状の枝が四方に伸びる"
+      ],
+      "limitations": "針葉付着と球果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Larix",
+        "Picea"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.103,
+        0.237,
+        0.091,
+        0.352
+      ],
+      "label": "左の針葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "尖塔状の密な樹冠と段状の横枝"
+      ],
+      "limitations": "葉形・葉付着・球果未解像",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea",
+        "Abies"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.821,
+        0.233,
+        0.143,
+        0.327
+      ],
+      "label": "右奥の針葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "尖塔状樹冠と垂れる細枝"
+      ],
+      "limitations": "遠景で葉形・球果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea",
+        "Larix"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.43,
+        0.105,
+        0.13
+      ],
+      "label": "左奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さな尖塔状樹冠が連なる"
+      ],
+      "limitations": "遠景で個体・葉・花果を読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.486,
+        0.405,
+        0.132,
+        0.289
+      ],
+      "label": "中央奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型の疎らな針葉状樹冠"
+      ],
+      "limitations": "遠景で針葉付着・球果不足",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0,
+        0.526,
+        0.176,
+        0.226
+      ],
+      "label": "左地表の草本低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "緑色の小型広葉と細葉が混生"
+      ],
+      "limitations": "葉序・花果・草本低木の境界不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0.518,
+        0.645,
+        0.33,
+        0.259
+      ],
+      "label": "右地表の草本低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い広葉株と細茎が地表を覆う"
+      ],
+      "limitations": "葉形・葉序・花果未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p9",
+      "bbox": [
+        0.94,
+        0.516,
+        0.06,
+        0.209
+      ],
+      "label": "右端の低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さな丸い緑色樹冠が地表に連なる"
+      ],
+      "limitations": "遠景と部分像で葉序・花果不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "d5226fac31bb000637b16d22df6d0ff57c6a043794c4c23a2961c977283ba121",
+  "source_size": [
+    1024,
+    512
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-27T11:37:54.084096+00:00"
+}

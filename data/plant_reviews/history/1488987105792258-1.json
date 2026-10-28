@@ -1,0 +1,270 @@
+{
+  "schema_version": 1,
+  "image_id": "1488987105792258",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景を実視認し必要部位を元画素拡大。座標・国・文字・道路・地理分布・旧タグを根拠にしない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.41,
+        0.197,
+        0.505
+      ],
+      "label": "左手前の株立ちヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "細い複数幹の先に羽状葉が広がり多数の線形小葉が並ぶ"
+      ],
+      "limitations": "花果・葉柄・幹頂の細部不足でChrysalidocarpus等は候補まで",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Chrysalidocarpus lutescens",
+        "Dypsis"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.333,
+        0.533,
+        0.223,
+        0.386
+      ],
+      "label": "中央鉢の株立ちヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "細い株立ち幹と放射する羽状葉に線形小葉が付く"
+      ],
+      "limitations": "元画素拡大でも花果・葉柄と幹頂が不鮮明で属種保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Chrysalidocarpus lutescens",
+        "Dypsis"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.677,
+        0.456,
+        0.255,
+        0.474
+      ],
+      "label": "右の株立ちヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "密な細幹の株から羽状葉が放射する"
+      ],
+      "limitations": "葉柄・花果・幹頂の細部が不明",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Chrysalidocarpus lutescens",
+        "Dypsis"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.19,
+        0.55,
+        0.121,
+        0.254
+      ],
+      "label": "左奥のヤシ状株群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "細い茎頂に長い葉軸と線形小葉の羽状葉がある"
+      ],
+      "limitations": "重なりで葉柄・幹頂と花果が読めず属以下保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.025,
+        0,
+        0.325,
+        0.475
+      ],
+      "label": "左上の広葉若木",
+      "scope": "individual",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い分岐幹に大きめの広葉が付く"
+      ],
+      "limitations": "葉序・葉縁・花果の細部が読めず個別分類は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.351,
+        0.143,
+        0.217,
+        0.429
+      ],
+      "label": "中央上の複葉状若木",
+      "scope": "individual",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直幹の枝先に羽状の小型葉群が付く"
+      ],
+      "limitations": "複葉軸の接続・托葉と花果が読めず科属保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Fabaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.621,
+        0.16,
+        0.135,
+        0.398
+      ],
+      "label": "右奥の複葉状若木",
+      "scope": "individual",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹と小さい葉片状群がある"
+      ],
+      "limitations": "葉の接続・葉序と花果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Fabaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0,
+        0.748,
+        0.311,
+        0.191
+      ],
+      "label": "左地際の剣状葉株群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細長い剣状葉が地際から放射する"
+      ],
+      "limitations": "葉縁・葉基部と花茎が読めず属科保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Asparagaceae",
+        "Agave",
+        "Furcraea"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p9",
+      "bbox": [
+        0.74,
+        0.731,
+        0.205,
+        0.204
+      ],
+      "label": "右地際の剣状葉株群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い剣状葉が放射し一部が黄変する"
+      ],
+      "limitations": "葉縁の刺・基部と花が不鮮明で属科保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Asparagaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "710e30ba1aef9248bf853570c2bfbae6433b4d7c257a595beaf5009eead52183",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-27T00:34:53.421907+00:00"
+}

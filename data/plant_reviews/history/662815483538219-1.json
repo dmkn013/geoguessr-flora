@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "image_id": "662815483538219",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景を左右端と手前・背景まで確認。必要部位は元画素拡大を参照。全天球も全幅を見て車体や窓への反射を二重計数しない。植物の見える形態のみを根拠にし地理・国・文字・既存タグは使わない。下位分類不能の理由を記録。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.493,
+        0.544,
+        0.05,
+        0.22
+      ],
+      "label": "中央の掌状葉ヤシ",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "直立単幹の頂に放射する扇形葉と、下に残った枯葉の塊がある"
+      ],
+      "limitations": "Borassus等の候補。葉柄の刺、葉の分裂、花果が読めず種属確定は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Borassus",
+        "Washingtonia"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.349,
+        0.454,
+        0.1,
+        0.35
+      ],
+      "label": "左奥の高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "直立した明色幹と細長い葉が上部に集まる"
+      ],
+      "limitations": "葉序・樹皮・花果が不明。ユーカリ類に樹形だけで確定しない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.572,
+        0.409,
+        0.344,
+        0.34
+      ],
+      "label": "右奥の高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細長い直立幹と疎らな葉群が並ぶ"
+      ],
+      "limitations": "葉や花果の解像度が不足し、植栽配置で分類しない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.774,
+        0.525,
+        0.161,
+        0.318
+      ],
+      "label": "右手前の低木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "濃い緑の丸い葉群と細い枝が見える"
+      ],
+      "limitations": "葉形・葉序・花果が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.353,
+        0.816,
+        0.647,
+        0.184
+      ],
+      "label": "手前の草本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い草葉が道路と敷地の境に帯状に生える"
+      ],
+      "limitations": "葉・穂の詳細なし",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "20fb873bb9e265cf3929735554d0909c2724714a59734c7eab2222e22e76d298",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T14:28:57.511113+00:00"
+}

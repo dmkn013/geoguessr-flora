@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "image_id": "4596832010344488",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景を左右端・手前・背景まで実際に確認。必要部位は元画素から拡大。植物形態のみを根拠にし、座標・国・文字・道路様式・旧タグを使わない。葉や花果が解像しない対象は候補と限界を保存。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        0.49,
+        0.547
+      ],
+      "label": "左側の羽状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "細長い単幹と弧状に下垂する長い羽状葉、葉の小葉が平面状に並ぶ"
+      ],
+      "limitations": "ココヤシ候補。果実の輪郭が解像せず、葉柄・幹の細部も不足し種は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.602,
+        0,
+        0.398,
+        0.538
+      ],
+      "label": "右側の羽状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "幹に環状の葉痕、幹頂に大型の羽状葉が弧状に開く"
+      ],
+      "limitations": "ココヤシと整合するが果実は暗い塊で確認できず、他の羽状葉ヤシとの比較に葉柄等の細部が不足",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.454,
+        0.303,
+        0.17,
+        0.143
+      ],
+      "label": "中央奥の羽状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "遠景に放射する羽状葉冠が重なって見える"
+      ],
+      "limitations": "遠景で幹・葉柄と果実が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.168,
+        0.209,
+        0.42
+      ],
+      "label": "左手前の広葉低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "大小の広葉と小葉状葉群がヤシの足元で重なる"
+      ],
+      "limitations": "暗く葉序と花果が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.548,
+        0.393,
+        0.452,
+        0.203
+      ],
+      "label": "右道沿いの低木・草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い小低木と短い緑草が道路沿いに点在する"
+      ],
+      "limitations": "葉序・花果が解像しない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "2ee8167b9e96927016705c331e7e640d56556149b812e5b33f18fab2c5505183",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T18:42:15.463020+00:00"
+}

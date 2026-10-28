@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "image_id": "1200597163703913",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "全景確認。ヤシと丸く刈り込まれた広葉樹を分ける。剪定形状や道路から種・栽培品種を決めない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.408,
+        0.111,
+        0.113
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "左手前のヤシ",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "幹頂から長い羽状葉が放射状に開く"
+      ],
+      "limitations": "葉柄の刺・果実・幹の葉痕が小さく不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.233,
+        0.458,
+        0.05,
+        0.063
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "左奥のヤシ",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "羽状葉の放射状冠"
+      ],
+      "limitations": "遠景で属は不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.102,
+        0.461,
+        0.139,
+        0.061
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "左側の剪定広葉樹群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い樹冠が並ぶ"
+      ],
+      "limitations": "葉序・花果が読めず剪定樹形から分類しない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.279,
+        0.482,
+        0.14,
+        0.046
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "左遠景の樹木群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑の樹冠が連なる"
+      ],
+      "limitations": "距離による解像度不足",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "a852742a51e3c5fd69ea764d244bbdc5395ae76cd2229a1eda7f2dbeb22ef495",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T12:22:34.787969+00:00"
+}

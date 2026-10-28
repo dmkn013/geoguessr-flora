@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "image_id": "244209611306369",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "全景確認。左右の明るい幹と疎な樹冠、下層草本を分ける。地域景観をユーカリ類の確定根拠に使わない。 矩形重ね合わせを元画像全景で目視確認済み。候補の確定タグへの混入なし。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        0.463,
+        0.592
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "左側のユーカリ類候補",
+        "scientific_name": "",
+        "rank": "species_group"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "明るい不規則な幹と枝先にまとまる細葉状の樹冠"
+      ],
+      "limitations": "果実・花蕾・葉脈が見えず属は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "ユーカリ属",
+        "コリンビア属"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.49,
+        0,
+        0.51,
+        0.64
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "右側のユーカリ類候補",
+        "scientific_name": "",
+        "rank": "species_group"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "明るく曲がる幹と疎な樹冠"
+      ],
+      "limitations": "葉の付き方と花蕾・果実が不明",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "ユーカリ属",
+        "コリンビア属"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.06,
+        0.539,
+        0.391,
+        0.277
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "左路肩の草本・低木群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い茎葉と小株が見える"
+      ],
+      "limitations": "花・穂・葉鞘が解像しない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "748f4b61f4c89f4557a90e943d0a8fc2ae50de14e58267c78665f371356e3998",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T12:20:56.971615+00:00"
+}

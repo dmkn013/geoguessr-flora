@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "image_id": "172652004735341",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.351,
+        0.069,
+        0.649,
+        0.931
+      ],
+      "label": "手前の細葉広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細かく分枝する暗色幹に小さな葉状部分が疎らに付く"
+      ],
+      "limitations": "複葉の軸接続・小葉配列・刺・花果が読めず科属は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Fabaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.482,
+        0.089,
+        0.122
+      ],
+      "label": "左端の扁平茎節植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "サボテン科",
+        "scientific_name": "Cactaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "楕円形の扁平な多肉茎節が分岐し表面に点状の刺座らしい部分がある"
+      ],
+      "limitations": "刺座・刺・花果が不鮮明でOpuntia属と種以下は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Opuntia"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.577,
+        0.599,
+        0.423
+      ],
+      "label": "左斜面の乾燥草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細長い黄褐色の葉と細い直立茎が叢生する"
+      ],
+      "limitations": "花序・葉鞘が読めず科以下は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.096,
+        0.593,
+        0.145,
+        0.1
+      ],
+      "label": "左中景の低い緑色植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さな緑色葉群が地表を覆う"
+      ],
+      "limitations": "葉序・花果・個体境界が識別できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.607,
+        0.565,
+        0.393,
+        0.435
+      ],
+      "label": "右下層の低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "多数の細い木質状枝に小型葉が付く"
+      ],
+      "limitations": "重なりにより上層木との分離・葉序・花果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "e94aca61dbb5cbd33027108d51965b0eb11645aae3e59238377020fc564eeda7",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-27T03:35:32.925301+00:00"
+}

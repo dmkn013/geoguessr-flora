@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "image_id": "1609463083800014",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "全景と中央のバショウの株を拡大確認。手前の複葉状の高木も別に記録。撮影情報や文字を分類の根拠に使っていない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.421,
+        0.493,
+        0.414,
+        0.187
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "バショウ属",
+        "scientific_name": "Musa",
+        "rank": "genus"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "偽茎状の軸から大きな長楕円形の葉が開く",
+        "葉は太い中肋に沿い側方が裂けて見える",
+        "大小の株が並ぶ"
+      ],
+      "limitations": "花序・果実・葉柄溝等が見えず種、交雑群、栽培品種を確定できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [
+        {
+          "url": "https://www.nparks.gov.sg/florafaunaweb/flora/7/1/7190",
+          "supports": "大型のパドル状の葉と葉鞘由来の偽茎"
+        },
+        {
+          "url": "https://www.nparks.gov.sg/florafaunaweb/flora/8/0/8036",
+          "supports": "偽茎と大型葉を持つ他の栽培群もあり、この写真だけで品種を確定できない"
+        }
+      ],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.015,
+        0.246,
+        0.208,
+        0.557
+      ],
+      "scope": "individual",
+      "taxon": {
+        "name": "左手前の広葉樹",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細長い小葉が並ぶ複葉状の葉が枝に沿って重なる"
+      ],
+      "limitations": "小葉の付き方・葉縁・花果が不鮮明で属は未確定",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.814,
+        0.326,
+        0.085,
+        0.293
+      ],
+      "scope": "individual",
+      "taxon": {
+        "name": "右側の広葉樹",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹と縦長の疎な樹冠"
+      ],
+      "limitations": "葉の形と樹皮・花果の細部が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.206,
+        0.391,
+        0.21,
+        0.211
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "左奥の広葉樹群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "葉色が異なる複数の樹冠が見える"
+      ],
+      "limitations": "距離と遮蔽で葉の構造を判別できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "42a1b21de7398a0cc64c1e042dff7463d90b99c69f83d92e1cd8d9cc90c28fca",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T10:16:36.383665+00:00"
+}

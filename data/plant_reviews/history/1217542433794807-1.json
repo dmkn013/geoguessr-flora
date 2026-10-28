@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "image_id": "1217542433794807",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.319,
+        0.349,
+        0.115,
+        0.193
+      ],
+      "label": "中央左の羽状葉ヤシ",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "単幹頂部から線形小葉の長い羽状葉が放射し外側の葉が垂れる"
+      ],
+      "limitations": "葉柄基部の刺・花果・幹基部が遮蔽され属種は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Phoenix"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.337,
+        0.092,
+        0.231
+      ],
+      "label": "左端の羽状葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "弓状の葉軸に小葉状部分が並ぶ"
+      ],
+      "limitations": "幹・葉柄基部・花果が遮蔽され属種は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Arecaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.108,
+        0.459,
+        0.028,
+        0.043
+      ],
+      "label": "左奥の小型ヤシ状木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細幹頂部に放射する長い葉状部がある"
+      ],
+      "limitations": "極小で葉の分裂構造と花果が読めず科属は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Arecaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.738,
+        0,
+        0.262,
+        0.25
+      ],
+      "label": "右上端の広葉高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "分枝した木質枝に小型広葉が付く"
+      ],
+      "limitations": "幹下部は画面外で葉序・花果が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.625,
+        0.265,
+        0.248,
+        0.3
+      ],
+      "label": "右奥の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い緑色樹冠と疎らな細枝が重なる"
+      ],
+      "limitations": "葉序・葉縁・花果と個体境界が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.421,
+        0.521,
+        0.128,
+        0.054
+      ],
+      "label": "中央の刈込状低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型の密な緑色葉群が列状に続く"
+      ],
+      "limitations": "個葉・花果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.509,
+        0.5,
+        0.092,
+        0.059
+      ],
+      "label": "中央奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型の丸い緑色樹冠がある"
+      ],
+      "limitations": "極小で葉と花果が判別できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "e49910621fa51b3dadc01823a6ff824d1dd4c4071db78745b0c79b3d79768030",
+  "source_size": [
+    1024,
+    766
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-27T08:45:37.988530+00:00"
+}

@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "image_id": "1877625219835536",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像の全景を左右端・手前・背景まで確認。必要対象の元画素拡大を参照。画像に見えた形態だけを使い、座標・文字・地域・旧タグは同定根拠に使わない。種以下の診断形質が不足する対象は限界と候補を記録。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.91,
+        0.19,
+        0.09,
+        0.32
+      ],
+      "label": "右端の羽状葉ヤシ",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "単幹の頂部から長い羽状葉が弧状に伸びる"
+      ],
+      "limitations": "果実・葉柄・幹の葉痕が不鮮明で属以下は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.562,
+        0.456,
+        0.054,
+        0.115
+      ],
+      "label": "中央奥の掌状葉ヤシ",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "放射状に開く扇形の葉と褐色の下垂した葉が見える"
+      ],
+      "limitations": "葉柄の刺・葉の分裂・果実が不明",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Borassus",
+        "Washingtonia"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.595,
+        0.325,
+        0.245,
+        0.41
+      ],
+      "label": "右手前の広葉樹",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "水平に広がる段状の枝と密生した細かな葉群"
+      ],
+      "limitations": "小葉の配置と花果が判別できず、マメ科等に確定不可",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.79,
+        0.35,
+        0.21,
+        0.34
+      ],
+      "label": "右奥の広葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸みある密な樹冠が重なる"
+      ],
+      "limitations": "手前樹と重なり葉形・枝の対応が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.444,
+        0.412,
+        0.25
+      ],
+      "label": "左側の広葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "直立樹冠と丸い樹冠の木が混在"
+      ],
+      "limitations": "距離と遮蔽で葉と花果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.487,
+        0.511,
+        0.105,
+        0.212
+      ],
+      "label": "中央の低木・蔓群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "道沿いを覆う緑の密な葉群"
+      ],
+      "limitations": "葉形・葉序と各個体の分離が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "933b192fabbd94a188497059bceb69e1f7da7e4d700c2b23c8b7a8a7d8238a5d",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T13:27:50.787757+00:00"
+}

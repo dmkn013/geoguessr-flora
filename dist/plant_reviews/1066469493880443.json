@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "image_id": "1066469493880443",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景を左右端と手前・背景まで確認。必要部位は元画素拡大を参照。全天球も全幅を見て車体や窓への反射を二重計数しない。植物の見える形態のみを根拠にし地理・国・文字・既存タグは使わない。下位分類不能の理由を記録。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.294,
+        0.053,
+        0.439,
+        0.358
+      ],
+      "label": "奥の高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細長い明色幹と上部の疎らな葉群がある"
+      ],
+      "limitations": "ユーカリ類候補だが葉序・花果・樹皮が解像しない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Eucalyptus",
+        "Corymbia"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0,
+        0.433,
+        0.299
+      ],
+      "label": "左上の樹木・低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な緑の葉群が法面上部にある"
+      ],
+      "limitations": "陰影で葉形・葉序・花果が不鮮明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.708,
+        0.204,
+        0.292,
+        0.493
+      ],
+      "label": "右側の広葉低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "枝先に大きめの細長い広葉がつき、複数の高さの樹冠がある"
+      ],
+      "limitations": "葉序・花果の不足で個体同定不可",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.539,
+        0.369,
+        0.461,
+        0.443
+      ],
+      "label": "右道沿いの下草",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い草本と低い緑色群落が地表を覆う"
+      ],
+      "limitations": "強いぼけで葉・花が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "cf3efa17a13e60864de13f9c12ebbe9caedf75b9616dd633be6fcd003e17ce26",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T14:31:01.097381+00:00"
+}

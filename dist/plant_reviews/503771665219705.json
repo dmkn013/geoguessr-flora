@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "image_id": "503771665219705",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        0.526,
+        0.782
+      ],
+      "label": "左の針葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "直幹と暗緑色の狭い樹冠・枝先の細葉群"
+      ],
+      "limitations": "針葉の束生・付着・球果が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus",
+        "Picea",
+        "Abies"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.579,
+        0,
+        0.421,
+        0.468
+      ],
+      "label": "右の針葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "尖塔状樹冠と疎らな枯枝・上部の緑色細葉群"
+      ],
+      "limitations": "葉付着・気孔帯・球果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea",
+        "Abies",
+        "Pinus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.541,
+        0.391,
+        0.053,
+        0.091
+      ],
+      "label": "中央奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型の暗緑色樹冠が連なる"
+      ],
+      "limitations": "遠景で葉・幹・花果不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.594,
+        0.424,
+        0.406,
+        0.058
+      ],
+      "label": "右地表の白花草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細茎の先端に白い小型花状部が多数ある"
+      ],
+      "limitations": "舌状花・筒状花や葉形が読めず種保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Leucanthemum",
+        "Anthemis"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.522,
+        0.471,
+        0.286
+      ],
+      "label": "左地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色細葉と少量の白花状部"
+      ],
+      "limitations": "葉形・小穂・花構造未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.604,
+        0.458,
+        0.396,
+        0.031
+      ],
+      "label": "右地表の細葉草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い緑色細葉が帯状にある"
+      ],
+      "limitations": "小穂・葉鞘・花果未解像",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Poaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "35e3d353dc29422111eef75080a9433a5b3be8c4a12854bf3247abc99ad1ff31",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-27T11:42:19.953380+00:00"
+}

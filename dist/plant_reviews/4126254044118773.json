@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "image_id": "4126254044118773",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・背景・手前を実視認し必要部位を元画素拡大。植物形態だけを根拠にし、座標・国・文字・道路・地理分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.085,
+        0.277,
+        0.521
+      ],
+      "label": "左の羽状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "葉軸の両側に多数の線形小葉が並び、長い葉が幹頂から放射する"
+      ],
+      "limitations": "花果・幹頂・葉柄基部が不鮮明で属以下は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Elaeis",
+        "Phoenix"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.577,
+        0.422,
+        0.155,
+        0.207
+      ],
+      "label": "右中景の羽状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "長い羽状葉が密な樹冠から放射する"
+      ],
+      "limitations": "樹冠下部と花果が隠れ属以下保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Elaeis"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.424,
+        0.549,
+        0.126,
+        0.136
+      ],
+      "label": "中央奥のヤシ状樹冠群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細長い葉状部分が放射状に広がる"
+      ],
+      "limitations": "遠く葉の小葉構造と幹頂が不鮮明で科確定も保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Arecaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.126,
+        0.562,
+        0.31,
+        0.283
+      ],
+      "label": "左の大型葉偽茎植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "バショウ科",
+        "scientific_name": "Musaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "地際の太い偽茎状部分から広い長楕円形の葉身と長い葉柄が伸び、葉身が横に裂ける"
+      ],
+      "limitations": "バショウ科まで確認。花序・果実・偽茎基部が読めずMusa/Enseteの確定と種以下は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Musa",
+        "Ensete"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.706,
+        0.467,
+        0.188,
+        0.205
+      ],
+      "label": "右奥の大型葉植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "幅広く長い葉身が立ち上がり一部が裂ける"
+      ],
+      "limitations": "偽茎・葉基部が隠れ科属は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Musaceae",
+        "Musa",
+        "Ensete"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.625,
+        0.503,
+        0.375,
+        0.434
+      ],
+      "label": "右手前の草本・低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "枯れた細茎と小型広葉、細い草葉が密生する"
+      ],
+      "limitations": "葉序・花果・葉縁等の細部が読めず分類保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0,
+        0.21,
+        0.581,
+        0.528
+      ],
+      "label": "左の下層低木・草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い乾燥茎と小型広葉の低木が重なる"
+      ],
+      "limitations": "葉序・花果・葉縁等の細部が読めず分類保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0.701,
+        0.31,
+        0.179,
+        0.3
+      ],
+      "label": "右奥の疎らな広葉高木",
+      "scope": "individual",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹が分岐し上部の枝に小さな広葉が疎らに付く"
+      ],
+      "limitations": "遠景とかすみで葉序・葉形・花果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "66e3c0073b95079f58256eacf9e84b654567c3c0738e5bfc8ee7de9df2b62106",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T20:32:24.778798+00:00"
+}

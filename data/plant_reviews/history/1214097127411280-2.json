@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "image_id": "1214097127411280",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景を実視認。必要部位は元画素から切り出して拡大。植物形態だけを根拠にし、座標・国・文字・道路・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.233,
+        0.196,
+        0.234,
+        0.315
+      ],
+      "label": "中央左の竹状群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い軸から多数の細長い葉群が広がる"
+      ],
+      "limitations": "元画素拡大でも稈の節・稈鞘・分岐構造が不鮮明。竹類か別の細葉植物か確定しない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Bambusoideae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.466,
+        0.307,
+        0.187,
+        0.203
+      ],
+      "label": "中央の羽状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "長い葉軸に規則的な小葉が並び羽状葉が放射する"
+      ],
+      "limitations": "幹・葉柄・花果が隠れ属以下は保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.7,
+        0.16,
+        0.08,
+        0.27
+      ],
+      "label": "右奥の柱状樹冠群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細く直立した暗緑の密な樹冠がある"
+      ],
+      "limitations": "葉の型と球果が読めず針葉樹状の樹形だけで分類しない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cupressus",
+        "Hesperocyparis"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.2,
+        0.35,
+        0.8,
+        0.23
+      ],
+      "label": "柵沿いの低木・蔓群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型広葉の群落と細い茎が柵沿いに重なる"
+      ],
+      "limitations": "葉序・花序・果実が読めず、混在する植物を個別分類できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.06,
+        0.54,
+        0.94,
+        0.46
+      ],
+      "label": "手前法面の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "緑色の細葉と広葉、乾いた細茎が密に混在する"
+      ],
+      "limitations": "葉序・花序・果実が読めず、混在する植物を個別分類できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.12,
+        0.36,
+        0.07,
+        0.19
+      ],
+      "label": "左門奥の小さなヤシ状樹冠",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹状軸の先に葉が放射状に集まる小さな樹冠がある"
+      ],
+      "limitations": "非常に小さく葉の分裂様式と葉柄が判別しづらいため科確定も保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Arecaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "b9542e5efb1d294d3e82282ca417253640fe83b86ede94c9f449c5a2f39df24b",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T18:48:07.511963+00:00"
+}

@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "image_id": "320435439600402",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景と左の手前の広葉樹を拡大確認。左手前と左奥の緑葉樹、中央の疎な樹冠、右側の低木を分けた。葉の形態の詳細照合は未了。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.067,
+        0.351,
+        0.183,
+        0.316
+      ],
+      "scope": "individual",
+      "taxon": {
+        "name": "左手前の広葉樹・属未確定",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い位置で分枝した幹",
+        "比較的大きく見える広い葉が不規則に集まる"
+      ],
+      "limitations": "葉縁・葉序・花果が解像せず、見た目だけで属を絞れない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.218,
+        0.332,
+        0.171,
+        0.277
+      ],
+      "scope": "individual",
+      "taxon": {
+        "name": "左奥の広葉樹・属未確定",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細枝に小さく見える緑葉が密集する樹冠"
+      ],
+      "limitations": "単葉と複葉の判別に必要な解像度がない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.425,
+        0.406,
+        0.126,
+        0.15
+      ],
+      "scope": "individual",
+      "taxon": {
+        "name": "中央の疎な広葉樹・属未確定",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "水平に広がる細枝",
+        "葉量が少なく平たい樹冠"
+      ],
+      "limitations": "樹形だけでは分類群を限定できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [
+        "傘状樹冠"
+      ],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.721,
+        0.404,
+        0.124,
+        0.201
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "右側の広葉樹・低木群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "建物脇に複数の緑葉樹冠"
+      ],
+      "limitations": "遮蔽と小ささのため葉の診断形質が見えない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "9a5c169049d7c3f03d70cd5032654c36e526072f4dd6f1618a5c9392cf20b628",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-26T09:13:20.397556+00:00"
+}

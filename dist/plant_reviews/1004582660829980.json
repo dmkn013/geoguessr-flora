@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "image_id": "1004582660829980",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "全景と左の樹皮・樹冠を拡大。ユーカリ類に整合する樹形があるが診断的な果実や花蕾を欠く。右奥の針葉樹を別対象として記録。 全景の矩形重ね合わせを目視で確認し、見える形質の範囲で下位分類の可否を判断済み。未確定候補は確定タグに含めない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.001,
+        0,
+        0.477,
+        0.677
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "ユーカリ類候補",
+        "scientific_name": "",
+        "rank": "species_group"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "細長い明るい幹と高い位置の疎な樹冠",
+        "細い葉が枝先に集まって見える"
+      ],
+      "limitations": "葉の脈・花蕾・果実が不足しEucalyptus/Corymbia等を確定できない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "ユーカリ属",
+        "コリンビア属"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.62,
+        0.392,
+        0.305,
+        0.236
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "上部に針葉状の尖った樹冠がまとまる"
+      ],
+      "limitations": "針葉の束と球果が見えず属は暫定",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "マツ属",
+        "他の針葉樹"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true,
+      "label": "マツ属候補"
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.595,
+        0.499,
+        0.405,
+        0.185
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "右側の広葉低木群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸く密な樹冠と細かい葉が重なる"
+      ],
+      "limitations": "葉・花果の形が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.472,
+        0.499,
+        0.265
+      ],
+      "scope": "group",
+      "taxon": {
+        "name": "左の下層低木・草本群",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細枝が密な低木と乾いた細葉の草本"
+      ],
+      "limitations": "複数分類群が重なり各々の葉と花果が見えない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "1878b7a934fb50f68dc62a568524dd1e07856d2a0fb1543f8d37eb3be89bf782",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 3,
+  "reviewed_at": "2026-10-26T12:25:24.384399+00:00"
+}

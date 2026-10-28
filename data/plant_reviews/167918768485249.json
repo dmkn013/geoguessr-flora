@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "image_id": "167918768485249",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・背景・手前を確認。必要部位は元画素から拡大。植物形態だけを根拠にし、座標・国・文字・道路・旧タグを同定に使わない。遮蔽・ぼけ・距離による下位同定の限界を対象ごとに記録。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        0.558,
+        0.558
+      ],
+      "label": "左側の樹木・低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "異なる高さの丸い樹冠が重なり細長い葉群も見える"
+      ],
+      "limitations": "複葉構造・葉序・花果が読めず属を限定できない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.626,
+        0.174,
+        0.374,
+        0.234
+      ],
+      "label": "右側の高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直立幹の上部に小さな葉群が連続する"
+      ],
+      "limitations": "ユーカリ類候補だが葉序・樹皮・果実が不明。整列から同定しない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Eucalyptus",
+        "Corymbia"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.633,
+        0.319,
+        0.367,
+        0.317
+      ],
+      "label": "右路肩の草本・低木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長い細葉と低い小葉群が混在する"
+      ],
+      "limitations": "穂・花・葉の細部が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "35ac852fa1ffeed04605b3dac5642fd60b486d1b1dac39d9a95f350e1b47b13e",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-26T18:34:22.673034+00:00"
+}
