@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "image_id": "1031685772266093",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.804,
+        0.204,
+        0.196,
+        0.446
+      ],
+      "label": "右端の羽状葉ヤシ類",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "太い葉軸の両側に細長い小葉が並び、長い羽状葉が樹冠から弓状に広がる。"
+      ],
+      "limitations": "右端で幹と葉基部が切れ、果実・花序・冠鞘が不明。小葉の配列も解像不足で、属・種や品種を判断できない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.309,
+        0.516,
+        0.481,
+        0.209
+      ],
+      "label": "中央の細い枝を持つ木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "多数の細枝が上へ伸び、枝先に小さな葉群をつける。"
+      ],
+      "limitations": "元画素拡大でも単葉と複葉の区別、葉序・葉縁・花果が不明。羽状の輪郭だけでヤシ類や特定の複葉樹と断定できない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.001,
+        0.416,
+        0.195,
+        0.422
+      ],
+      "label": "左側の高木・低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "不規則に分枝する樹冠と小さな広葉状の葉群が見える。"
+      ],
+      "limitations": "暗部と重なりが強く、葉の輪郭・葉序・花果を解像できない。複数個体を含み、個体境界も不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.169,
+        0.55,
+        0.17,
+        0.198
+      ],
+      "label": "左中央の丸い樹冠の木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密に分枝する丸みのある樹冠に広葉状の葉群がつく。"
+      ],
+      "limitations": "個葉と葉序が見えず、剪定の影響も不明。属以下の決め手がない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.0,
+        0.676,
+        0.281,
+        0.227
+      ],
+      "label": "左手前の地表植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い細葉状の葉や草本状の茎が密生する。"
+      ],
+      "limitations": "暗く葉と枝の重なりが強い。花序・節・葉鞘を確認できず、科・種は判断できない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.631,
+        0.635,
+        0.369,
+        0.307
+      ],
+      "label": "右手前と奥の地表植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い葉状部と低い茂みが混在し、地表を覆う。"
+      ],
+      "limitations": "草本と低木が重なり境界不明。個葉や花果の診断形質が不足し、単一種とは扱わない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "b22985dec929d1fc28cf6087cd8cbe3014ece02a432850975f01ca854ce40b94",
+  "source_size": [
+    1024,
+    766
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-28T16:02:22.578314+00:00"
+}
