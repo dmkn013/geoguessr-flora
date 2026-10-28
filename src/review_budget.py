@@ -22,12 +22,13 @@ def recommend(used5, weekly, hours5, hours_week, observations):
     cost = costs[math.ceil(len(costs) * .9) - 1] * 1.25
     minutes = times[math.ceil(len(times) * .9) - 1] * 1.25
     weekly_samples = [o for o in samples if 'start_weekly' in o and 'end_weekly' in o
-                      and 0 <= o['end_weekly'] - o['start_weekly'] < 80]
+                      and 0 < o['end_weekly'] - o['start_weekly'] < 80]
     allowance5 = (70 - used5) / max(1, math.ceil(hours5))
     allowance_week = (80 - weekly) / max(1, math.ceil(hours_week))
     # 両窓の%は分母が違う。週間窓はその窓の実測差分で独立に計算する。
-    # 整数%の丸めで差分0でも無消費とせず、バッチあたり1ポイントを保守上限に置く。
-    week_costs = sorted(max(1, o['end_weekly'] - o['start_weekly']) / o['complete']
+    # 整数%の差分0は欠測として直近の正の差分を使い、無消費とはみなさない。
+    # 全て0/未観測ならweek_countを1に制限して校正を続ける。
+    week_costs = sorted((o['end_weekly'] - o['start_weekly']) / o['complete']
                         for o in weekly_samples)
     week_cost = week_costs[math.ceil(len(week_costs) * .9) - 1] * 1.25 if week_costs else None
     week_count = math.floor(allowance_week / week_cost) if week_cost else 1

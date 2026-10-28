@@ -12,10 +12,12 @@ class BudgetTests(unittest.TestCase):
         self.assertEqual(recommend(0, 0, 3, 100, [{'complete': 10, 'minutes': 5, 'start5': 90, 'end5': 0}])['images'], 4)
 
     def test_budget_accounts_for_future_runs_and_expensive_samples(self):
-        observations = [{'complete': 10, 'minutes': 5, 'start5': 0, 'end5': 2, 'start_weekly': 0, 'end_weekly': 0}]
+        observations = [{'complete': 10, 'minutes': 5, 'start5': 0, 'end5': 2, 'start_weekly': 0, 'end_weekly': 1}]
         fast = recommend(0, 0, 5, 168, observations)
         costly = recommend(0, 0, 5, 168, observations + [{'complete': 1, 'minutes': 2, 'start5': 0, 'end5': 5}])
         self.assertGreater(fast['images'], costly['images'])
         self.assertLessEqual(fast['images'] * fast['usage_points_per_image'], fast['usage_points_this_run'] + .001)
         self.assertLessEqual(fast['images'] * fast['weekly_points_per_image'], fast['weekly_points_this_run'] + .001)
         self.assertGreater(fast['weekly_points_per_image'], 0)
+        rounded = recommend(0, 0, 5, 168, observations + [{'complete': 1, 'minutes': 1, 'start5': 0, 'end5': 1, 'start_weekly': 1, 'end_weekly': 1}])
+        self.assertEqual(rounded['weekly_points_per_image'], fast['weekly_points_per_image'])
