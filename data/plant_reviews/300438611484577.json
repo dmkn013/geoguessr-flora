@@ -1,0 +1,214 @@
+{
+  "schema_version": 1,
+  "image_id": "300438611484577",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        0.39,
+        0.889
+      ],
+      "label": "左手前の針葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "直幹と多数の横枝に短い細葉が密に付く"
+      ],
+      "limitations": "針葉付着・気孔帯・球果と枝先の細部未解像",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Tsuga",
+        "Abies",
+        "Picea"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.404,
+        0,
+        0.306,
+        0.916
+      ],
+      "label": "中央の針葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直幹に水平の枝と細い葉群が段状に重なる"
+      ],
+      "limitations": "単生針葉か束生か・葉裏・球果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Tsuga",
+        "Abies",
+        "Picea"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.79,
+        0.249,
+        0.21,
+        0.666
+      ],
+      "label": "右の針葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "横に広がる枝に細い暗緑色葉群が密生する"
+      ],
+      "limitations": "葉付着・気孔帯・球果が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Tsuga",
+        "Abies",
+        "Picea"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.287,
+        0,
+        0.713,
+        0.367
+      ],
+      "label": "上部の黄葉広葉枝群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "黄緑色の広葉が細枝に付き一部の葉縁に角ばる裂片状部がある"
+      ],
+      "limitations": "枝と葉の重なりで葉序・裂片数・鋸歯・葉脈・果実を分離できない",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Acer",
+        "Betula"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.574,
+        0.5,
+        0.426,
+        0.444
+      ],
+      "label": "右下層の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型緑色葉と黄葉を付ける細枝株が混在する"
+      ],
+      "limitations": "葉序・葉縁・花果と個体境界不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0,
+        0.822,
+        0.538,
+        0.178
+      ],
+      "label": "左地表の草本低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色広葉株と褐色細茎が落葉間にある"
+      ],
+      "limitations": "葉付着・花果・草本低木の区別が不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.677,
+        0.846,
+        0.323,
+        0.154
+      ],
+      "label": "右地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型広葉株と細茎が落葉間に生える"
+      ],
+      "limitations": "葉序・葉形・花果が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "3c6fea5410c51a3205c1b9a2827e7db9f0dc119936f6c6b59b53d1801c2627f5",
+  "source_size": [
+    1024,
+    838
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-28T09:57:03.477155+00:00"
+}
