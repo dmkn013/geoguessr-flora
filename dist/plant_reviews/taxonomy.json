@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "count_unit": "images",
-  "reviewed_images": 350,
-  "tagged_images": 120,
+  "reviewed_images": 351,
+  "tagged_images": 121,
   "direct_image_counts": {
     "アブラヤシ属": 2,
     "アラウカリア属": 1,
@@ -19,7 +19,7 @@
     "ポプラ属": 1,
     "マツ属": 16,
     "マメ科": 1,
-    "ヤシ科": 78
+    "ヤシ科": 79
   },
   "inclusive_image_counts": {
     "アブラヤシ属": 2,
@@ -44,7 +44,7 @@
     "マツ属": 16,
     "マツ科": 17,
     "マメ科": 1,
-    "ヤシ科": 79,
+    "ヤシ科": 80,
     "ヤナギ科": 1
   },
   "parent_of": {

@@ -21,3 +21,12 @@ class BudgetTests(unittest.TestCase):
         self.assertGreater(fast['weekly_points_per_image'], 0)
         rounded = recommend(0, 0, 5, 168, observations + [{'complete': 1, 'minutes': 1, 'start5': 0, 'end5': 1, 'start_weekly': 1, 'end_weekly': 1}])
         self.assertEqual(rounded['weekly_points_per_image'], fast['weekly_points_per_image'])
+
+    def test_unused_fractional_budget_accumulates_but_still_obeys_limits(self):
+        observations = [{'complete': 1, 'minutes': 2, 'start5': 0, 'end5': 3, 'start_weekly': 0, 'end_weekly': 1}]
+        self.assertEqual(recommend(2, 6, 4, 163, observations)['images'], 0)
+        carried = recommend(2, 6, 4, 163, observations, idle_hours=3)
+        self.assertEqual(carried['images'], 1)
+        self.assertLessEqual(carried['images'] * carried['weekly_points_per_image'], carried['weekly_points_this_run'] + .001)
+        self.assertEqual(recommend(70, 6, 4, 163, observations, idle_hours=24)['images'], 0)
+        self.assertEqual(recommend(2, 80, 4, 163, observations, idle_hours=24)['images'], 0)

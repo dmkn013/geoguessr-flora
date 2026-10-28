@@ -6,7 +6,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 
-def recommend(used5, weekly, hours5, hours_week, observations):
+def recommend(used5, weekly, hours5, hours_week, observations, idle_hours=1):
     if weekly >= 80 or used5 >= 85:
         return {'images': 0, 'reason': '利用率基準により新規判定保留'}
     if used5 >= 70:
@@ -24,7 +24,11 @@ def recommend(used5, weekly, hours5, hours_week, observations):
     weekly_samples = [o for o in samples if 'start_weekly' in o and 'end_weekly' in o
                       and 0 < o['end_weekly'] - o['start_weekly'] < 80]
     allowance5 = (70 - used5) / max(1, math.ceil(hours5))
-    allowance_week = (80 - weekly) / max(1, math.ceil(hours_week))
+    # 1枚に届かない毎時予算を切り捨て続けない。最後の実作業から最大24時間分を繰越。
+    # 現在の残枠を上限にするため、他用途の消費やリセット後も残枠を超えない。
+    carry = max(1, min(24, idle_hours))
+    allowance_week = min(80 - weekly,
+                         (80 - weekly) / max(1, math.ceil(hours_week)) * carry)
     # 両窓の%は分母が違う。週間窓はその窓の実測差分で独立に計算する。
     # 整数%の差分0は欠測として直近の正の差分を使い、無消費とはみなさない。
     # 全て0/未観測ならweek_countを1に制限して校正を続ける。
@@ -62,7 +66,12 @@ def main():
         print('アカウント使用率の観測を保存。差分をこの作業だけの消費とは断定しません')
     else:
         values = [json.loads(s) for s in args.log.read_text(encoding='utf-8').splitlines() if s.strip()] if args.log.exists() else []
-        print(json.dumps(recommend(args.used5, args.weekly, args.hours5, args.hours_week, values), ensure_ascii=False))
+        completed = [v for v in values if v.get('complete', 0) > 0 and v.get('recorded_at')]
+        idle = 1
+        if completed:
+            last = max(datetime.fromisoformat(v['recorded_at']) for v in completed)
+            idle = max(1, (datetime.now(timezone.utc) - last).total_seconds() / 3600)
+        print(json.dumps(recommend(args.used5, args.weekly, args.hours5, args.hours_week, values, idle_hours=idle), ensure_ascii=False))
 
 
 if __name__ == '__main__':

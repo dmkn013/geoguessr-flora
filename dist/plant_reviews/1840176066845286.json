@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "image_id": "1840176066845286",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.653,
+        0.058,
+        0.347,
+        0.744
+      ],
+      "label": "右手前の広葉高木",
+      "scope": "group",
+      "taxon": {
+        "name": "マンゴー属",
+        "scientific_name": "Mangifera",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "細長い全縁状の濃緑色葉が枝先に集まり若い黄緑色葉が下垂する"
+      ],
+      "limitations": "葉序・側脈・花序・花果が未解像で属は暫定、種と品種は保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Mangifera indica"
+      ],
+      "morphology": [],
+      "sources": [
+        {
+          "url": "https://www.nparks.gov.sg/florafaunaweb/flora/3/0/3013",
+          "supports": "細長い全縁葉と下垂する若葉に整合するが葉序・花果を読めず種確定しない"
+        }
+      ],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.645,
+        0.333,
+        0.098,
+        0.179
+      ],
+      "label": "中央奥の羽状葉ヤシ",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "長い弓状葉の軸に多数の細い小葉が付く"
+      ],
+      "limitations": "幹・葉柄基部・小葉配列・花果が隠れ属種保留",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.596,
+        0.395,
+        0.129,
+        0.118
+      ],
+      "label": "屋根奥の細葉開花低木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細長い葉が細枝にまとまり枝先付近に桃赤色の花状部がある"
+      ],
+      "limitations": "花の形・葉序・葉脈が読めず種未確定",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Nerium oleander"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.706,
+        0,
+        0.294,
+        0.146
+      ],
+      "label": "右上奥の淡色広葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型の淡緑色葉と細い分枝が高い樹冠を作る"
+      ],
+      "limitations": "単葉複葉・葉序・花果が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.783,
+        0.723,
+        0.118,
+        0.083
+      ],
+      "label": "右下の地表細葉草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細く長い緑色葉が株立ちして見える"
+      ],
+      "limitations": "葉鞘・小穂・花果が未解像",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Poaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.591,
+        0.645,
+        0.083,
+        0.083
+      ],
+      "label": "中央奥の地表草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "壁際に低い細葉と小型広葉株がある"
+      ],
+      "limitations": "暗部で葉付着・花果が読めない",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "35e12dfc14f9292faa1c31f387df024b96605f553f75e0d184d59e9b255e20db",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-28T12:58:45.246797+00:00"
+}
