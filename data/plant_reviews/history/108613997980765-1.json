@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "image_id": "108613997980765",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.384,
+        0.323,
+        0.287
+      ],
+      "label": "左側の広葉状木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "複数の不規則な丸い樹冠が連なり、密な葉群で覆われる。"
+      ],
+      "limitations": "逆光と遠景で個葉の輪郭・葉序・花果は見えない。個体境界も重なり、属・種を判断できない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.524,
+        0.398,
+        0.343,
+        0.227
+      ],
+      "label": "右奥の丸い樹冠の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "大きく丸い樹冠が連なり、表面に細かな葉群が見える。"
+      ],
+      "limitations": "元画素拡大でも葉縁・葉序・花果は解像できず、樹冠形のみでは特定できない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.854,
+        0.285,
+        0.146,
+        0.439
+      ],
+      "label": "右端の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細枝が多く、細かな葉群が外へ張り出す。"
+      ],
+      "limitations": "画面端で切れ、暗部と重なりが強い。単葉・複葉や花果を区別できない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.642,
+        0.502,
+        0.04,
+        0.127
+      ],
+      "label": "中央右の小さな円錐状木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "独立した小さな樹冠が円錐状で、密に細枝をつける。"
+      ],
+      "limitations": "鱗片葉・針葉・小型広葉の区別もできない。円錐形だけでヒノキ科やビャクシン属と確定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.515,
+        0.572,
+        0.485,
+        0.312
+      ],
+      "label": "右側の枯れた細葉草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "淡黄色の細い葉状部と直立した茎が地表から密生し、草丈にむらがある。"
+      ],
+      "limitations": "小穂・花序の枝分かれ・節・葉鞘が識別できない。イネ科状だがカヤツリグサ科などとの比較に必要な形態がなく科確定を保留。複数種の混在があり得る。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0,
+        0.548,
+        0.444,
+        0.131
+      ],
+      "label": "左側と奥の細葉草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い淡黄色の茎葉状部が帯状に連なる。"
+      ],
+      "limitations": "遠景で花序や葉基部を解像できず、右側と同種とは断定できない。科・属・種の確定を保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "6862e44f3d5f91d1a2f056cdd7b2a0c045cb5de78fc31a90489a671efc98a6ab",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-28T19:04:58.174909+00:00"
+}
