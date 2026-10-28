@@ -633,3 +633,16 @@
 - 弟のGitHubユーザー名はtetsujg79-hub、表示名TTsuとAPIで一致確認。ユーザーの既存依頼に従いdmkn013/geoguessr-floraへwrite権限で共同編集者招待を送信。招待ID340109218、招待一覧にpendingとして存在。承諾は弟本人が行う。
 - GitHubへ基盤コードのcommit/pushはまだ未実施。招待送信をcloneだけで作業開始可能になったことと混同しない。ローカルのZIP方式とPR運用の整備課題は引き続き残る。
 - 新規実視認・完了追加0。累計complete344/未確認17,873/矩形1,906/種以下確定2。Mac予約100枚を維持。次の毎時実行は最新使用率と手順・実データを読み、予約外の未確認画像から再開する。
+
+
+## 2026-10-28 GitHub反映と継続分担を完成
+
+- ユーザーがpushと100枚上限の撤廃を要求。予約内のpush禁止を本人の過去の直接発言と断定した説明は訂正。最新のユーザー指示に従いGitHub共同作業用のコード・割当・結果pushを許可し、教材サイトdeploy・巨大画像ブランチfetch・課金・他チャット送信禁止は維持。automationプロンプトも更新済み。
+- mainへcommit **8ec4b06**をpush成功、git ls-remoteで同SHAを確認。同定基盤・344枚の既存記録と履歴・矩形表示・階層分析・Mac向けワーカー・取り込み・予算計算・17件のテスト・手順を含む。原画像・配布ZIP・認証ファイルはGitへ追加していない。公開教材サイトのdeployは行っていない。
+- 最新割当brother-mac-20261028は8,985枚。川崎8,888枚。旧pilot100枚はsuperseded。既存344枚との重複なし。新規目視0、canonical完了枚数344・未確認17,873・矩形1,906・種以下確定2は不変。取得・配布・ハッシュ検査した画像を目視完了と数えない。
+- GitHub draft release plant-review-images-20261028へ18 ZIP assets（500枚単位、合計838,495,388 bytes）をアップロード済み。画像は担当IDのみ、割当SHA256と一致を検査。draft releaseのため弟はwrite招待を承諾しgh auth loginで本人認証する必要がある。
+- GitHubから別フォルダ.review-cache/clone-checkへdepth1/mainのみを新規cloneして、review_worker.py next --download --limit2を実行。配布000の500枚を取得・SHA256検査成功、次の2枚のID/path/size/revisionが返ることを確認。Mac担当stats8,985枚、17 tests成功。Windows経路の実検証でありmacOS実機は未確認。
+- review_worker.pyは割当外保存を拒否、原画像SHA256を検査、worker_results専用保存、completeの全矩形QAを必須化。中央data/plant_reviewsには直接書かない。PRにworker_resultsと自分の使用率ログだけをcommit/push。最初10枚の結果を中央で照合するが、正常なMac作業を承認待ちで止めず担当全体へ継続。
+- review_budget.py plan/reportを実装。アカウント観測差分と時間の直近20回90パーセンタイル＋25%余裕、5時間70%/週間80%までを残り毎時枠へ配分、最大12枚/20分相当＋検証5分、4枚ごと再確認。70%では通常計画を停止し30%残す、85%緊急停止、週間80%保留。厳密なトークン計測や本作業のみの消費とは呼ばない。
+- PRは提案結果でありmergeだけでcanonical集計は変わらない。中央が割当・SHA256・辞書・QA・目視を確認し、未取込分のみimport_plant_worker.pyでapply。worker由来・元日時・ハッシュ・履歴を保持し中央表示を再生成して反映する。
+- 次回の毎時実行は最新の8,985枚予約を除外して中央8,888枚から継続。弟のGitHubはtetsujg79-hub（TTsu）、write招待送信済み・承諾待ち。画像配布とコードはGitHubから取得可能、ZIP手渡し必須の古い指示は採用しない。
