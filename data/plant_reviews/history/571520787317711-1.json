@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "image_id": "571520787317711",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.286,
+        0.064,
+        0.714,
+        0.87
+      ],
+      "label": "手前の銀白色葉を持つ木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "太く粗い幹が低い位置で分枝し、細長い楕円状の葉が多数つき銀白色に反射する。"
+      ],
+      "limitations": "Olea europaea候補。葉序・葉裏の鱗片・花果が解像できず、他の銀葉木本との鑑別が未完了。亜種・変種・栽培品種や野生/栽培由来を樹形や背景から推定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Olea europaea"
+      ],
+      "morphology": [],
+      "sources": [
+        {
+          "url": "https://www.nparks.gov.sg/florafaunaweb/flora/4/4/4495",
+          "supports": "細い楕円形で銀色外観を持つ葉、老木の屈曲する幹を比較。微細な鱗片と花果は画像で確認できず種確定は保留。"
+        }
+      ],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.111,
+        0.007,
+        0.359,
+        0.641
+      ],
+      "label": "左中景の銀葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細枝が広がり、細長い葉群が銀白色に見える。"
+      ],
+      "limitations": "前景と樹冠が重なり、独立した幹・葉序・花果は解像不足。同種とは確定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Olea europaea"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.034,
+        0,
+        0.148,
+        0.186
+      ],
+      "label": "左上の針葉樹",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "針状に見える葉群が枝先で房状にまとまり、輪郭の粗い樹冠を作る。"
+      ],
+      "limitations": "針葉の束数・長さ・葉鞘・球果が不明。マツ属は暫定、種・亜種を確定できない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.451,
+        0,
+        0.097,
+        0.292
+      ],
+      "label": "中央上の針葉樹",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "針状に見える葉群が枝先で房状にまとまり、輪郭の粗い樹冠を作る。"
+      ],
+      "limitations": "針葉の束数・長さ・葉鞘・球果が不明。マツ属は暫定、種・亜種を確定できない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.579,
+        0,
+        0.164,
+        0.34
+      ],
+      "label": "右上の針葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "針状に見える葉群が枝先で房状にまとまり、輪郭の粗い樹冠を作る。"
+      ],
+      "limitations": "針葉の束数・長さ・葉鞘・球果が不明。マツ属は暫定、種・亜種を確定できない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.026,
+        0.077,
+        0.213,
+        0.325
+      ],
+      "label": "左奥の緑色広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "明るい緑色の小さな広葉状葉群が分枝した樹冠を覆う。"
+      ],
+      "limitations": "個葉の縁・葉序・花果が見えず複数樹冠も重なる。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0,
+        0.358,
+        0.447,
+        0.531
+      ],
+      "label": "左側の低い灌木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い丸い株が点在し、細い褐色枝と小さな緑色葉群が見える。"
+      ],
+      "limitations": "葉の配列・花冠・果実が解像できない。低木の姿だけでヒース類や特定科を決めない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0,
+        0.719,
+        1,
+        0.281
+      ],
+      "label": "手前の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細長い葉状部と幅広い葉状部が混在し、黄色い小さな花状部が点在する。"
+      ],
+      "limitations": "複数種を含む。花の構造、葉の切込み、葉鞘や小穂が不鮮明で、花色のみから科・種を判断しない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "b3e404e524f7170d765d3a63544e0e8d23dd7734dcbdea0d0a9c8e8ce50f01c3",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-28T22:04:05.739304+00:00"
+}
