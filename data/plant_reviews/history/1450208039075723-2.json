@@ -1,0 +1,291 @@
+{
+  "schema_version": 1,
+  "image_id": "1450208039075723",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        0.476,
+        0.576
+      ],
+      "label": "左の高い羽状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "細い無分枝の環状葉痕状幹と大きい弓状羽状葉が多数ある"
+      ],
+      "limitations": "葉柄基部・小葉配列・花果が未解像で属種保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.61,
+        0.035,
+        0.224,
+        0.562
+      ],
+      "label": "右中央の羽状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "単幹頂部から長い羽状葉が広がり葉柄近くに褐色の塊がある"
+      ],
+      "limitations": "葉柄基部・小葉配列・花果が未解像で属種保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.774,
+        0.026,
+        0.183,
+        0.538
+      ],
+      "label": "右端の羽状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "太い長葉柄と弓状の羽状葉が見える"
+      ],
+      "limitations": "葉柄基部・小葉配列・花果が未解像で属種保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.087,
+        0.434,
+        0.368,
+        0.253
+      ],
+      "label": "左の黄緑色葉の植栽低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細長い黄緑色〜黄色の葉が細い木質枝の先に密集する"
+      ],
+      "limitations": "葉序・葉脈・花果が読めず品種も保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Codiaeum variegatum",
+        "Duranta erecta"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.648,
+        0.528,
+        0.307,
+        0.215
+      ],
+      "label": "右の黄緑色葉の低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長楕円状の黄色と緑色の葉を持つ低い株が連なる"
+      ],
+      "limitations": "葉序・花果・斑の形態が未解像で品種保留",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Codiaeum variegatum",
+        "Duranta erecta"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.248,
+        0.188,
+        0.288,
+        0.453
+      ],
+      "label": "左中景の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な丸い広葉樹冠がヤシの下に重なる"
+      ],
+      "limitations": "葉序・葉形・花果未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.527,
+        0.382,
+        0.151,
+        0.274
+      ],
+      "label": "中央奥の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小型の密な樹冠と疎らな細枝株がある"
+      ],
+      "limitations": "遠景で葉形・花果不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0,
+        0.627,
+        0.438,
+        0.238
+      ],
+      "label": "左地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細葉と小型広葉が密生する"
+      ],
+      "limitations": "葉鞘・小穂・花果未解像",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p9",
+      "bbox": [
+        0.633,
+        0.664,
+        0.367,
+        0.17
+      ],
+      "label": "右地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色の細葉が地表を覆う"
+      ],
+      "limitations": "小穂・葉鞘・花果不足",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Poaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p10",
+      "bbox": [
+        0,
+        0.179,
+        0.091,
+        0.447
+      ],
+      "label": "左端の裸枝混生木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い分枝と少量の葉がヤシの下にある"
+      ],
+      "limitations": "部分像・ぼけで葉序・葉形・花果不明",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "1e47de5be30ce5f4af2262b6e5c21ffa2970964eafc3dc0b9236ddd2a0f321eb",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-28T07:59:19.109312+00:00"
+}

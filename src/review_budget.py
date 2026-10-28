@@ -21,11 +21,21 @@ def recommend(used5, weekly, hours5, hours_week, observations):
     # 直近20回の90パーセンタイルに25%を上乗せ。共有枠の他作業も除外せず安全側へ。
     cost = costs[math.ceil(len(costs) * .9) - 1] * 1.25
     minutes = times[math.ceil(len(times) * .9) - 1] * 1.25
-    allowance = min((70 - used5) / max(1, math.ceil(hours5)),
-                    (80 - weekly) / max(1, math.ceil(hours_week)))
-    count = min(12, math.floor(allowance / cost), math.floor(20 / minutes))
+    weekly_samples = [o for o in samples if 'start_weekly' in o and 'end_weekly' in o
+                      and 0 <= o['end_weekly'] - o['start_weekly'] < 80]
+    allowance5 = (70 - used5) / max(1, math.ceil(hours5))
+    allowance_week = (80 - weekly) / max(1, math.ceil(hours_week))
+    # 両窓の%は分母が違う。週間窓はその窓の実測差分で独立に計算する。
+    # 整数%の丸めで差分0でも無消費とせず、バッチあたり1ポイントを保守上限に置く。
+    week_costs = sorted(max(1, o['end_weekly'] - o['start_weekly']) / o['complete']
+                        for o in weekly_samples)
+    week_cost = week_costs[math.ceil(len(week_costs) * .9) - 1] * 1.25 if week_costs else None
+    week_count = math.floor(allowance_week / week_cost) if week_cost else 1
+    count = min(12, math.floor(allowance5 / cost), week_count, math.floor(20 / minutes))
     return {'images': max(0, count), 'usage_points_per_image': round(cost, 4),
-            'minutes_per_image': round(minutes, 3), 'usage_points_this_run': round(allowance, 3),
+            'weekly_points_per_image': round(week_cost, 4) if week_cost else None,
+            'minutes_per_image': round(minutes, 3), 'usage_points_this_run': round(allowance5, 3),
+            'weekly_points_this_run': round(allowance_week, 3),
             'reason': '5時間30%余力・週間20%余力を残し、残り毎時枠へ配分。4枚ごとに再確認'}
 
 
