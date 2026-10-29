@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "image_id": "284114553369911",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.279,
+        0.241,
+        0.339
+      ],
+      "label": "左手前の疎な広葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い灰色幹と不規則な枝に小さい楕円状葉が並ぶ。"
+      ],
+      "limitations": "単葉か複葉か・刺・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Combretum spp.",
+        "Terminalia spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.243,
+        0.421,
+        0.135,
+        0.124
+      ],
+      "label": "左中景の低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "多数の小葉状緑葉が低い密な冠を作る。"
+      ],
+      "limitations": "葉序・複葉構成・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.622,
+        0.381,
+        0.111,
+        0.157
+      ],
+      "label": "右中景の広葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い多幹と疎な上向き枝に小さい葉群。"
+      ],
+      "limitations": "刺・葉序・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Combretum spp.",
+        "Terminalia spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.816,
+        0.424,
+        0.184,
+        0.218
+      ],
+      "label": "右の低い木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い灰枝に緑の小葉群が点在。"
+      ],
+      "limitations": "葉序・葉形と花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.198,
+        0.426,
+        0.293,
+        0.072
+      ],
+      "label": "左奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい丸い樹冠が点在し一部裸枝。"
+      ],
+      "limitations": "遠景で葉型と花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.532,
+        0.455,
+        0.29,
+        0.045
+      ],
+      "label": "右奥の低い木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細かい緑葉の低い群落。"
+      ],
+      "limitations": "遠景で個体と葉序不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0,
+        0.526,
+        0.438,
+        0.235
+      ],
+      "label": "左下の枯草低株群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い褐色茎と灰色の短い株が散在。"
+      ],
+      "limitations": "生葉・花序不足。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0.701,
+        0.508,
+        0.299,
+        0.192
+      ],
+      "label": "右下の枯草低株群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い枯茎と低い灰緑の株。"
+      ],
+      "limitations": "花序と葉形が未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "76800dc79772e5eaa9cc29a42d550505a501c5f0e757c09d6b19b7d69a6db27b",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T10:16:12.941145+00:00"
+}

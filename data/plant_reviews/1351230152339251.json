@@ -1,0 +1,236 @@
+{
+  "schema_version": 1,
+  "image_id": "1351230152339251",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.417,
+        0.313,
+        0.251,
+        0.307
+      ],
+      "label": "中央の大型広葉草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "バショウ科",
+        "scientific_name": "Musaceae",
+        "rank": "family"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "偽茎状軸の上に大きな長い葉があり、平行に横裂する。"
+      ],
+      "limitations": "花序・果実・葉柄基部が不鮮明でMusa/Enseteの属と種以下保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Musa spp.",
+        "Ensete spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.67,
+        0.291,
+        0.039,
+        0.099
+      ],
+      "label": "中央右奥の羽状葉ヤシ",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "細い単幹の頂に下垂する羽状葉。"
+      ],
+      "limitations": "小葉・葉柄基部・花果が解像できず属・種は候補止まり。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.813,
+        0.252,
+        0.075,
+        0.154
+      ],
+      "label": "右奥の羽状葉ヤシ",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "羽状の長い葉が幹頂にまとまる。"
+      ],
+      "limitations": "小葉・葉柄基部・花果が解像できず属・種は候補止まり。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.327,
+        0.331,
+        0.101,
+        0.122
+      ],
+      "label": "左奥の掌状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "大きく扇状に広がる葉と細い幹がある。"
+      ],
+      "limitations": "小葉・葉柄基部・花果が解像できず属・種は候補止まり。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Borassus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.734,
+        0.299,
+        0.109,
+        0.249
+      ],
+      "label": "右中景の広葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細枝に小さい広葉が密生する疎な樹冠。"
+      ],
+      "limitations": "葉序・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.684,
+        0.528,
+        0.174,
+        0.1
+      ],
+      "label": "右下の低い草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い細葉と小広葉が地面を覆う。"
+      ],
+      "limitations": "花序・葉鞘不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.444,
+        0.588,
+        0.227,
+        0.061
+      ],
+      "label": "中央下の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い緑葉と低い小葉群。"
+      ],
+      "limitations": "葉形・花果と個体境界不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0.479,
+        0.244,
+        0.067,
+        0.147
+      ],
+      "label": "奥の羽状葉ヤシ",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "細い軸から羽状の葉が開き、細かい小葉が両側に並ぶ。"
+      ],
+      "limitations": "葉柄基部・小葉断面・花果が解像できず属種を決められない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "a58a61ef66ec8651588e0f24e2328b516605deea613fdac47f014c2cb767ea17",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 3,
+  "reviewed_at": "2026-10-29T10:05:30.415179+00:00"
+}

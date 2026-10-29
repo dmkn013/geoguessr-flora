@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "image_id": "311201017173203",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.493,
+        0,
+        0.507,
+        0.829
+      ],
+      "label": "右の裸枝木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "褐色の多幹・幹と多数の細枝、低い枝が密に絡む。"
+      ],
+      "limitations": "葉・花果・芽の鱗片や葉痕が未解像で科属不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.359,
+        0.395,
+        0.421
+      ],
+      "label": "左の裸枝木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "太枝が不規則に開き細枝が密に分岐する。"
+      ],
+      "limitations": "葉・芽・花果不足。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.409,
+        0.53,
+        0.039,
+        0.141
+      ],
+      "label": "中央奥の柱状木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "狭い直立樹冠に上向きの細枝。"
+      ],
+      "limitations": "葉・芽・樹皮不明で樹形のみから確定できない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Populus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.365,
+        0.6,
+        0.134,
+        0.083
+      ],
+      "label": "中央奥の低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い裸枝が低く密に集まる。"
+      ],
+      "limitations": "葉・芽・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.51,
+        0.651,
+        0.49,
+        0.263
+      ],
+      "label": "右下の枯れた草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "黄褐色の細葉と細い枯茎が地際に残る。"
+      ],
+      "limitations": "花序と生葉不足で科属保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "e48fb95ea8d70242effbe092c0831348ecec2c1770176ed63d3afeacef033b07",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T10:08:37.550552+00:00"
+}

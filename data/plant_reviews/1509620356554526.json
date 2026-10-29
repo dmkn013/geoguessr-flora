@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "image_id": "1509620356554526",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.198,
+        0.126,
+        0.167,
+        0.54
+      ],
+      "label": "左の白い幹の高木",
+      "scope": "group",
+      "taxon": {
+        "name": "カバノキ属",
+        "scientific_name": "Betula",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "明色幹に暗斑、小さい葉が細枝に付き枝先が下垂。"
+      ],
+      "limitations": "葉の鋸歯・毛・果穂が未解像で種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.664,
+        0.015,
+        0.336,
+        0.669
+      ],
+      "label": "右の白い幹の高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "カバノキ属",
+        "scientific_name": "Betula",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "白い細幹に暗い斑、小さい緑葉が細枝を覆う。"
+      ],
+      "limitations": "葉縁・若枝毛・果穂が未解像で種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.532,
+        0.335,
+        0.173,
+        0.351
+      ],
+      "label": "右中央の針葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "トウヒ属",
+        "scientific_name": "Picea",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "尖った円錐形樹冠と段状側枝、細枝先が下垂する。"
+      ],
+      "limitations": "葉枕・針葉断面・球果不明で属暫定。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0,
+        0.213,
+        0.336
+      ],
+      "label": "左上端の広葉木本断片",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "暗緑の広葉が枝先に重なり太枝がある。"
+      ],
+      "limitations": "葉序・葉縁・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.077,
+        0.345,
+        0.162,
+        0.393
+      ],
+      "label": "左下層の広葉低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い小葉群が細い枝に密生。"
+      ],
+      "limitations": "葉序・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.107,
+        0.692,
+        0.208,
+        0.168
+      ],
+      "label": "左下草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑の細葉と小広葉が混生。"
+      ],
+      "limitations": "花序・葉鞘不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.554,
+        0.663,
+        0.446,
+        0.183
+      ],
+      "label": "右下草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い草本と低い小広葉群が斜面を覆う。"
+      ],
+      "limitations": "葉形・花序と個体境界不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "fb84b2c7e2ba27fc2425f6815d108f2fa886b2d68e785ce9c5876a3e62185dbe",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T10:16:55.016403+00:00"
+}

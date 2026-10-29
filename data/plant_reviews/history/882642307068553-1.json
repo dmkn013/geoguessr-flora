@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "image_id": "882642307068553",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        0.458,
+        0.646
+      ],
+      "label": "左の高木低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "大小の広葉樹冠が重なり黄緑の葉が混在。"
+      ],
+      "limitations": "葉序・葉縁・花果不明で個体分離不可。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.52,
+        0.527,
+        0.48,
+        0.151
+      ],
+      "label": "右の背の高い枯れた草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "トウモロコシ",
+        "scientific_name": "Zea mays",
+        "rank": "species"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "太い直立茎に幅広い長い葉が節ごとに付き、先端に分枝した雄花序状構造。"
+      ],
+      "limitations": "雌花序・果実・葉鞘の詳細不足。トウモロコシ暫定、品種不可。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Sorghum bicolor"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.49,
+        0.596,
+        0.335,
+        0.104
+      ],
+      "label": "右下の緑の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑の細葉と小さい広葉が混生。"
+      ],
+      "limitations": "花序・葉鞘不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.583,
+        0.373,
+        0.112
+      ],
+      "label": "左下の低い草本低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "緑の小葉群と褐色の細い枯茎。"
+      ],
+      "limitations": "葉序・花序と個体境界不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.512,
+        0.56,
+        0.229,
+        0.024
+      ],
+      "label": "右奥の木本断片",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "地平付近に丸い小さい葉群が点在。"
+      ],
+      "limitations": "遠景で葉型と花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "3faf45390ecdfa09190d7a5308a4d4835f2ccd3d5866f79a5028114151d1f01f",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T10:13:38.671151+00:00"
+}

@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "image_id": "484882746053546",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.536,
+        0.478,
+        0.464,
+        0.127
+      ],
+      "label": "右の柱状樹冠の高木列",
+      "scope": "group",
+      "taxon": {
+        "name": "ポプラ属",
+        "scientific_name": "Populus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "直立幹に狭い柱状の広葉樹冠、上向きの枝が密。"
+      ],
+      "limitations": "葉形・葉柄・花果が未解像で属暫定、品種同定不可。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Populus nigra",
+        "Populus nigra cv. Italica"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.548,
+        0.532,
+        0.077
+      ],
+      "label": "左奥の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い葉群と細い柱状樹冠が混在する。"
+      ],
+      "limitations": "葉形・葉序と花果不明で個体を分離できない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.641,
+        0.57,
+        0.359,
+        0.116
+      ],
+      "label": "右下の枯草群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "黄褐色の細葉と直立した細茎が密生。"
+      ],
+      "limitations": "花序・葉鞘不鮮明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.602,
+        0.358,
+        0.092
+      ],
+      "label": "左手前の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "褐色の細い茎と低い緑葉群が混生。"
+      ],
+      "limitations": "花形・葉序と個体境界不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "4187ef104224fdebe2dfb9f7fe7abd9efc1a9c9fc60c8fd6862a9003bc465ef2",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T10:07:07.162672+00:00"
+}

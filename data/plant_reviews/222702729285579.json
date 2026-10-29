@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "image_id": "222702729285579",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.099,
+        0.463,
+        0.459
+      ],
+      "label": "左の高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長い明色幹の上部に疎な広葉状樹冠、下部に濃緑木本が混在。"
+      ],
+      "limitations": "葉形・葉序・樹皮詳細と花果不足でEucalyptus等を保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Eucalyptus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.546,
+        0.037,
+        0.438,
+        0.501
+      ],
+      "label": "右の密な広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細かい葉が密な丸い樹冠と下層の低木。"
+      ],
+      "limitations": "全天球の継ぎ目の歪み・走行ぶれがあり個体や葉型を分けられない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.058,
+        0.498,
+        0.396,
+        0.115
+      ],
+      "label": "左下の羽状葉植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細長い葉が羽状に細かく分かれ放射状に広がる。"
+      ],
+      "limitations": "小羽片・胞子嚢群・葉柄鱗片が未解像でシダの科属は保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.581,
+        0.442,
+        0.38,
+        0.16
+      ],
+      "label": "右下の羽状葉植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "大きな羽状に分かれる緑葉が地面近くで重なる。"
+      ],
+      "limitations": "胞子嚢群と小羽片不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.431,
+        0.401,
+        0.087,
+        0.131
+      ],
+      "label": "中央奥の低い木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい丸い緑葉群と細幹が重なる。"
+      ],
+      "limitations": "葉序と花果は遠く不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "e318ad690565b8100150fe96d0ee59bb0fa3f88747538718a1cd24a3a124c9c4",
+  "source_size": [
+    1024,
+    512
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T10:05:30.370371+00:00"
+}

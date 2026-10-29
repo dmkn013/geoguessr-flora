@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "image_id": "498018351513245",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.188,
+        0.184,
+        0.293
+      ],
+      "label": "左の常緑針葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "直立した円錐から柱状樹冠、細枝に暗緑葉が密生。"
+      ],
+      "limitations": "針葉配列と球果が未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus spp.",
+        "Cupressus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.655,
+        0.299,
+        0.048,
+        0.203
+      ],
+      "label": "右中景の単独針葉樹",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い円錐形の樹冠に水平な段状枝があり葉群が垂れる。"
+      ],
+      "limitations": "針葉・葉枕・球果不明で属は保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea spp.",
+        "Abies spp.",
+        "Cedrus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.543,
+        0.354,
+        0.035,
+        0.083
+      ],
+      "label": "中央奥の針葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "尖った小さい樹冠と水平枝。"
+      ],
+      "limitations": "遠景で葉と球果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.419,
+        0.544,
+        0.241
+      ],
+      "label": "左の密な低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細かい小葉の丸い株が密に重なる。"
+      ],
+      "limitations": "葉序・刺・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.567,
+        0.386,
+        0.085,
+        0.095
+      ],
+      "label": "中央奥の広葉低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い緑葉群が重なる。"
+      ],
+      "limitations": "葉型・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.722,
+        0.351,
+        0.21,
+        0.164
+      ],
+      "label": "右奥の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "大きい丸い樹冠と密な緑葉、下枝が垂れる。"
+      ],
+      "limitations": "葉序・葉縁・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Salix spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0,
+        0.555,
+        0.472,
+        0.439
+      ],
+      "label": "左下の枯草群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "黄褐色の細い葉と直立茎。"
+      ],
+      "limitations": "生葉・花序・葉鞘不足。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0.584,
+        0.496,
+        0.416,
+        0.436
+      ],
+      "label": "右下の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "黄褐色の細い葉株と少量の緑葉。"
+      ],
+      "limitations": "花序・葉鞘不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "cb4ed603ae3cd22afc779b79a13fb8e1b8ded99858cb1674e68200cd5bb52f6b",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T10:14:15.951646+00:00"
+}

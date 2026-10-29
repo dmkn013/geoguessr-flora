@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "image_id": "2019135238983403",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.536,
+        0.192,
+        0.464,
+        0.502
+      ],
+      "label": "右の常緑針葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長い細葉が枝先にまとまり枝が水平に開く。"
+      ],
+      "limitations": "葉束数・葉鞘・球果未解像、マツ属候補。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.307,
+        0.087,
+        0.264
+      ],
+      "label": "左端の針葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "段状の枝に密な細い緑葉。"
+      ],
+      "limitations": "葉の付き方と球果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.287,
+        0.392,
+        0.127,
+        0.191
+      ],
+      "label": "左奥の尖った針葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い円錐形の樹冠に短い密な側枝。"
+      ],
+      "limitations": "葉枕・針葉断面・球果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea spp.",
+        "Abies spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.629,
+        0,
+        0.371,
+        0.66
+      ],
+      "label": "右の裸枝高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "暗い直幹から細枝が多く分岐。"
+      ],
+      "limitations": "葉・芽・花果が読めず科属保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.074,
+        0.335,
+        0.218,
+        0.253
+      ],
+      "label": "左の明色幹の裸枝木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い明色幹と細かな枝。"
+      ],
+      "limitations": "樹皮詳細・芽・葉形不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Betula spp.",
+        "Populus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.392,
+        0.452,
+        0.129,
+        0.149
+      ],
+      "label": "正面奥の低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い裸枝と常緑葉群が重なる。"
+      ],
+      "limitations": "遠景で個体と葉型を分離できない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "3b6febc490d4ad65ec8227ee5ba2d561ac067190becd2387160073561c69ac69",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T10:09:03.827996+00:00"
+}

@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "image_id": "4081788761901643",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.53,
+        0.448,
+        0.089,
+        0.213
+      ],
+      "label": "中央右の疎な高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "曲がる細い幹と長く垂れる細葉状の葉群。"
+      ],
+      "limitations": "葉の付き方・刺・花果が未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Balanites spp.",
+        "Vachellia spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.606,
+        0.506,
+        0.145,
+        0.151
+      ],
+      "label": "右の傘状木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い幹から水平に開く枝と平らな疎な小葉群。"
+      ],
+      "limitations": "複葉構成・刺・莢果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Vachellia spp.",
+        "Senegalia spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.463,
+        0.318,
+        0.225
+      ],
+      "label": "左の疎な木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "不規則な小樹冠と細い幹、小さい緑葉。"
+      ],
+      "limitations": "葉序・葉型・花果不明で個体分離を保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.335,
+        0.527,
+        0.187,
+        0.142
+      ],
+      "label": "中央の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸く疎な葉群と暗い細幹。"
+      ],
+      "limitations": "遠景で葉型・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.748,
+        0.562,
+        0.252,
+        0.102
+      ],
+      "label": "右奥の低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い裸枝と少量の緑葉が混在。"
+      ],
+      "limitations": "葉・芽・花果不足。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.376,
+        0.67,
+        0.624,
+        0.146
+      ],
+      "label": "右下の枯草低株群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い枯茎と短い灰褐色の株が散在。"
+      ],
+      "limitations": "生葉・花序不足。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0,
+        0.663,
+        0.235,
+        0.157
+      ],
+      "label": "左下の枯草低株群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い褐色茎と地際の短い株。"
+      ],
+      "limitations": "生葉・花序不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "63afc083f171671a0791322f0bd2d89ca547101a98673f3ce6bbdd978fe240f2",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T10:18:20.545822+00:00"
+}

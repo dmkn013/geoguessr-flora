@@ -1,0 +1,228 @@
+{
+  "schema_version": 1,
+  "image_id": "837172271238280",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.179,
+        0,
+        0.29,
+        0.561
+      ],
+      "label": "左中景の針葉高木",
+      "scope": "group",
+      "taxon": {
+        "name": "トウヒ属",
+        "scientific_name": "Picea",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "長い直幹、枝が段状に開き細い枝先が下垂、細葉が密生。"
+      ],
+      "limitations": "針葉断面・葉枕・球果不明で属暫定。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.501,
+        0,
+        0.499,
+        0.584
+      ],
+      "label": "右の針葉高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "トウヒ属",
+        "scientific_name": "Picea",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "段状に張る枝と垂れた細枝に短い緑葉が密に付く。"
+      ],
+      "limitations": "葉枕・葉断面・球果不明で属と種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0,
+        0.183,
+        0.645
+      ],
+      "label": "左端の暗い木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "暗い密な細枝と小さい緑葉群。"
+      ],
+      "limitations": "逆光で葉型・花果を判別できない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.438,
+        0,
+        0.211,
+        0.416
+      ],
+      "label": "中央上の明るい広葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "淡緑の小さい広葉群が細枝に並ぶ。"
+      ],
+      "limitations": "葉序・葉縁・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.598,
+        0.302,
+        0.402
+      ],
+      "label": "左手前の大型葉草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "大きい腎形から円形の緑葉、掌状の葉脈と波打つ不規則な葉縁、長い葉柄。"
+      ],
+      "limitations": "葉裏毛・葉柄着点・花序が見えずPetasitesや類似大型葉草本を保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Petasites spp.",
+        "Tussilago farfara"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.602,
+        0.42,
+        0.398,
+        0.285
+      ],
+      "label": "右斜面の羽状葉草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "羽状に細かく分かれる葉が株状に広がる。"
+      ],
+      "limitations": "小羽片・胞子嚢群不明でシダ科属保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.211,
+        0.487,
+        0.268,
+        0.295
+      ],
+      "label": "左縁の細葉草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細長い緑葉の株と小広葉草本。"
+      ],
+      "limitations": "花序・葉鞘と個体境界不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0.691,
+        0.688,
+        0.309,
+        0.312
+      ],
+      "label": "右手前の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細葉草本と低い小広葉の株が混生。"
+      ],
+      "limitations": "花序と葉序が不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "eca67e4e1e6f304a964a2d9d027a1731c0518cb62ca1a1b197e9f87d852de1d9",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T10:10:58.773208+00:00"
+}

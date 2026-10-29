@@ -1,0 +1,262 @@
+{
+  "schema_version": 1,
+  "image_id": "2879400978994248",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        0.247,
+        0.278
+      ],
+      "label": "左上の広葉木本断片",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な広葉樹冠と大きい葉が混在。"
+      ],
+      "limitations": "葉の所属と葉序・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.393,
+        0.054,
+        0.294,
+        0.332
+      ],
+      "label": "中央上の細葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い弓状枝に長い狭葉が密に並ぶ。"
+      ],
+      "limitations": "稈節・枝分岐・葉鞘不明で竹類等を候補に留める。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Bambusoideae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.566,
+        0.295,
+        0.434,
+        0.352
+      ],
+      "label": "右の生垣状低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい密な楕円葉の刈込群落、上端に黄緑葉。"
+      ],
+      "limitations": "葉序・葉縁・花果不足。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.157,
+        0.192,
+        0.378
+      ],
+      "label": "左斜面の大型細葉草本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長い剣状の緑葉が放射状の株と立茎に付く。"
+      ],
+      "limitations": "葉の付き方・葉鞘・花序不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Dracaena spp.",
+        "Cordyline spp.",
+        "Poaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.294,
+        0.318,
+        0.081,
+        0.092
+      ],
+      "label": "中央奥の大型広葉草本断片",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長い緑の葉が立ち一部横裂する。"
+      ],
+      "limitations": "偽茎・葉柄基部・花果が隠れ科属確定不可。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Musa spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.447,
+        0.326,
+        0.044,
+        0.107
+      ],
+      "label": "中央の狭い木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直立軸に下垂する緑葉群。"
+      ],
+      "limitations": "葉序・葉縁と花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.182,
+        0.168,
+        0.224,
+        0.251
+      ],
+      "label": "左奥の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い小さい葉群と密な緑葉群が重なる。"
+      ],
+      "limitations": "葉の所属・葉序と花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0,
+        0.485,
+        0.311,
+        0.284
+      ],
+      "label": "左下の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い細葉と低い小広葉が斜面を覆う。"
+      ],
+      "limitations": "花序・葉鞘と個体境界不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p9",
+      "bbox": [
+        0,
+        0,
+        0.166,
+        0.242
+      ],
+      "label": "左上端の大型葉草本断片",
+      "scope": "group",
+      "taxon": {
+        "name": "バショウ科",
+        "scientific_name": "Musaceae",
+        "rank": "family"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "長い幅広い葉が大きい葉脈を持ち、葉縁が横に裂ける。"
+      ],
+      "limitations": "偽茎基部・葉柄・花果が画外で属種以下は保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Musa spp.",
+        "Ensete spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "4e2810cebb1c5ba76259f400ccf2bb7ce04704252984ea4cf317f23ba298b433",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T10:18:44.684597+00:00"
+}

@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "image_id": "500531147885107",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.506,
+        0.3,
+        0.494,
+        0.557
+      ],
+      "label": "右の白い幹の高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "カバノキ属",
+        "scientific_name": "Betula",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "白い樹皮に暗斑、細枝と小さい葉があり樹冠が疎。"
+      ],
+      "limitations": "葉形・鋸歯・果穂不明で種以下を保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Betula pendula",
+        "Betula pubescens"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.06,
+        0.304,
+        0.704
+      ],
+      "label": "左の細い高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "カバノキ属",
+        "scientific_name": "Betula",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "明色の幹と細かく分かれる枝に小さい葉が芽吹く。"
+      ],
+      "limitations": "葉縁・芽・果穂が不鮮明で属暫定。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.653,
+        0.643,
+        0.347,
+        0.247
+      ],
+      "label": "右手前の暗い低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "暗い細い多幹と細枝、小さい緑葉の芽吹き。"
+      ],
+      "limitations": "葉序・葉形・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.421,
+        0.63,
+        0.123,
+        0.196
+      ],
+      "label": "右中景の丸い低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細幹に丸い淡緑葉群がまとまる。"
+      ],
+      "limitations": "葉形・葉序と花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.409,
+        0.777,
+        0.591,
+        0.118
+      ],
+      "label": "右下の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "緑の細葉と枯れた茎が地表を覆う。"
+      ],
+      "limitations": "花序・葉鞘不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0,
+        0.764,
+        0.239,
+        0.108
+      ],
+      "label": "左下草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い草本の緑葉と枯葉。"
+      ],
+      "limitations": "形態解像不足で科属保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "09b0cc9c4997ae2c7cebd1e254aacf870ffb5920a7cefdfea8425fd8a67b5f13",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T10:07:07.066095+00:00"
+}
