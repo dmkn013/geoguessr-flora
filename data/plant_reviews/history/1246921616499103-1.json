@@ -1,0 +1,227 @@
+{
+  "schema_version": 1,
+  "image_id": "1246921616499103",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        0.545,
+        0.46
+      ],
+      "label": "左上の針葉高木",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "太い水平枝と枝先の長い針葉状束。"
+      ],
+      "limitations": "葉束数・葉鞘・球果不明、種以下保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.42,
+        0.427,
+        0.27,
+        0.353
+      ],
+      "label": "中央の傘状針葉高木",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "長い幹から太枝が分かれ、丸い冠に細葉束が密生。"
+      ],
+      "limitations": "Pinus pinea候補だが傘状冠だけでは確定不可。球果・葉束未確認。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.032,
+        0.405,
+        0.313,
+        0.379
+      ],
+      "label": "左の広葉高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い葉群が密な冠と細幹を作る。"
+      ],
+      "limitations": "葉縁・葉序・花果未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.659,
+        0.696,
+        0.066,
+        0.116
+      ],
+      "label": "右中景の若い針葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い水平枝に細葉がまとまる。"
+      ],
+      "limitations": "葉束・球果不足。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.754,
+        0.701,
+        0.076,
+        0.06
+      ],
+      "label": "右奥の高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い冠と幹が遠方にある。"
+      ],
+      "limitations": "遠景で葉形と個体境界不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.847,
+        0.666,
+        0.12,
+        0.139
+      ],
+      "label": "右端の広葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い枝に疎な小葉状群。"
+      ],
+      "limitations": "葉縁・葉序・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0,
+        0.706,
+        0.42,
+        0.086
+      ],
+      "label": "左奥の木本低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "複数の丸い冠と低い緑葉帯。"
+      ],
+      "limitations": "遠景・重なりで個体分離と葉形不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0.68,
+        0.753,
+        0.32,
+        0.118
+      ],
+      "label": "右手前の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "枯れた細い茎と短い灰緑葉。"
+      ],
+      "limitations": "花序・葉鞘不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "ba286ad62cb86c5dea844f1888b5dd8a12216b6388b70c8e35160d8e0a37ddaa",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T15:13:00.579864+00:00"
+}

@@ -1,0 +1,230 @@
+{
+  "schema_version": 1,
+  "image_id": "956088638522976",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.306,
+        0.431,
+        0.443,
+        0.238
+      ],
+      "label": "中央の大きい葉の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "バショウ属",
+        "scientific_name": "Musa",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "平行脈の大きな長楕円葉と強い中肋、縦裂する葉身、重なる葉鞘状基部。"
+      ],
+      "limitations": "花序・果房が見えずMusaの種・雑種・栽培品種を分離不可。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.521,
+        0.69,
+        0.265,
+        0.151
+      ],
+      "label": "右手前の黄色斑入り低木列",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い直立枝に黄緑の長楕円葉が密生。"
+      ],
+      "limitations": "葉序・花果不足。斑色だけで品種不可。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Codiaeum variegatum",
+        "Duranta erecta"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.533,
+        0.879,
+        0.224
+      ],
+      "label": "中段の紫色花状部を持つ草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直立茎、細長い緑葉、小さい紫色の花状部が散在。"
+      ],
+      "limitations": "花冠細部・葉序不足で属も保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Ruellia spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.565,
+        0,
+        0.317,
+        0.557
+      ],
+      "label": "右背景の広葉高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な垂下する葉群が丸い冠を形成。"
+      ],
+      "limitations": "葉が単葉か複葉か・花果未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.213,
+        0,
+        0.364,
+        0.578
+      ],
+      "label": "中央背景の広葉高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "分岐する幹と小葉状の密な緑葉。"
+      ],
+      "limitations": "重なりで葉全体・葉序・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0,
+        0,
+        0.214,
+        0.564
+      ],
+      "label": "左背景の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "明暗の細かな葉群と枝が重なる。"
+      ],
+      "limitations": "葉形・花果と個体境界不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0,
+        0.748,
+        0.503,
+        0.201
+      ],
+      "label": "手前の短い草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い細葉が地表を覆う。"
+      ],
+      "limitations": "花序・葉鞘不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0.963,
+        0.16,
+        0.037,
+        0.413
+      ],
+      "label": "右端の木本断片",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "緑葉群が画外へ続く。"
+      ],
+      "limitations": "大半が画外、葉形不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "f2d89b439ad754e15238235a97e217d7c3b24fdc95a8f202b05ea527b1da5620",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T15:13:22.189110+00:00"
+}

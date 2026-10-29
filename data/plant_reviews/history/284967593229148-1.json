@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "image_id": "284967593229148",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.487,
+        0.337,
+        0.248,
+        0.384
+      ],
+      "label": "中央の高い木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "多幹状の暗い幹と疎な細長い葉群、縦長の冠。"
+      ],
+      "limitations": "葉全体・葉序・花果がぼけて属不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.724,
+        0.475,
+        0.164,
+        0.197
+      ],
+      "label": "右の傘状木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹と広がる水平枝、小葉状群。"
+      ],
+      "limitations": "羽状複葉・刺・莢未確認。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Vachellia spp.",
+        "Senegalia spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.868,
+        0.436,
+        0.132,
+        0.195
+      ],
+      "label": "右端の高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "斜めの細幹と疎な冠。"
+      ],
+      "limitations": "葉形・花果・個体境界不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.319,
+        0.494,
+        0.15,
+        0.16
+      ],
+      "label": "左中景の丸い木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "黄緑葉群の平たい冠と暗い幹。"
+      ],
+      "limitations": "葉序・葉縁・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.528,
+        0.319,
+        0.161
+      ],
+      "label": "左奥の木本低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な小冠が複数重なる。"
+      ],
+      "limitations": "個体分離・葉型・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0,
+        0.646,
+        0.204,
+        0.354
+      ],
+      "label": "左手前の低木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細枝に楕円状の緑葉が疎につく。"
+      ],
+      "limitations": "葉序・葉縁・花果未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.096,
+        0.61,
+        0.904,
+        0.26
+      ],
+      "label": "手前の枯草群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "淡褐色の細長い茎葉が地面を覆う。"
+      ],
+      "limitations": "花序・葉鞘が不鮮明で種属不可。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "541f45e8b08d4412f5f8ab45f6a39ee43d93d8d89ed08fc29a8ed07f807a4762",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T15:15:23.937093+00:00"
+}

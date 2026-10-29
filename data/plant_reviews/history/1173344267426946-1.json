@@ -1,0 +1,203 @@
+{
+  "schema_version": 1,
+  "image_id": "1173344267426946",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.487,
+        0.418,
+        0.052,
+        0.063
+      ],
+      "label": "中央奥の若い針葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "枝先に細葉の束がまとまり小さい円錐形冠。"
+      ],
+      "limitations": "遠景で葉束数と球果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.536,
+        0.351,
+        0.185,
+        0.127
+      ],
+      "label": "中央右の色づいた木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "橙褐色の葉が残る冠と裸枝が細長く立つ。"
+      ],
+      "limitations": "葉形・芽・花果不明、葉色だけで種を決めない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.74,
+        0.401,
+        0.105,
+        0.112
+      ],
+      "label": "右の濃緑木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細長い直幹と密な円錐状樹冠。"
+      ],
+      "limitations": "葉配列・球果が遠く未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus spp.",
+        "Picea spp.",
+        "Abies spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.851,
+        0.441,
+        0.149,
+        0.092
+      ],
+      "label": "右奥の疎な木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い冠と細長い冠が遠く並ぶ。"
+      ],
+      "limitations": "葉型・花果と個体分離不可。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.483,
+        0.316,
+        0.043
+      ],
+      "label": "左奥の木本列",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細かい緑葉群が帯状に重なる。"
+      ],
+      "limitations": "遠景で葉形・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.035,
+        0.524,
+        0.256,
+        0.073
+      ],
+      "label": "左手前の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い細葉と枯れた細茎。"
+      ],
+      "limitations": "花序・葉鞘不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.543,
+        0.473,
+        0.457,
+        0.123
+      ],
+      "label": "右手前の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い緑葉と褐色の細葉株が混生。"
+      ],
+      "limitations": "花序と葉鞘不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "df41d37c5c60f0c54d5ab78995e94265a90003012074f30cf63c6a62006c5306",
+  "source_size": [
+    1024,
+    512
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T15:06:50.458191+00:00"
+}

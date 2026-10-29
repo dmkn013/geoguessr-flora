@@ -1,0 +1,230 @@
+{
+  "schema_version": 1,
+  "image_id": "780726589538852",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.031,
+        0,
+        0.367,
+        0.537
+      ],
+      "label": "左手前の広葉高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "太い斜幹と分岐枝に細長い葉群が垂れる。"
+      ],
+      "limitations": "葉全体・葉序・葉脈・花果未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Fraxinus spp.",
+        "Salix spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.461,
+        0,
+        0.353,
+        0.591
+      ],
+      "label": "右中央の広葉高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "直立幹から分岐し小葉状群が疎に並ぶ。"
+      ],
+      "limitations": "複葉か単葉かの全体像と花果不足。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Fraxinus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.74,
+        0,
+        0.26,
+        0.626
+      ],
+      "label": "右端の密な広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "光沢のある楕円状葉群が細枝に連なる。"
+      ],
+      "limitations": "葉序・葉縁・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.275,
+        0.494,
+        0.301
+      ],
+      "label": "左下層の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい緑葉と黄緑葉の複数冠。"
+      ],
+      "limitations": "重なりで個体境界と葉形不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.474,
+        0.385,
+        0.162,
+        0.167
+      ],
+      "label": "中央奥の丸い高木冠",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な丸い暗緑冠と斜枝。"
+      ],
+      "limitations": "遠景で葉と花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.54,
+        0.471,
+        0.182,
+        0.184
+      ],
+      "label": "右中景の低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細枝に小さい葉群が密生。"
+      ],
+      "limitations": "葉序・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0,
+        0.499,
+        0.471,
+        0.096
+      ],
+      "label": "左手前の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直立茎葉が密生。"
+      ],
+      "limitations": "花序・葉鞘不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0.552,
+        0.542,
+        0.448,
+        0.458
+      ],
+      "label": "右手前の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長い線形葉と細い茎が混生。"
+      ],
+      "limitations": "花序・葉鞘未解像、混生分離不可。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "f3feb040c618bc0d7ae7abea4b17bbe62f6be1ecfe6c323c1041ba3f9adf7114",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T15:16:36.162031+00:00"
+}

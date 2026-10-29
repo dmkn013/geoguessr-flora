@@ -1,0 +1,209 @@
+{
+  "schema_version": 1,
+  "image_id": "1360372974331535",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.178,
+        0,
+        0.207,
+        0.573
+      ],
+      "label": "左の水平枝の針葉高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "太い水平枝が段状に伸び細枝が垂れ、短い細葉が密な群。"
+      ],
+      "limitations": "短枝上の針葉束・球果・葉長が未解像で種と属を保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cedrus spp.",
+        "Picea spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.33,
+        0.25,
+        0.208,
+        0.403
+      ],
+      "label": "左中央の細葉高木",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "斜めの暗い幹と枝先の長い針葉状束、疎な冠。"
+      ],
+      "limitations": "葉束数・葉鞘・球果不足で種以下保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.572,
+        0.407,
+        0.047,
+        0.249
+      ],
+      "label": "右中央の細い柱状木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直立冠に密な細葉状群。"
+      ],
+      "limitations": "鱗葉か針葉か・球果不明で種・品種不可。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cupressus sempervirens",
+        "Cupressaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.55,
+        0.506,
+        0.027,
+        0.159
+      ],
+      "label": "中央奥の細い柱状木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "尖った細長い密な冠。"
+      ],
+      "limitations": "葉配列・球果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cupressus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.623,
+        0.455,
+        0.035,
+        0.087
+      ],
+      "label": "右奥の水平枝木本断片",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "尖った上部と短い水平枝に細かい葉。"
+      ],
+      "limitations": "遠景で葉型・球果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cedrus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.282,
+        0.558,
+        0.072,
+        0.146
+      ],
+      "label": "左の壁際の広葉低木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい光沢ある葉群が枝に密生。"
+      ],
+      "limitations": "葉序・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.949,
+        0.166,
+        0.051,
+        0.114
+      ],
+      "label": "右上端の木本断片",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細かい暗緑葉と短枝が画外へ続く。"
+      ],
+      "limitations": "葉形・花果・個体範囲不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "3fd1f25d053044ccff2779c7f05c59572a4e5c0adce07acf05a237084799f831",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T15:06:50.404870+00:00"
+}

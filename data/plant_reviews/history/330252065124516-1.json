@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "image_id": "330252065124516",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.248,
+        0.195,
+        0.49
+      ],
+      "label": "左手前の細葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "不規則な暗い幹と細枝、小さい葉が疎につく。"
+      ],
+      "limitations": "羽状複葉の細部・刺・莢が見えず属と種を保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Vachellia spp.",
+        "Senegalia spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.656,
+        0.398,
+        0.151,
+        0.269
+      ],
+      "label": "右の傘状木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "暗い直幹から水平枝が分岐し小さい葉群が平たい冠を作る。"
+      ],
+      "limitations": "傘状冠だけでは同定不可。刺・葉・莢不足。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Vachellia spp.",
+        "Senegalia spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.525,
+        0.541,
+        0.068,
+        0.12
+      ],
+      "label": "中央右奥の裸枝木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "疎な冠と細幹。"
+      ],
+      "limitations": "遠景で葉・刺・果実不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.575,
+        0.472,
+        0.151
+      ],
+      "label": "左奥の低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "裸枝と小さい灰緑葉群が帯状に重なる。"
+      ],
+      "limitations": "個体分離・葉型・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.768,
+        0.498,
+        0.232,
+        0.184
+      ],
+      "label": "右奥の低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "褐色の細枝と灰緑の疎な葉群。"
+      ],
+      "limitations": "葉序・花果不明、混生分離不可。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0,
+        0.64,
+        0.415,
+        0.315
+      ],
+      "label": "左手前の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "淡褐色の細い枯葉と短い株。"
+      ],
+      "limitations": "花序・葉鞘不足。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.595,
+        0.64,
+        0.405,
+        0.255
+      ],
+      "label": "右手前の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い枯れた細葉が疎に分布。"
+      ],
+      "limitations": "花序と葉鞘不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "413c18988b3c86e0164b4001cc69ae9e973f7097480d825747d0804671eceded",
+  "source_size": [
+    1024,
+    384
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T15:14:13.872700+00:00"
+}
