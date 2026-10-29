@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "image_id": "3047206348845931",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.064,
+        0.413,
+        0.369,
+        0.207
+      ],
+      "label": "左の扁平節の多肉植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "ウチワサボテン属",
+        "scientific_name": "Opuntia",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "楕円状の扁平な緑の節が連なり分岐する。"
+      ],
+      "limitations": "刺座・刺の数長・花果未解像でOpuntiaの種以下保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Opuntia ficus-indica"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.134,
+        0.217,
+        0.089,
+        0.277
+      ],
+      "label": "左奥の柱状針葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直立冠と密な暗緑の細葉状群。"
+      ],
+      "limitations": "葉配列・球果未確認、柱状冠だけで種品種不可。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cupressus sempervirens",
+        "Cupressaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.327,
+        0.186,
+        0.077,
+        0.288
+      ],
+      "label": "中央左奥の柱状木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "複数の細い尖頭冠が密集。"
+      ],
+      "limitations": "鱗葉配列・球果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cupressus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.227,
+        0.284,
+        0.049,
+        0.251
+      ],
+      "label": "左中央の柱状木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い尖った直立冠。"
+      ],
+      "limitations": "葉配列・球果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cupressus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.023,
+        0.202,
+        0.134,
+        0.433
+      ],
+      "label": "左端の草本低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い長葉と細い裸茎が混生。"
+      ],
+      "limitations": "花序・葉鞘・個体境界不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.534,
+        0,
+        0.466,
+        0.661
+      ],
+      "label": "右斜面の疎な草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い灰緑株と細い枯茎が点在。"
+      ],
+      "limitations": "遠景で葉形・花序不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.403,
+        0.429,
+        0.086,
+        0.083
+      ],
+      "label": "中央奥の低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい丸い灰緑冠。"
+      ],
+      "limitations": "葉形・花果未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "34d555304f6828acd0c0e0fb79eb4dba1cf10633879310f536722f84a68138dd",
+  "source_size": [
+    800,
+    480
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T15:41:15.416564+00:00"
+}

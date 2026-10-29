@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "image_id": "1010813580954305",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.294,
+        0.324,
+        0.113,
+        0.135
+      ],
+      "label": "左中央の羽状葉ヤシ",
+      "scope": "group",
+      "taxon": {
+        "name": "ナツメヤシ属",
+        "scientific_name": "Phoenix",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "短い幹の上に直立と弓状の羽状葉、密な硬い小葉が放射状に広がる。"
+      ],
+      "limitations": "ぼけで葉柄の刺・花序・果房が読めずPhoenixの種以下保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Phoenix dactylifera",
+        "Phoenix canariensis"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.368,
+        0.368,
+        0.104,
+        0.078
+      ],
+      "label": "左奥の低いヤシ状木本列",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "羽状に見える葉群の小冠が連続。"
+      ],
+      "limitations": "遠景で葉型・幹・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Phoenix spp.",
+        "Arecaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.272,
+        0.356,
+        0.072,
+        0.095
+      ],
+      "label": "左側の広葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "疎な細枝と小さい丸い葉群。"
+      ],
+      "limitations": "葉型・葉序・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.001,
+        0.436,
+        0.264,
+        0.042
+      ],
+      "label": "左奥の低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い灰緑葉群が点在。"
+      ],
+      "limitations": "遠景で葉形・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.489,
+        0.402,
+        0.511,
+        0.075
+      ],
+      "label": "右奥の低い木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "疎な小葉状冠が横に連なる。"
+      ],
+      "limitations": "遠景と逆光で葉型・個体分離不可。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "939bfc90ca51298371e34580f5a8cec330d86f6bdb8502f77caa14a25040ef98",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T15:32:03.164630+00:00"
+}

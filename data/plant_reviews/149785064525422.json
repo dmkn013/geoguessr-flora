@@ -1,0 +1,370 @@
+{
+  "schema_version": 1,
+  "image_id": "149785064525422",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.278,
+        0.139,
+        0.112,
+        0.365
+      ],
+      "label": "中央左の青緑針葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "トウヒ属",
+        "scientific_name": "Picea",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "密な円錐形冠と段状の枝、短い針葉状群が枝を覆う。"
+      ],
+      "limitations": "Picea pungens候補だが針葉の断面・枝への付き方・球果不明。青緑色だけで種品種を決めない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea pungens"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.008,
+        0.131,
+        0.18,
+        0.382
+      ],
+      "label": "左端の密な常緑木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な暗緑葉群と分岐幹。"
+      ],
+      "limitations": "葉が鱗葉か針葉か・球果未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Taxus spp.",
+        "Thuja spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0,
+        0.303,
+        0.471
+      ],
+      "label": "左上の裸枝高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "太い直幹から多数の裸枝が広がる。"
+      ],
+      "limitations": "葉・芽・花果未確認。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.736,
+        0.132,
+        0.051,
+        0.28
+      ],
+      "label": "右の柱状常緑木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直立冠と密な暗緑細葉状群。"
+      ],
+      "limitations": "葉配列・球果不明、樹形から品種不可。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Thuja spp.",
+        "Chamaecyparis spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.609,
+        0.203,
+        0.081,
+        0.221
+      ],
+      "label": "右奥の針葉高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "尖った冠と水平枝。"
+      ],
+      "limitations": "遠景で葉配列・球果不足。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea spp.",
+        "Abies spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.441,
+        0.188,
+        0.043,
+        0.094
+      ],
+      "label": "中央奥の裸枝針葉状木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "主軸から水平の細枝が段状に出る。"
+      ],
+      "limitations": "葉・球果が見えずLarix等の分離不可。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Larix spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.486,
+        0.159,
+        0.066,
+        0.195
+      ],
+      "label": "中央奥の落葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細幹と密な裸枝。"
+      ],
+      "limitations": "葉・芽・果実不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0.794,
+        0.002,
+        0.101,
+        0.328
+      ],
+      "label": "右上の落葉高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細枝の多い裸の冠。"
+      ],
+      "limitations": "葉・芽・花果不足。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p9",
+      "bbox": [
+        0.899,
+        0.274,
+        0.101,
+        0.183
+      ],
+      "label": "右手前の低い常緑木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "横に広がる枝に密な細葉状群。"
+      ],
+      "limitations": "葉配列・球果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Juniperus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p10",
+      "bbox": [
+        0,
+        0.478,
+        0.207,
+        0.155
+      ],
+      "label": "左手前の刈込低木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "褐色の短い枝が密な壁状株。"
+      ],
+      "limitations": "落葉で葉・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p11",
+      "bbox": [
+        0.285,
+        0.473,
+        0.141,
+        0.063
+      ],
+      "label": "中央左の低木列",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い褐色枝が連なる。"
+      ],
+      "limitations": "葉・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p12",
+      "bbox": [
+        0.205,
+        0.48,
+        0.084,
+        0.085
+      ],
+      "label": "左中景の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い緑葉が地表を覆う。"
+      ],
+      "limitations": "花序・葉鞘不足。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p13",
+      "bbox": [
+        0.647,
+        0.468,
+        0.353,
+        0.128
+      ],
+      "label": "右手前の短い草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "緑葉が低く地表を覆う。"
+      ],
+      "limitations": "花序・葉鞘不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "06c36e27635bf6256c7e5ac6b48205920ebf553bddbe4c5c679d1f97c39f64f2",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T15:35:43.733430+00:00"
+}

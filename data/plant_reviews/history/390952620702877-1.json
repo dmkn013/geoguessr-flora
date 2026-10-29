@@ -1,0 +1,237 @@
+{
+  "schema_version": 1,
+  "image_id": "390952620702877",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.029,
+        0.236,
+        0.531
+      ],
+      "label": "左手前の針葉高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "トウヒ属",
+        "scientific_name": "Picea",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "細長い円錐形冠、短い水平枝と密な短針葉状群。"
+      ],
+      "limitations": "球果・針葉断面・葉の付き方未解像、種以下保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.223,
+        0.247,
+        0.143,
+        0.267
+      ],
+      "label": "左中景の小さい針葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い主軸と尖った冠。"
+      ],
+      "limitations": "遠景で針葉配列と球果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea spp.",
+        "Abies spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.657,
+        0.169,
+        0.101,
+        0.359
+      ],
+      "label": "右中央の疎な針葉状高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直幹と疎な水平短枝、黄緑の微細葉群。"
+      ],
+      "limitations": "短枝上の針葉束・球果不足、Larixか他の針葉木本か保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Larix spp.",
+        "Picea spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.857,
+        0.082,
+        0.129,
+        0.512
+      ],
+      "label": "右端の疎な針葉状高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "直幹から短い水平枝と淡い細葉群が出る。"
+      ],
+      "limitations": "葉束・葉序・球果未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Larix spp.",
+        "Picea spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.409,
+        0.214,
+        0.591,
+        0.334
+      ],
+      "label": "右背景の針葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な細い円錐形冠が連続する。"
+      ],
+      "limitations": "個体分離・針葉配列・球果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea spp.",
+        "Abies spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.525,
+        0.409,
+        0.475,
+        0.346
+      ],
+      "label": "右下層の木本草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "若い針葉状株と小さい広葉群・細い枯茎が混生。"
+      ],
+      "limitations": "個体境界・葉配列・花序不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0,
+        0.393,
+        0.093,
+        0.195
+      ],
+      "label": "左端の広葉低木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い小葉状群と細い枝。"
+      ],
+      "limitations": "葉序・葉縁・花果未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0.434,
+        0.514,
+        0.193,
+        0.084
+      ],
+      "label": "右中景の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い細葉と細い枯茎。"
+      ],
+      "limitations": "花序・葉鞘不足。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "cc99beb70756ae30b64ad10a241b7c6660b7b90cf722db0a50f2ec0756809e6e",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T15:35:08.525219+00:00"
+}
