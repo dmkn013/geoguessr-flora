@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "image_id": "1200204767388869",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.356,
+        0.708,
+        0.045,
+        0.203
+      ],
+      "label": "左の高い掌状葉ヤシ",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "細い単幹頂に扇状の裂葉が球状に集まる。"
+      ],
+      "limitations": "葉柄基部・葉縁の刺・花果が未解像で属・種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Sabal palmetto",
+        "Washingtonia spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.732,
+        0.766,
+        0.057,
+        0.108
+      ],
+      "label": "右の低い掌状葉ヤシ",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "粗い葉基部の幹頂に掌状葉の丸い冠。"
+      ],
+      "limitations": "葉柄基部・葉縁の刺・花果が未解像で属・種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Sabal palmetto",
+        "Sabal spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.751,
+        0.357,
+        0.193
+      ],
+      "label": "左の低い広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい楕円状の緑葉が密に枝につく。"
+      ],
+      "limitations": "葉序・花果と葉裏が未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.795,
+        0.752,
+        0.205,
+        0.117
+      ],
+      "label": "右奥の低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい緑葉と細枝が低く連なる。"
+      ],
+      "limitations": "葉型・個体境界不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.541,
+        0.846,
+        0.459,
+        0.154
+      ],
+      "label": "右手前の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い細い緑葉が地面を覆う。"
+      ],
+      "limitations": "花序・葉鞘不足。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0,
+        0.889,
+        0.322,
+        0.111
+      ],
+      "label": "左下の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い細葉状の緑葉と枯茎。"
+      ],
+      "limitations": "花序がなく科属保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "981fd3627117bb86bc424ae8d6591a0bf2cad0827560b5a9b529204651699050",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T09:38:57.283071+00:00"
+}

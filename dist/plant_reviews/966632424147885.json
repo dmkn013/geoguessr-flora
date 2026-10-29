@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "image_id": "966632424147885",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.668,
+        0,
+        0.117,
+        0.697
+      ],
+      "label": "右手前の裸枝高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "灰色で比較的滑らかな太幹、枝が横に伸びて先で細かく分枝。"
+      ],
+      "limitations": "葉・芽・実と樹皮細部が不足しFagus等を確定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Fagus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0,
+        0.423,
+        0.749
+      ],
+      "label": "左の裸枝広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "多数の直立灰色幹と細かい裸枝が重なる。"
+      ],
+      "limitations": "葉・芽・花果がなく樹形だけで属を決めない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.458,
+        0,
+        0.198,
+        0.537
+      ],
+      "label": "中央上の裸枝木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "明るい幹と細い枝が疎に広がる。"
+      ],
+      "limitations": "葉と芽・果実の接写が不足。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.775,
+        0,
+        0.225,
+        0.39
+      ],
+      "label": "右上の針葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長い細幹上部に密な針葉状の樹冠と横枝がある。"
+      ],
+      "limitations": "葉の束数と付着・球果不足。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus spp.",
+        "Picea spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.016,
+        0.62,
+        0.296,
+        0.287
+      ],
+      "label": "左下の緑色植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い緑葉と小さい広葉が地表に点在。"
+      ],
+      "limitations": "花序・胞子構造と葉形が読めない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.701,
+        0.81,
+        0.094,
+        0.115
+      ],
+      "label": "右下の枯れた羽状葉状植物",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "褐色の葉が細かい羽状片に分かれるように見える。"
+      ],
+      "limitations": "小羽片の付き方・胞子嚢群不明でシダの科属を確定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.345,
+        0.632,
+        0.113,
+        0.153
+      ],
+      "label": "中央下の低い緑色植物",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい緑色片が低く地表を覆う。"
+      ],
+      "limitations": "葉脈・胞子構造不明で草本とコケ類を分離できない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "aa41b33465e103ee093d7f31fdfb29ffb7f6a4ea8f66b090e7b68e3dabfb270a",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T09:44:50.166808+00:00"
+}

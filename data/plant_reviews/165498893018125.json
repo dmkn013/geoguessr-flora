@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "image_id": "165498893018125",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.425,
+        0.431,
+        0.064,
+        0.269
+      ],
+      "label": "中央の高い掌状葉ヤシ",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "長い直立単幹と大きく扇状に裂ける葉の球形樹冠。"
+      ],
+      "limitations": "葉柄基部・葉縁の刺・花果が未解像で属・種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Borassus flabellifer",
+        "Borassus aethiopum"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.277,
+        0.463,
+        0.083,
+        0.233
+      ],
+      "label": "左中央の掌状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "大きな扇状葉が密な丸い樹冠を形成。"
+      ],
+      "limitations": "葉柄基部・葉縁の刺・花果が未解像で属・種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Borassus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.674,
+        0.474,
+        0.083,
+        0.215
+      ],
+      "label": "右中景の掌状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "掌状に広がる葉の丸い密な冠。"
+      ],
+      "limitations": "葉柄基部・葉縁の刺・花果が未解像で属・種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Borassus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.551,
+        0.566,
+        0.108,
+        0.142
+      ],
+      "label": "中央右奥の羽状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "長い羽状葉が弓状に広がる。"
+      ],
+      "limitations": "葉柄基部・葉縁の刺・花果が未解像で属・種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera",
+        "Elaeis spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.477,
+        0.271,
+        0.231
+      ],
+      "label": "左の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な丸い緑樹冠と細い幹が混在。"
+      ],
+      "limitations": "逆光で葉序・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.785,
+        0.434,
+        0.215,
+        0.258
+      ],
+      "label": "右奥の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "大小の丸い樹冠が重なり一部縦長樹冠。"
+      ],
+      "limitations": "葉型と個体境界が不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.555,
+        0.672,
+        0.107,
+        0.13
+      ],
+      "label": "右手前の疎葉小木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細幹から細枝が分かれ小さい広葉が疎につく。"
+      ],
+      "limitations": "葉序と花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0.079,
+        0.691,
+        0.477,
+        0.149
+      ],
+      "label": "中央と左の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い細葉と枯茎が地表を覆う。"
+      ],
+      "limitations": "花序と個体境界不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p9",
+      "bbox": [
+        0.715,
+        0.696,
+        0.285,
+        0.113
+      ],
+      "label": "右下の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い緑葉と褐色の細茎。"
+      ],
+      "limitations": "花序と葉序不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "970f4d2eeefc81242aba2f4fed80575d6199462580bbee5d48b2d59e8e053894",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T09:38:57.232051+00:00"
+}

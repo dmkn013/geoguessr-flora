@@ -1,0 +1,211 @@
+{
+  "schema_version": 1,
+  "image_id": "294815312277584",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        0.282,
+        0.746
+      ],
+      "label": "左の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い灰色幹と黄色〜褐色の小さい楕円状葉が疎な枝につく。"
+      ],
+      "limitations": "色だけで同定せず、葉序・葉縁・芽と花果が読めないためFagus等は候補。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Fagus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.355,
+        0.149,
+        0.195,
+        0.602
+      ],
+      "label": "中央の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "明るい幹と細い横枝に緑〜褐色の広葉がつく。"
+      ],
+      "limitations": "葉の形と鋸歯・果実が未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Fagus spp.",
+        "Quercus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.599,
+        0,
+        0.281,
+        0.926
+      ],
+      "label": "右手前の太幹広葉高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "太い灰色幹に細かな縦割れと、赤褐色広葉の樹冠。"
+      ],
+      "limitations": "葉の裂片・葉序・果実が不鮮明でQuercus等を確定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Quercus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.129,
+        0,
+        0.241,
+        0.645
+      ],
+      "label": "左奥の針葉高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "横枝の先に房状の緑色針状葉がある。"
+      ],
+      "limitations": "束数・葉鞘と球果不足。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.466,
+        0.346,
+        0.154,
+        0.412
+      ],
+      "label": "中央下の小型針葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "濃緑の尖る樹冠から細い横枝が段状に出る。"
+      ],
+      "limitations": "針葉付着・葉裏・球果不明でPicea/Abiesを区別できない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea spp.",
+        "Abies spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.873,
+        0,
+        0.127,
+        0.96
+      ],
+      "label": "右端奥の混合木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "広葉状樹冠と針葉状の濃緑枝葉が重なる。"
+      ],
+      "limitations": "個体と葉の所属が暗部で分離できない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0,
+        0.614,
+        0.301,
+        0.227
+      ],
+      "label": "左下の低い広葉植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "暗緑の小さい葉と細い茎が点在する。"
+      ],
+      "limitations": "花果と葉序が暗く読めない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "4eb3bb0142fe40b04b13b45f7552b9a40b1bdf2ffbb55e7cbc842c7b004a2700",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T09:47:48.757660+00:00"
+}

@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "image_id": "193645869248043",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.45,
+        0,
+        0.55,
+        0.627
+      ],
+      "label": "右の高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長い直立幹と、細長い下垂する葉が密な樹冠。幹には明暗の樹皮斑。"
+      ],
+      "limitations": "葉序・樹皮剥離・花果不足でEucalyptus/Corymbiaを区別できず種以下保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Eucalyptus spp.",
+        "Corymbia spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.642,
+        0.286,
+        0.118
+      ],
+      "label": "左の低い広葉草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "地表近くに幅広い緑葉の密な群落。"
+      ],
+      "limitations": "葉の基部・葉序・花果は未解像、背景から作物を推定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.473,
+        0.602,
+        0.527,
+        0.303
+      ],
+      "label": "右下の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い細葉と小さい広葉が混生し、枯れ枝も点在。"
+      ],
+      "limitations": "花序と個体境界不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.714,
+        0.29,
+        0.128
+      ],
+      "label": "左下の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色の細葉と枯れた茎葉。"
+      ],
+      "limitations": "花序・葉鞘不足。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "f8c04bb467557783f3a4f45e5e21b45149372abfba1cbd52d045569cd5f81a39",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T09:33:35.515645+00:00"
+}

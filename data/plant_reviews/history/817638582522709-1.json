@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "image_id": "817638582522709",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.525,
+        0,
+        0.475,
+        0.615
+      ],
+      "label": "右の針葉高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "トウヒ属",
+        "scientific_name": "Picea",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "直立幹と尖る円錐樹冠、横枝が密に段状に伸びる。"
+      ],
+      "limitations": "針葉付着と葉裏・球果不足でAbies等との鑑別と種以下保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea spp.",
+        "Abies spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.518,
+        0,
+        0.366,
+        0.583
+      ],
+      "label": "右手前の裸枝広葉高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "太い直立幹から横枝が広がり、葉のない細枝が多数。"
+      ],
+      "limitations": "葉・芽・樹皮の詳細不足で属不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0,
+        0.327,
+        0.44
+      ],
+      "label": "左の裸枝・疎葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "複数の細幹と密な細枝、一部淡色葉群。"
+      ],
+      "limitations": "葉と芽・花果が不鮮明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.44,
+        0.145,
+        0.089,
+        0.349
+      ],
+      "label": "中央の裸枝細幹木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "明るい直立幹と細かい枝の卵形樹冠。"
+      ],
+      "limitations": "樹皮・葉・果穂不明でBetula/Populus等保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Betula spp.",
+        "Populus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.337,
+        0.337,
+        0.102,
+        0.162
+      ],
+      "label": "正面奥の混合木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "尖る針葉状樹冠と低い疎葉木本が混生。"
+      ],
+      "limitations": "遠景で個別同定不可。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0,
+        0.458,
+        0.332,
+        0.187
+      ],
+      "label": "左下の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い緑葉と枯茎が地表に密生。"
+      ],
+      "limitations": "花序・葉序が不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.527,
+        0.508,
+        0.473,
+        0.273
+      ],
+      "label": "右下の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細葉状の緑葉と小さい広葉、淡色花状斑が少数。"
+      ],
+      "limitations": "花冠構造・葉鞘不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "cbf0e284046e8703fbcf6af4491e249b8521b5260d4ef24049cc52c8651a7601",
+  "source_size": [
+    1023,
+    764
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T09:38:02.517452+00:00"
+}

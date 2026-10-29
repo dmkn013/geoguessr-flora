@@ -40,3 +40,7 @@
 {"start5": 59.0, "end5": 63.0, "start_weekly": 36.0, "end_weekly": 37.0, "minutes": 3.92, "complete": 4, "recorded_at": "2026-10-29T05:43:26.648180+00:00"}
 {"start5": 63.0, "end5": 66.0, "start_weekly": 37.0, "end_weekly": 37.0, "minutes": 3.05, "complete": 2, "recorded_at": "2026-10-29T05:46:31.310210+00:00"}
 {"start5": 66.0, "end5": 69.0, "start_weekly": 37.0, "end_weekly": 38.0, "minutes": 2.43, "complete": 1, "recorded_at": "2026-10-29T05:49:20.448128+00:00"}
+{"start5": 0.0, "end5": 4.0, "start_weekly": 40.0, "end_weekly": 41.0, "minutes": 4.22, "complete": 4, "recorded_at": "2026-10-29T09:34:07.199331+00:00"}
+{"start5": 4.0, "end5": 10.0, "start_weekly": 41.0, "end_weekly": 42.0, "minutes": 5.37, "complete": 4, "recorded_at": "2026-10-29T09:39:29.832835+00:00"}
+{"start5": 10.0, "end5": 15.0, "start_weekly": 42.0, "end_weekly": 43.0, "minutes": 5.88, "complete": 4, "recorded_at": "2026-10-29T09:45:22.266785+00:00"}
+{"start5": 15.0, "end5": 19.0, "start_weekly": 43.0, "end_weekly": 43.0, "minutes": 3.03, "complete": 2, "recorded_at": "2026-10-29T09:48:47.687699+00:00"}

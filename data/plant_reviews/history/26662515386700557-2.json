@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "image_id": "26662515386700557",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.467,
+        0,
+        0.191,
+        0.964
+      ],
+      "label": "中央の偽茎状軸の大型植物",
+      "scope": "group",
+      "taxon": {
+        "name": "バショウ科",
+        "scientific_name": "Musaceae",
+        "rank": "family"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "太い軸を枯れた葉鞘状の薄片が包み、上方に大きく裂ける長い葉片がある。"
+      ],
+      "limitations": "上部の生葉と軸の接続、花果が隠れMusa/Enseteの属と種以下保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Musa spp.",
+        "Ensete spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0,
+        0.424,
+        0.431
+      ],
+      "label": "左の光沢広葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "先の尖る楕円葉に目立つ側脈があり、縁が軽く波打つ。枝上で向き合う葉対に見える。"
+      ],
+      "limitations": "対生と托葉・花果が確認できずCoffea/Psychotria等を鑑別できない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Coffea spp.",
+        "Psychotria spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.031,
+        0.462,
+        0.219,
+        0.251
+      ],
+      "label": "左下の丸い広葉草本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "広い卵形の葉に波状〜鋸歯状の縁が見える。"
+      ],
+      "limitations": "葉序と花序・毛がぼけて科属不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.316,
+        0.427,
+        0.174,
+        0.338
+      ],
+      "label": "中央下の小葉草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い枝に小さな楕円状の明緑葉が多数つく。"
+      ],
+      "limitations": "葉序・花果と個体境界が未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.573,
+        0.239,
+        0.228,
+        0.363
+      ],
+      "label": "右中景の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長楕円形の緑葉と細い枝が重なる。"
+      ],
+      "limitations": "葉の所属・托葉・葉序と花果が隠れる。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.595,
+        0.388,
+        0.168,
+        0.487
+      ],
+      "label": "右下の草本・つる群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい明緑葉が細い茎に密につき斜面を覆う。"
+      ],
+      "limitations": "花序と葉序・種別境界が不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.643,
+        0,
+        0.357,
+        0.229
+      ],
+      "label": "右上端の大型広葉片",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "大きな平行脈状の緑葉が横裂し画面外へ続く。"
+      ],
+      "limitations": "花果と軸の接続不明、左の偽茎と同一個体と決めない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Musa spp.",
+        "Ensete spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0,
+        0.714,
+        0.46,
+        0.286
+      ],
+      "label": "左下の小型草本・つる群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい楕円状〜三裂状の緑葉が地表を覆う。"
+      ],
+      "limitations": "葉序と花果・個体境界が不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "d845ba331479e0ede84a61befa5b1cac21532558ca9a5c4b51f54466bc23766b",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T09:43:42.506121+00:00"
+}

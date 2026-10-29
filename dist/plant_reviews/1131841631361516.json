@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "image_id": "1131841631361516",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.369,
+        0.454,
+        0.023,
+        0.055
+      ],
+      "label": "左奥の単立木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "明るい幹頂に丸い疎な樹冠。"
+      ],
+      "limitations": "葉と樹皮の画素不足で広葉/針葉も保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.652,
+        0.513,
+        0.04,
+        0.091
+      ],
+      "label": "右の小さい針葉状木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "尖った円錐形で密な濃緑葉群。"
+      ],
+      "limitations": "鱗片葉/針葉と球果が読めずJuniperus等の属・種は候補。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Juniperus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.6,
+        0.475,
+        0.043,
+        0.073
+      ],
+      "label": "中央右奥の木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い尖る暗緑樹冠。"
+      ],
+      "limitations": "葉型と球果は遠景で不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.007,
+        0.468,
+        0.032,
+        0.055
+      ],
+      "label": "左端奥の木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい丸い濃緑樹冠。"
+      ],
+      "limitations": "葉形と個体境界不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.029,
+        0.463,
+        0.41,
+        0.151
+      ],
+      "label": "左の低木・草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い灰緑の丸い株と細い淡褐色茎が混生。"
+      ],
+      "limitations": "葉の毛・裂片・花序が読めずArtemisia等を保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Artemisia spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.551,
+        0.484,
+        0.41,
+        0.168
+      ],
+      "label": "右の低木・草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "灰色の低い株と明緑の細葉、褐色細枝が混生。"
+      ],
+      "limitations": "混生して葉型と花序・個体境界不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "4966700f9458874eed70aa92730ba49c8174cb2ce426c055b9ea467fa30e8bd4",
+  "source_size": [
+    1024,
+    512
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T09:33:35.571458+00:00"
+}
