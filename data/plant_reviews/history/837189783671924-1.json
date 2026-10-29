@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "image_id": "837189783671924",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.171,
+        0.26,
+        0.311
+      ],
+      "label": "左の針葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "細葉が枝先で束状にまとまり密な冠。"
+      ],
+      "limitations": "逆光とぶれで葉束数・球果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.466,
+        0.38,
+        0.194,
+        0.183
+      ],
+      "label": "中央奥の広葉高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "太い幹から広がる枝と丸い密な葉群。"
+      ],
+      "limitations": "砂塵・逆光で葉序・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.65,
+        0.419,
+        0.197,
+        0.177
+      ],
+      "label": "右の広葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "太い枝が水平に広がり小さい緑葉群。"
+      ],
+      "limitations": "葉序と複葉構成・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.274,
+        0.403,
+        0.104,
+        0.112
+      ],
+      "label": "左奥の明るい広葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細枝に丸い黄緑の葉冠。"
+      ],
+      "limitations": "葉型・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.845,
+        0.482,
+        0.155,
+        0.162
+      ],
+      "label": "右奥の低い木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい丸い緑葉群。"
+      ],
+      "limitations": "遠景と砂塵で葉型不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0,
+        0.466,
+        0.41,
+        0.187
+      ],
+      "label": "左下の長い草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細長い緑葉と立ち上がる茎の株。"
+      ],
+      "limitations": "葉鞘・花序不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.75,
+        0.562,
+        0.25,
+        0.152
+      ],
+      "label": "右下草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長い細葉と低い小葉株。"
+      ],
+      "limitations": "花序・葉序不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "23b84a067487c6df9e8f168cf3fa7c84ce8a735e904af7f59b50e0404e90968c",
+  "source_size": [
+    1024,
+    1024
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T10:42:02.770575+00:00"
+}

@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "image_id": "380297021470865",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.494,
+        0.347,
+        0.506,
+        0.312
+      ],
+      "label": "右の細長い葉の高木列",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "明色の長い幹に疎な細長い灰緑葉群、細枝が下垂。"
+      ],
+      "limitations": "葉序・葉脈・樹皮推移・花果不明でEucalyptus/Corymbiaを分離できない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Eucalyptus spp.",
+        "Corymbia spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.523,
+        0.414,
+        0.172
+      ],
+      "label": "左の高低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹に細長い葉群と丸い密な小葉冠が混在。"
+      ],
+      "limitations": "個体境界・葉序・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Eucalyptus spp.",
+        "Corymbia spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.612,
+        0.568,
+        0.094,
+        0.074
+      ],
+      "label": "右下層の丸い木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い密な暗緑葉冠。"
+      ],
+      "limitations": "葉形・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.474,
+        0.613,
+        0.526,
+        0.231
+      ],
+      "label": "右下の枯草低株群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い褐色茎と灰緑の小葉株が散在。"
+      ],
+      "limitations": "花序・葉鞘と葉序不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.647,
+        0.263,
+        0.086
+      ],
+      "label": "左下草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い細葉と褐色の細茎。"
+      ],
+      "limitations": "花序・葉鞘不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "df93c7300723ad08256adc4ee0e9aa096270c11c53cabacbf4efccf5dd2fdb56",
+  "source_size": [
+    1023,
+    765
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T10:39:16.082084+00:00"
+}

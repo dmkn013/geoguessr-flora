@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "image_id": "992047933084607",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.043,
+        0.565,
+        0.397,
+        0.202
+      ],
+      "label": "左手前の低い針葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "低く広がる多幹の枝先に細葉が束状に集まる。"
+      ],
+      "limitations": "葉束数・球果と葉鞘不明、低い樹形だけで種を決めない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus mugo",
+        "Pinus pumila"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.732,
+        0.301,
+        0.12,
+        0.311
+      ],
+      "label": "右の円錐形針葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "トウヒ属",
+        "scientific_name": "Picea",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "尖った樹冠に段状側枝と短く密な細葉。"
+      ],
+      "limitations": "葉枕・針葉断面・球果不明で属暫定。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.834,
+        0.414,
+        0.166,
+        0.107
+      ],
+      "label": "右奥の低い針葉群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい円錐形と丸い冠が点在。"
+      ],
+      "limitations": "遠景で葉束・葉配列不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus spp.",
+        "Picea spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.474,
+        0.073,
+        0.082
+      ],
+      "label": "左奥の針葉群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい密な円錐形樹冠。"
+      ],
+      "limitations": "葉配列と球果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.074,
+        0.481,
+        0.381,
+        0.103
+      ],
+      "label": "左遠景の木本列",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細かい円錐形や丸い冠が遠く並ぶ。"
+      ],
+      "limitations": "遠景で個体と葉型を分離できない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.526,
+        0.477,
+        0.205,
+        0.192
+      ],
+      "label": "中央右の低い木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "灰緑色の短い枝が低い密な株を作る。"
+      ],
+      "limitations": "葉配列・生葉・球果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.048,
+        0.738,
+        0.347,
+        0.134
+      ],
+      "label": "左下の枯草群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い褐色茎と短い葉が地表を覆う。"
+      ],
+      "limitations": "花序と生葉不足。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0.533,
+        0.588,
+        0.433,
+        0.252
+      ],
+      "label": "右斜面の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "黄褐色の細葉と低い灰緑株。"
+      ],
+      "limitations": "花序・葉形未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "7b49ebb63877cf3b8d00ed14c9c4eb47b2962e506061d5c3cd9885cc50904e46",
+  "source_size": [
+    1024,
+    512
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T10:42:02.664449+00:00"
+}

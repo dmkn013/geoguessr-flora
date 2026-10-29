@@ -1,0 +1,236 @@
+{
+  "schema_version": 1,
+  "image_id": "127649569839349",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.12,
+        0.116,
+        0.317,
+        0.48
+      ],
+      "label": "左中央の大きい広葉高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "太い暗い幹と広い丸い冠、広い倒卵状葉が枝先に重なる。"
+      ],
+      "limitations": "葉序・葉脈・花果と葉柄不明で種を保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Anacardium occidentale",
+        "Terminalia spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.318,
+        0,
+        0.365,
+        0.608
+      ],
+      "label": "中央の疎な複葉状高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い明色幹と細枝に小さい楕円状小葉が羽状に並ぶ。"
+      ],
+      "limitations": "複葉構成・葉序・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Azadirachta indica",
+        "Melia azedarach"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.805,
+        0.092,
+        0.195,
+        0.524
+      ],
+      "label": "右の密な細葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい狭い葉が密に付き、枝先が下垂する。"
+      ],
+      "limitations": "葉序・複葉構成・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Azadirachta indica",
+        "Mangifera indica"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.598,
+        0.27,
+        0.213,
+        0.336
+      ],
+      "label": "中央右の丸い広葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "広い葉が密な丸い樹冠を作る。"
+      ],
+      "limitations": "葉序・葉脈・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Anacardium occidentale"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.079,
+        0.16,
+        0.533
+      ],
+      "label": "左端の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "太い枝と大きい倒卵状葉が重なる。"
+      ],
+      "limitations": "葉柄・葉序と花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.116,
+        0.445,
+        0.161,
+        0.171
+      ],
+      "label": "左下層の裸枝低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い多幹から分岐する裸枝。"
+      ],
+      "limitations": "葉・芽・花果不足。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.538,
+        0.424,
+        0.102,
+        0.164
+      ],
+      "label": "中央下層の裸枝低木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い多幹と小さい疎な葉群。"
+      ],
+      "limitations": "葉序・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0,
+        0.569,
+        0.716,
+        0.085
+      ],
+      "label": "地表の枯れた草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い褐色茎と小さい低株が点在。"
+      ],
+      "limitations": "生葉・花序不足。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "ece19f203b72c06f08e8420b7b5967d1aa4f7e997d71a02452533b862468b232",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T10:46:02.579054+00:00"
+}

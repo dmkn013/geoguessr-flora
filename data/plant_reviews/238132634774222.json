@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "image_id": "238132634774222",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.414,
+        0.805,
+        0.586
+      ],
+      "label": "斜面の針葉・裸枝混生林",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直幹と尖った密な常緑冠、裸枝の段状側枝が混在。"
+      ],
+      "limitations": "遠景・逆光で針葉配列・球果と個体境界不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea spp.",
+        "Abies spp.",
+        "Larix spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.784,
+        0.078,
+        0.216,
+        0.922
+      ],
+      "label": "右手前の裸枝高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直幹から水平な細枝が段状に開く。"
+      ],
+      "limitations": "短枝・芽・球果が未解像で落葉針葉樹と枯死木を分離できない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Larix spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.633,
+        0.487,
+        0.141,
+        0.513
+      ],
+      "label": "右中景の裸枝高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直幹と疎な段状枝。"
+      ],
+      "limitations": "芽・短枝・球果が遠く不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Larix spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.528,
+        0.085,
+        0.394
+      ],
+      "label": "左端の裸枝木本断片",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "暗い直幹から細い水平枝が開く。"
+      ],
+      "limitations": "葉・芽・球果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.806,
+        0.718,
+        0.194,
+        0.282
+      ],
+      "label": "右下層の小さい針葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い円錐形冠が密に並ぶ。"
+      ],
+      "limitations": "葉配列・球果未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "b68b26a13aae3d3cf3b8cd36a9c8014a8e252b62425b49e5f5a2e2ebda538c60",
+  "source_size": [
+    1023,
+    682
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T10:47:17.733563+00:00"
+}

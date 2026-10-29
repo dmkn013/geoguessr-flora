@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "image_id": "476351703485531",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.099,
+        0.276,
+        0.422
+      ],
+      "label": "左の広い樹冠の高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "太枝が水平に開き細かい小葉群が段状の広い冠。"
+      ],
+      "limitations": "複葉の羽片数・花果・樹皮不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Samanea saman",
+        "Albizia spp.",
+        "Delonix regia"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.317,
+        0.236,
+        0.27,
+        0.335
+      ],
+      "label": "中央の横広い高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "太い多分岐枝と細かい小葉状葉が広い傘形冠。"
+      ],
+      "limitations": "逆光で複葉構成・花果が読めない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Samanea saman",
+        "Albizia spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.909,
+        0.262,
+        0.091,
+        0.274
+      ],
+      "label": "右端の広葉高木断片",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "横に開く太枝と細かい葉の密な冠。"
+      ],
+      "limitations": "画外と逆光で葉序・花果不足。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.336,
+        0.252,
+        0.032,
+        0.219
+      ],
+      "label": "中央左奥の羽状葉ヤシ",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "細い単幹頂から弓状の羽状葉が開く。"
+      ],
+      "limitations": "葉柄基部・刺・小葉詳細・花果不明で属種以下は保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.818,
+        0.463,
+        0.032,
+        0.054
+      ],
+      "label": "右奥の羽状葉断片",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "遠い幹頂に細長い羽状葉がある。"
+      ],
+      "limitations": "葉柄基部・刺・小葉詳細・花果不明で属種以下は保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.554,
+        0.464,
+        0.053,
+        0.09
+      ],
+      "label": "中央奥の大型葉草本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長い広い葉が立ち上がり一部横裂する。"
+      ],
+      "limitations": "偽茎・葉柄基部・花果が遠く不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Musa spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.606,
+        0.42,
+        0.077,
+        0.119
+      ],
+      "label": "中央右奥の広葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹の上に丸い葉群。"
+      ],
+      "limitations": "遠景で葉序・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0.04,
+        0.508,
+        0.381,
+        0.148
+      ],
+      "label": "左手前の長い草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長い細葉と直立茎が密生する。"
+      ],
+      "limitations": "葉鞘・節・花序不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Saccharum spp.",
+        "Poaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p9",
+      "bbox": [
+        0.57,
+        0.509,
+        0.324,
+        0.158
+      ],
+      "label": "右手前の長い草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な長い細葉と直立茎が群生。"
+      ],
+      "limitations": "節・葉鞘・花序不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Saccharum spp.",
+        "Poaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p10",
+      "bbox": [
+        0.092,
+        0.438,
+        0.247,
+        0.081
+      ],
+      "label": "左下層の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい緑葉の低い群落が高木下に重なる。"
+      ],
+      "limitations": "葉序・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "4597f4a2924b8433aecc3c0ad26105aedb9ed998cd60b6184e551a4921564a62",
+  "source_size": [
+    1024,
+    512
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T10:34:13.490219+00:00"
+}
