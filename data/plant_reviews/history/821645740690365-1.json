@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "image_id": "821645740690365",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.121,
+        0,
+        0.292,
+        0.638
+      ],
+      "label": "左側の輪生枝を持つ針葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "アラウカリア属",
+        "scientific_name": "Araucaria",
+        "rank": "genus"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "幹から枝が段状に輪生し、細枝に短い錐状葉が密につく。"
+      ],
+      "limitations": "Araucariaまで整合。枝先の葉型・球果・樹冠上部が不足しA.heterophylla/A.columnarisなどの区別や種以下は保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Araucaria heterophylla",
+        "Araucaria columnaris"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.444,
+        0,
+        0.124,
+        0.584
+      ],
+      "label": "中央の狭い輪生枝針葉樹",
+      "scope": "group",
+      "taxon": {
+        "name": "アラウカリア属",
+        "scientific_name": "Araucaria",
+        "rank": "genus"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "段状に輪生する枝と密な錐状葉の細枝が上へ狭い樹冠を作る。"
+      ],
+      "limitations": "Araucariaまで整合。球果・成木葉と幼葉の比較ができず種以下保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Araucaria heterophylla",
+        "Araucaria columnaris"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.552,
+        0.224,
+        0.177,
+        0.242
+      ],
+      "label": "中央奥の丸い針葉樹",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "枝先に針状葉群が房状にまとまり、樹冠が丸みを帯びる。"
+      ],
+      "limitations": "針葉の束数・葉鞘・球果が未解像でPinus暫定、種以下保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.367,
+        0.422,
+        0.578,
+        0.191
+      ],
+      "label": "中央から右の生垣・つる状植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さな緑色葉が密生し平たい面を作り、一部細い蔓状茎が見える。"
+      ],
+      "limitations": "剪定の輪郭は分類形質とせず個葉・花果が不足。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.101,
+        0.536,
+        0.118,
+        0.152
+      ],
+      "label": "左下の剣状葉草本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細長い剣状葉が株元から立ち上がり、一部黄色い縦筋状部が見える。"
+      ],
+      "limitations": "葉基部・葉断面・花が不明で斑入り品種を見た目だけで命名しない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.709,
+        0.533,
+        0.153,
+        0.064
+      ],
+      "label": "右下の赤い花状部を持つ低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さな赤い花/苞状部が緑葉群に点在する。"
+      ],
+      "limitations": "花と苞の区別や花構造・葉序が不明で属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.346,
+        0.566,
+        0.34,
+        0.092
+      ],
+      "label": "中央の地表草本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色葉群と細い茎が地表を覆う。"
+      ],
+      "limitations": "葉の輪郭・花果・小穂・葉鞘が不明で科属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "bfc495b1d3730dbf9849944b39427c17eae8beee0f5dbff7e31f49d532f9e2d6",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T02:39:36.388822+00:00"
+}

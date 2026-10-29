@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "image_id": "140962621304415",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.732,
+        0.163,
+        0.243,
+        0.577
+      ],
+      "label": "右手前の常緑状木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "円錐状～不規則な樹冠で、細かな葉群が枝先にまとまり、枝先が少し垂れる。"
+      ],
+      "limitations": "鱗片葉/針葉・葉裏模様・球果が解像できず、ヒノキ科やThuja等の候補を確定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cupressaceae",
+        "Thuja"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.148,
+        0.447,
+        0.109,
+        0.187
+      ],
+      "label": "左側の裸枝木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直立枝が多数分かれ葉はほぼ見えない。"
+      ],
+      "limitations": "芽・葉痕・樹皮細部・花果が不明、属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.539,
+        0.457,
+        0.198
+      ],
+      "label": "左側の低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い木本の細枝と小さな緑色葉群が密生する。"
+      ],
+      "limitations": "個葉・葉序・花果が不鮮明。複数種を含み得る。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.368,
+        0.514,
+        0.082,
+        0.132
+      ],
+      "label": "中央奥の丸い樹冠の木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細枝が丸くまとまり下垂するように見える。"
+      ],
+      "limitations": "遠景で葉・芽・花果が読めず、樹形だけでヤナギ類と断定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.565,
+        0.523,
+        0.044,
+        0.165
+      ],
+      "label": "右奥の円錐状木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さな細長い緑色樹冠が見える。"
+      ],
+      "limitations": "葉型と球果が見えず手前の木と同分類とはしない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0,
+        0.669,
+        0.299,
+        0.124
+      ],
+      "label": "左地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い緑色葉状部が密に地表を覆う。"
+      ],
+      "limitations": "花序・小穂・葉鞘が未解像で科属種を保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.6,
+        0.652,
+        0.4,
+        0.339
+      ],
+      "label": "右地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色葉群と細葉状部が連続する。"
+      ],
+      "limitations": "複数の草本が混在し個葉と花果が解像できない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "23dcf1049c10a9009d9dfdc49d53e4345f278a089e0f1b01b67b417f73cff1e6",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T02:32:25.035951+00:00"
+}

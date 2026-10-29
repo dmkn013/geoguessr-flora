@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "image_id": "163571272440298",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.277,
+        0.285,
+        0.723,
+        0.627
+      ],
+      "label": "針葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "トウヒ属",
+        "scientific_name": "Picea",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "三角形状樹冠に段状の枝が広がり、細い枝先がやや下垂して短い針状葉群を付ける。"
+      ],
+      "limitations": "Picea暫定。針葉の断面・付着の葉枕・球果が未解像でAbies/Tsugaとの完全な鑑別と種判定は保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Abies",
+        "Tsuga"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.556,
+        0.351,
+        0.327,
+        0.441
+      ],
+      "label": "白い裸枝高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "白い細い幹に暗い斑があり、細かい裸枝が高く伸びる。"
+      ],
+      "limitations": "Betula候補。葉・果穂・芽がなく幹の色だけで属種を確定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Betula"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.326,
+        0.723,
+        0.674,
+        0.253
+      ],
+      "label": "手前の細い裸枝低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "多数の細い直立茎が株元から立つ。"
+      ],
+      "limitations": "葉・芽・花果が読めず属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.352,
+        0.829,
+        0.424,
+        0.165
+      ],
+      "label": "地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色の葉群と細い茎が地表を覆う。"
+      ],
+      "limitations": "個葉・葉序・花果・小穂が不鮮明で複数種の区別も困難。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.664,
+        0.281,
+        0.151
+      ],
+      "label": "左奥の遠景木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "疎らな木本の細い樹冠が見える。"
+      ],
+      "limitations": "埃・遠景で葉型や樹皮を判別できない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "979fdfaf73e8ac28eda40eb49ec054de365cc6cc7dae6aaaf67047ec591aaf67",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T02:37:18.508579+00:00"
+}

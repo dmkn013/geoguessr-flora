@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "image_id": "1139968429842743",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.13,
+        0.312,
+        0.057,
+        0.19
+      ],
+      "label": "左側の高いヤシ",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "幹上部に長い羽状葉が放射状に広がり、葉軸に細い小葉が並ぶ。"
+      ],
+      "limitations": "遠景で小葉配列・葉柄基部・冠鞘・花果が不明。属種・品種は保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.16,
+        0.367,
+        0.043,
+        0.151
+      ],
+      "label": "左側の低いヤシ",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "幹上部に長い羽状葉が放射状に広がり、葉軸に細い小葉が並ぶ。"
+      ],
+      "limitations": "遠景で小葉配列・葉柄基部・冠鞘・花果が不明。属種・品種は保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.607,
+        0.405,
+        0.034,
+        0.085
+      ],
+      "label": "中央奥のヤシ",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "幹上部に長い羽状葉が放射状に広がり、葉軸に細い小葉が並ぶ。"
+      ],
+      "limitations": "遠景で小葉配列・葉柄基部・冠鞘・花果が不明。属種・品種は保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.806,
+        0.36,
+        0.194,
+        0.152
+      ],
+      "label": "右奥の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "不規則な丸い樹冠と緑色葉群が点在する。"
+      ],
+      "limitations": "遠景で葉序・葉縁・花果は見えない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.682,
+        0.466,
+        0.318,
+        0.059
+      ],
+      "label": "右下の低い植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色の葉群が帯状に続く。"
+      ],
+      "limitations": "花色や葉形が不鮮明、木本と草本の境界も不明で科属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.195,
+        0.449,
+        0.121,
+        0.083
+      ],
+      "label": "左奥の小さな木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹状部に小さな葉群がつく。"
+      ],
+      "limitations": "遠景と遮蔽で葉型・花果が不明、ヤシか広葉木本かも確定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "3a1757d95f5404c3593e5a7ffbf5f4802bdbb633d92410bb04ef1f8ae3f49907",
+  "source_size": [
+    1024,
+    577
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T02:30:28.281172+00:00"
+}

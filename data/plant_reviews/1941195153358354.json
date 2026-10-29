@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "image_id": "1941195153358354",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.583,
+        0.071,
+        0.252,
+        0.465
+      ],
+      "label": "中央右の高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "太い幹が上で大きく分枝し、細枝に小さな緑色葉状部が点在する。"
+      ],
+      "limitations": "葉は未展開/遠景で単葉複葉・葉縁・花果を判別できず、枝ぶりのみで属種を推測しない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.263,
+        0.25,
+        0.216,
+        0.297
+      ],
+      "label": "左中央の裸枝木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "裸枝状の細枝が多く直立し、幹が複数見える。"
+      ],
+      "limitations": "芽・葉・花果が解像できない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.256,
+        0.303,
+        0.096,
+        0.245
+      ],
+      "label": "左側の緑色広葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な緑色葉群をつける不規則な樹冠。"
+      ],
+      "limitations": "個葉・葉序・花果が不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.432,
+        0.315,
+        0.196,
+        0.185
+      ],
+      "label": "奥の斜面木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い緑色樹冠と明るい小さな葉群が連なる。"
+      ],
+      "limitations": "複数種の境界が重なり個葉と花果が読めない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.813,
+        0.454,
+        0.187,
+        0.169
+      ],
+      "label": "右下の低木・草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色葉群と裸枝の小木が混在する。"
+      ],
+      "limitations": "葉型・花果が不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.334,
+        0.524,
+        0.39,
+        0.086
+      ],
+      "label": "中央地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い細葉状の緑色群が地表を覆う。"
+      ],
+      "limitations": "個葉・花序・葉鞘が不鮮明。反射部分は対象に数えない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "69456008ffd7e16fb623763f3ec298d65fd35b51fbe834fe33aad3ca0c159f0c",
+  "source_size": [
+    1024,
+    512
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T02:33:11.093769+00:00"
+}

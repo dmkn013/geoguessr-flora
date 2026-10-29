@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "image_id": "1370020136922365",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.456,
+        0.258,
+        0.153,
+        0.378
+      ],
+      "label": "中央の密な針葉樹",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "枝先に針状葉群が房状にまとまり、樹冠が丸みを帯びる。"
+      ],
+      "limitations": "針葉の束数・葉鞘・球果が未解像でPinus暫定、種以下保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.577,
+        0.159,
+        0.153,
+        0.446
+      ],
+      "label": "中央右の疎らな針葉樹",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "直立幹に横枝が段状に広がり、短い細葉状の葉群が疎らに付く。"
+      ],
+      "limitations": "葉が短枝へ束生か単生か、球果形や葉裏が不明。Larix/Cedrus/Piceaの比較が未完了。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Larix",
+        "Cedrus",
+        "Picea"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.873,
+        0.322,
+        0.045,
+        0.217
+      ],
+      "label": "右奥の円錐状針葉樹",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "狭い円錐状樹冠に段状の枝が見える。"
+      ],
+      "limitations": "遠景で針葉付着・球果が不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea",
+        "Abies"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.364,
+        0.089,
+        0.203
+      ],
+      "label": "左端の丸い広葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い樹冠に緑～黄緑色の広葉状葉群が見える。"
+      ],
+      "limitations": "個葉の葉縁・葉序・花果が不鮮明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.71,
+        0.33,
+        0.094,
+        0.215
+      ],
+      "label": "中央右奥の黄葉状木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "明るい細葉状部が細い樹冠に付く。"
+      ],
+      "limitations": "葉形・葉序・樹皮・果実が不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.912,
+        0.407,
+        0.088,
+        0.146
+      ],
+      "label": "右端の裸枝木本と生垣",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "裸枝の小木と密な低い葉群が重なる。"
+      ],
+      "limitations": "葉や芽・花果が見えず科属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.352,
+        0.581,
+        0.389,
+        0.325
+      ],
+      "label": "中央の地表草本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色葉群と細い茎が地表を覆う。"
+      ],
+      "limitations": "葉の輪郭・花果・小穂・葉鞘が不明で科属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "6fd03c64e1847b2a30054bfa9c3c188b7d96fcf74e16a4ceaf92f41880dcf8b7",
+  "source_size": [
+    1024,
+    512
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T02:40:15.342136+00:00"
+}

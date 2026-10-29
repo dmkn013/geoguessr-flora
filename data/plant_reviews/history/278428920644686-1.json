@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "image_id": "278428920644686",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        0.558,
+        0.995
+      ],
+      "label": "左側の大きな平行脈葉を持つ植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "バショウ属",
+        "scientific_name": "Musa",
+        "rank": "genus"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "長い中肋と平行に走る側脈を持つ大きな葉が裂け、重なる葉鞘の偽茎から広がる。"
+      ],
+      "limitations": "Musaまでは形態が整合。花序・果房・苞・偽茎色の細部不足で種・交雑・栽培品種は保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.234,
+        0,
+        0.371,
+        0.444
+      ],
+      "label": "左上の細長い葉の高木",
+      "scope": "group",
+      "taxon": {
+        "name": "マンゴー属",
+        "scientific_name": "Mangifera",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "細長い全縁状の葉が枝先に集まる濃緑色樹冠。"
+      ],
+      "limitations": "Mangifera暫定。側脈・葉序・花果が不明で種や栽培品種は確定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Mangifera indica"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.179,
+        0.378,
+        0.426,
+        0.597
+      ],
+      "label": "左中央の垂れる葉の木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い枝先に下垂する薄緑～緑色の細長い葉群がある。"
+      ],
+      "limitations": "個葉・葉序・花果が不明で上の高木と同種とせず属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.539,
+        0.431,
+        0.257,
+        0.362
+      ],
+      "label": "中央奥の横に広がる木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細かく分枝した横長樹冠に小さな葉群がつく。"
+      ],
+      "limitations": "単葉/複葉の区別、花果・葉序が未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.766,
+        0.35,
+        0.234,
+        0.65
+      ],
+      "label": "右側の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸みのある広葉状葉群が密生する。"
+      ],
+      "limitations": "暗部と遠景で葉縁・葉序・花果が不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0,
+        0.798,
+        0.668,
+        0.202
+      ],
+      "label": "左地表の草本・低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さな葉群と細い茎が低い位置で混在する。"
+      ],
+      "limitations": "個体境界と花果が不明。大葉のバショウ群は別記済み。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "a6488ca99e4e574785338a8a52a3fb2792ef4853db1e252b6247435211c7d4c0",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T02:32:25.085189+00:00"
+}

@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "image_id": "2223595577774368",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        0.464,
+        0.622
+      ],
+      "label": "左側の針葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "トウヒ属",
+        "scientific_name": "Picea",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "狭い円錐状樹冠に段状横枝と下垂する細枝があり、短い針状葉群が密生する。"
+      ],
+      "limitations": "Picea暫定。葉枕・針葉断面・球果が読めずAbies/Tsugaとの鑑別と種以下を保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Abies",
+        "Tsuga"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.506,
+        0,
+        0.494,
+        0.658
+      ],
+      "label": "右側の暗い針葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "高い直立幹と段状の横枝が円錐形樹冠を作る。"
+      ],
+      "limitations": "暗部で葉の付着・断面・球果が読めず左側と同属同種と断定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea",
+        "Abies",
+        "Tsuga"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.282,
+        0.474,
+        0.116,
+        0.14
+      ],
+      "label": "左下の小型針葉樹",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "狭い三角形の樹冠に細かな葉群がつく。"
+      ],
+      "limitations": "針葉の付着・葉裏・球果が未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "549226d3c9625cf2e6929e56debfd74175683c4ba742e57982b0971083e7cf94",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T02:45:54.937177+00:00"
+}

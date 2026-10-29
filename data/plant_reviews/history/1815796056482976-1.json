@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "image_id": "1815796056482976",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.655,
+        0.511,
+        0.345,
+        0.181
+      ],
+      "label": "右側の羽状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "幹上端に長い羽状葉が放射状に広がり、葉軸の両側に細い小葉が並ぶ。"
+      ],
+      "limitations": "Cocos nucifera候補。葉柄基部・果実・花序と小葉配列の細部が不足し種や栽培品種は保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.24,
+        0.521,
+        0.138,
+        0.132
+      ],
+      "label": "中央左奥の羽状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "幹上端に長い羽状葉が放射状に広がり、葉軸の両側に細い小葉が並ぶ。"
+      ],
+      "limitations": "Cocos nucifera候補。葉柄基部・果実・花序と小葉配列の細部が不足し種や栽培品種は保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.54,
+        0.561,
+        0.119,
+        0.157
+      ],
+      "label": "中央右の広葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸く密な樹冠に広葉状の緑葉がつく。"
+      ],
+      "limitations": "個葉・葉序・花果が見えない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.558,
+        0.228,
+        0.12
+      ],
+      "label": "左手前の低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色葉群が建物手前に重なる。"
+      ],
+      "limitations": "葉の輪郭・花果が不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.669,
+        0.797,
+        0.331,
+        0.151
+      ],
+      "label": "右手前の地表草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い葉状部と低い緑色葉群が地表に連続する。"
+      ],
+      "limitations": "小穂・葉鞘・花果が見えず混生を単一種としない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "0411bac8d887d25bd484f721f874f12f8e3bd6aaaee65cf397519474d2a8b772",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T02:42:01.504419+00:00"
+}

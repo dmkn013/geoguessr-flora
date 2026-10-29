@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "image_id": "1110238983774725",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.263,
+        0,
+        0.323,
+        0.942
+      ],
+      "label": "中央の剥離樹皮と細長い葉の高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "幹に白～淡褐色の剥離状部分があり、細い枝から細長い葉が強く下垂する。"
+      ],
+      "limitations": "Eucalyptus/Corymbia候補。葉脈・葉序・蕾の蓋・花・蒴果がないため属確定と種・交雑品種を保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Eucalyptus",
+        "Corymbia"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0,
+        0.129,
+        0.882
+      ],
+      "label": "左端の細長い下垂葉の木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い葉が多数下垂し長い幹が見える。"
+      ],
+      "limitations": "画面端で葉基部や花果が不明、中央と同種とは断定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Eucalyptus",
+        "Corymbia"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.576,
+        0.674,
+        0.424,
+        0.274
+      ],
+      "label": "右側の細茎草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "直立する細い褐色茎と細かな緑色葉群が見える。"
+      ],
+      "limitations": "葉序・花・果実を識別できない。栽培/野生も場所から推定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.073,
+        0.664,
+        0.282,
+        0.23
+      ],
+      "label": "左奥の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い葉群と細い直立茎が連続する。"
+      ],
+      "limitations": "個葉・花序・果実が未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.048,
+        0.573,
+        0.952,
+        0.167
+      ],
+      "label": "遠景の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "濃緑色の丸い樹冠が帯状に続く。"
+      ],
+      "limitations": "遠景で個葉・花果は読めず単一種とはしない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "512e3b1ca9d6b5e5115f4b760fd9143475da480b38a057cf370662771674d3d4",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T02:40:15.390120+00:00"
+}

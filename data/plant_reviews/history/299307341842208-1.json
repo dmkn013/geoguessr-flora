@@ -1,0 +1,207 @@
+{
+  "schema_version": 1,
+  "image_id": "299307341842208",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.208,
+        0.144,
+        0.253,
+        0.477
+      ],
+      "label": "中央左の羽状葉ヤシ",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "幹上端に長い羽状葉が放射状に広がり、葉軸の両側に細い小葉が並ぶ。"
+      ],
+      "limitations": "Cocos nucifera候補。葉柄基部・果実・花序と小葉配列の細部が不足し種や栽培品種は保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.663,
+        0.351,
+        0.08,
+        0.188
+      ],
+      "label": "中央右奥のヤシ",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "幹上端に長い羽状葉が放射状に広がり、葉軸の両側に細い小葉が並ぶ。"
+      ],
+      "limitations": "Cocos nucifera候補。葉柄基部・果実・花序と小葉配列の細部が不足し種や栽培品種は保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.397,
+        0.177,
+        0.211
+      ],
+      "label": "左端の大葉草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "大きな平行脈状の葉が裂けて横へ広がり、葉鞘状の重なりが見える。"
+      ],
+      "limitations": "Musa候補。遠景で偽茎・葉脈の細部・花序・果房が不明、種以下保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Musa"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.91,
+        0.414,
+        0.09,
+        0.141
+      ],
+      "label": "右端の大葉草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長い大葉が上方へ広がる。"
+      ],
+      "limitations": "偽茎・葉基部・花果が見えず左側と同種とはしない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Musa"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.164,
+        0.424,
+        0.101,
+        0.14
+      ],
+      "label": "左奥の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い緑色樹冠が重なって見える。"
+      ],
+      "limitations": "葉型・葉序・花果は未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.299,
+        0.531,
+        0.448,
+        0.145
+      ],
+      "label": "中央地表の植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い葉状部と低い緑色葉群が地表に連続する。"
+      ],
+      "limitations": "小穂・葉鞘・花果が見えず混生を単一種としない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.844,
+        0.517,
+        0.066,
+        0.093
+      ],
+      "label": "右側の細葉状低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細く長い葉状部が株状に密集する。"
+      ],
+      "limitations": "葉の基部・縁・花序が不明で科属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "4773e4ab4420bafd3fe92de458c1e786f9919b5b6e9c498590c811da8ac61977",
+  "source_size": [
+    1024,
+    512
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T02:42:01.455572+00:00"
+}

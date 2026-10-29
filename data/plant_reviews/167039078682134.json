@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "image_id": "167039078682134",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.12,
+        0,
+        0.306,
+        0.39
+      ],
+      "label": "左側の大葉草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "バショウ属",
+        "scientific_name": "Musa",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "長い中肋と平行脈状の側脈を持つ大葉が裂け、葉鞘状の茎から広がる。"
+      ],
+      "limitations": "Musa暫定。偽茎の基部・花序・果房が隠れ、種・交雑・栽培品種を保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Musa"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.478,
+        0.087,
+        0.116,
+        0.267
+      ],
+      "label": "中央奥の針葉樹状木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "直立する円錐状樹冠で、細葉状の枝群が斜め上へ伸びる。"
+      ],
+      "limitations": "個葉・枝の輪生・球果が不明。Pinus/Araucariaなどの区別ができない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus",
+        "Araucaria"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.397,
+        0,
+        0.603,
+        0.27
+      ],
+      "label": "上部の広葉枝群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さな広葉状の葉が細枝に密生する。"
+      ],
+      "limitations": "逆光で葉序・葉縁・花果が不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.338,
+        0.137,
+        0.563,
+        0.252
+      ],
+      "label": "奥の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "不規則な丸い濃緑色樹冠が連なる。"
+      ],
+      "limitations": "個葉や花果が未解像、複数個体が重なる。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.253,
+        0.453,
+        0.542
+      ],
+      "label": "左手前の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色葉群と細い茎葉状部が混在する。"
+      ],
+      "limitations": "個葉・葉序・花果・小穂が不鮮明。混生群を単一種とはしない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.548,
+        0.281,
+        0.452,
+        0.503
+      ],
+      "label": "右側の低木・草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色葉群と細い茎葉状部が混在する。"
+      ],
+      "limitations": "個葉・葉序・花果・小穂が不鮮明。混生群を単一種とはしない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.879,
+        0,
+        0.121,
+        0.512
+      ],
+      "label": "右端の裂けた大葉群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "大きな葉身が中肋に沿って裂け、上方から画面へ伸びる。"
+      ],
+      "limitations": "偽茎・葉基部・花果が隠れMusa候補まで。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Musa"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0,
+        0,
+        0.12,
+        0.265
+      ],
+      "label": "左上の暗い木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細かな暗緑色の葉群と枝が見える。"
+      ],
+      "limitations": "暗部と遮蔽で葉型・花果を判別できない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "e8fc4c84196830189ba96149923fb38c302adcfb6a712ed37d3b7c9f09345f6a",
+  "source_size": [
+    1023,
+    576
+  ],
+  "revision": 3,
+  "reviewed_at": "2026-10-29T02:45:54.797934+00:00"
+}

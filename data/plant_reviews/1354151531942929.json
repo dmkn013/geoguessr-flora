@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "image_id": "1354151531942929",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.291,
+        0,
+        0.709,
+        0.92
+      ],
+      "label": "右側の針葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "段状の横枝に細かな短い針状葉群がつき、細い直立幹に灰褐色樹皮が見える。"
+      ],
+      "limitations": "手ぶれで針葉の付着・断面・裏面・球果が読めない。Abies/Picea/Tsugaなどの区別未完了。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Abies",
+        "Picea",
+        "Tsuga"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0,
+        0.24,
+        0.589
+      ],
+      "label": "左側の針葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "三角形状の樹冠と細かく垂れる枝が密生する。"
+      ],
+      "limitations": "葉の付着や球果が不明。樹冠形のみから属種を断定できない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea",
+        "Abies"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.191,
+        0.393,
+        0.095,
+        0.157
+      ],
+      "label": "左奥の裸枝木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い枝を持つ落葉状木本が見える。"
+      ],
+      "limitations": "芽・葉・花果が不明、属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.306,
+        0.559,
+        0.694,
+        0.428
+      ],
+      "label": "右下の林床植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "雪のない部分に小さな緑色葉群と褐色の細茎が散在する。"
+      ],
+      "limitations": "葉の輪郭・花果が未解像。落葉や枯枝と生植物の境界も一部不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "ed786994f19c7506c670dded154fb2edcd187fde67a26608bd034373c6fdd459",
+  "source_size": [
+    1024,
+    766
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T02:30:28.194245+00:00"
+}

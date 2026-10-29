@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "image_id": "1355727014804548",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.038,
+        0.633,
+        0.433,
+        0.241
+      ],
+      "label": "左側の芽吹き状低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い多数の枝が株元から立ち上がり、黄緑色の小さな葉/芽状部が密につく。"
+      ],
+      "limitations": "花と芽/葉の区別も解像不足。葉序・葉縁・花構造が不明でSalix等は形態候補のみ。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Salix"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.631,
+        0.476,
+        0.369,
+        0.464
+      ],
+      "label": "右側の低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "多数の細枝に黄緑色の小片が付き、上部枝が弓状に広がる。"
+      ],
+      "limitations": "個葉や花の細部を読めず左側と同種とは確定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.71,
+        0.182,
+        0.168
+      ],
+      "label": "左端の草本・細茎群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "地表から細い褐色茎が伸び、低い緑色葉群が混在する。"
+      ],
+      "limitations": "花序・節・葉基部は不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.455,
+        0.695,
+        0.202,
+        0.08
+      ],
+      "label": "奥の低い木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い低木状の輪郭が点在する。"
+      ],
+      "limitations": "遠景で葉や花果が見えず分類保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.574,
+        0.767,
+        0.242,
+        0.156
+      ],
+      "label": "右地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い緑色葉状部が地表を覆う。"
+      ],
+      "limitations": "小穂・葉鞘・花果が未解像で科属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "bd5eec43a4841e08bd6c19b8307c5f1fb8ec3c20a6566cf777c1e9e954d96bfd",
+  "source_size": [
+    1023,
+    749
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T02:32:25.134423+00:00"
+}

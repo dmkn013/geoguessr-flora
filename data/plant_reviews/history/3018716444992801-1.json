@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "image_id": "3018716444992801",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.321,
+        0.26,
+        0.175,
+        0.191
+      ],
+      "label": "中央奥の羽状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "太めの幹状部上端から羽状葉が密に放射状へ広がる。"
+      ],
+      "limitations": "Elaeis候補だが葉柄の刺・果房・小葉配列が未解像で属種を確定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Elaeis"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.192,
+        0,
+        0.217,
+        0.451
+      ],
+      "label": "左手前の広葉高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "灰白色の太い幹が大きく分枝し、上部に広葉状葉群がある。"
+      ],
+      "limitations": "手ぶれと画面外への切れで葉序・葉脈・花果が不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.389,
+        0,
+        0.303,
+        0.386
+      ],
+      "label": "中央奥の高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長い幹の上方に横に広がる丸い樹冠と細かな葉群がある。"
+      ],
+      "limitations": "個葉・単葉複葉・花果が読めず樹形だけで分類しない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.419,
+        0.399,
+        0.441
+      ],
+      "label": "左側の低木・草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色葉群と細い茎葉状部が混在する。"
+      ],
+      "limitations": "個葉・葉序・花果・小穂が不鮮明。混生群を単一種とはしない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.499,
+        0.301,
+        0.501,
+        0.699
+      ],
+      "label": "右側の低木・つる・草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色葉群と細い茎葉状部が混在する。"
+      ],
+      "limitations": "個葉・葉序・花果・小穂が不鮮明。混生群を単一種とはしない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.667,
+        0.085,
+        0.333,
+        0.328
+      ],
+      "label": "右上の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "広葉状の葉群が枝先にまとまる。"
+      ],
+      "limitations": "手ぶれで個葉・葉序・花果が未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "a97ae55a02f8e7f4b30ec8bdb65dddbbb129688a104bd44a7d369cbf8b9446ad",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T02:44:50.226060+00:00"
+}

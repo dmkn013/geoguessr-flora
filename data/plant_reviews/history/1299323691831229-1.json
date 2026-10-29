@@ -1,0 +1,201 @@
+{
+  "schema_version": 1,
+  "image_id": "1299323691831229",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.56,
+        0.249,
+        0.145,
+        0.295
+      ],
+      "label": "中央右の桃色花を付ける木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細長い緑色葉群の間に桃色の花状部が点在し、丸い樹冠を作る。"
+      ],
+      "limitations": "Nerium oleander候補。葉序と明瞭な五裂花冠・花筒を確認できず、他の細葉開花木本との鑑別未完了。品種は判断しない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Nerium oleander"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.779,
+        0.268,
+        0.221,
+        0.595
+      ],
+      "label": "右側の細葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細長い葉が細枝に密生し上へ伸びる。"
+      ],
+      "limitations": "葉序・葉脈・花果が見えず中央の開花木本と同種とは確定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.697,
+        0,
+        0.303,
+        0.294
+      ],
+      "label": "右上の広葉枝",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細長い広葉状の葉が枝先から下垂する。"
+      ],
+      "limitations": "葉序・側脈・花果が読めず科属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.494,
+        0,
+        0.174,
+        0.18
+      ],
+      "label": "上中央の複葉状枝",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い軸の両側に小さな小片が並ぶ羽状の輪郭が見える。"
+      ],
+      "limitations": "一回/二回羽状複葉・単葉の重なりの区別が不足。花・莢・托葉も不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.298,
+        0.294,
+        0.166,
+        0.353
+      ],
+      "label": "中央左の疎らな高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い分枝と小さな広葉状葉群が見える。"
+      ],
+      "limitations": "個葉形・葉序・花果は不鮮明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0,
+        0.453,
+        0.558,
+        0.204
+      ],
+      "label": "左奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さな緑色樹冠が連続し、細い枝が重なる。"
+      ],
+      "limitations": "遠景で個葉と花果を読めず複数種の境界も不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0,
+        0.617,
+        0.35,
+        0.23
+      ],
+      "label": "左手前の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色の葉群と細い茎が地表を覆う。"
+      ],
+      "limitations": "個葉・葉序・花果・小穂が不鮮明で複数種の区別も困難。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "34d3a4b9937d31e540940699be9b55ad85a6b5330a12de07485188592e99c9e1",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T02:37:18.451183+00:00"
+}

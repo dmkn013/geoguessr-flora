@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "image_id": "1217714556356907",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.562,
+        0,
+        0.438,
+        0.704
+      ],
+      "label": "右側の高い針葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "上方の幹が橙褐色で、横枝に長い針状葉群らしい房がつく。積雪で一部覆われる。"
+      ],
+      "limitations": "Pinus暫定。針葉の束数・葉鞘・球果が見えず、種・亜種・品種を確定できない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0,
+        0.494,
+        0.649
+      ],
+      "label": "左側の高い針葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "太い幹と横枝が高く伸び、細い葉群が枝先につく。"
+      ],
+      "limitations": "雪と重なりで葉の束・付着・球果が読めない。右側と同分類とは断定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus",
+        "Picea"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.249,
+        0.294,
+        0.475
+      ],
+      "label": "左下の小型針葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "円錐状の小木に細い枝が段状に広がる。"
+      ],
+      "limitations": "積雪が葉を覆い葉型・付着・球果を判別できない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea",
+        "Abies"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.663,
+        0.419,
+        0.337,
+        0.308
+      ],
+      "label": "右下の小木・低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い枝や小さな針葉状部が雪の間に見える。"
+      ],
+      "limitations": "雪の輪郭を植物形態として扱わない。個葉・芽・花果が不足し属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "e8678adffec072492f409580f9ce478975e6d093a34a3606f65f885218d0a7c0",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T02:35:34.226382+00:00"
+}

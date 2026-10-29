@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "image_id": "853778455252414",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.073,
+        0,
+        0.353,
+        0.746
+      ],
+      "label": "左側の高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "白～灰色の平滑状樹皮が帯状に剥離し、細長く下垂する葉群が見える。"
+      ],
+      "limitations": "Eucalyptus候補。葉脈・葉序・蕾の蓋・花・蒴果が読めず他のユーカリ類属との鑑別未完了。種以下は保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Eucalyptus",
+        "Corymbia"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.498,
+        0,
+        0.482,
+        0.826
+      ],
+      "label": "右側の高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い長幹に剥離状樹皮があり、上部に下垂する細長い葉群がまとまる。"
+      ],
+      "limitations": "個葉・芽・花果不足。左側と同種とは確定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Eucalyptus",
+        "Corymbia"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.116,
+        0.204,
+        0.677
+      ],
+      "label": "左側の小木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直立幹に細かな葉群が密につく。"
+      ],
+      "limitations": "暗部で葉の輪郭・花果が読めず樹皮だけで同定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.682,
+        0.46,
+        0.318,
+        0.358
+      ],
+      "label": "右奥の大葉草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "大きな長い葉身が中央の軸から広がり、一部葉が裂ける。"
+      ],
+      "limitations": "Musa候補だが遠景で偽茎・平行脈・花序・果房が十分に見えず確定を保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Musa"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.681,
+        0.258,
+        0.176
+      ],
+      "label": "左地表の植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色の葉群と細い茎が地表を覆う。"
+      ],
+      "limitations": "個葉・葉序・花果・小穂が不鮮明で複数種の区別も困難。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.7,
+        0.698,
+        0.3,
+        0.235
+      ],
+      "label": "右地表の植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色の葉群と細い茎が地表を覆う。"
+      ],
+      "limitations": "個葉・葉序・花果・小穂が不鮮明で複数種の区別も困難。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "671b884e1f820b4e754e61d0974ae52fe9e38e2c6ab8cf566aa9bf0f44b99915",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T02:37:55.639115+00:00"
+}

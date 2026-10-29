@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "image_id": "1873603922814302",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.128,
+        0.424,
+        0.584
+      ],
+      "label": "左手前の細枝木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "白～淡褐色の分枝幹に細い枝が多数つき、小さな緑色葉片状部が疎らに見える。"
+      ],
+      "limitations": "二回羽状複葉か単葉/小枝か判別不足。刺・葉柄腺・花序・莢がなくVachellia/Senegalia/Prosopis類の鑑別はできない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Vachellia",
+        "Senegalia",
+        "Prosopis"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.563,
+        0.202,
+        0.247,
+        0.392
+      ],
+      "label": "右手前の細長い下垂葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "白っぽい幹が細く分枝し、細長い葉状部が下垂する。"
+      ],
+      "limitations": "Eucalyptus/Corymbia候補。葉序・葉脈・花・蒴果が不足し属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Eucalyptus",
+        "Corymbia"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.323,
+        0.463,
+        0.111,
+        0.157
+      ],
+      "label": "左奥の低い細枝木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な細枝と小さな緑色葉群が見える。"
+      ],
+      "limitations": "個葉・刺・花果が未解像で手前と同分類とは確定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.49,
+        0.446,
+        0.158,
+        0.124
+      ],
+      "label": "中央奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さな丸い樹冠と細い幹が点在する。"
+      ],
+      "limitations": "遠景で葉型・花果を読めない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "26c3af660bc68d08422443f692bbc2c689f211dc9cf53b7615296a4cf9d9b2b4",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T02:44:50.176335+00:00"
+}
