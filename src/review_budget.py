@@ -23,12 +23,10 @@ def recommend(used5, weekly, hours5, hours_week, observations, idle_hours=1):
     minutes = times[math.ceil(len(times) * .9) - 1] * 1.25
     weekly_samples = [o for o in samples if 'start_weekly' in o and 'end_weekly' in o
                       and 0 < o['end_weekly'] - o['start_weekly'] < 80]
-    allowance5 = (70 - used5) / max(1, math.ceil(hours5))
-    # 1枚に届かない毎時予算を切り捨て続けない。最後の実作業から最大24時間分を繰越。
-    # 現在の残枠を上限にするため、他用途の消費やリセット後も残枠を超えない。
-    carry = max(1, min(24, idle_hours))
-    allowance_week = min(80 - weekly,
-                         (80 - weekly) / max(1, math.ceil(hours_week)) * carry)
+    # 期限優先。残量を将来の時間枠へ均等配分せず、今の残量から小バッチを計画する。
+    # 4枚ごとに実使用率を読み直し、20分の判定＋5分の保存検証以内で反復する。
+    allowance5 = 70 - used5
+    allowance_week = 80 - weekly
     # 両窓の%は分母が違う。週間窓はその窓の実測差分で独立に計算する。
     # 整数%の差分0は欠測として直近の正の差分を使い、無消費とはみなさない。
     # 全て0/未観測ならweek_countを1に制限して校正を続ける。
@@ -36,12 +34,12 @@ def recommend(used5, weekly, hours5, hours_week, observations, idle_hours=1):
                         for o in weekly_samples)
     week_cost = week_costs[math.ceil(len(week_costs) * .9) - 1] * 1.25 if week_costs else None
     week_count = math.floor(allowance_week / week_cost) if week_cost else 1
-    count = min(12, math.floor(allowance5 / cost), week_count, math.floor(20 / minutes))
+    count = min(4, math.floor(allowance5 / cost), week_count, math.floor(20 / minutes))
     return {'images': max(0, count), 'usage_points_per_image': round(cost, 4),
             'weekly_points_per_image': round(week_cost, 4) if week_cost else None,
             'minutes_per_image': round(minutes, 3), 'usage_points_this_run': round(allowance5, 3),
             'weekly_points_this_run': round(allowance_week, 3),
-            'reason': '5時間30%余力・週間20%余力を残し、残り毎時枠へ配分。4枚ごとに再確認'}
+            'reason': '5時間30%余力・週間20%余力を残し最大4枚。時間配分・繰越待機なし。完了後に再計画'}
 
 
 def main():

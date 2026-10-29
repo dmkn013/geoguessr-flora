@@ -17,7 +17,7 @@ from taxon_hierarchy import parent_names, summarize_tags
 
 RECORDS = DATA / 'plant_reviews'
 RAW = CANDIDATES.parent / 'random'
-DEADLINE = datetime.fromisoformat('2026-12-31T18:10:00+09:00')
+DEADLINE = datetime.fromisoformat('2026-11-12T10:10:00+09:00')
 RANKS = {'unknown', 'family', 'subfamily', 'genus', 'section', 'species_group',
          'species', 'subspecies', 'variety', 'form', 'cultivar', 'hybrid'}
 FINE = {'species', 'subspecies', 'variety', 'form', 'cultivar', 'hybrid'}
