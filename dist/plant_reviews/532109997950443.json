@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "image_id": "532109997950443",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.147,
+        0.276,
+        0.092,
+        0.244
+      ],
+      "label": "左側の狭い樹冠の高木",
+      "scope": "group",
+      "taxon": {
+        "name": "ポプラ属",
+        "scientific_name": "Populus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "直立した細い幹に上向きの枝が密につき、非常に狭い広葉状樹冠を作る。"
+      ],
+      "limitations": "Populus暫定。葉序・葉柄・鋸歯・葉基部・果穂が読めず種・交雑・品種は保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.506,
+        0.278,
+        0.224,
+        0.271
+      ],
+      "label": "右中央の大きな広葉高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い樹冠と長く垂れるような細枝・葉群が見える。"
+      ],
+      "limitations": "霧状の画質で個葉・葉序・花果が未解像。Salix/Populusは候補まで。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Salix",
+        "Populus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.615,
+        0.414,
+        0.385,
+        0.254
+      ],
+      "label": "右側の生垣・低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい緑色葉群が連続した面を作る。"
+      ],
+      "limitations": "葉縁・葉序・花果が読めず剪定形を同定根拠にしない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.491,
+        0.287,
+        0.104
+      ],
+      "label": "左側の低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色樹冠が連続する。"
+      ],
+      "limitations": "個葉と花果が不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.012,
+        0.608,
+        0.22,
+        0.076
+      ],
+      "label": "左地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い緑色葉状部と低い葉群が地表に混在する。"
+      ],
+      "limitations": "小穂・葉鞘・花構造・個葉が未解像で科属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.9,
+        0.181,
+        0.1,
+        0.43
+      ],
+      "label": "右端の広葉高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹と小さな緑色樹冠が見える。"
+      ],
+      "limitations": "遠景・遮蔽で個葉・葉序・花果が読めず同属同種とはしない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.339,
+        0.42,
+        0.169,
+        0.15
+      ],
+      "label": "中央奥の小さな木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹と小さな緑色樹冠が見える。"
+      ],
+      "limitations": "遠景・遮蔽で個葉・葉序・花果が読めず同属同種とはしない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "dc5eb307d013a0bce6e670e298dec5c6f7217b0edfcbad5cf5176903c4106897",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 3,
+  "reviewed_at": "2026-10-29T04:38:36.819520+00:00"
+}

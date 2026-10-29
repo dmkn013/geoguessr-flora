@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "image_id": "1481656935509749",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        0.27,
+        0.734
+      ],
+      "label": "左側の針葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "トウヒ属",
+        "scientific_name": "Picea",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "段状の横枝に短い針状葉群が密生し、細い枝先が下垂する。"
+      ],
+      "limitations": "Picea暫定。葉枕・針葉断面と裏面・球果が未解像でAbies/Tsugaとの鑑別と種以下保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Abies",
+        "Tsuga"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.5,
+        0,
+        0.5,
+        0.785
+      ],
+      "label": "右側の混合高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "濃緑色の針葉状葉群と幅広い葉群が重なる。"
+      ],
+      "limitations": "暗部で各枝の葉型・葉序・球果/花果が読めず一つの種としない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.238,
+        0.315,
+        0.251,
+        0.301
+      ],
+      "label": "中央奥の丸い広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "明るい緑色の小さな樹冠が連続する。"
+      ],
+      "limitations": "個葉・花果が未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.619,
+        0.412,
+        0.189
+      ],
+      "label": "左地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い茎葉状部と低い緑色葉群が地表に混在する。"
+      ],
+      "limitations": "個葉・小穂・葉基部・花果は未解像で科属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.475,
+        0.63,
+        0.525,
+        0.35
+      ],
+      "label": "右地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い茎葉状部と低い緑色葉群が地表に混在する。"
+      ],
+      "limitations": "個葉・小穂・葉基部・花果は未解像で科属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "355fc9720b3c2bbb5c7669216da57dd6fcac4907df0e92b3e2fe49cb5fa487d6",
+  "source_size": [
+    1024,
+    540
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T04:43:26.518493+00:00"
+}

@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "image_id": "1821811452076158",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.753,
+        0.356,
+        0.247,
+        0.202
+      ],
+      "label": "右側の羽状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "幹上部から長い羽状葉が放射状へ広がり、小葉が葉軸に沿って並ぶ。"
+      ],
+      "limitations": "Cocos nucifera候補。花果・葉柄基部・小葉配列の細部が不明で種と栽培品種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.211,
+        0.451,
+        0.098,
+        0.125
+      ],
+      "label": "左奥の羽状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "幹上部から長い羽状葉が放射状へ広がり、小葉が葉軸に沿って並ぶ。"
+      ],
+      "limitations": "Cocos nucifera候補。花果・葉柄基部・小葉配列の細部が不明で種と栽培品種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.77,
+        0.481,
+        0.23,
+        0.131
+      ],
+      "label": "右側の高い細茎草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "直立する太めの茎と幅広く垂れる葉状部、上端の枝分かれ花序状部が並ぶ。"
+      ],
+      "limitations": "Zea mays候補。雄穂構造・葉鞘・雌穂/果実が未解像で確定せず品種を命名しない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Zea mays"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.241,
+        0.513,
+        0.129,
+        0.153
+      ],
+      "label": "左手前の細枝低木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細枝が横へ張り出し、細かな葉群が密につく。"
+      ],
+      "limitations": "複葉の階層・刺・花・莢が不明で科属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.48,
+        0.231,
+        0.178
+      ],
+      "label": "左側の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い緑色樹冠が複数重なる。"
+      ],
+      "limitations": "個葉・葉序・花果が不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.343,
+        0.417,
+        0.409,
+        0.177
+      ],
+      "label": "奥の混合木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い高木と低い葉群が連続する。"
+      ],
+      "limitations": "遠景で個葉・花果が見えず単一種とはしない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "107888827ed175c40722b4ac133fe499ba60c5ad4f58a7092c8117ea37a52d16",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T04:50:30.604141+00:00"
+}

@@ -1,0 +1,203 @@
+{
+  "schema_version": 1,
+  "image_id": "754259131920345",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.329,
+        0.123,
+        0.14,
+        0.471
+      ],
+      "label": "中央左の裸枝高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い灰色幹が上へ伸び、細枝が多数分かれる。"
+      ],
+      "limitations": "芽・葉痕・葉・果実がない。樹形だけでPopulus等を確定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Populus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.383,
+        0.361,
+        0.153,
+        0.184
+      ],
+      "label": "中央の狭い円錐状木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "非常に狭い暗緑色樹冠が幹沿いに伸びる。"
+      ],
+      "limitations": "鱗片葉・小枝断面・球果が読めずCupressus候補に留める。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cupressus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.555,
+        0.361,
+        0.054,
+        0.185
+      ],
+      "label": "中央右の常緑状木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な円錐状の濃緑色葉群が見える。"
+      ],
+      "limitations": "葉型・球果が未解像で中央の細長い株と同種とはしない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.751,
+        0.35,
+        0.194,
+        0.197
+      ],
+      "label": "右側の裸枝木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い幹から太い枝が分かれ裸枝が広がる。"
+      ],
+      "limitations": "芽・葉痕・葉・花果が見えない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.284,
+        0.101,
+        0.254
+      ],
+      "label": "左端の裸枝木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い裸枝の高木が画面端に複数見える。"
+      ],
+      "limitations": "遠景・切れで葉や芽・花果は読めない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.067,
+        0.412,
+        0.283,
+        0.217
+      ],
+      "label": "左斜面の低木・裸枝群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い細枝と小さな葉群が斜面に点在する。"
+      ],
+      "limitations": "葉序・葉縁・花果が読めず群として記録。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.589,
+        0.528,
+        0.371,
+        0.158
+      ],
+      "label": "右地表の植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色～褐色の葉群と細い茎が地表に混在する。"
+      ],
+      "limitations": "小穂・葉鞘・個葉・花果が未解像で科属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "0150e83d61db456636dd904e6d57563c12d2529e781ab303d65e48e8f99db3cb",
+  "source_size": [
+    1024,
+    512
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T04:33:20.054946+00:00"
+}

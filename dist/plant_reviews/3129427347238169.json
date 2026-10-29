@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "image_id": "3129427347238169",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.595,
+        0.118,
+        0.405,
+        0.449
+      ],
+      "label": "右手前の裸枝高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "太い幹から大きく横へ分枝し、多数の細枝が下垂する。"
+      ],
+      "limitations": "Salix候補だが葉・芽・葉痕・花果が見えず、下垂樹形だけで属種・品種を確定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Salix"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.532,
+        0.427,
+        0.213,
+        0.143
+      ],
+      "label": "右奥の裸枝木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直立幹と細かい裸枝が連続する。"
+      ],
+      "limitations": "芽・樹皮細部・花果が読めず手前と同種とはしない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.446,
+        0.456,
+        0.144
+      ],
+      "label": "左側の針葉樹状木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "直立幹の上部で横枝が広がり、細葉状の葉群が房状にまとまる。"
+      ],
+      "limitations": "遠景で針葉の束・葉鞘・球果が不明でPinus候補まで。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.092,
+        0.551,
+        0.374,
+        0.123
+      ],
+      "label": "左側の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色～褐色茎葉が地表に連続する。"
+      ],
+      "limitations": "小穂・葉鞘・個葉・花果が不明で科属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.661,
+        0.553,
+        0.339,
+        0.155
+      ],
+      "label": "右地表の植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色～褐色茎葉が地表に連続する。"
+      ],
+      "limitations": "小穂・葉鞘・個葉・花果が不明で科属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "e343df6e5b86af41d396e1bc06677a5f03a0162a8c8907103fd83cbf470a88e8",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T04:46:05.627110+00:00"
+}

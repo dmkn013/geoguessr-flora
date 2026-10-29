@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "image_id": "1423803952572270",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.276,
+        0.472,
+        0.245
+      ],
+      "label": "左奥の疎らな高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "直立した細い幹の上に細長い広葉状葉群がまとまる。"
+      ],
+      "limitations": "Eucalyptus/Corymbia候補。個葉の葉脈・葉序・蕾・花果・樹皮が読めず属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Eucalyptus",
+        "Corymbia"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.48,
+        0.472,
+        0.361
+      ],
+      "label": "左手前の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い茎葉状部と低い緑色葉群が地表に混在する。"
+      ],
+      "limitations": "個葉・小穂・葉基部・花果は未解像で科属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.585,
+        0.517,
+        0.415,
+        0.233
+      ],
+      "label": "右側の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い茎葉状部と低い緑色葉群が地表に混在する。"
+      ],
+      "limitations": "個葉・小穂・葉基部・花果は未解像で科属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.538,
+        0.494,
+        0.045,
+        0.038
+      ],
+      "label": "中央奥の小木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さな丸い樹冠が見える。"
+      ],
+      "limitations": "遠景で葉や花果が見えない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "e8411224cdd85268f3486c507eeef1e13eafe2e55a104225fddcd8188a40da96",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T04:43:26.568633+00:00"
+}

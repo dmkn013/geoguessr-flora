@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "image_id": "1368704185312275",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.601,
+        0,
+        0.399,
+        0.396
+      ],
+      "label": "右斜面上の高い針葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "針状の細い葉群が枝先で房状にまとまり、段状の横枝を持つ。"
+      ],
+      "limitations": "Pinus暫定。束数・葉鞘・球果が未解像で種・亜種は保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.331,
+        0.35,
+        0.094,
+        0.142
+      ],
+      "label": "中央左の針葉樹",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "針状の細い葉群が枝先で房状にまとまり、段状の横枝を持つ。"
+      ],
+      "limitations": "Pinus暫定。束数・葉鞘・球果が未解像で種・亜種は保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.573,
+        0.256,
+        0.427,
+        0.536
+      ],
+      "label": "右斜面の低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さな密な葉群を持つ低い株が斜面に点在する。"
+      ],
+      "limitations": "葉型・花冠・花序・果実が未解像でヒース類や特定属を確定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.388,
+        0.331,
+        0.164
+      ],
+      "label": "左奥の針葉樹状木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さな尖った樹冠が連続する。"
+      ],
+      "limitations": "遠景で個葉・球果が見えず単一種としない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "beffbd61aeac1e2403d6a2c30f2c013cac081d3bd2cf85572938a61c1ba20b0c",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T04:36:41.128963+00:00"
+}

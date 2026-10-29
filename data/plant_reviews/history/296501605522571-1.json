@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "image_id": "296501605522571",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.08,
+        0.462,
+        0.717
+      ],
+      "label": "左側の疎らな高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "不規則に分枝した幹と細い枝先に細長い葉状群が見える。"
+      ],
+      "limitations": "Eucalyptus/Corymbia候補。個葉の葉脈・葉序・樹皮細部・花果が読めず属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Eucalyptus",
+        "Corymbia"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.509,
+        0.308,
+        0.491,
+        0.524
+      ],
+      "label": "右側の疎らな高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹の上に小さな緑色葉群がまとまる。"
+      ],
+      "limitations": "個葉・葉序・花果は不明、左側と同種とは確定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.753,
+        0.433,
+        0.247
+      ],
+      "label": "左手前の枯れた草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色～褐色の葉群と細い茎が地表に混在する。"
+      ],
+      "limitations": "小穂・葉鞘・個葉・花果が未解像で科属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.575,
+        0.768,
+        0.425,
+        0.193
+      ],
+      "label": "右手前の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色～褐色の葉群と細い茎が地表に混在する。"
+      ],
+      "limitations": "小穂・葉鞘・個葉・花果が未解像で科属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "0cf50950ae35a9c0992c597dde88ff1b5245f5b8ff05e500446b76a383f973d3",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T04:32:08.738155+00:00"
+}
