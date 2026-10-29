@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "image_id": "1696897383826464",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.17,
+        0.299,
+        0.233,
+        0.291
+      ],
+      "label": "左奥の房状葉を持つ針葉樹",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "幹から太い横枝が分かれ、枝先に短い針状葉群が房状に集まる。"
+      ],
+      "limitations": "Pinus暫定。束数・葉鞘・球果が未解像で種・亜種は保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.069,
+        0.253,
+        0.619
+      ],
+      "label": "左手前の広葉枝・裸枝木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "広葉状葉群と裸枝が重なり、一部羽状の葉群がある。"
+      ],
+      "limitations": "単葉/複葉・葉序・花果が解像できず、枝の重なりを複葉と断定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.532,
+        0.494,
+        0.369
+      ],
+      "label": "左側の生垣・低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さな緑色葉群が密な面を作る。"
+      ],
+      "limitations": "剪定形を分類根拠とせず個葉・花果が不足。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.701,
+        0.6,
+        0.299,
+        0.211
+      ],
+      "label": "右側の丸い木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "緑色と褐色の葉群が混在する丸い樹冠が見える。"
+      ],
+      "limitations": "葉形・葉序・花果が未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.589,
+        0.779,
+        0.411,
+        0.221
+      ],
+      "label": "右手前の地表植物",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い細葉状部と緑色～褐色の茎葉群が地表に混在する。"
+      ],
+      "limitations": "花序・小穂・葉基部・花果が不明で科属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "6c6f772482687a4f479a466a7a827f819b38d33a4287c9b6c412dda8c822ea8f",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T03:00:16.668546+00:00"
+}
