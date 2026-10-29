@@ -1,0 +1,238 @@
+{
+  "schema_version": 1,
+  "image_id": "211383167243844",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.021,
+        0.321,
+        0.566
+      ],
+      "label": "左手前の灰緑広葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "オリーブ属",
+        "scientific_name": "Olea",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "細長い硬い灰緑葉と明るい葉裏状部が密生、曲がる分枝幹。"
+      ],
+      "limitations": "Olea europaea候補だが対生葉の付き方・花果不足で種以下保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Olea europaea"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.553,
+        0.236,
+        0.274,
+        0.384
+      ],
+      "label": "中央右の灰緑広葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "オリーブ属",
+        "scientific_name": "Olea",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "細い長楕円葉に銀灰色の葉裏状部、低い分岐幹。"
+      ],
+      "limitations": "葉序・花果未確認で種以下保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Olea europaea"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.812,
+        0.334,
+        0.173,
+        0.236
+      ],
+      "label": "右奥の灰緑木本",
+      "scope": "group",
+      "taxon": {
+        "name": "オリーブ属",
+        "scientific_name": "Olea",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "密な細長い葉群と短い幹。"
+      ],
+      "limitations": "遠景で葉序・花果不足。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.352,
+        0.327,
+        0.189,
+        0.291
+      ],
+      "label": "中央の刈込木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細幹の上に密な丸い灰緑葉冠。"
+      ],
+      "limitations": "葉序・花果未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Olea spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.303,
+        0.179,
+        0.152,
+        0.432
+      ],
+      "label": "左中央の疎な常緑木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "分岐幹と密な細葉状群。"
+      ],
+      "limitations": "葉配列と球果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cupressaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.869,
+        0.216,
+        0.105,
+        0.154
+      ],
+      "label": "右上奥の扇葉状ヤシ",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "放射状に裂ける大きい葉群。"
+      ],
+      "limitations": "遮蔽で葉柄刺・幹・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Washingtonia spp.",
+        "Arecaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.504,
+        0.242,
+        0.061,
+        0.111
+      ],
+      "label": "中央奥の針葉状木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "尖った冠と密な細葉状群。"
+      ],
+      "limitations": "遠景で葉束・球果不足。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0.358,
+        0.517,
+        0.089,
+        0.089
+      ],
+      "label": "中央下の低株",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い長葉が立上がる小株。"
+      ],
+      "limitations": "花序・葉基部不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "46726649a7313a6096ce2dd0fe3103c39900938238e3e217f8a0ab36ee20ebea",
+  "source_size": [
+    1024,
+    578
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T20:36:19.249502+00:00"
+}
