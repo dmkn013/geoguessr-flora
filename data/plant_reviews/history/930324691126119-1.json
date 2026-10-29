@@ -1,0 +1,228 @@
+{
+  "schema_version": 1,
+  "image_id": "930324691126119",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.765,
+        0.155,
+        0.065,
+        0.301
+      ],
+      "label": "右奥の大型花茎状植物",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "非常に長い直立軸から段状の横枝が出て、枝先に塊状部が付く。"
+      ],
+      "limitations": "根生葉・花・果実が未解像、枯花序かも未確定。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Agave spp.",
+        "Furcraea spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.328,
+        0.225,
+        0.256
+      ],
+      "label": "左手前の低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい広葉状葉群と密な細い分枝。"
+      ],
+      "limitations": "逆光で葉縁・葉序・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.221,
+        0.347,
+        0.102,
+        0.108
+      ],
+      "label": "左奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い小葉群と上向きの枝。"
+      ],
+      "limitations": "葉型・花果未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.321,
+        0.372,
+        0.166,
+        0.114
+      ],
+      "label": "左中央奥の低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い丸い緑冠が連続。"
+      ],
+      "limitations": "遠景で葉型・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.565,
+        0.36,
+        0.223,
+        0.152
+      ],
+      "label": "右奥の低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い密な広葉状冠。"
+      ],
+      "limitations": "葉型・葉序・花果未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.84,
+        0.358,
+        0.16,
+        0.171
+      ],
+      "label": "右手前の低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細枝に小さい広葉状葉群。"
+      ],
+      "limitations": "葉縁・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.578,
+        0.428,
+        0.422,
+        0.173
+      ],
+      "label": "右斜面の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い淡褐色の茎と緑の細葉状群が混生。"
+      ],
+      "limitations": "花序・葉鞘不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0,
+        0.531,
+        0.216,
+        0.192
+      ],
+      "label": "左下層の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い細葉状群と枯茎が地表を覆う。"
+      ],
+      "limitations": "逆光で花序・葉鞘不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "bc60e14fc2e5121a2538c6302e527c3a550069aa6761c11889e1b873938db402",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T21:16:38.497183+00:00"
+}

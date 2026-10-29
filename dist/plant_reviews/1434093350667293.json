@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "image_id": "1434093350667293",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.558,
+        0.133,
+        0.392,
+        0.469
+      ],
+      "label": "右の針葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "トウヒ属",
+        "scientific_name": "Picea",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "尖頭冠と水平枝、短く垂れる細枝に密な針葉状群。"
+      ],
+      "limitations": "針葉断面・付き方・球果不足で種以下保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.358,
+        0.188,
+        0.267
+      ],
+      "label": "左手前の針葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細長い尖頭冠と密な細枝。"
+      ],
+      "limitations": "葉配列・球果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea spp.",
+        "Abies spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.348,
+        0.42,
+        0.173,
+        0.164
+      ],
+      "label": "中央左奥の針葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい尖頭冠が密集。"
+      ],
+      "limitations": "遠景で葉配列・球果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.901,
+        0.31,
+        0.099,
+        0.291
+      ],
+      "label": "右端の裸枝木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹と褐色裸枝が重なる。"
+      ],
+      "limitations": "葉・芽・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.54,
+        0.355,
+        0.22
+      ],
+      "label": "左下の裸枝低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い褐色分枝が密生。"
+      ],
+      "limitations": "落葉で葉・芽・花果未確認。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.622,
+        0.479,
+        0.378,
+        0.26
+      ],
+      "label": "右下の裸枝低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い褐色枝が重なる低い群落。"
+      ],
+      "limitations": "葉・芽・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.584,
+        0.6,
+        0.416,
+        0.138
+      ],
+      "label": "右手前の枯草群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い淡褐色の細茎と線形葉。"
+      ],
+      "limitations": "花序・葉鞘不足。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "8a1f4cd36f28f2b544accab4b0efa7383286a351eafda3f6819210582db9b8c5",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T21:09:34.375962+00:00"
+}

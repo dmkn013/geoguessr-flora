@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "image_id": "866680847219778",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.425,
+        0,
+        0.575,
+        0.746
+      ],
+      "label": "右側の広葉高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細長い葉単位が軸に沿って並ぶ羽状複葉状の葉群と密な分枝。"
+      ],
+      "limitations": "逆光で小葉の接続・鋸歯・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Robinia spp.",
+        "Gleditsia spp.",
+        "Styphnolobium spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.017,
+        0.164,
+        0.65
+      ],
+      "label": "左手前の針葉高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "尖頭冠と段状枝、枝先に細い針葉状群。"
+      ],
+      "limitations": "暗部で葉束数・葉配列・球果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus spp.",
+        "Picea spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.142,
+        0.4,
+        0.338,
+        0.285
+      ],
+      "label": "左奥の針葉木本列",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い尖頭冠が連続し、段状の枝。"
+      ],
+      "limitations": "遠景と暗部で葉配列・球果未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.631,
+        0.453,
+        0.103
+      ],
+      "label": "左下層の低木草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい緑葉群が低く連続。"
+      ],
+      "limitations": "暗部で葉型・花果・個体境界未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.573,
+        0.649,
+        0.427,
+        0.218
+      ],
+      "label": "右下層の草本低株群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "線形葉と広葉状の低株が混生。"
+      ],
+      "limitations": "暗部で葉鞘・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.473,
+        0.608,
+        0.088,
+        0.064
+      ],
+      "label": "中央最奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい丸い暗緑冠。"
+      ],
+      "limitations": "遠景で葉型・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "4c07656cef8403c94ab7ae382bb836cc65f49a7981390adfb0a867613aaffae7",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T21:13:53.000037+00:00"
+}

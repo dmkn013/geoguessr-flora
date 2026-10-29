@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "image_id": "246501563897028",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        0.473,
+        0.599
+      ],
+      "label": "左の針葉高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長い直幹と水平枝、短く垂れる細枝に密な針葉状群。"
+      ],
+      "limitations": "ブレにより葉配列・断面・球果未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea spp.",
+        "Abies spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.506,
+        0,
+        0.494,
+        0.724
+      ],
+      "label": "右の針葉高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直幹、水平枝と密な暗緑の針葉状群。"
+      ],
+      "limitations": "葉配列・球果未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea spp.",
+        "Abies spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.334,
+        0.38,
+        0.079,
+        0.213
+      ],
+      "label": "左中央の黄葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い分枝に黄褐色の小さい広葉群。"
+      ],
+      "limitations": "葉縁・葉序・芽・花果未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.453,
+        0.503,
+        0.085,
+        0.116
+      ],
+      "label": "中央奥の落葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "淡色の細い裸枝が密生。"
+      ],
+      "limitations": "葉・芽・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.512,
+        0.42,
+        0.192
+      ],
+      "label": "左下層の低株群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "緑の小葉群と短い茎が地表を覆う。"
+      ],
+      "limitations": "葉型・花果・群落境界未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.612,
+        0.586,
+        0.388,
+        0.12
+      ],
+      "label": "右下層の低株群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "疎な小さい緑葉群が点在。"
+      ],
+      "limitations": "葉型・花果未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "caff0c1ee8dbb8e30d81fd8fe3bf2fc389dbc591443b7f4b8e1b7f3d0df9aa8b",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T21:15:16.098886+00:00"
+}

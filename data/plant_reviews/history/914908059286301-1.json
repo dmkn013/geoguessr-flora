@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "image_id": "914908059286301",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.447,
+        0.426,
+        0.553,
+        0.232
+      ],
+      "label": "右の針葉高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "尖頭冠と段状の水平枝、短く垂れる細枝に針葉状群。"
+      ],
+      "limitations": "葉配列・葉断面・球果不足で種以下保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea spp.",
+        "Abies spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.224,
+        0.538,
+        0.055,
+        0.147
+      ],
+      "label": "左の単立針葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹と段状枝、疎な尖頭冠。"
+      ],
+      "limitations": "葉配列・球果未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea spp.",
+        "Larix spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.554,
+        0.579,
+        0.446,
+        0.242
+      ],
+      "label": "右手前の広葉低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い小葉群と細い分枝が密集。"
+      ],
+      "limitations": "葉序・葉裏・花果未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.385,
+        0.586,
+        0.063,
+        0.096
+      ],
+      "label": "中央の広葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い分岐幹と丸い疎な葉冠。"
+      ],
+      "limitations": "葉形・葉序・花果未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.601,
+        0.222,
+        0.081
+      ],
+      "label": "左奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい暗緑冠が連続。"
+      ],
+      "limitations": "遠景で葉型・個体境界不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0,
+        0.684,
+        0.317,
+        0.263
+      ],
+      "label": "左手前の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "線形の緑葉と淡色の小さい花序状部が混生。"
+      ],
+      "limitations": "花序構造・葉鞘が未解像、混生群。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.475,
+        0.659,
+        0.525,
+        0.326
+      ],
+      "label": "右下層の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い線形葉と小さい広葉、黄色花状部が点在。"
+      ],
+      "limitations": "花冠・総苞・葉鞘不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "defdd44f300bd5d5220c6ea29586a092189bf8dbcd5f138b7979150e75819590",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T21:12:52.744690+00:00"
+}

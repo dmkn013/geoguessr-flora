@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "image_id": "2222429195260907",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.503,
+        0.292,
+        0.228
+      ],
+      "label": "左の羽状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "幹頂から放射する長い羽状葉、弓状に垂れる葉身。"
+      ],
+      "limitations": "幹・果房・葉鞘が未解像で種以下保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera",
+        "Elaeis guineensis"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.237,
+        0.624,
+        0.468,
+        0.131
+      ],
+      "label": "中央の大型広葉株群",
+      "scope": "group",
+      "taxon": {
+        "name": "バショウ属",
+        "scientific_name": "Musa",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "直立する長い全縁葉と裂けた大きい葉身、株状に密生。"
+      ],
+      "limitations": "葉柄・葉基・花序・果房未確認で種品種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Musa spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.714,
+        0.642,
+        0.093,
+        0.1
+      ],
+      "label": "右中央の大型広葉株",
+      "scope": "group",
+      "taxon": {
+        "name": "バショウ属",
+        "scientific_name": "Musa",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "長い大葉が上向きに開き、一部葉身が裂ける。"
+      ],
+      "limitations": "葉基・花序・果房不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Musa spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.535,
+        0.61,
+        0.044,
+        0.061
+      ],
+      "label": "中央奥の細幹木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹頂に掌状に広がる葉群。"
+      ],
+      "limitations": "裂片・葉柄接続・花果未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Carica papaya"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.851,
+        0.696,
+        0.052,
+        0.047
+      ],
+      "label": "右奥の羽状葉状木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "放射する細長い葉群。"
+      ],
+      "limitations": "遠景で葉構造・幹・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Arecaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.782,
+        0.715,
+        0.218,
+        0.069
+      ],
+      "label": "右奥の低い木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い緑冠と小さい葉群が連続。"
+      ],
+      "limitations": "遠景で葉型・花果・個体境界不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "386373fbbc150982e2d6d3b6fd89524587852e160cd90e173a168eda76516b53",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T21:14:27.862696+00:00"
+}

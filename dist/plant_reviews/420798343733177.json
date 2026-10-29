@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "image_id": "420798343733177",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.736,
+        0.27,
+        0.124,
+        0.292
+      ],
+      "label": "右の密な常緑木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な暗緑の円錐形冠、斜上する細枝。"
+      ],
+      "limitations": "鱗葉か針葉か・球果不明、樹形から種品種を決めない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cupressaceae",
+        "Chamaecyparis spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.629,
+        0.303,
+        0.072,
+        0.237
+      ],
+      "label": "右中央の尖頭常緑木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長い主軸と段状水平枝、短い細葉状群。"
+      ],
+      "limitations": "葉配列・球果未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea spp.",
+        "Abies spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.556,
+        0.35,
+        0.055,
+        0.185
+      ],
+      "label": "中央右の剪定された落葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い太幹と上向きに密生する裸枝。"
+      ],
+      "limitations": "葉・芽・花果不明、剪定形から種品種を決めない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.081,
+        0.321,
+        0.155,
+        0.19
+      ],
+      "label": "左の裸枝広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い分岐幹と丸い裸枝冠が連続。"
+      ],
+      "limitations": "葉・芽・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.017,
+        0.433,
+        0.038,
+        0.069
+      ],
+      "label": "左奥の針葉状木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい尖頭冠が連なる。"
+      ],
+      "limitations": "遠景で葉型・球果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.916,
+        0.439,
+        0.083,
+        0.078
+      ],
+      "label": "右端の落葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い細い裸枝。"
+      ],
+      "limitations": "遠景で葉・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0,
+        0.5,
+        0.47,
+        0.061
+      ],
+      "label": "左下の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い緑葉が地表を覆う。"
+      ],
+      "limitations": "遠景で花序・葉鞘不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "d82236bc669551709772fb3efc0a28c3c612ce6b8072a83aa5cfad6515ac78a2",
+  "source_size": [
+    1024,
+    512
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T21:09:34.427617+00:00"
+}
