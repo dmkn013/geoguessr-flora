@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "image_id": "1023087750100673",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.179,
+        0.212,
+        0.451
+      ],
+      "label": "左手前の針葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "トウヒ属",
+        "scientific_name": "Picea",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "尖る円錐樹冠に段状の横枝と細かい濃緑の針葉状葉群。"
+      ],
+      "limitations": "針葉の付着・葉裏と球果が読めずAbies等との鑑別と種以下保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea spp.",
+        "Abies spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.57,
+        0.043,
+        0.43,
+        0.511
+      ],
+      "label": "右の高い針葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "トウヒ属",
+        "scientific_name": "Picea",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "複数の尖る樹冠から枝が段状に広がる。"
+      ],
+      "limitations": "葉の付着と球果の詳細が不足。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea spp.",
+        "Abies spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.853,
+        0.382,
+        0.147,
+        0.211
+      ],
+      "label": "右手前の小型針葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い細葉が密集する横枝が幹から規則的に伸びる。"
+      ],
+      "limitations": "葉の扁平さ・葉裏・付着痕が未解像でAbies/Piceaを保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Abies spp.",
+        "Picea spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.748,
+        0.183,
+        0.114,
+        0.185
+      ],
+      "label": "右奥の広葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い広葉状の緑樹冠が針葉樹の背後にある。"
+      ],
+      "limitations": "葉形・葉序・樹皮・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.209,
+        0.312,
+        0.348,
+        0.181
+      ],
+      "label": "正面と左奥の若い木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい尖る針葉状樹冠と細い明色幹が重なる。"
+      ],
+      "limitations": "遠景の個体・葉型・種を分離できない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.585,
+        0.435,
+        0.276,
+        0.146
+      ],
+      "label": "右下の低木と草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い小葉の株と細い茎葉が混在し、白色花状の斑も少数見える。"
+      ],
+      "limitations": "花冠構造・葉序が読めず科属未同定。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0,
+        0.51,
+        0.216,
+        0.131
+      ],
+      "label": "左下の低い草本・低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい広葉群と細葉が混生。"
+      ],
+      "limitations": "花果と葉の所属が不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "00f7f4c5419eb23518b0275b1256aaace5235ca2516a523182d934bf24c0534b",
+  "source_size": [
+    1024,
+    896
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T05:48:23.652853+00:00"
+}

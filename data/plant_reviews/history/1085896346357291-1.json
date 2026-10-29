@@ -1,0 +1,257 @@
+{
+  "schema_version": 1,
+  "image_id": "1085896346357291",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.581,
+        0.538,
+        0.232,
+        0.153
+      ],
+      "label": "右手前の密な広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい葉が密な丸い樹冠が重なり細い幹が見える。"
+      ],
+      "limitations": "葉形・単複・葉序・花果が不足。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.505,
+        0.586,
+        0.089,
+        0.112
+      ],
+      "label": "右奥の銀緑色木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "明るい銀緑の細かい葉を持つ丸い樹冠。"
+      ],
+      "limitations": "葉序と葉裏鱗片・花果不足でOleaを確定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Olea europaea"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.277,
+        0.568,
+        0.164,
+        0.118
+      ],
+      "label": "左中央の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹と丸い疎な広葉樹冠。"
+      ],
+      "limitations": "葉序・花果と樹皮が未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.554,
+        0.142,
+        0.136
+      ],
+      "label": "左手前の小高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹から丸い緑樹冠が広がる。"
+      ],
+      "limitations": "葉形と花果が読めない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.142,
+        0.582,
+        0.116,
+        0.072
+      ],
+      "label": "左奥の柱状木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "多数の細長い暗緑樹冠がある。"
+      ],
+      "limitations": "配置を根拠にせず鱗片葉・球果不足でCupressus等は候補。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cupressus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.102,
+        0.611,
+        0.179,
+        0.064
+      ],
+      "label": "左下の大型草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "直立茎と長い線形葉が密生。"
+      ],
+      "limitations": "頂生花序・雌穂が読めずZea等を保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Zea mays"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.524,
+        0.646,
+        0.476,
+        0.242
+      ],
+      "label": "右手前の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "淡褐色の長い直立茎と細い葉が密生。"
+      ],
+      "limitations": "小穂と葉鞘・葉舌不足。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0,
+        0.661,
+        0.443,
+        0.108
+      ],
+      "label": "左下の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い緑葉と乾いた茎が地表を覆う。"
+      ],
+      "limitations": "花序と個体境界不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p9",
+      "bbox": [
+        0,
+        0.484,
+        0.465,
+        0.097
+      ],
+      "label": "左奥斜面の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い密な樹冠が斜面上に連なる。"
+      ],
+      "limitations": "遠すぎて葉型・個体・科属不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "5d34c0bec9c778a95a956695c8e79f6859cc47c325be9b49dec765c4b1d6b09f",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T05:38:17.209233+00:00"
+}

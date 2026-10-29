@@ -1,0 +1,203 @@
+{
+  "schema_version": 1,
+  "image_id": "1032161765988722",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.734,
+        0.348,
+        0.12,
+        0.176
+      ],
+      "label": "右奥の針葉高木",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "枝先の針状葉の房が密集した丸い樹冠。"
+      ],
+      "limitations": "束数・葉鞘・球果が不鮮明で種以下保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.422,
+        0.196,
+        0.126
+      ],
+      "label": "左上部の針葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "房状の細い葉群が枝先にまとまり丸い樹冠をつくる。"
+      ],
+      "limitations": "葉の束数と球果不足。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.471,
+        0.434,
+        0.39,
+        0.23
+      ],
+      "label": "右の広葉木本と下層群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な丸い広葉状樹冠とつる状の葉群が重なる。"
+      ],
+      "limitations": "葉序・複葉階層・花果が不足。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.846,
+        0.123,
+        0.154,
+        0.372
+      ],
+      "label": "右上端の広葉高木断片",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "画面外に続く大きい緑樹冠。"
+      ],
+      "limitations": "幹と葉・花果の大半は隠れる。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.511,
+        0.372,
+        0.1
+      ],
+      "label": "左奥の混合木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い広葉状樹冠と濃緑の丸い樹冠が混在。"
+      ],
+      "limitations": "遠景で個体と葉型が不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0,
+        0.614,
+        0.353,
+        0.192
+      ],
+      "label": "左の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い淡褐色の細い茎葉が地表を覆う。"
+      ],
+      "limitations": "花序と葉鞘が読めない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.482,
+        0.636,
+        0.381,
+        0.036
+      ],
+      "label": "右下の低い草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い淡色の細葉が帯状に見える。"
+      ],
+      "limitations": "低画素で葉形と花序不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "59f2866fd69037a7e7ba1f8aa0a1cc26cbb742983e456d5a59ea4cde97bb4787",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T05:42:58.682709+00:00"
+}

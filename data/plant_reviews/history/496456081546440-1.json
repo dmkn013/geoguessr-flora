@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "image_id": "496456081546440",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.69,
+        0.455,
+        0.297,
+        0.387
+      ],
+      "label": "右の尖る密な木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "濃緑色の細かい葉が立ち上がる枝に密集し、複数の尖る樹冠をつくる。"
+      ],
+      "limitations": "鱗片葉/針葉と球果が読めずJuniperus/Cupressusを確定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Juniperus spp.",
+        "Cupressus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.549,
+        0.624,
+        0.163,
+        0.178
+      ],
+      "label": "右中景の丸い木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な濃緑の丸い樹冠と細かい葉群。"
+      ],
+      "limitations": "葉序と球果が未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Juniperus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.916,
+        0.68,
+        0.084,
+        0.27
+      ],
+      "label": "右手前の小型木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "明緑の細かな葉が直立枝に集まる。"
+      ],
+      "limitations": "葉の対生/輪生・球果・刺の有無が読めない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.623,
+        0.248,
+        0.247
+      ],
+      "label": "左の疎葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "暗緑の小葉群と白っぽい細幹が疎に立つ。"
+      ],
+      "limitations": "葉型・樹皮詳細と花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.255,
+        0.68,
+        0.136,
+        0.123
+      ],
+      "label": "左奥の広がる木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い横枝に疎な丸い葉群。"
+      ],
+      "limitations": "単複葉と花果が不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0,
+        0.792,
+        0.408,
+        0.181
+      ],
+      "label": "左下の草本・低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "褐色の細い茎葉と低い灰緑株。"
+      ],
+      "limitations": "葉形・花序不足。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.6,
+        0.79,
+        0.4,
+        0.167
+      ],
+      "label": "右下の枯れた草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細く長い褐色茎葉が密生。"
+      ],
+      "limitations": "花序と葉鞘の詳細不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "ea6f05ff54625e9a7b05b517b03b15a5a40c071afe4d3ba751dff00e2762b93b",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T05:42:09.891417+00:00"
+}

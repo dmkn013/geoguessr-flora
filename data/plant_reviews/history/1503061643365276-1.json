@@ -1,0 +1,236 @@
+{
+  "schema_version": 1,
+  "image_id": "1503061643365276",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.23,
+        0.151,
+        0.3,
+        0.648
+      ],
+      "label": "中央手前の高い羽状葉ヤシ",
+      "scope": "group",
+      "taxon": {
+        "name": "アブラヤシ属",
+        "scientific_name": "Elaeis",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "長い単幹の頂に羽状葉が広がり、小葉が異なる方向を向く。幹頂に古い葉基部がまとまる。"
+      ],
+      "limitations": "Elaeis候補だが葉柄刺・密な果房・幹の接写が不足し種確定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Elaeis guineensis"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0,
+        0.305,
+        0.551
+      ],
+      "label": "左上端の高い羽状葉ヤシ",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "斜めの単幹に葉基部の残痕、上端に羽状葉。"
+      ],
+      "limitations": "葉柄・花果が見えず中央と同種と決めない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Elaeis spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.015,
+        0.391,
+        0.323,
+        0.345
+      ],
+      "label": "左奥の羽状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "アブラヤシ属",
+        "scientific_name": "Elaeis",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "複数の短い幹頂に多数の羽状葉が密に放射。"
+      ],
+      "limitations": "小葉と葉柄刺・花果の不足で種は保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Elaeis guineensis"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.732,
+        0.603,
+        0.268,
+        0.224
+      ],
+      "label": "右奥の羽状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "羽状葉が弓状に下垂する複数の密な樹冠。"
+      ],
+      "limitations": "葉柄と花果不明、属は候補。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Elaeis spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.369,
+        0.607,
+        0.16,
+        0.17
+      ],
+      "label": "中央の丸い広葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "太い幹から枝が分かれ、丸い密な樹冠をつくる。"
+      ],
+      "limitations": "葉形・葉序と花果が読めない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.193,
+        0.624,
+        0.102,
+        0.241
+      ],
+      "label": "左手前の剣状葉を持つ小木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い茎の先端に長い剣状葉が放射状にまとまる。"
+      ],
+      "limitations": "葉縁・葉基部・花序不足でYucca/Dracaena等を区別できない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Dracaena spp.",
+        "Yucca spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.579,
+        0.658,
+        0.156,
+        0.156
+      ],
+      "label": "右中景の広葉小高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい丸い明緑色樹冠が複数。"
+      ],
+      "limitations": "葉序と花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0,
+        0.714,
+        0.209,
+        0.206
+      ],
+      "label": "左下の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細長い葉と枯茎が低く混生。"
+      ],
+      "limitations": "花序・葉鞘不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "3d2f64628eb2178259e41e07fc000c9971bedb4d1f4d4ad7473691737e6aab3f",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T05:38:17.104647+00:00"
+}

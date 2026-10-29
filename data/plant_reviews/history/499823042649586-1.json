@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "image_id": "499823042649586",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.157,
+        0.149,
+        0.099,
+        0.129
+      ],
+      "label": "左の大きな羽状葉ヤシ",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "放射状の大きな葉に多数の細長い小葉が並ぶ。"
+      ],
+      "limitations": "小葉基部・葉柄・幹の葉痕・花果が読めず属・種を保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Elaeis guineensis",
+        "Phoenix spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.433,
+        0.265,
+        0.214,
+        0.091
+      ],
+      "label": "中央奥の羽状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "複数の幹頂に羽状葉の丸い冠がある。"
+      ],
+      "limitations": "小葉基部・葉柄・幹の葉痕・花果が読めず属・種を保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Elaeis guineensis",
+        "Phoenix spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0,
+        0.099,
+        0.306
+      ],
+      "label": "左上端の裸枝高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "太い淡色幹が上部で分かれ、細枝を広げる。"
+      ],
+      "limitations": "葉・花果がないため樹形だけでは科属不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.144,
+        0.164,
+        0.198
+      ],
+      "label": "左の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い緑樹冠とつる状の低い葉群が重なる。"
+      ],
+      "limitations": "葉型・葉序・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.234,
+        0.201,
+        0.15,
+        0.132
+      ],
+      "label": "左中景の疎葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "裸枝の高木と低い丸い緑樹冠がある。"
+      ],
+      "limitations": "芽・葉・花果不足。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.647,
+        0.316,
+        0.353,
+        0.074
+      ],
+      "label": "右奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "地平付近に低い緑色樹冠が連なる。"
+      ],
+      "limitations": "画素不足で個体と葉型不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.682,
+        0.368,
+        0.318,
+        0.131
+      ],
+      "label": "右中景の低い草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い緑葉が密に地表を覆う。"
+      ],
+      "limitations": "配置は根拠とせず葉と花序不足で科属保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0.789,
+        0.464,
+        0.211,
+        0.403
+      ],
+      "label": "右手前の草本・低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細葉と疎な小広葉が地表に混生する。"
+      ],
+      "limitations": "葉鞘・花序・個体境界不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "c380365a4ca2380d1857011fc569cd4956734ff046cdb47eb47d6616aeb492de",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T05:34:57.573635+00:00"
+}
