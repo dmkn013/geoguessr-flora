@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "image_id": "538774918773259",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.369,
+        0.423,
+        0.302
+      ],
+      "label": "左側の細枝・広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "疎らな横枝と小さな葉群が羽状の輪郭を作る。"
+      ],
+      "limitations": "単葉/複葉・小葉の対生互生・花果を判別できない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.73,
+        0.385,
+        0.27,
+        0.208
+      ],
+      "label": "右側の針葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "枝先に細い針状葉群が房状にまとまる。"
+      ],
+      "limitations": "Pinus暫定。針葉束数・葉鞘・球果が未解像で種以下保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.401,
+        0.506,
+        0.324,
+        0.068
+      ],
+      "label": "中央奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さな円錐状または丸い緑色樹冠が連なる。"
+      ],
+      "limitations": "遠景で葉型・葉の付着・花果が不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.659,
+        0.594,
+        0.341,
+        0.082
+      ],
+      "label": "右下の低木・つる状植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さな緑色葉群が低く連続し、細茎が地表を覆う。"
+      ],
+      "limitations": "葉序・花果が読めず草本/木本も一部分離不能。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "9fdc7e7ef597379662a4a195e855dd5011439e5efb7b0a1eb33d31f286da7b11",
+  "source_size": [
+    1024,
+    766
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T03:30:50.478649+00:00"
+}

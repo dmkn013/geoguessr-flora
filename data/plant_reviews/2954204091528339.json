@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "image_id": "2954204091528339",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.598,
+        0.104,
+        0.402,
+        0.285
+      ],
+      "label": "右側の円錐状針葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "トウヒ属",
+        "scientific_name": "Picea",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "狭い円錐形樹冠に短い横枝が段状に付き、細枝が下垂する。"
+      ],
+      "limitations": "Picea暫定。個々の針葉付着・断面・葉枕・球果が不明でAbies等との鑑別と種以下保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Abies"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.273,
+        0.437,
+        0.164
+      ],
+      "label": "左奥の針葉樹・広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い尖った樹冠と丸い広葉状葉群が混在する。"
+      ],
+      "limitations": "遠景で針葉付着や個葉・花果が見えず同種としない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.785,
+        0.239,
+        0.215,
+        0.152
+      ],
+      "label": "右側の低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さな密な葉群と細枝が重なる。"
+      ],
+      "limitations": "葉型・葉序・花果が不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.54,
+        0.366,
+        0.46,
+        0.343
+      ],
+      "label": "右手前の細葉草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い緑色の葉身状部と直立する茎が地表から密に伸びる。"
+      ],
+      "limitations": "小穂・節・葉鞘・花構造が読めずイネ科状の外観だけで科属種を確定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.426,
+        0.295,
+        0.076
+      ],
+      "label": "左地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い緑色の葉身状部と直立する茎が地表から密に伸びる。"
+      ],
+      "limitations": "小穂・節・葉鞘・花構造が読めずイネ科状の外観だけで科属種を確定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "57e082b3c2bc404c2bdfa87eb20986924e90a171a343f100fabab48bae38600f",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T03:31:55.179411+00:00"
+}

@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "image_id": "926876481567654",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.08,
+        0.218,
+        0.29,
+        0.695
+      ],
+      "label": "左手前の高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "粗い樹皮の幹から太い枝が分かれ、小さな小葉状片が並ぶ羽状の葉群がある。"
+      ],
+      "limitations": "Fraxinus候補。明確な対生・小葉縁・葉痕・翼果を確認できず、他の複葉樹との鑑別と種以下保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Fraxinus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.277,
+        0.399,
+        0.326,
+        0.471
+      ],
+      "label": "中央の広葉高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "緑色と黄色の葉群が混在し、不規則な樹冠を作る。"
+      ],
+      "limitations": "単葉/複葉と葉序・果実は不鮮明。左手前と同種とは断定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.608,
+        0.612,
+        0.392,
+        0.267
+      ],
+      "label": "右側の灰緑色木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な細かい葉群が丸い株を作る。"
+      ],
+      "limitations": "個葉・葉序・花果が不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.67,
+        0.283,
+        0.223
+      ],
+      "label": "左下の低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さな緑色葉群が幹下で連続する。"
+      ],
+      "limitations": "暗部と遮蔽で葉型と花果が未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.542,
+        0.826,
+        0.458,
+        0.174
+      ],
+      "label": "右地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色～褐色の茎葉状部が地表に連続する。"
+      ],
+      "limitations": "葉序・個葉・花序・小穂が不明で科属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0,
+        0.866,
+        0.256,
+        0.134
+      ],
+      "label": "左地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色～褐色の茎葉状部が地表に連続する。"
+      ],
+      "limitations": "葉序・個葉・花序・小穂が不明で科属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "ce5052cb8ca5f203d955301b739e641d0bd683ff0cf10b79ec80c6b941010c59",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T03:34:08.362739+00:00"
+}

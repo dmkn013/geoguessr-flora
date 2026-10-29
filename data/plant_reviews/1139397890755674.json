@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "image_id": "1139397890755674",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.351,
+        0.347,
+        0.1,
+        0.202
+      ],
+      "label": "中央左の羽状葉ヤシ",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "長い幹の上に羽状葉が放射状に付き、小葉が葉軸から広がり下垂する。枯れた葉柄状部も幹上部から垂れる。"
+      ],
+      "limitations": "幹の刺・冠鞘・葉柄基部・花果が不鮮明。Acrocomia/Syagrus等を区別できず属種を保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Acrocomia",
+        "Syagrus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.521,
+        0.444,
+        0.242
+      ],
+      "label": "左手前の高い草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色～褐色の茎葉状部が地表に連続する。"
+      ],
+      "limitations": "葉序・個葉・花序・小穂が不明で科属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.539,
+        0.515,
+        0.461,
+        0.279
+      ],
+      "label": "右手前の高い草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色～褐色の茎葉状部が地表に連続する。"
+      ],
+      "limitations": "葉序・個葉・花序・小穂が不明で科属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.539,
+        0.456,
+        0.461,
+        0.118
+      ],
+      "label": "右奥の混合木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い緑色樹冠と背の高い疎らな樹冠が重なる。"
+      ],
+      "limitations": "個葉・花果が見えず単一種としない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.061,
+        0.472,
+        0.287,
+        0.103
+      ],
+      "label": "左奥の疎らな木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い裸枝と小さな葉群を持つ小木が点在する。"
+      ],
+      "limitations": "葉序・葉縁・花果が未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "6a0148640444de5c2960735e6f0c0ec404d23324613f7e02b6ff2835c3e714f6",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T03:34:51.131119+00:00"
+}

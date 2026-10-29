@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "image_id": "467704627643671",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.557,
+        0.225,
+        0.443,
+        0.468
+      ],
+      "label": "右側の細葉状木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い褐色の分枝幹に細長い葉状部が密につく。"
+      ],
+      "limitations": "葉序・葉脈・花・莢/蒴果が見えず、Acacia系/Eucalyptus系などの比較未完了。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Acacia",
+        "Eucalyptus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.144,
+        0.418,
+        0.178,
+        0.232
+      ],
+      "label": "左側の裸枝木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹から裸枝が不規則に伸びる。"
+      ],
+      "limitations": "芽・葉痕・花果が見えず属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.37,
+        0.485,
+        0.103,
+        0.123
+      ],
+      "label": "左奥の低い木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細枝に小さな緑～褐色葉群が見える。"
+      ],
+      "limitations": "個葉と花果が未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.042,
+        0.605,
+        0.327,
+        0.186
+      ],
+      "label": "左地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い緑色～褐色茎葉が地表から伸びる。"
+      ],
+      "limitations": "個葉・葉鞘・小穂・花果が不明で科属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.761,
+        0.66,
+        0.239,
+        0.126
+      ],
+      "label": "右下の地表植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い緑色～褐色茎葉が地表から伸びる。"
+      ],
+      "limitations": "個葉・葉鞘・小穂・花果が不明で科属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "78cd315bbc437cfddd84639f15bf65714fe6172566c86d0db37c225d3438321a",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T03:37:08.889119+00:00"
+}

@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "image_id": "274167932088987",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.58,
+        0.421,
+        0.367,
+        0.406
+      ],
+      "label": "右側の横に広がる高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "太い幹が上で大きく分枝し、細長い小片のある羽状の葉群が横長樹冠を作る。"
+      ],
+      "limitations": "一回/二回羽状複葉か単葉の重なりか不明。葉序・小葉基部・花果が読めずマメ科や特定属を確定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.385,
+        0.21,
+        0.29
+      ],
+      "label": "左端の丸い樹冠の高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い密な樹冠と太い幹に広葉状葉群がつく。"
+      ],
+      "limitations": "逆光・切れで葉縁・葉序・花果が不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.342,
+        0.56,
+        0.202,
+        0.183
+      ],
+      "label": "中央左奥の高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "不規則な丸い緑色樹冠が点在する。"
+      ],
+      "limitations": "個葉・花果が見えず右側と同種とはしない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.386,
+        0.706,
+        0.614,
+        0.294
+      ],
+      "label": "右手前の細葉草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い緑色の葉身状部と直立する茎が地表から密に伸びる。"
+      ],
+      "limitations": "小穂・節・葉鞘・花構造が読めずイネ科状の外観だけで科属種を確定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.633,
+        0.239,
+        0.168
+      ],
+      "label": "左側の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い緑色の葉身状部と直立する茎が地表から密に伸びる。"
+      ],
+      "limitations": "小穂・節・葉鞘・花構造が読めずイネ科状の外観だけで科属種を確定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.189,
+        0.626,
+        0.811,
+        0.211
+      ],
+      "label": "奥の低い広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さな丸い緑色樹冠が連続し、細い幹が点在する。"
+      ],
+      "limitations": "前景と重なり個葉・葉序・花果が未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "31ef414ebd12db46ebdb20fa225abfe1753c3ff52563a32450a7cae6c3c2c3b4",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 3,
+  "reviewed_at": "2026-10-29T03:31:55.082280+00:00"
+}

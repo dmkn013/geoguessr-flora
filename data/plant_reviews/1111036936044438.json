@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "image_id": "1111036936044438",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.343,
+        0,
+        0.657,
+        0.754
+      ],
+      "label": "中央～右の広葉高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い灰色幹が高く伸び、上部に楕円状の広葉が疎らにつく。"
+      ],
+      "limitations": "葉序・葉縁・側脈・花果が読めず、並びや落葉状態から樹種を推定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0,
+        0.334,
+        0.716
+      ],
+      "label": "左手前の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細幹と太い幹が重なり、広葉状葉群と裸枝が混在する。"
+      ],
+      "limitations": "逆光で葉序・葉脈・花果が不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.13,
+        0.148,
+        0.164,
+        0.515
+      ],
+      "label": "左側の幹に絡む葉群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い茎が幹沿いに上がり、小さな楕円状葉群がつく。"
+      ],
+      "limitations": "つるか近接した枝か分離不能。葉序・花果が見えず科属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.396,
+        0.27,
+        0.446
+      ],
+      "label": "左下の細茎植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い褐色茎と疎らな葉状部が低層に密生する。"
+      ],
+      "limitations": "節・葉鞘・花序が未解像で竹類等を確定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.295,
+        0.231,
+        0.276,
+        0.407
+      ],
+      "label": "中央奥の黄緑色枝群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い横枝に小さな黄緑色葉群が疎らにつく。"
+      ],
+      "limitations": "小葉/単葉と葉序・花果が読めず独立分類を保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "d435ac58149be989100458909c31ed658915dd04f08d1f6da53f95132721c69e",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 3,
+  "reviewed_at": "2026-10-29T03:38:00.363974+00:00"
+}

@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "image_id": "2897755953814157",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.088,
+        0.16,
+        0.271,
+        0.367
+      ],
+      "label": "左側の羽状葉ヤシ",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "長い弓状葉に細い小葉が並び、幹上部から放射状に広がる。"
+      ],
+      "limitations": "手ぶれで冠鞘・葉柄基部・小葉配列・花果が不明。Cocos nucifera候補だが種確定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0,
+        0.314,
+        0.586
+      ],
+      "label": "左端の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "幅広い葉状部が大きな枝の先に重なる。"
+      ],
+      "limitations": "強い手ぶれで個葉・葉序・花果が読めない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.491,
+        0.182,
+        0.509,
+        0.539
+      ],
+      "label": "右側の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い緑色葉群と細長い葉群が重なり複数の高さがある。"
+      ],
+      "limitations": "手ぶれで葉の輪郭・葉序・花果が不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.545,
+        0.31,
+        0.131
+      ],
+      "label": "左地表の植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色茎葉状部が地表を覆う。"
+      ],
+      "limitations": "個葉・葉鞘・小穂・花果が未解像で科属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.804,
+        0.653,
+        0.196,
+        0.119
+      ],
+      "label": "右地表の植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色茎葉状部が地表を覆う。"
+      ],
+      "limitations": "個葉・葉鞘・小穂・花果が未解像で科属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.3,
+        0.358,
+        0.135,
+        0.215
+      ],
+      "label": "左奥の小木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい広葉状葉群が不規則に分枝する。"
+      ],
+      "limitations": "遠景と手ぶれで花果が不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "d3bb27bd0899e20e117338e70130bedf8a40e60ffe6f69c4c3088d3ce2498b58",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T03:39:47.006697+00:00"
+}

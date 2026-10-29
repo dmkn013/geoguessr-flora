@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "image_id": "521880640184234",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.063,
+        0.485,
+        0.614
+      ],
+      "label": "左側の針葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長い直立幹に横枝が段状に広がり、細かな針状葉群が枝先に下垂する。"
+      ],
+      "limitations": "針葉付着・裏面気孔帯・短枝束生・球果が未解像。Abies/Picea/Tsuga/Cedrus等の鑑別未完了。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Abies",
+        "Picea",
+        "Tsuga",
+        "Cedrus"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.624,
+        0.099,
+        0.339,
+        0.515
+      ],
+      "label": "右側の針葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な横枝に細い葉群が段状に重なり、樹冠が広がる。"
+      ],
+      "limitations": "葉の断面・付着・球果が読めず左側と同属同種とはしない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Abies",
+        "Picea",
+        "Tsuga"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.51,
+        0.141,
+        0.185,
+        0.407
+      ],
+      "label": "右中央の明るい広葉高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "幅広い明緑色の葉群が丸く広がる。"
+      ],
+      "limitations": "個葉の裂片・鋸歯・葉序・花果が未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.377,
+        0.062,
+        0.229
+      ],
+      "label": "左端奥の明るい木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さな明緑色樹冠が見える。"
+      ],
+      "limitations": "遠景で個葉・花果は見えない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.512,
+        0.467,
+        0.201
+      ],
+      "label": "左側の林床植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色～褐色の茎葉状部が地表に連続する。"
+      ],
+      "limitations": "葉序・個葉・花序・小穂が不明で科属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.577,
+        0.492,
+        0.372,
+        0.146
+      ],
+      "label": "右斜面の低い植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色～褐色の茎葉状部が地表に連続する。"
+      ],
+      "limitations": "葉序・個葉・花序・小穂が不明で科属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "9773e6c63e52d15ae74d5001041678b354b036d2263c11b359f005db7c7a639f",
+  "source_size": [
+    1024,
+    512
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T03:34:08.426377+00:00"
+}

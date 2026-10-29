@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "image_id": "1970221289797538",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.224,
+        0.444,
+        0.356
+      ],
+      "label": "左側の疎らな木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直立幹に細長い葉状部がまとまり、丸い疎らな広葉状樹冠も混在する。"
+      ],
+      "limitations": "個葉・樹皮・葉序・花果が読めず針葉樹状の樹形だけで属種を確定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.545,
+        0.365,
+        0.455,
+        0.301
+      ],
+      "label": "右側の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "灰緑色の細かい葉群が丸い樹冠を作り、背の高い細幹もある。"
+      ],
+      "limitations": "葉形・葉序・花果が未解像。左側と同種とは断定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.606,
+        0.419,
+        0.202
+      ],
+      "label": "左手前の細葉草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色～褐色の葉群と細い茎が混在する。"
+      ],
+      "limitations": "花序・小穂・葉基部・個葉と花果が不明で科属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.626,
+        0.606,
+        0.374,
+        0.286
+      ],
+      "label": "右手前の細葉草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色～褐色の葉群と細い茎が混在する。"
+      ],
+      "limitations": "花序・小穂・葉基部・個葉と花果が不明で科属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "a5c29862739cb37fc9f7c92538d60bc60fd909075afe048962cc07ce9eb24858",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T03:45:45.879702+00:00"
+}

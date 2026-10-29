@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "image_id": "120143553453358",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.561,
+        0.271,
+        0.439,
+        0.38
+      ],
+      "label": "右側の高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細長い直立樹冠と丸い房状樹冠の木本が混在する。"
+      ],
+      "limitations": "個葉の針葉/広葉、葉序・球果/花果が不明。Pinus/Eucalyptus等は個別候補としても確定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.79,
+        0.45,
+        0.21,
+        0.192
+      ],
+      "label": "右手前の銀灰色木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い枝に細長い銀灰色葉状部が密集する。"
+      ],
+      "limitations": "Olea候補。葉序・葉裏鱗片・花果が未解像で種・亜種・品種を保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Olea europaea"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.173,
+        0.394,
+        0.192,
+        0.159
+      ],
+      "label": "左奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い灰緑色樹冠が点在する。"
+      ],
+      "limitations": "個葉・葉序・花果が読めず右側と同種としない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.58,
+        0.489,
+        0.223,
+        0.105
+      ],
+      "label": "右下の低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低く密な緑色葉群が重なる。"
+      ],
+      "limitations": "葉型と花果が未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.727,
+        0.618,
+        0.273,
+        0.175
+      ],
+      "label": "右下の細茎草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い緑色葉身と低い葉群が地表に混在する。"
+      ],
+      "limitations": "小穂・葉鞘・花果が読めず混生を単一種としない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "a42918473ac6fea316612e5369674e2a011049c35c9946abd11c4b7eb18d3582",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T03:42:40.956280+00:00"
+}

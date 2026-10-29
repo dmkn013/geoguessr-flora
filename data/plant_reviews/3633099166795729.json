@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "image_id": "3633099166795729",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.552,
+        0,
+        0.448,
+        0.912
+      ],
+      "label": "右側の段状枝針葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "トウヒ属",
+        "scientific_name": "Picea",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "短い針状葉が細枝に密生し、長い横枝から細枝が下垂する。灰色の鱗片状樹皮も見える。"
+      ],
+      "limitations": "Picea暫定。針葉の葉枕・断面・葉裏・明瞭な球果を読めずAbies/Tsugaの鑑別と種・亜種は保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Abies",
+        "Tsuga"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.399,
+        0.456,
+        0.125,
+        0.283
+      ],
+      "label": "中央奥の高い針葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "狭い円錐状樹冠に段状の横枝がある。"
+      ],
+      "limitations": "個葉の付着・球果が未解像で右側と同属同種とは断定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea",
+        "Abies"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.544,
+        0.401,
+        0.202
+      ],
+      "label": "左奥の混合木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "遠景の尖った針葉状樹冠が連続する。"
+      ],
+      "limitations": "個葉・球果が見えず単一分類群としない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.562,
+        0.751,
+        0.438,
+        0.249
+      ],
+      "label": "右地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い緑色～褐色茎葉が地表から伸びる。"
+      ],
+      "limitations": "個葉・葉鞘・小穂・花果が不明で科属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "0d40abfc1a62bcb2e676b0cb626a533d078c5623c36ee8b56bb8fcf1ab329e74",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 3,
+  "reviewed_at": "2026-10-29T03:38:00.418253+00:00"
+}

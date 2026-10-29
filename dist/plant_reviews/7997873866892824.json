@@ -1,0 +1,203 @@
+{
+  "schema_version": 1,
+  "image_id": "7997873866892824",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.224,
+        0.394,
+        0.295,
+        0.167
+      ],
+      "label": "左中央の横に広がる小木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い枝が水平へ広がり、小さな小葉状片が羽状に配列する葉群が見える。"
+      ],
+      "limitations": "一回/二回羽状複葉・托葉・葉柄腺・花・莢が不明。Delonix等は候補止まり。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Delonix"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.112,
+        0.101,
+        0.259
+      ],
+      "label": "左端上の羽状葉状枝",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小片が細い軸沿いに並ぶ羽状の輪郭が見える。"
+      ],
+      "limitations": "葉軸の階層と葉序・花果が不明で中央と同属同種とは断定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.678,
+        0.44,
+        0.195,
+        0.103
+      ],
+      "label": "右奥のヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "長い葉柄から羽状に分かれた葉が放射状に広がる。"
+      ],
+      "limitations": "冠鞘・小葉配列・葉柄基部・花果が読めずPhoenix等の属種は候補のみ。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Phoenix"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.871,
+        0.448,
+        0.129,
+        0.115
+      ],
+      "label": "右端の広葉小木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い緑色樹冠が複数見える。"
+      ],
+      "limitations": "葉形・葉序・花果は未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.529,
+        0.51,
+        0.134
+      ],
+      "label": "左側の細葉草本・生垣群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色茎葉状部が地表を覆う。"
+      ],
+      "limitations": "個葉・葉鞘・小穂・花果が未解像で科属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.657,
+        0.524,
+        0.23,
+        0.073
+      ],
+      "label": "右側の小葉状低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "紫～緑色の細かい葉/花状部が密に混在する。"
+      ],
+      "limitations": "花と葉の区別・花構造・葉序が不明で園芸品種を推定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0,
+        0.405,
+        0.234,
+        0.104
+      ],
+      "label": "左奥の高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細長い濃緑色樹冠が連なる。"
+      ],
+      "limitations": "個葉・花果が未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "1e1c2edfe395188aa0ac2e64f82e7ea30727538c3491315c619f69d462d083f3",
+  "source_size": [
+    1024,
+    771
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T03:40:33.591478+00:00"
+}

@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "image_id": "123502344013366",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.343,
+        0.428,
+        0.063,
+        0.263
+      ],
+      "label": "中央の掌状葉ヤシ",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "長い単幹の先に大きな扇状の葉が放射状に付き、下部に枯れ葉状部が垂れる。"
+      ],
+      "limitations": "Borassus flabellifer候補。葉柄縁・葉の分裂と葉基部・果実が不明で他の掌状葉ヤシと鑑別できず種・品種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Borassus flabellifer"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.235,
+        0.457,
+        0.079,
+        0.238
+      ],
+      "label": "左中央の掌状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "長い単幹の先に大きな扇状の葉が放射状に付き、下部に枯れ葉状部が垂れる。"
+      ],
+      "limitations": "Borassus flabellifer候補。葉柄縁・葉の分裂と葉基部・果実が不明で他の掌状葉ヤシと鑑別できず種・品種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Borassus flabellifer"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.615,
+        0.458,
+        0.137,
+        0.209
+      ],
+      "label": "右奥の掌状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "長い単幹の先に大きな扇状の葉が放射状に付き、下部に枯れ葉状部が垂れる。"
+      ],
+      "limitations": "Borassus flabellifer候補。葉柄縁・葉の分裂と葉基部・果実が不明で他の掌状葉ヤシと鑑別できず種・品種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Borassus flabellifer"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.823,
+        0.151,
+        0.177,
+        0.524
+      ],
+      "label": "右側の細長い下垂葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細長い葉群が細い枝から下垂し、細長い樹冠を作る。"
+      ],
+      "limitations": "Eucalyptus/Corymbia候補。葉脈・葉序・蕾・花・蒴果を読めず属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Eucalyptus",
+        "Corymbia"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.479,
+        0.224,
+        0.239
+      ],
+      "label": "左側の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い緑色樹冠に細かな葉群がつく。"
+      ],
+      "limitations": "個葉・花果は未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.649,
+        0.567,
+        0.168,
+        0.19
+      ],
+      "label": "右下の低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さな葉群が丸い密な株を作る。"
+      ],
+      "limitations": "葉序・葉縁・花果は不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.137,
+        0.671,
+        0.535,
+        0.144
+      ],
+      "label": "中央地表の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色～褐色の葉群と細い茎が混在する。"
+      ],
+      "limitations": "花序・小穂・葉基部・個葉と花果が不明で科属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0.102,
+        0.478,
+        0.051,
+        0.177
+      ],
+      "label": "左奥の小さなヤシ状木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹状部の先に放射状の長い葉群が見える。"
+      ],
+      "limitations": "遠景で掌状/羽状の区別と葉柄基部・花果が不明。ヤシ科候補まで。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Arecaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p9",
+      "bbox": [
+        0.464,
+        0.551,
+        0.098,
+        0.127
+      ],
+      "label": "中央奥のヤシ状木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹状部の先に放射状の長い葉群が見える。"
+      ],
+      "limitations": "遠景で掌状/羽状の区別と葉柄基部・花果が不明。ヤシ科候補まで。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Arecaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "7464de4f1c2726b6fadb3d913f6d6fe489e55c55d7e58dfdd5d71bed140087bc",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T03:45:27.689895+00:00"
+}

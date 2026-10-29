@@ -1,0 +1,228 @@
+{
+  "schema_version": 1,
+  "image_id": "1183929016895620",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.615,
+        0.326,
+        0.236,
+        0.415
+      ],
+      "label": "右中央の段状樹冠の木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹から横枝が層状に広がり、小さな広葉状葉群が枝先にまとまる。"
+      ],
+      "limitations": "個葉・葉序・葉軸の階層・花果が不鮮明。段状の樹形だけでTerminalia/Delonix等を確定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Terminalia",
+        "Delonix"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.916,
+        0.201,
+        0.084,
+        0.268
+      ],
+      "label": "右上のヤシ",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "細い幹の先に大きな放射状の葉群が付き、葉身が多数の細い部分へ分かれる。"
+      ],
+      "limitations": "掌状/羽状の細部、葉柄基部・花果が未解像で属種を保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.566,
+        0.457,
+        0.054,
+        0.103
+      ],
+      "label": "中央奥のヤシ",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "細い幹の先に大きな放射状の葉群が付き、葉身が多数の細い部分へ分かれる。"
+      ],
+      "limitations": "掌状/羽状の細部、葉柄基部・花果が未解像で属種を保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.216,
+        0.487,
+        0.045,
+        0.14
+      ],
+      "label": "左奥のヤシ",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "細い幹の先に大きな放射状の葉群が付き、葉身が多数の細い部分へ分かれる。"
+      ],
+      "limitations": "掌状/羽状の細部、葉柄基部・花果が未解像で属種を保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.086,
+        0.442,
+        0.314,
+        0.247
+      ],
+      "label": "左側の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い濃緑色樹冠と明るい葉群が重なる。"
+      ],
+      "limitations": "個葉・葉序・花果が未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.487,
+        0.371,
+        0.513,
+        0.354
+      ],
+      "label": "右奥の密な広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い葉群と横へ伸びる葉群が連続する。"
+      ],
+      "limitations": "複数個体が重なり個葉・花果は不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.504,
+        0.644,
+        0.219,
+        0.093
+      ],
+      "label": "右下の低木・草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色葉群が密生し、細い枝が混在する。"
+      ],
+      "limitations": "葉型・花果が不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0,
+        0.471,
+        0.073,
+        0.242
+      ],
+      "label": "左端の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細かい広葉状葉群が密に重なる。"
+      ],
+      "limitations": "画面端と暗部で葉序・花果を判別できない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "c9bfae4c3c836085010ab6048fd56f7e4d5b3ed5c9d626a01131989e38c0b25d",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T03:47:28.298102+00:00"
+}

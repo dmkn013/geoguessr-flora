@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "image_id": "26649690434658902",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.576,
+        0,
+        0.424,
+        0.91
+      ],
+      "label": "右側の細長い葉の高木",
+      "scope": "group",
+      "taxon": {
+        "name": "マンゴー属",
+        "scientific_name": "Mangifera",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "細長い全縁状葉が枝先に密に集まり、一部褐色の房状部が樹冠に見える。"
+      ],
+      "limitations": "Mangifera暫定。側脈・葉序・花房/若葉の区別・果実が読めず種と品種は保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Mangifera indica"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.521,
+        0.527,
+        0.165,
+        0.231
+      ],
+      "label": "右奥の丸い木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "濃緑色の密な樹冠が見える。"
+      ],
+      "limitations": "個葉・葉序・花果が不鮮明。手前と同種とは確定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.537,
+        0.173,
+        0.187
+      ],
+      "label": "左側の低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い枝に小さな緑色葉群が密生する。"
+      ],
+      "limitations": "個葉・花果が読めない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.028,
+        0.657,
+        0.414,
+        0.142
+      ],
+      "label": "左地表の高い草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色～褐色の茎葉状部が地表に連続する。"
+      ],
+      "limitations": "葉序・個葉・花序・小穂が不明で科属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.36,
+        0.671,
+        0.143,
+        0.064
+      ],
+      "label": "中央奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "遠景に小さな緑色の樹冠が連続する。"
+      ],
+      "limitations": "葉型・花果が未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "3d25a2f588a5f87098d5d7fb19543e3b85a3a21d4bcb713802cf27abd8b59893",
+  "source_size": [
+    1024,
+    767
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T03:34:51.182933+00:00"
+}
