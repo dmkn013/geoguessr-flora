@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "image_id": "288573059564443",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.503,
+        0.303,
+        0.108
+      ],
+      "label": "左中景の背の高い草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "太い直立茎に長い幅広の線形葉が付き上部に分枝花序状部。"
+      ],
+      "limitations": "Zea mays候補だが小穂・雌穂・花序詳細未確認、確定種にはしない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Zea mays",
+        "Sorghum spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.568,
+        0.487,
+        0.432,
+        0.062
+      ],
+      "label": "右奥の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい丸い緑葉冠が帯状に連続。"
+      ],
+      "limitations": "遠景で葉型・個体境界不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.005,
+        0.609,
+        0.373,
+        0.267
+      ],
+      "label": "左手前の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い線形葉と小さい広葉群が混生。"
+      ],
+      "limitations": "花序・葉鞘・葉序不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.62,
+        0.572,
+        0.38,
+        0.327
+      ],
+      "label": "右手前の短い草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い細葉が地表を覆い小さい枯茎が散在。"
+      ],
+      "limitations": "花序・葉鞘不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.288,
+        0.522,
+        0.179,
+        0.056
+      ],
+      "label": "中央左奥の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い緑葉群が広がる。"
+      ],
+      "limitations": "遠景で葉型・花序不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "628f4c09aa861ee65ce7d6fb391c523e29c7beddb09253e814c45f56b428f8cc",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T16:12:18.732135+00:00"
+}

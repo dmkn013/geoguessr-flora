@@ -1,0 +1,259 @@
+{
+  "schema_version": 1,
+  "image_id": "300207894990867",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.167,
+        0.156,
+        0.558
+      ],
+      "label": "左端の広葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "光沢ある長楕円葉が枝先に密に集まる。"
+      ],
+      "limitations": "葉脈・葉序・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Mangifera spp.",
+        "Manilkara spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.11,
+        0.478,
+        0.101,
+        0.187
+      ],
+      "label": "左奥の大葉草本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長い平行脈葉と強い中肋、縦裂した葉身。"
+      ],
+      "limitations": "遮蔽で偽茎・花序・果房不足。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Musa spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.665,
+        0.529,
+        0.235,
+        0.221
+      ],
+      "label": "右中央の大葉草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "バショウ属",
+        "scientific_name": "Musa",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "大型長楕円葉が強い中肋を持ち縦に裂け、葉鞘状の基部が重なる。"
+      ],
+      "limitations": "花序・果房不明で種以下保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.702,
+        0.339,
+        0.298,
+        0.364
+      ],
+      "label": "右上の複葉状木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "羽状に小葉状単位が並ぶ枝と平滑な分岐幹。"
+      ],
+      "limitations": "複葉の分枝・小葉数・花果未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Albizia spp.",
+        "Leucaena spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.903,
+        0,
+        0.097,
+        0.432
+      ],
+      "label": "右上端の広葉高木断片",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な細長い緑葉群が画外へ続く。"
+      ],
+      "limitations": "葉序・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.529,
+        0.333,
+        0.184,
+        0.265
+      ],
+      "label": "中央奥の疎な広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細幹と小さい葉群。"
+      ],
+      "limitations": "遠景で葉形・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.305,
+        0.67,
+        0.258,
+        0.205
+      ],
+      "label": "中央手前の花壇植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い茎に小さい楕円状葉、下部に黄色い小花状点が散在。"
+      ],
+      "limitations": "花冠と葉序未解像、複数株が重なり分離不可。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0,
+        0.795,
+        0.27,
+        0.205
+      ],
+      "label": "左下端の広葉低木断片",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "光沢ある長楕円葉が枝に付く。"
+      ],
+      "limitations": "葉序・花果不明、画外に続く。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p9",
+      "bbox": [
+        0,
+        0.659,
+        0.283,
+        0.15
+      ],
+      "label": "左中段の低株群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい緑葉群が地面近くに連なる。"
+      ],
+      "limitations": "葉型・花果と個体境界不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "7107279c4e2ccdc1b4dbad4804edcae59f2b7a01489f14045df0c4379a82c57b",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T16:11:03.355936+00:00"
+}

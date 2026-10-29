@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "image_id": "449295794248288",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.23,
+        0.72,
+        0.137,
+        0.146
+      ],
+      "label": "左中央の羽状葉ヤシ",
+      "scope": "group",
+      "taxon": {
+        "name": "ナツメヤシ属",
+        "scientific_name": "Phoenix",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "太い幹に古い葉柄基部状の模様、長い硬い羽状葉が密に放射。"
+      ],
+      "limitations": "Phoenix canariensis候補だが葉柄刺・小葉・果房不明で種以下保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Phoenix canariensis",
+        "Phoenix dactylifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.694,
+        0.554,
+        0.189,
+        0.32
+      ],
+      "label": "右の高い細葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長い直幹と上部に集まる疎な細葉状冠。"
+      ],
+      "limitations": "葉序・樹皮・花果不明、Eucalyptus/Corymbiaを分離不可。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Eucalyptus spp.",
+        "Corymbia spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.554,
+        0.714,
+        0.126,
+        0.121
+      ],
+      "label": "中央奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹と上部の密な丸い冠。"
+      ],
+      "limitations": "遠景で葉型・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.14,
+        0.8,
+        0.07,
+        0.032
+      ],
+      "label": "左奥の長葉低株列",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細長い葉が小さい株から放射。"
+      ],
+      "limitations": "葉基部・葉縁・花序不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Yucca spp.",
+        "Dracaena spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.657,
+        0.817,
+        0.237,
+        0.183
+      ],
+      "label": "右手前の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長い線形葉と短い広葉群が混生。"
+      ],
+      "limitations": "葉鞘・花序・個体境界不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0,
+        0.891,
+        0.158,
+        0.057
+      ],
+      "label": "左下の短い草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い緑葉が地表を覆う。"
+      ],
+      "limitations": "花序・葉鞘不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.369,
+        0.804,
+        0.162,
+        0.064
+      ],
+      "label": "中央左奥の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い葉群が遠く連なる。"
+      ],
+      "limitations": "遠景で葉形と花序不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "78d1e5f97355dab00ae9a06d2dc366c651efd862cde2ff1fcb88ac9b7a75d518",
+  "source_size": [
+    1024,
+    766
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T16:00:51.300010+00:00"
+}

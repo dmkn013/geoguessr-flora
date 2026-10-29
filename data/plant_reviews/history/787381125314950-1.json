@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "image_id": "787381125314950",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.699,
+        0.448,
+        0.125,
+        0.122
+      ],
+      "label": "右手前の広葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低く分岐した暗幹と細かい葉状群、平たい丸い冠。"
+      ],
+      "limitations": "複葉の構造・刺・莢が未解像で属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Vachellia spp.",
+        "Senegalia spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.92,
+        0.463,
+        0.069,
+        0.081
+      ],
+      "label": "右奥の疎な木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹と疎な小葉群。"
+      ],
+      "limitations": "遠景で葉・刺・果実不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.634,
+        0.531,
+        0.044,
+        0.032
+      ],
+      "label": "中央奥の小さい木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい丸い緑葉冠。"
+      ],
+      "limitations": "葉形・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.348,
+        0.576,
+        0.035,
+        0.027
+      ],
+      "label": "左奥の小さい木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい低い葉冠。"
+      ],
+      "limitations": "遠景で葉型・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.64,
+        0.299,
+        0.233
+      ],
+      "label": "左手前の低い群落",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い灰緑の小株と淡褐色の茎葉が点在。"
+      ],
+      "limitations": "葉序・花序・個体境界不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.591,
+        0.56,
+        0.409,
+        0.129
+      ],
+      "label": "右手前の低い群落",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い灰緑株と褐色の細茎。"
+      ],
+      "limitations": "花序・葉形未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "1f7a4bb3a4b88bc1c6869b2f4aa98ab10e1af427ab594de1267b713b8b5aa9dc",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T16:15:43.568129+00:00"
+}

@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "image_id": "1281972090380805",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.076,
+        0.353,
+        0.089,
+        0.204
+      ],
+      "label": "左の円錐形常緑木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な尖頭冠と斜上する枝先に細葉状群。"
+      ],
+      "limitations": "葉が鱗葉か針葉か・球果未解像で属保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cupressaceae",
+        "Juniperus spp.",
+        "Cupressus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.451,
+        0.472,
+        0.247,
+        0.076
+      ],
+      "label": "中央奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い密な丸い葉冠が連なる。"
+      ],
+      "limitations": "遠景で個体境界・葉型・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.864,
+        0.508,
+        0.136,
+        0.038
+      ],
+      "label": "右奥の低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い灰緑葉群が点在。"
+      ],
+      "limitations": "遠景で葉形・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.487,
+        0.074,
+        0.069
+      ],
+      "label": "左端の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "淡褐色の細い茎。"
+      ],
+      "limitations": "遠景で花序・葉鞘不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.351,
+        0.504,
+        0.102,
+        0.056
+      ],
+      "label": "中央左の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い褐色の茎葉。"
+      ],
+      "limitations": "遠景で花序・葉鞘不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "b35a7c1fd7a4f1b71e1c9c81fc2bc7d8484065958b9ac373cc3809c8ddcc9a73",
+  "source_size": [
+    1024,
+    512
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T16:00:51.414021+00:00"
+}
