@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "image_id": "1601532384901924",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.535,
+        0,
+        0.465,
+        0.61
+      ],
+      "label": "右の高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長い灰白色の幹から不規則に枝が分かれ、疎な細長い灰緑葉の樹冠がある。"
+      ],
+      "limitations": "画像の色被りとぼけで葉序・花果・樹皮推移が読めずEucalyptus/Corymbiaを区別できない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Eucalyptus spp.",
+        "Corymbia spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.067,
+        0.236,
+        0.184,
+        0.365
+      ],
+      "label": "左の疎葉高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "明るい太い分岐幹と細長い葉群が疎につく。"
+      ],
+      "limitations": "幹の樹皮詳細・葉柄・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Eucalyptus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.251,
+        0.069,
+        0.341
+      ],
+      "label": "左端の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "画面外に続く細い幹と疎な灰緑色葉群。"
+      ],
+      "limitations": "大半が画面外、葉と花果が不鮮明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.349,
+        0.441,
+        0.066,
+        0.163
+      ],
+      "label": "中央左の低い広葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹から下垂する細長い葉群。"
+      ],
+      "limitations": "葉序・花果と幹の形態不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.244,
+        0.453,
+        0.302,
+        0.083
+      ],
+      "label": "正面遠景の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "大小の丸い緑色樹冠と裸枝が混在。"
+      ],
+      "limitations": "遠景で個体と科属不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0,
+        0.56,
+        0.46,
+        0.323
+      ],
+      "label": "左手前の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直立葉と淡褐色の穂状茎が密集、低い広葉草本も混ざる。"
+      ],
+      "limitations": "花序小穂・葉鞘・個体境界不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.573,
+        0.562,
+        0.427,
+        0.438
+      ],
+      "label": "右手前の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長い細い枯茎と短い緑葉の株が混生。"
+      ],
+      "limitations": "種別分離・花序細部の確認不可。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "16ed3f893b16ed39718645f8f47606a7b474f5f077eab181a7329c72dc9ed44d",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T05:16:11.581786+00:00"
+}

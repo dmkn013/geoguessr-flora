@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "image_id": "1384779762777263",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.284,
+        0.28,
+        0.443,
+        0.288
+      ],
+      "label": "中央の細幹針葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "長い裸幹の上部に不規則な樹冠があり、枝先に細い葉の房が集まる。"
+      ],
+      "limitations": "針葉束数・葉鞘・球果が不足し、Pinus内の種・変種・由来は保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.768,
+        0.203,
+        0.232,
+        0.348
+      ],
+      "label": "右の細幹針葉樹群",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "長い直立幹と上部の房状の細い葉の樹冠。"
+      ],
+      "limitations": "全天球左右端の重複は別個体に数えず、針葉・球果接写不足。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.254,
+        0.239,
+        0.287
+      ],
+      "label": "左端の疎葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "白っぽい細幹と淡い葉の樹冠、下部に緑の小高木群。"
+      ],
+      "limitations": "広葉/針葉と葉形が混在し個体別同定不可。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.268,
+        0.458,
+        0.457,
+        0.143
+      ],
+      "label": "中央下の低木・細幹木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "林冠下に細い枝と低い緑色樹冠がある。"
+      ],
+      "limitations": "葉形・花果不足。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.318,
+        0.551,
+        0.4,
+        0.184
+      ],
+      "label": "中央手前の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "緑色の低い細葉と褐色の枯茎が斜面を覆う。"
+      ],
+      "limitations": "花序・葉鞘が判別不能。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.803,
+        0.49,
+        0.197,
+        0.101
+      ],
+      "label": "右林縁の低い植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い褐色の茎葉と少数の緑色株。"
+      ],
+      "limitations": "葉形・種別境界不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "d0c266ab4362e5c652950b756782b51dc21140a2b2bc61cb1552e4e414c49d51",
+  "source_size": [
+    1024,
+    512
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T05:01:26.466332+00:00"
+}

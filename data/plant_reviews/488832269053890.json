@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "image_id": "488832269053890",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        0.505,
+        0.558
+      ],
+      "label": "左の柱状広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "ポプラ属",
+        "scientific_name": "Populus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "明るい直立幹から斜め上向きの細枝が伸び、広葉の狭い樹冠をつくる。"
+      ],
+      "limitations": "葉の形・鋸歯・芽・花穂不足でPopulus nigraと他種や交雑を区別できない。柱状だけでItalica等の品種を付けない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Populus nigra",
+        "Populus nigra Italica Group"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.533,
+        0,
+        0.467,
+        0.732
+      ],
+      "label": "右の柱状広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "ポプラ属",
+        "scientific_name": "Populus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "灰色の幹に細い上向き枝が密集し、少数の小さい広葉が見える。"
+      ],
+      "limitations": "幹の太さや枝の密度だけでは種・品種・剪定履歴を判断できない。葉・芽・花果不足。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Populus nigra",
+        "Populus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.308,
+        0.064,
+        0.158
+      ],
+      "label": "左奥の濃緑木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "明るい列状樹冠の背後に暗緑の密な丸い樹冠。"
+      ],
+      "limitations": "葉型・花果が不鮮明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.447,
+        0.446,
+        0.128
+      ],
+      "label": "左下の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "褐色の細い乾燥した茎葉が地面を覆う。"
+      ],
+      "limitations": "花序と葉鞘が不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.55,
+        0.523,
+        0.45,
+        0.184
+      ],
+      "label": "右下の低い草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "幹の間に淡褐色の乾いた低い茎葉がある。"
+      ],
+      "limitations": "葉形と花序不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "9f8fbb13e84646b19e536fb66d63fa0c4ba5da4207af954992c8431976700e73",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T05:06:50.205164+00:00"
+}

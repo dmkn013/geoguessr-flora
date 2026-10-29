@@ -1,0 +1,294 @@
+{
+  "schema_version": 1,
+  "image_id": "377376546905535",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.783,
+        0.071,
+        0.176,
+        0.551
+      ],
+      "label": "右上の結実したヤシ",
+      "scope": "individual",
+      "taxon": {
+        "name": "ココヤシ",
+        "scientific_name": "Cocos nucifera",
+        "rank": "species"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "細い単幹が緩く曲がり、長い羽状葉の小葉がほぼ同一平面に並ぶ。葉の基部に大きな卵形〜丸い褐色果実の房が見える。"
+      ],
+      "limitations": "果実と羽状葉の形態から種まで判断。花の細部・内部の繊維層・胚乳は見えない。Tall/Dwarf系統・栽培品種・交雑由来は判断しない。",
+      "diagnostic_comparison": "NParksの細い単幹・長い羽状葉・大型卵形果実に対応。Elaeisの多数の小果からなる密な果房や、Phoenixの細い小果の房とは見える果実の粗大さが異なる。Syagrus等の小果ヤシとも果実の大きさと葉の平面的な小葉配置の組合せで区別。種以下の系統を示す診断形質は不足。",
+      "candidates": [],
+      "morphology": [],
+      "sources": [
+        {
+          "url": "https://www.nparks.gov.sg/florafaunaweb/flora/5/6/5618",
+          "supports": "単生の細い環状葉痕の幹、長く下垂する羽状葉と大型卵形果実の記載を、原画と果実部の同倍率拡大で照合。分布情報は使用しない。"
+        }
+      ],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.559,
+        0.178,
+        0.188,
+        0.438
+      ],
+      "label": "中央の羽状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "細い単幹の頂に下垂する長い羽状葉がある。"
+      ],
+      "limitations": "小葉・葉柄基部・花果の細部不足で属と種を保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.032,
+        0.167,
+        0.075,
+        0.456
+      ],
+      "label": "左の高い羽状葉ヤシ",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "細い単幹に小さい羽状葉の樹冠。"
+      ],
+      "limitations": "小葉・葉柄基部・花果の細部不足で属と種を保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.074,
+        0.378,
+        0.07,
+        0.196
+      ],
+      "label": "左中景のヤシ",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "羽状葉が低い幹頂に集まる。"
+      ],
+      "limitations": "小葉・葉柄基部・花果の細部不足で属と種を保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.585,
+        0.387,
+        0.367,
+        0.15
+      ],
+      "label": "右奥の小型ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "複数の幹頂に放射状の羽状葉が見える。"
+      ],
+      "limitations": "小葉・葉柄基部・花果の細部不足で属と種を保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.031,
+        0.217,
+        0.54,
+        0.433
+      ],
+      "label": "左の大きな広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "複数の丸い樹冠に小葉状の葉群が密集。"
+      ],
+      "limitations": "葉が単葉か複葉か不明、花果不足。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.714,
+        0.423,
+        0.286,
+        0.207
+      ],
+      "label": "右の広葉小高木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "大きく広い葉が疎に枝につき、樹冠が分かれる。"
+      ],
+      "limitations": "葉の形の細部・葉序・毛・花果が不鮮明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Tectona grandis"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0.939,
+        0.018,
+        0.061,
+        0.41
+      ],
+      "label": "右端の大きな広葉木本断片",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "大きな厚い葉が横枝に重なる。"
+      ],
+      "limitations": "画面外が多く葉序・花果が不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Terminalia catappa"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p9",
+      "bbox": [
+        0,
+        0.62,
+        0.445,
+        0.239
+      ],
+      "label": "左の草本と低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細葉草本とつる状の緑色葉群が混在。"
+      ],
+      "limitations": "葉・花果と個体境界が不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p10",
+      "bbox": [
+        0.616,
+        0.624,
+        0.384,
+        0.345
+      ],
+      "label": "右の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い緑葉と広い葉が混生する。"
+      ],
+      "limitations": "花序・葉序・種別境界不足。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "3e06b0703477d175d8be26f260fcee6d696d6f1941037ba43c3e64e7f154580f",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T05:04:02.921283+00:00"
+}

@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "image_id": "193946385891309",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.633,
+        0.135,
+        0.223,
+        0.528
+      ],
+      "label": "右手前の白い幹の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "カバノキ属",
+        "scientific_name": "Betula",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "白い細幹に暗色斑があり、小さい広葉と多数の細い枝を持つ樹冠。"
+      ],
+      "limitations": "走行ぶれで葉縁・葉序・果穂・樹皮剥離が読めず種と亜種不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Betula spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.824,
+        0,
+        0.176,
+        0.674
+      ],
+      "label": "右端の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細幹から細い枝が広がり緑色の小葉群がある。"
+      ],
+      "limitations": "ぶれと画面外遮蔽でBetula等を確定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Betula spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.488,
+        0.402,
+        0.182,
+        0.196
+      ],
+      "label": "右奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "縦長の細幹樹冠と低い明緑の木本が重なる。"
+      ],
+      "limitations": "遠景で葉型・花果と種別境界不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.566,
+        0.423,
+        0.04
+      ],
+      "label": "左の遠景木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "地平付近に低い樹冠の連なり。"
+      ],
+      "limitations": "遠すぎて葉の形態が全く読めない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.488,
+        0.594,
+        0.512,
+        0.261
+      ],
+      "label": "右の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色の葉群が連続して地表を覆う。"
+      ],
+      "limitations": "花序・葉形の画素不足。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0,
+        0.614,
+        0.345,
+        0.111
+      ],
+      "label": "左の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色の帯状の植物群。"
+      ],
+      "limitations": "科属識別形質が不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "627372956606f4ebc32556d100117e82e3b80839a2edc318f8dd1ee741710bad",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T05:14:28.348354+00:00"
+}

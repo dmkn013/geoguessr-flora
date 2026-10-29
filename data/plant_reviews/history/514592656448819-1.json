@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "image_id": "514592656448819",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0,
+        0.32,
+        0.796
+      ],
+      "label": "左手前の柱状広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "ポプラ属",
+        "scientific_name": "Populus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "直立幹から細い上向き枝が伸び、幅の狭い柱状樹冠に小さい広葉が密生。"
+      ],
+      "limitations": "Populus nigraの柱状型を候補とするが葉形・鋸歯・芽・花穂が不足し種や品種Italicaを確定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Populus nigra",
+        "Populus nigra Italica Group"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.35,
+        0.484,
+        0.215,
+        0.186
+      ],
+      "label": "中央奥の柱状木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "ポプラ属",
+        "scientific_name": "Populus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "細い幹と狭い縦長の緑色樹冠が複数ある。"
+      ],
+      "limitations": "葉の接写がなく種以下と属の確定は保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Populus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.006,
+        0.534,
+        0.156,
+        0.193
+      ],
+      "label": "左奥の低い木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細幹の上に丸い広葉樹冠がある。"
+      ],
+      "limitations": "葉序・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.821,
+        0.535,
+        0.099,
+        0.068
+      ],
+      "label": "右奥の低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "疎な緑色の丸い樹冠が複数ある。"
+      ],
+      "limitations": "葉・幹・花果の画素不足。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.66,
+        0.387,
+        0.19
+      ],
+      "label": "左の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "地表の緑色の細葉と淡褐色の枯茎。"
+      ],
+      "limitations": "個体と花序を分けられない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.568,
+        0.705,
+        0.432,
+        0.234
+      ],
+      "label": "右の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色の細葉植物と乾いた茎葉。"
+      ],
+      "limitations": "花序・葉舌が読めない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "ae6aec4b0c8ef5ae492e9b1cf63f58d560c700d11de7e2d692e82760c069b0cf",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T05:06:30.958265+00:00"
+}

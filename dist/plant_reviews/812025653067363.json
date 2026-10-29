@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "image_id": "812025653067363",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.67,
+        0,
+        0.259,
+        0.522
+      ],
+      "label": "右手前の莢のある複葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さな小葉が二段の羽状に並ぶ葉と、細長く平たい淡褐色の莢が複数下がる。"
+      ],
+      "limitations": "Leucaena leucocephalaを候補とするが、羽片数・小葉数・腺体・白い球形花序が確認できずAlbizia等との鑑別が未完了。亜種も判断しない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Leucaena leucocephala",
+        "Albizia spp."
+      ],
+      "morphology": [],
+      "sources": [
+        {
+          "url": "https://www.jircas.go.jp/en/database/thaivege/064",
+          "supports": "二回羽状複葉・小葉と羽片・平たく細長い莢を比較。腺体と花は画像に見えず種確定保留。"
+        }
+      ],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0,
+        0.236,
+        0.394
+      ],
+      "label": "左上の羽状葉ヤシ断片",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "大きな羽状葉が下垂し細長い小葉が平面的に並ぶ。"
+      ],
+      "limitations": "小葉基部・花果が読めず属と種を保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.138,
+        0.002,
+        0.091,
+        0.609
+      ],
+      "label": "左の裸枝小高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "灰色の細幹から葉の少ない枝が分かれる。"
+      ],
+      "limitations": "芽・葉・花果不足。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.153,
+        0.155,
+        0.223,
+        0.279
+      ],
+      "label": "左の密な広葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸く密な樹冠に小さい楕円状葉が多数。"
+      ],
+      "limitations": "葉序・鋸歯・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.34,
+        0.227,
+        0.19,
+        0.237
+      ],
+      "label": "中央奥の傘形広葉高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "太い枝が水平に広がり、細かな葉群が平たい樹冠をつくる。"
+      ],
+      "limitations": "Samanea/Albizia等を疑うが小葉・花序・莢は見えず属不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Samanea saman",
+        "Albizia spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.589,
+        0.095,
+        0.18,
+        0.289
+      ],
+      "label": "右奥の傘形木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "広い横枝に小さい葉が密生する。"
+      ],
+      "limitations": "葉の複葉階層と花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Samanea saman"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.533,
+        0.222,
+        0.118,
+        0.284
+      ],
+      "label": "中央右の疎葉細幹木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "白っぽい幹と細枝に疎な葉がつく。"
+      ],
+      "limitations": "葉形・葉序・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0.582,
+        0.327,
+        0.363,
+        0.31
+      ],
+      "label": "右の草本・つる植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長い線形葉の草本と小さい広葉のつる状葉群が混在。"
+      ],
+      "limitations": "花序・葉鞘・種別境界不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p9",
+      "bbox": [
+        0.151,
+        0.516,
+        0.051,
+        0.071
+      ],
+      "label": "左下の低い植物",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さな緑色の葉群がある。"
+      ],
+      "limitations": "遮蔽と画素不足で葉形・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "3982937b3b61dfdead6424817b44adff4f0060341967619b0a867ecc6e40457f",
+  "source_size": [
+    1023,
+    506
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T05:11:53.058862+00:00"
+}

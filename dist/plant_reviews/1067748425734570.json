@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "image_id": "1067748425734570",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.041,
+        0.369,
+        0.619
+      ],
+      "label": "左手前の針葉高木",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "太い幹から水平な枝が伸び、枝に細い針状葉の房がつく。"
+      ],
+      "limitations": "束数・葉鞘・球果が読めず種と種以下不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.564,
+        0.133,
+        0.245,
+        0.423
+      ],
+      "label": "右中央の密な多幹木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "根元から太い枝が分かれ、密な細葉の丸い樹冠をつくる。"
+      ],
+      "limitations": "葉が鱗片か短針葉か不明、球果・葉の対生/輪生が読めず属を確定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Juniperus spp.",
+        "Cupressus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.24,
+        0.349,
+        0.276,
+        0.23
+      ],
+      "label": "中央左奥の針葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "枝先に房状の細い葉がある高木群。"
+      ],
+      "limitations": "針葉の束数と球果が不足。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.794,
+        0.377,
+        0.206,
+        0.211
+      ],
+      "label": "右奥から右端の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "濃緑と灰緑の樹冠が混在し、右端は画面外へ続く。"
+      ],
+      "limitations": "全天球端の同一対象重複を数えず、個体と葉型が分離できない群として記録。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.255,
+        0.574,
+        0.196,
+        0.072
+      ],
+      "label": "中央左の低い草本・低木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "灰緑色の低い株が点在。"
+      ],
+      "limitations": "葉形・花序不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.855,
+        0.506,
+        0.145,
+        0.097
+      ],
+      "label": "右奥の低い植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い丸い灰緑色株と細い枯茎。"
+      ],
+      "limitations": "葉・花果の画素不足。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "2c3b5e905f6984b36331a95a1eb7cd5eb7013722c0243d1d890876447a407f12",
+  "source_size": [
+    1024,
+    512
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T05:01:43.745546+00:00"
+}

@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "image_id": "201055809501081",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.573,
+        0,
+        0.288,
+        0.626
+      ],
+      "label": "右手前の羽状葉ヤシ",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "細い幹頂に大きい羽状葉が集まり、下部に枯れた葉が長く垂れる。"
+      ],
+      "limitations": "小葉の付き方・葉柄の刺・幹の刺や花果が判別できず属と種を保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Acrocomia spp.",
+        "Elaeis spp.",
+        "Syagrus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.554,
+        0.271,
+        0.209
+      ],
+      "label": "左手前の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い枝の先端に小さい広葉の輪郭が見える。"
+      ],
+      "limitations": "逆光で葉序・複葉階層・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.24,
+        0.598,
+        0.154,
+        0.116
+      ],
+      "label": "左奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い暗緑色樹冠が密集。"
+      ],
+      "limitations": "遠景の暗部で葉形不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.43,
+        0.594,
+        0.485,
+        0.124
+      ],
+      "label": "正面と右奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "濃い葉群と明るい小さな葉群が重なる。"
+      ],
+      "limitations": "樹冠が重なり個体・科属を分けられない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.686,
+        0.263,
+        0.224
+      ],
+      "label": "左の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い葉と直立した細い茎が混生。"
+      ],
+      "limitations": "花序・葉鞘不足。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.575,
+        0.479,
+        0.357,
+        0.483
+      ],
+      "label": "右の高い草本と低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い弓状茎の先端に疎な分枝花序状構造があり、下部に細葉が密生。"
+      ],
+      "limitations": "花序の小穂構造と葉舌・葉鞘不明で科属保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "1ca3dd85e5ec39127505e4ad7cff549e7ec86d49b6ee9fcdaf9fa80a68eb7310",
+  "source_size": [
+    1024,
+    767
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T05:06:50.059155+00:00"
+}

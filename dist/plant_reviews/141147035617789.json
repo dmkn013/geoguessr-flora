@@ -1,0 +1,293 @@
+{
+  "schema_version": 1,
+  "image_id": "141147035617789",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.241,
+        0.333,
+        0.092,
+        0.156
+      ],
+      "label": "左奥の掌状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "大きな葉が扇状に広がり放射状の裂片を持つ。"
+      ],
+      "limitations": "小葉基部・葉柄・繊維と花果が不鮮明で属・種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Washingtonia spp.",
+        "Chamaerops humilis"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.352,
+        0.34,
+        0.079,
+        0.224
+      ],
+      "label": "左手前の掌状葉ヤシ",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "扇状の緑葉と下垂する褐色古葉が重なる。"
+      ],
+      "limitations": "小葉基部・葉柄・繊維と花果が不鮮明で属・種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Washingtonia spp.",
+        "Trachycarpus fortunei"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.452,
+        0.312,
+        0.039,
+        0.224
+      ],
+      "label": "中央の柱状針葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細長い密な濃緑樹冠で枝が幹に沿い直立する。"
+      ],
+      "limitations": "鱗片葉と球果が未解像、Cupressus sempervirens等の種・品種を確定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cupressus sempervirens",
+        "Juniperus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.517,
+        0.309,
+        0.103,
+        0.283
+      ],
+      "label": "中央右の丸い広葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い樹冠に比較的大きな葉が密生。"
+      ],
+      "limitations": "葉序・葉脈・花果不足。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.649,
+        0.184,
+        0.204,
+        0.389
+      ],
+      "label": "右の広葉高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "大きな丸い樹冠に楕円状の葉が多く重なる。"
+      ],
+      "limitations": "葉序・鋸歯・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.878,
+        0.335,
+        0.102,
+        0.188
+      ],
+      "label": "右端の羽状葉ヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "細い幹の先端に弓状に下垂する羽状葉がある。"
+      ],
+      "limitations": "小葉基部・葉柄・繊維と花果が不鮮明で属・種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Syagrus romanzoffiana",
+        "Phoenix spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.044,
+        0.45,
+        0.382,
+        0.134
+      ],
+      "label": "左の低い密な広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さな葉が密生し低い連続した緑色葉群となる。"
+      ],
+      "limitations": "刈込み形は分類根拠にせず葉・花果不足で属保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0.594,
+        0.49,
+        0.384,
+        0.098
+      ],
+      "label": "右の低い木本・草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色葉群と細い直立茎が混生。"
+      ],
+      "limitations": "遠景で葉形不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p9",
+      "bbox": [
+        0.027,
+        0.431,
+        0.127,
+        0.064
+      ],
+      "label": "左奥の細長い木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い柱状樹冠が小さく見える。"
+      ],
+      "limitations": "遠くて葉型不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p10",
+      "bbox": [
+        0.425,
+        0.435,
+        0.028,
+        0.103
+      ],
+      "label": "中央奥の剣状葉を持つ木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹の先端に細長い剣状葉が密に放射する。"
+      ],
+      "limitations": "遠景で葉縁・葉基部・幹と花序が読めず属未確定。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Yucca spp.",
+        "Dracaena spp.",
+        "Cordyline spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "4b755826014e6b393ba864ae740d3d7742f6a29be967bd58355223882bbbc626",
+  "source_size": [
+    1024,
+    512
+  ],
+  "revision": 4,
+  "reviewed_at": "2026-10-29T05:17:06.335090+00:00"
+}

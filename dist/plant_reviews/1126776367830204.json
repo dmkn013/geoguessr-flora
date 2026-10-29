@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "image_id": "1126776367830204",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.298,
+        0.158,
+        0.519
+      ],
+      "label": "左の高いヤシ",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "細い傾いた単幹に長く下垂する羽状葉がつく。"
+      ],
+      "limitations": "小葉の付き方・葉柄の刺・幹の刺や花果が判別できず属と種を保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.245,
+        0.564,
+        0.213,
+        0.24
+      ],
+      "label": "中央左の低いヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "幹頂に大きな羽状葉がまとまる複数株。"
+      ],
+      "limitations": "小葉の付き方・葉柄の刺・幹の刺や花果が判別できず属と種を保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.048,
+        0.591,
+        0.196,
+        0.115
+      ],
+      "label": "左奥のヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "建物越しに複数の羽状葉樹冠。"
+      ],
+      "limitations": "小葉の付き方・葉柄の刺・幹の刺や花果が判別できず属と種を保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.447,
+        0.674,
+        0.18,
+        0.157
+      ],
+      "label": "正面奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "濃緑色の低い丸い葉群が連なる。"
+      ],
+      "limitations": "逆光と遠景で葉型・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.944,
+        0.539,
+        0.056,
+        0.189
+      ],
+      "label": "右上の疎葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "直立枝に大きめの葉が対に見える。"
+      ],
+      "limitations": "葉序の確認と花果不足、少数葉だけで属を確定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.618,
+        0.705,
+        0.329,
+        0.2
+      ],
+      "label": "右斜面の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い細葉と広葉が地表に混生する。"
+      ],
+      "limitations": "花序と小さい葉形は読めない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.006,
+        0.768,
+        0.494,
+        0.18
+      ],
+      "label": "左の草本・低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "地表に小さい緑色葉群と直立茎が密生する。"
+      ],
+      "limitations": "陰影で葉形・花序不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "b43a6b9aa12df2fad65afb03e983fec5057b1b6904f78b1c611d72ea03eaf209",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-10-29T05:06:50.156948+00:00"
+}

@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "image_id": "1419549401748931",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.278,
+        0.458,
+        0.244
+      ],
+      "label": "左の混合木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い広葉状樹冠と濃緑の尖る樹冠が重なる。"
+      ],
+      "limitations": "葉と幹が遠く細部・個体境界不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.519,
+        0.149,
+        0.481,
+        0.362
+      ],
+      "label": "右の針葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "尖った円錐樹冠に細い横枝が段状にある。"
+      ],
+      "limitations": "針葉付着・球果が不鮮明でPicea/Abiesを保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea spp.",
+        "Abies spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.623,
+        0.385,
+        0.108,
+        0.159
+      ],
+      "label": "右手前の明るい広葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い明るい幹と小さい淡緑の葉がある。"
+      ],
+      "limitations": "樹皮の剥離・葉形・芽不足でBetulaを確定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Betula spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.029,
+        0.508,
+        0.051,
+        0.092
+      ],
+      "label": "左手前の小木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直立幹に疎な緑葉。"
+      ],
+      "limitations": "葉の形と付き方が不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.502,
+        0.333,
+        0.137
+      ],
+      "label": "左の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色の細葉が密生。"
+      ],
+      "limitations": "花序と葉鞘が読めない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.694,
+        0.515,
+        0.306,
+        0.123
+      ],
+      "label": "右の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "緑色の細葉植物が低い地表を覆う。"
+      ],
+      "limitations": "科属識別の花序・葉舌不足。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "35ebeb14279e6c3022ec4e859316b018a465b2e1b1d92deee61d9de00292addd",
+  "source_size": [
+    720,
+    480
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T05:11:16.673426+00:00"
+}

@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "image_id": "934723343737866",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.304,
+        0.356,
+        0.088,
+        0.139
+      ],
+      "label": "中央左の傘形針葉高木",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "高い幹頂に平らな傘形樹冠があり、密な細葉群がつく。"
+      ],
+      "limitations": "針葉束数と球果が読めずPinus pineaの種確定は保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Pinus pinea"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.43,
+        0.352,
+        0.339,
+        0.101
+      ],
+      "label": "奥の細長い樹冠の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い柱状から円錐状の濃緑樹冠が複数見える。"
+      ],
+      "limitations": "葉の鱗片・針葉付着と球果が読めず属不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cupressus sempervirens",
+        "Juniperus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.406,
+        0.391,
+        0.252,
+        0.127
+      ],
+      "label": "中央斜面の銀緑木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "灰緑の丸い樹冠が多数あり、細かい葉群が明るく反射。"
+      ],
+      "limitations": "葉裏・対生・花果不明で銀色だけでは属を確定できない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Olea europaea"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.584,
+        0.454,
+        0.416,
+        0.103
+      ],
+      "label": "右中景の低い広葉植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "緑色の低い葉群が連なり株ごとの細部は見えない。"
+      ],
+      "limitations": "配列は根拠にせず、葉形と巻きひげ・花果が読めずVitis等を保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Vitis spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.419,
+        0.206,
+        0.115
+      ],
+      "label": "左の低い草本・木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "黄緑色の低い葉群が地面を覆う。"
+      ],
+      "limitations": "葉形・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.023,
+        0.342,
+        0.977,
+        0.141
+      ],
+      "label": "奥の混合広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "濃緑と淡緑の丸い樹冠が連続する。"
+      ],
+      "limitations": "遠景で個体と葉型を分けられない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.397,
+        0.526,
+        0.603,
+        0.177
+      ],
+      "label": "右手前の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細長い葉・枯茎と小さな黄色の花状斑が混生。"
+      ],
+      "limitations": "花冠の構造・葉序が読めず科属未確定。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0,
+        0.512,
+        0.203,
+        0.109
+      ],
+      "label": "左手前の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直立茎と疎な緑色の葉群。"
+      ],
+      "limitations": "花序・葉鞘不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "55e532260b369f417d06c37526f1087bc5dfe712f6b996ed6c065655146f5454",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T05:04:03.019383+00:00"
+}

@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "image_id": "1067091687112809",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.435,
+        0.324,
+        0.157
+      ],
+      "label": "左の暗緑色木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸く密な樹冠と細かい枝葉の暗い塊。"
+      ],
+      "limitations": "逆光と遠さで鱗片葉/針葉/小広葉が判別できない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Juniperus spp.",
+        "Pinus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.602,
+        0.385,
+        0.398,
+        0.203
+      ],
+      "label": "右上の高い木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "濃緑色の丸い樹冠が連なり高さに差がある。"
+      ],
+      "limitations": "暗部の葉と枝・球果が読めず針葉/広葉も保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.652,
+        0.47,
+        0.181,
+        0.101
+      ],
+      "label": "右中段の灰緑低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "灰白色を帯びる低い丸い株が集まる。"
+      ],
+      "limitations": "葉の裂け方・毛・花序が読めず銀葉だけで属を確定できない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Artemisia spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.788,
+        0.466,
+        0.212,
+        0.153
+      ],
+      "label": "右手前の濃緑低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "直立枝の密な丸い樹冠と細かい葉。"
+      ],
+      "limitations": "葉の付き方と果実が未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.311,
+        0.479,
+        0.226,
+        0.056
+      ],
+      "label": "正面奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さな暗緑色の樹冠と低い灰色株。"
+      ],
+      "limitations": "遠景で形態不足。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0,
+        0.562,
+        0.38,
+        0.116
+      ],
+      "label": "左の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "淡褐色の細い乾いた直立茎が密生。"
+      ],
+      "limitations": "穂や葉鞘を識別できず科属未確定。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.571,
+        0.537,
+        0.429,
+        0.232
+      ],
+      "label": "右の草本と低い植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "淡色の細い茎葉と地表の低い灰緑株が混生。"
+      ],
+      "limitations": "花序・葉形不足、種別分離不可。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "3dfdcbe265e7a9965caf9265376781789f1c98a7b0a1303805eb24caaf3bd62a",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T04:59:55.619875+00:00"
+}

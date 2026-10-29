@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "image_id": "995899088086593",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.578,
+        0.345,
+        0.358,
+        0.198
+      ],
+      "label": "右の混合広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "高い丸い緑色樹冠と細い明色の幹が多数ある。"
+      ],
+      "limitations": "葉形・樹皮・花果不足でPopulus/Betula等を区別できない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Populus spp.",
+        "Betula spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.594,
+        0.37,
+        0.081,
+        0.168
+      ],
+      "label": "右中央の尖る針葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い円錐樹冠に段状の横枝が見える。"
+      ],
+      "limitations": "針葉付着・葉裏・球果不足でPicea/Abiesを保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Picea spp.",
+        "Abies spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.016,
+        0.438,
+        0.435,
+        0.093
+      ],
+      "label": "左奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "遠景に丸い緑色樹冠が連なる。"
+      ],
+      "limitations": "遠距離で葉型と個体境界不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.019,
+        0.518,
+        0.438,
+        0.067
+      ],
+      "label": "左手前の草本・低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色の株と草本が混生。"
+      ],
+      "limitations": "葉形・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.558,
+        0.499,
+        0.401,
+        0.067
+      ],
+      "label": "右下の草本と低い木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "木本の下に低い緑色の葉群と細い茎がある。"
+      ],
+      "limitations": "混生と遠景で個別種不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "baff422203ef47527f59ef763343dd1cc8843030763191d2a4264e6ac76b6108",
+  "source_size": [
+    1024,
+    512
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-29T05:15:52.311808+00:00"
+}

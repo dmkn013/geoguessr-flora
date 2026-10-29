@@ -1,0 +1,315 @@
+{
+  "schema_version": 1,
+  "image_id": "1451463008534260",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.108,
+        0,
+        0.224,
+        0.528
+      ],
+      "label": "左の高い羽状葉ヤシ2株",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "長い単幹の先端に羽状の大きな葉が集まり、古い葉が垂れる。"
+      ],
+      "limitations": "小葉・葉柄基部・花果の細部不足で属と種を保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Elaeis guineensis",
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.187,
+        0.318,
+        0.184,
+        0.174
+      ],
+      "label": "左奥の低いヤシ群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "羽状に分かれる大きな葉が幹頂にまとまる。"
+      ],
+      "limitations": "小葉・葉柄基部・花果の細部不足で属と種を保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Elaeis spp.",
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.554,
+        0.311,
+        0.069,
+        0.132
+      ],
+      "label": "中央奥の高いヤシ",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "細い幹の頂に羽状葉の冠がある。"
+      ],
+      "limitations": "小葉・葉柄基部・花果の細部不足で属と種を保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Elaeis spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.355,
+        0.315,
+        0.123,
+        0.231
+      ],
+      "label": "中央の疎葉広葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細かい枝に緑色の葉が少数まとまる。"
+      ],
+      "limitations": "葉形・葉序・花果が未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.502,
+        0.322,
+        0.24,
+        0.314
+      ],
+      "label": "右中景の広葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な丸い緑色樹冠が重なる。"
+      ],
+      "limitations": "複葉の階層・葉序・花果不足。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.134,
+        0.247,
+        0.413,
+        0.305
+      ],
+      "label": "奥の混合木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "濃緑の丸い広葉樹冠と細い裸幹、低い木本が混在。"
+      ],
+      "limitations": "同じ種としてまとめず、遠景で個別同定できない群として記録。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.815,
+        0.161,
+        0.185,
+        0.195
+      ],
+      "label": "右上端の広葉高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "大きな丸い樹冠に多数の細かな葉がある。"
+      ],
+      "limitations": "幹・葉・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0,
+        0.56,
+        0.508,
+        0.254
+      ],
+      "label": "左手前の地被草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい丸みある葉が密に地面を覆う。"
+      ],
+      "limitations": "対生/互生や花・果実が読めず科属保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p9",
+      "bbox": [
+        0.551,
+        0.612,
+        0.449,
+        0.388
+      ],
+      "label": "右と手前の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い細葉状植物が地表を覆い一部に広葉草本が混ざる。"
+      ],
+      "limitations": "花序と個体境界が不足。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p10",
+      "bbox": [
+        0.027,
+        0.182,
+        0.084,
+        0.083
+      ],
+      "label": "左上端のヤシ樹冠断片",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "屋根の上に羽状葉の樹冠が一部見える。"
+      ],
+      "limitations": "幹・葉柄基部・花果は隠れるため属と種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Arecaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p11",
+      "bbox": [
+        0.748,
+        0.333,
+        0.047,
+        0.049
+      ],
+      "label": "右奥のヤシ樹冠断片",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "奥に羽状葉の小さい樹冠が見える。"
+      ],
+      "limitations": "幹・葉柄基部・花果は隠れるため属と種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Arecaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "a471cb32d6a1f461c3349e5129fa268de790092648d2e4fe63b0a38937c1f1df",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 3,
+  "reviewed_at": "2026-10-29T05:04:52.782256+00:00"
+}
