@@ -89,3 +89,14 @@
 {"start5": 47.0, "end5": 48.0, "start_weekly": 79.0, "end_weekly": 79.0, "minutes": 0.7, "complete": 1, "recorded_at": "2026-10-29T21:15:23.938942+00:00"}
 {"start5": 48.0, "end5": 49.0, "start_weekly": 79.0, "end_weekly": 79.0, "minutes": 0.8, "complete": 1, "recorded_at": "2026-10-29T21:16:10.358975+00:00"}
 {"start5": 49.0, "end5": 50.0, "start_weekly": 79.0, "end_weekly": 79.0, "minutes": 0.7, "complete": 1, "recorded_at": "2026-10-29T21:16:57.600575+00:00"}
+{"start5": 51.0, "end5": 52.0, "start_weekly": 80.0, "end_weekly": 80.0, "minutes": 0.6, "complete": 0, "recorded_at": "2026-10-29T21:28:41.509469+00:00"}
+{"start5": 52.0, "end5": 53.0, "start_weekly": 80.0, "end_weekly": 80.0, "minutes": 0.5, "complete": 0, "recorded_at": "2026-10-29T21:58:43.120159+00:00"}
+{"start5": 53.0, "end5": 54.0, "start_weekly": 80.0, "end_weekly": 80.0, "minutes": 0.4, "complete": 0, "recorded_at": "2026-10-29T22:28:43.071421+00:00"}
+{"start5": 54.0, "end5": 54.0, "start_weekly": 80.0, "end_weekly": 80.0, "minutes": 0.4, "complete": 0, "recorded_at": "2026-10-29T22:58:38.227769+00:00"}
+{"start5": 55.0, "end5": 56.0, "start_weekly": 80.0, "end_weekly": 80.0, "minutes": 0.4, "complete": 0, "recorded_at": "2026-10-29T23:28:42.470163+00:00"}
+{"start5": 56.0, "end5": 57.0, "start_weekly": 80.0, "end_weekly": 80.0, "minutes": 0.4, "complete": 0, "recorded_at": "2026-10-29T23:58:42.524078+00:00"}
+{"start5": 57.0, "end5": 58.0, "start_weekly": 81.0, "end_weekly": 81.0, "minutes": 0.4, "complete": 0, "recorded_at": "2026-10-30T00:28:39.280523+00:00"}
+{"start5": 58.0, "end5": 59.0, "start_weekly": 81.0, "end_weekly": 81.0, "minutes": 0.4, "complete": 0, "recorded_at": "2026-10-30T00:58:43.748941+00:00"}
+{"start5": 60.0, "end5": 60.0, "start_weekly": 81.0, "end_weekly": 81.0, "minutes": 0.8, "complete": 0, "recorded_at": "2026-10-30T01:29:06.442973+00:00"}
+{"start5": 1.0, "end5": 2.0, "start_weekly": 81.0, "end_weekly": 81.0, "minutes": 0.4, "complete": 0, "recorded_at": "2026-10-30T01:58:53.573197+00:00"}
+{"start5": 2.0, "end5": 3.0, "start_weekly": 81.0, "end_weekly": 81.0, "minutes": 0.7, "complete": 0, "recorded_at": "2026-10-30T02:29:21.985651+00:00"}
