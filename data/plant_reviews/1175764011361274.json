@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "image_id": "1175764011361274",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.04,
+        0.12,
+        0.235
+      ],
+      "label": "左上端の羽状葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "長い葉軸に多数の線形小葉が並び弓状に下垂。"
+      ],
+      "limitations": "断片的で幹・葉鞘基部・果実が不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.253,
+        0.028,
+        0.066
+      ],
+      "label": "左端の広葉枝",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "暗緑の小さい広葉群が見える。"
+      ],
+      "limitations": "枝の一部だけで葉序・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.435,
+        0.403,
+        0.055
+      ],
+      "label": "左奥の低木草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑葉群と疎な細枝状株。"
+      ],
+      "limitations": "遠景で葉型・花序・個体境界不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.378,
+        0.44,
+        0.128,
+        0.047
+      ],
+      "label": "中央奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい丸い冠と細幹。"
+      ],
+      "limitations": "葉型・花果未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.515,
+        0.447,
+        0.404,
+        0.06
+      ],
+      "label": "右奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい暗緑冠が連続。"
+      ],
+      "limitations": "遠景で葉型・個体境界・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.94,
+        0.471,
+        0.06,
+        0.033
+      ],
+      "label": "右端の低い植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "淡褐色の細茎と小さい低株。"
+      ],
+      "limitations": "画素が少なく葉型・花序不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "4e51793fba06cc1e2f8cb6236bceb9eba6e7a64282ff9cd1ef1fed4445e0822e",
+  "source_size": [
+    1024,
+    771
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-11-04T07:59:22.469220+00:00"
+}

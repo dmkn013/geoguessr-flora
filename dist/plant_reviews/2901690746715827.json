@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "image_id": "2901690746715827",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.279,
+        0.064,
+        0.116,
+        0.378
+      ],
+      "label": "左中央の淡色幹木本",
+      "scope": "group",
+      "taxon": {
+        "name": "カバノキ属",
+        "scientific_name": "Betula",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "白い細幹と疎な細い下垂枝、小さい広葉状群。"
+      ],
+      "limitations": "葉縁・葉序・花果が解像せず種以下保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.25,
+        0.541,
+        0.208
+      ],
+      "label": "左奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い淡色幹と尖頭針葉状冠が混生。"
+      ],
+      "limitations": "遠景で針葉配列・球果と個体境界不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.54,
+        0.35,
+        0.46,
+        0.086
+      ],
+      "label": "右奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい丸い暗緑冠が連続。"
+      ],
+      "limitations": "遠景で葉型・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0,
+        0.465,
+        0.458,
+        0.379
+      ],
+      "label": "左下層の白花草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "セリ科",
+        "scientific_name": "Apiaceae",
+        "rank": "family"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "細い直立分枝茎の先に白い小花が放射する傘状の花序群。"
+      ],
+      "limitations": "小花・総苞・果実・葉型不足で属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.567,
+        0.434,
+        0.433,
+        0.388
+      ],
+      "label": "右の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い緑の線形葉と細い立ち茎、低い広葉株。"
+      ],
+      "limitations": "花序・葉鞘未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0,
+        0.432,
+        0.269,
+        0.232
+      ],
+      "label": "左端の低木低株群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い裸枝と小さい緑葉群、枯茎が混生。"
+      ],
+      "limitations": "葉型・花果と個体境界未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "1b9d4246db5f36a27a9ef3ada69d42859fb86a05b72a9bba31a94734dcd9f163",
+  "source_size": [
+    800,
+    450
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-11-04T08:03:32.427477+00:00"
+}

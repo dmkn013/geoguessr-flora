@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "image_id": "2900458063512324",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0,
+        0.549,
+        0.332,
+        0.451
+      ],
+      "label": "左手前の低木草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い丸い緑株と淡褐色の茎葉状群が点在。"
+      ],
+      "limitations": "遠景で葉型・花序・各株境界未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.208,
+        0.572,
+        0.395,
+        0.251
+      ],
+      "label": "中央谷筋の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい丸い冠が連続し、細い直幹状部分も見える。"
+      ],
+      "limitations": "葉型・葉序・花果と個体境界不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.363,
+        0.72,
+        0.637,
+        0.28
+      ],
+      "label": "右手前の木本低株群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "濃淡のある密な丸い冠と疎な灰緑株。"
+      ],
+      "limitations": "遠景で葉型・花果と個体境界不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.582,
+        0.529,
+        0.418,
+        0.249
+      ],
+      "label": "右中景の疎な木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い緑冠が独立または連続する。"
+      ],
+      "limitations": "葉型・花果が小さく未解像、列状配置から種を推定しない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.495,
+        1,
+        0.091
+      ],
+      "label": "背景の木本低株群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい灰緑の冠が斑状に連続。"
+      ],
+      "limitations": "極遠景で葉型・個体境界不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "0b8bdbde10a83258ad36b24ecc12449183c04d27b203d3929fe15de9730f798a",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-11-04T08:00:29.707704+00:00"
+}

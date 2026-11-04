@@ -1,0 +1,300 @@
+{
+  "image_id": "1002197044693672",
+  "image_notes": "全景・左右端・前景・背景を実表示し、左の枝葉と下垂物、中遠景、右端を元画素切り出しで確認。小葉や果実と断定できる形質が不足し科以下は未同定。前景の群落、遮蔽された背景も記録。看板の文字・写真は同定根拠にしない。国・座標・分布・道路・旧タグによる推定なし。",
+  "schema_version": 1,
+  "status": "complete",
+  "reviewer": "Codex-brother-mac / brother-mac",
+  "viewed_full_image": true,
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.0,
+        0.4602346805736636,
+        0.1025390625,
+        0.27509778357235987
+      ],
+      "scope": "group",
+      "label": "左端の葉のある樹木群",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "枝先にまとまる緑色の葉群と細い幹状部分が見える。"
+      ],
+      "limitations": "葉の単複・葉序・花果が解像せず、後方の葉群と個体分離できない。",
+      "candidates": [],
+      "morphology": [
+        "枝先にまとまる緑色の葉群と細い幹状部分が見える。"
+      ],
+      "sources": [],
+      "diagnostic_comparison": "",
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.0576171875,
+        0.41590612777053454,
+        0.134765625,
+        0.2737940026075619
+      ],
+      "scope": "individual",
+      "label": "左前景の疎葉の樹木",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹から多数の枝が広がり、先端に少量の小さい黄緑色の葉状部分がある。"
+      ],
+      "limitations": "葉形・葉序・花果が不足。下部が柵と看板で隠れ、隣接樹木との境界に不確実性がある。",
+      "candidates": [],
+      "morphology": [
+        "細い幹から多数の枝が広がり、先端に少量の小さい黄緑色の葉状部分がある。"
+      ],
+      "sources": [],
+      "diagnostic_comparison": "",
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.201171875,
+        0.4876140808344198,
+        0.2060546875,
+        0.27249022164276404
+      ],
+      "scope": "group",
+      "label": "左中央の葉群と下垂物のある樹木群",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細かい葉状部分が枝にまとまり、細長い紐状の部分が多数下垂する。"
+      ],
+      "limitations": "下垂物を果実や葉と断定できず、葉の単複・花・果実構造が読めないため科以下を保留。",
+      "candidates": [],
+      "morphology": [
+        "細かい葉状部分が枝にまとまり、細長い紐状の部分が多数下垂する。"
+      ],
+      "sources": [],
+      "diagnostic_comparison": "",
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.0,
+        0.6505867014341591,
+        0.3876953125,
+        0.2242503259452412
+      ],
+      "scope": "group",
+      "label": "左前景の草本・低木群落",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "地面付近に細い茎葉と低い緑色の株が密生し、淡褐色の乾燥部が混在する。"
+      ],
+      "limitations": "葉形・花序・茎節が不足。柵越しの植生も重なり個体分離不能。",
+      "candidates": [],
+      "morphology": [
+        "地面付近に細い茎葉と低い緑色の株が密生し、淡褐色の乾燥部が混在する。"
+      ],
+      "sources": [],
+      "diagnostic_comparison": "",
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.3818359375,
+        0.5840938722294654,
+        0.0556640625,
+        0.11342894393741851
+      ],
+      "scope": "individual",
+      "label": "左中景の疎な樹木",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "直立する細い幹から段状に横枝が広がり、枝先に疎な葉状部分が見える。"
+      ],
+      "limitations": "葉身・葉序・花果・枝の細部が不明。樹形のみで分類を決めない。",
+      "candidates": [],
+      "morphology": [
+        "直立する細い幹から段状に横枝が広がり、枝先に疎な葉状部分が見える。"
+      ],
+      "sources": [],
+      "diagnostic_comparison": "",
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.4130859375,
+        0.6179921773142112,
+        0.1123046875,
+        0.07953063885267275
+      ],
+      "scope": "group",
+      "label": "左奥の樹木群",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "遠方に密な丸い樹冠が連なり、一部に細い幹状部分が見える。"
+      ],
+      "limitations": "葉・枝・花果は解像せず個体分離不能。",
+      "candidates": [],
+      "morphology": [
+        "遠方に密な丸い樹冠が連なり、一部に細い幹状部分が見える。"
+      ],
+      "sources": [],
+      "diagnostic_comparison": "",
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.5224609375,
+        0.6597131681877445,
+        0.06640625,
+        0.04041720990873533
+      ],
+      "scope": "group",
+      "label": "中央遠景の低い植生群",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "遠方に小さな暗緑色の株・樹冠状部分が点在する。"
+      ],
+      "limitations": "遠距離で植生の詳細や個体境界を判断できない。",
+      "candidates": [],
+      "morphology": [
+        "遠方に小さな暗緑色の株・樹冠状部分が点在する。"
+      ],
+      "sources": [],
+      "diagnostic_comparison": "",
+      "qa_checked": true
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0.5908203125,
+        0.621903520208605,
+        0.1015625,
+        0.09778357235984354
+      ],
+      "scope": "group",
+      "label": "右中景の樹木群",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直立幹と、丸いもの・縦長のものが混在する緑色の樹冠が見える。"
+      ],
+      "limitations": "複数の樹冠が重なり葉序・葉形・花果を読み取れない。",
+      "candidates": [],
+      "morphology": [
+        "細い直立幹と、丸いもの・縦長のものが混在する緑色の樹冠が見える。"
+      ],
+      "sources": [],
+      "diagnostic_comparison": "",
+      "qa_checked": true
+    },
+    {
+      "object_id": "p9",
+      "bbox": [
+        0.701171875,
+        0.6649282920469362,
+        0.0537109375,
+        0.0560625814863103
+      ],
+      "scope": "group",
+      "label": "右奥の低い樹冠群",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "車両の後方に低い緑色の樹冠が続く。"
+      ],
+      "limitations": "車両と構造物による遮蔽と遠距離で葉・花果が不明。",
+      "candidates": [],
+      "morphology": [
+        "車両の後方に低い緑色の樹冠が続く。"
+      ],
+      "sources": [],
+      "diagnostic_comparison": "",
+      "qa_checked": true
+    },
+    {
+      "object_id": "p10",
+      "bbox": [
+        0.8955078125,
+        0.6414602346805737,
+        0.1044921875,
+        0.11864406779661017
+      ],
+      "scope": "group",
+      "label": "右端の樹木・低い植生群",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "上部に横へ広がる枝と葉群、下部に疎らな低い株が見える。"
+      ],
+      "limitations": "画像右外へ続き葉形・葉序・花果が不明。構造物と重なり個体境界も読めない。",
+      "candidates": [],
+      "morphology": [
+        "上部に横へ広がる枝と葉群、下部に疎らな低い株が見える。"
+      ],
+      "sources": [],
+      "diagnostic_comparison": "",
+      "qa_checked": true
+    }
+  ],
+  "assignment_id": "brother-mac-20261028",
+  "source_sha256": "6b1f73c323e16882089d62f8fddb99e0f4449b094e395481246ac765d47a446f",
+  "source_size": [
+    1024,
+    767
+  ],
+  "worker_reviewed_at": "2026-11-04T06:44:51.746554+00:00",
+  "worker_record_sha256": "7f35b64ed2603f0f383cc3d10856cdea3903f823262a602279efe1a3a47626c5",
+  "revision": 1,
+  "reviewed_at": "2026-11-04T07:57:16.535468+00:00"
+}

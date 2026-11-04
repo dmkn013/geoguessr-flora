@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "image_id": "525951828579757",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.076,
+        0.229,
+        0.233,
+        0.404
+      ],
+      "label": "左の針葉高木列",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "長い直幹と枝先に集まる長い下垂針葉束。"
+      ],
+      "limitations": "葉束数・葉鞘・球果未解像で種以下保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.39,
+        0,
+        0.276,
+        0.73
+      ],
+      "label": "中央の針葉高木",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "粗い樹皮の直幹と長く下垂する針葉束。"
+      ],
+      "limitations": "葉束数・葉鞘・球果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.735,
+        0,
+        0.265,
+        1
+      ],
+      "label": "右端の針葉高木",
+      "scope": "group",
+      "taxon": {
+        "name": "マツ属",
+        "scientific_name": "Pinus",
+        "rank": "genus"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "太い粗い樹皮の幹と画面上部の長い針葉束。"
+      ],
+      "limitations": "葉束数・球果不明、葉冠大半は画面外。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.279,
+        0.111,
+        0.1,
+        0.405
+      ],
+      "label": "左中央の尖頭木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細長い密な尖頭冠と細葉状群。"
+      ],
+      "limitations": "葉配列・球果が解像せず属科保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cupressaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.354,
+        0.134,
+        0.163,
+        0.517
+      ],
+      "label": "中央の広葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い分枝幹に疎な小葉群。"
+      ],
+      "limitations": "葉型・葉序・花果未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.301,
+        0.457,
+        0.699,
+        0.425
+      ],
+      "label": "下層の大きい穂状草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "イネ科",
+        "scientific_name": "Poaceae",
+        "rank": "family"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "株状の長い線形葉と直立稈の先に大型の淡色羽毛状円錐花序。"
+      ],
+      "limitations": "小穂・葉鞘・葉縁形質不足で属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cortaderia spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.105,
+        0.399,
+        0.895,
+        0.198
+      ],
+      "label": "背景斜面の低木草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い丸い暗緑冠が斑状に連続。"
+      ],
+      "limitations": "遠景で葉型・花果と個体境界不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0.322,
+        0.532,
+        0.437,
+        0.194
+      ],
+      "label": "中央下層の広葉低株群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい緑葉と細い分枝茎が密生。"
+      ],
+      "limitations": "草本と低木の内訳・花序・葉序不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "a658bd15a8e59c88d9ed3569e58667ed84b34c628edd5d5c13e7b108cd036aef",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-11-04T07:58:45.678759+00:00"
+}

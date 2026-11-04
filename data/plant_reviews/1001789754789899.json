@@ -1,0 +1,132 @@
+{
+  "image_id": "1001789754789899",
+  "image_notes": "全天球画像の全幅と左右端、前景・背景を実表示し、左右の植生帯を元画素切り出しで確認。下部は撮影車両で遮蔽。端付近の樹冠は見えている部分の矩形として記録し、端の対応から個体数を推測しない。植生は低解像度で科以下未同定。国・座標・分布・文字・道路・旧タグは根拠に使わない。",
+  "schema_version": 1,
+  "status": "complete",
+  "reviewer": "Codex-brother-mac / brother-mac",
+  "viewed_full_image": true,
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.015625,
+        0.46484375,
+        0.0244140625,
+        0.048828125
+      ],
+      "scope": "individual",
+      "label": "左端近くの樹冠",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い幹状部分の上に濃緑色の丸みのある樹冠が見える。"
+      ],
+      "limitations": "非常に小さく葉形・葉序・花果が見えない。全天球の端に近く、他の樹冠との個体関係は確定しない。",
+      "candidates": [],
+      "morphology": [
+        "短い幹状部分の上に濃緑色の丸みのある樹冠が見える。"
+      ],
+      "sources": [],
+      "diagnostic_comparison": "",
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.03515625,
+        0.443359375,
+        0.4443359375,
+        0.15234375
+      ],
+      "scope": "group",
+      "label": "左側の草本状群落",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "緑色から淡褐色の低い被覆が広がり、細い茎葉状部分が密生する。"
+      ],
+      "limitations": "花序・葉身・茎節が読めず、科以下と個体の分離ができない。",
+      "candidates": [],
+      "morphology": [
+        "緑色から淡褐色の低い被覆が広がり、細い茎葉状部分が密生する。"
+      ],
+      "sources": [],
+      "diagnostic_comparison": "",
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.5166015625,
+        0.478515625,
+        0.46484375,
+        0.158203125
+      ],
+      "scope": "group",
+      "label": "右側の草本・低い植生群落",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "暗緑色から褐色の細かい植生が密生し、一部に立ち上がる細茎状部分がある。"
+      ],
+      "limitations": "花序や葉形が不明で草本と低木の内訳を確定できない。露岩や裸地は対象外。",
+      "candidates": [],
+      "morphology": [
+        "暗緑色から褐色の細かい植生が密生し、一部に立ち上がる細茎状部分がある。"
+      ],
+      "sources": [],
+      "diagnostic_comparison": "",
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.9736328125,
+        0.46875,
+        0.0234375,
+        0.048828125
+      ],
+      "scope": "individual",
+      "label": "右端近くの樹冠",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "幹状部分の上に濃緑色の小さな丸い樹冠が見える。"
+      ],
+      "limitations": "遠距離で葉・枝・花果が不明。全天球画像端の対応は不明で別個体数を確定する根拠にしない。",
+      "candidates": [],
+      "morphology": [
+        "幹状部分の上に濃緑色の小さな丸い樹冠が見える。"
+      ],
+      "sources": [],
+      "diagnostic_comparison": "",
+      "qa_checked": true
+    }
+  ],
+  "assignment_id": "brother-mac-20261028",
+  "source_sha256": "2bcbc484fdc43a4ad82495c34fb1245866a7517d9666247aec72e9cfa612f301",
+  "source_size": [
+    1024,
+    512
+  ],
+  "worker_reviewed_at": "2026-11-04T06:43:53.841597+00:00",
+  "worker_record_sha256": "36fd1a5390826c0ac61dccabe38364627017b3f6515484b68e40ce7e21910bb2",
+  "revision": 1,
+  "reviewed_at": "2026-11-04T07:56:50.957795+00:00"
+}

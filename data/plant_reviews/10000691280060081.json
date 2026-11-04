@@ -1,0 +1,244 @@
+{
+  "schema_version": 1,
+  "image_id": "10000691280060081",
+  "status": "complete",
+  "reviewer": "Codex-brother-mac / brother-mac",
+  "viewed_full_image": true,
+  "image_notes": "全景、左右端、前景と背景を実表示し、軒下・中央樹冠・花状部分・右端を元画素の縦横比を保った切り出しで確認。前景下部は車体で植物は見えない。個体境界を分離できない植栽・樹冠をgroupとして記録。画像内の座標・文字・道路・旧タグは同定根拠に使っていない。全対象で科以下の診断形質が不足。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.1513671875,
+        0.5208333333333334,
+        0.048828125,
+        0.11805555555555555
+      ],
+      "scope": "group",
+      "label": "左の軒下の鉢植え状の葉群",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "暗部に緑色の葉状部分と小さな淡色部分がまとまって見える。"
+      ],
+      "limitations": "強い陰影と低解像度で葉形・葉序・花の構造を確認できない。鉢や茎の対応も不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [
+        "暗部に緑色の葉状部分と小さな淡色部分がまとまって見える。"
+      ],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.23046875,
+        0.5625,
+        0.01953125,
+        0.10069444444444445
+      ],
+      "scope": "group",
+      "label": "左奥の細い植栽群",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "画像左奥の狭い範囲に緑色の小葉状の集まりと赤桃色の斑点が見える。"
+      ],
+      "limitations": "車と支柱による遮蔽があり、葉・花の細部と個体境界が読めない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [
+        "画像左奥の狭い範囲に緑色の小葉状の集まりと赤桃色の斑点が見える。"
+      ],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.2333984375,
+        0.4947916666666667,
+        0.0654296875,
+        0.07291666666666667
+      ],
+      "scope": "group",
+      "label": "奥の背景の樹冠群",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "奥に高さの異なる緑色の樹冠が重なって見える。"
+      ],
+      "limitations": "遠距離で個々の葉形・葉序・樹皮・花果を区別できず、個体分離もできない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [
+        "奥に高さの異なる緑色の樹冠が重なって見える。"
+      ],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.279296875,
+        0.4409722222222222,
+        0.1435546875,
+        0.16493055555555555
+      ],
+      "scope": "group",
+      "label": "中央左の密な樹冠群",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "不規則な輪郭をもつ密な緑色の葉群。部分的に細い枝が見える。"
+      ],
+      "limitations": "複数の樹冠が重なり葉の輪郭や付き方が読めない。下部は柵と車で隠れる。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [
+        "不規則な輪郭をもつ密な緑色の葉群。部分的に細い枝が見える。"
+      ],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.3037109375,
+        0.3368055555555556,
+        0.1611328125,
+        0.1857638888888889
+      ],
+      "scope": "group",
+      "label": "中央上の疎な枝葉群",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細く分枝した枝の網目と疎らな小さい葉状部分が上に広がる。"
+      ],
+      "limitations": "葉の単葉・複葉、葉序、花果が判別できず、周囲の樹冠との個体関係も不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [
+        "細く分枝した枝の網目と疎らな小さい葉状部分が上に広がる。"
+      ],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.4130859375,
+        0.453125,
+        0.060546875,
+        0.11805555555555555
+      ],
+      "scope": "group",
+      "label": "門の上の下垂する葉群",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細長い緑色の葉状部分が下向きにまとまり垂れている。"
+      ],
+      "limitations": "葉身の縁・葉脈・葉序が解像せず、樹冠と幹の対応および花果が不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [
+        "細長い緑色の葉状部分が下向きにまとまり垂れている。"
+      ],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.453125,
+        0.4236111111111111,
+        0.1796875,
+        0.1753472222222222
+      ],
+      "scope": "group",
+      "label": "橙黄色の花状部分を持つ植栽群",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "緑色の葉群の各所に橙黄色の花状部分がまとまる。細い枝が上に伸びる。"
+      ],
+      "limitations": "花冠の形・花弁数、葉の単複と葉序が読めないため科や属を確定しない。重なった植栽は分離不能。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [
+        "緑色の葉群の各所に橙黄色の花状部分がまとまる。細い枝が上に伸びる。"
+      ],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0.955078125,
+        0.24131944444444445,
+        0.044921875,
+        0.2204861111111111
+      ],
+      "scope": "group",
+      "label": "右端の樹冠部分",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "画面右端に縦長でやや下垂する緑色の葉群が一部見える。"
+      ],
+      "limitations": "大半が画面外で幹・花果が見えず、葉形と葉序も不足して科以下を判断できない。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [
+        "画面右端に縦長でやや下垂する緑色の葉群が一部見える。"
+      ],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "assignment_id": "brother-mac-20261028",
+  "source_sha256": "e098dc1b49fb3174def5e972d5bb95beafd1dd9c871359534d7839557643281a",
+  "source_size": [
+    1024,
+    576
+  ],
+  "worker_reviewed_at": "2026-10-28T11:17:32.524586+00:00",
+  "worker_record_sha256": "5e5e94d5a1c05b009c67703210d31d7d360244cf7d199b7da43521269f4577d4",
+  "revision": 1,
+  "reviewed_at": "2026-11-04T07:56:11.733241+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "image_id": "1000402397030790",
+  "status": "complete",
+  "reviewer": "Codex-brother-mac / brother-mac",
+  "viewed_full_image": true,
+  "image_notes": "全景と左右端、前景のカップと手、背景の床・収納・壁を実表示して確認。被写体は室内で大きく手ぶれしている。視認できる植物体はなく、容器の緑色や床・壁面の模様を植物として記録しない。画像内文字・地理・旧タグによる推定なし。",
+  "empty_reason": "no_visible_plants",
+  "objects": [],
+  "assignment_id": "brother-mac-20261028",
+  "source_sha256": "50a055adb33a2a0734c5bc2cf82796001caa51c4bd5d2ca09dccb6d6a819c87e",
+  "source_size": [
+    1024,
+    768
+  ],
+  "worker_reviewed_at": "2026-10-28T11:18:06.394077+00:00",
+  "worker_record_sha256": "764c0eb8568ea45d2539e0089cc5a8b782e5cfe144b81c2dc0f5c04f8ea5038d",
+  "revision": 1,
+  "reviewed_at": "2026-11-04T07:56:11.773479+00:00"
+}

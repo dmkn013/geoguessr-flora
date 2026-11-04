@@ -1,0 +1,132 @@
+{
+  "image_id": "1000991183771543",
+  "image_notes": "全景・左右端・前景・背景を実表示し、左右の近景植生と斜面を元画素切り出しで確認。植生の存在は確認できるが科以下の診断形質は不足。密生する群落をgroupとして記録し、矩形内の道路・露岩・裸地を植物とみなさない。下部は車体で遮蔽。地理・道路・文字・旧タグは同定根拠に使用しない。",
+  "schema_version": 1,
+  "status": "complete",
+  "reviewer": "Codex-brother-mac / brother-mac",
+  "viewed_full_image": true,
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.0,
+        0.5390625,
+        0.4453125,
+        0.20572916666666666
+      ],
+      "scope": "group",
+      "label": "左前景の低い植生群落",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色の茎葉状部分が連続し、所々に淡褐色の茎葉が混在する。"
+      ],
+      "limitations": "葉形・葉序・花序が読めず、草本・小低木・コケ等の内訳と個体境界が判別できない。",
+      "candidates": [],
+      "morphology": [
+        "低い緑色の茎葉状部分が連続し、所々に淡褐色の茎葉が混在する。"
+      ],
+      "sources": [],
+      "diagnostic_comparison": "",
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.5322265625,
+        0.5364583333333334,
+        0.4677734375,
+        0.3424479166666667
+      ],
+      "scope": "group",
+      "label": "右前景の草本状群落",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "線状の細い緑色の葉状部分が斜めに倒れて重なり、土の縁に淡褐色部が見える。"
+      ],
+      "limitations": "花序・節・葉鞘が見えず科を決められない。多数株が密生し個体分離不能。",
+      "candidates": [],
+      "morphology": [
+        "線状の細い緑色の葉状部分が斜めに倒れて重なり、土の縁に淡褐色部が見える。"
+      ],
+      "sources": [],
+      "diagnostic_comparison": "",
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.0,
+        0.453125,
+        0.482421875,
+        0.109375
+      ],
+      "scope": "group",
+      "label": "左中遠景の地表植生",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "斜面下部から平坦部に低い緑色の被覆が広がり、濃淡の斑が見える。"
+      ],
+      "limitations": "遠距離で植物の器官を読めず、裸地と植生の境界にも不確実性がある。",
+      "candidates": [],
+      "morphology": [
+        "斜面下部から平坦部に低い緑色の被覆が広がり、濃淡の斑が見える。"
+      ],
+      "sources": [],
+      "diagnostic_comparison": "",
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.48046875,
+        0.31640625,
+        0.51953125,
+        0.22916666666666666
+      ],
+      "scope": "group",
+      "label": "右斜面・中央奥の地表植生",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "斜面と谷奥に緑色の低い被覆が連続し、露岩の周りに濃淡がある。"
+      ],
+      "limitations": "遠距離で葉・茎・花果が判別できず分類と個体分離不能。矩形内の露岩・裸地は対象に含めない。",
+      "candidates": [],
+      "morphology": [
+        "斜面と谷奥に緑色の低い被覆が連続し、露岩の周りに濃淡がある。"
+      ],
+      "sources": [],
+      "diagnostic_comparison": "",
+      "qa_checked": true
+    }
+  ],
+  "assignment_id": "brother-mac-20261028",
+  "source_sha256": "86f45a665942263d3503cafbf43ed49b102feeccca3661e95384c40971300c2f",
+  "source_size": [
+    1024,
+    768
+  ],
+  "worker_reviewed_at": "2026-11-04T05:46:53.066622+00:00",
+  "worker_record_sha256": "24ab4774743740cce5bceaae8a7f2195d27e403f4172df6a5997865663276e48",
+  "revision": 1,
+  "reviewed_at": "2026-11-04T07:56:50.840906+00:00"
+}
