@@ -1,0 +1,298 @@
+{
+  "schema_version": 1,
+  "image_id": "1000431968660173",
+  "status": "complete",
+  "reviewer": "Codex-brother-mac",
+  "viewed_full_image": true,
+  "image_notes": "全景の左右端・前景・背景、左の樹木、中景の低木と前景植生を元画素切り出しで実表示。背景の岩の輪郭を植物と混同しない。複数の小株・草本は個体分離不能でgroup、葉形や花果不足で科以下は未同定。下部は車体で遮蔽。地理・文字・道路・旧タグによる推定なし。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.0,
+        0.2565104166666667,
+        0.1533203125,
+        0.24088541666666666
+      ],
+      "scope": "individual",
+      "label": "左端の樹木",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹と横に広がる細枝、密な小さな葉状部分が見える。"
+      ],
+      "limitations": "葉の単複・小葉配列・刺・花果が解像しない。画面左外に樹冠が続く。",
+      "candidates": [],
+      "morphology": [
+        "細い幹と横に広がる細枝、密な小さな葉状部分が見える。"
+      ],
+      "sources": [],
+      "diagnostic_comparison": "",
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.1240234375,
+        0.3619791666666667,
+        0.0673828125,
+        0.06640625
+      ],
+      "scope": "group",
+      "label": "左奥の低木群",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "道の奥に黄緑色の低い樹冠が複数重なる。"
+      ],
+      "limitations": "遠距離で葉形や枝の構造が不明、個体境界が分離できない。",
+      "candidates": [],
+      "morphology": [
+        "道の奥に黄緑色の低い樹冠が複数重なる。"
+      ],
+      "sources": [],
+      "diagnostic_comparison": "",
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.0,
+        0.4479166666666667,
+        0.126953125,
+        0.1328125
+      ],
+      "scope": "group",
+      "label": "左側の低い草本・低木群",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "地面に淡褐色の細い茎と散在する低い緑色部分が見える。"
+      ],
+      "limitations": "乾燥部と緑色部が混在し葉・花・果実が読めず、個体分離不能。",
+      "candidates": [],
+      "morphology": [
+        "地面に淡褐色の細い茎と散在する低い緑色部分が見える。"
+      ],
+      "sources": [],
+      "diagnostic_comparison": "",
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.455078125,
+        0.3828125,
+        0.0537109375,
+        0.053385416666666664
+      ],
+      "scope": "individual",
+      "label": "岩の裾の小低木",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細枝が放射状に伸び、疎らな緑色の葉状部分が付く。"
+      ],
+      "limitations": "葉序・葉形・花果が解像しない。根元は地面と混同する。",
+      "candidates": [],
+      "morphology": [
+        "細枝が放射状に伸び、疎らな緑色の葉状部分が付く。"
+      ],
+      "sources": [],
+      "diagnostic_comparison": "",
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.662109375,
+        0.33203125,
+        0.06640625,
+        0.08984375
+      ],
+      "scope": "group",
+      "label": "中央右の低木群",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細く分かれた枝に小さい緑色の葉状部分が疎らに付く。"
+      ],
+      "limitations": "葉の単複・葉序・刺・花果が不明で、複数株の境界も読めない。",
+      "candidates": [],
+      "morphology": [
+        "細く分かれた枝に小さい緑色の葉状部分が疎らに付く。"
+      ],
+      "sources": [],
+      "diagnostic_comparison": "",
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.7568359375,
+        0.3541666666666667,
+        0.0673828125,
+        0.053385416666666664
+      ],
+      "scope": "individual",
+      "label": "右中景の丸い低木",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "灰緑色の丸みのある密な樹冠が見える。"
+      ],
+      "limitations": "葉身・枝・花果を区別できないため科以下未同定。",
+      "candidates": [],
+      "morphology": [
+        "灰緑色の丸みのある密な樹冠が見える。"
+      ],
+      "sources": [],
+      "diagnostic_comparison": "",
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.84765625,
+        0.3567708333333333,
+        0.0224609375,
+        0.026041666666666668
+      ],
+      "scope": "group",
+      "label": "右奥の小さい緑色株",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "岩の裾に小さな黄緑色の株状部分が見える。"
+      ],
+      "limitations": "画素数が少なく葉・枝・生育形の詳細が不明。",
+      "candidates": [],
+      "morphology": [
+        "岩の裾に小さな黄緑色の株状部分が見える。"
+      ],
+      "sources": [],
+      "diagnostic_comparison": "",
+      "qa_checked": true
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0.443359375,
+        0.43359375,
+        0.1728515625,
+        0.09114583333333333
+      ],
+      "scope": "group",
+      "label": "前景中央の低い植生群",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "淡褐色の細い茎と灰緑色の小株が疎らに連続する。"
+      ],
+      "limitations": "小株の葉や花序が読めず、草本と小低木を確実に分離できない。",
+      "candidates": [],
+      "morphology": [
+        "淡褐色の細い茎と灰緑色の小株が疎らに連続する。"
+      ],
+      "sources": [],
+      "diagnostic_comparison": "",
+      "qa_checked": true
+    },
+    {
+      "object_id": "p9",
+      "bbox": [
+        0.595703125,
+        0.44921875,
+        0.2548828125,
+        0.13802083333333334
+      ],
+      "scope": "group",
+      "label": "前景中央右の植生群",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さな緑色・灰緑色の株と淡褐色の細茎が混在する。"
+      ],
+      "limitations": "個体が重なり、葉形・花果不足。樹形のみで科属を推測しない。",
+      "candidates": [],
+      "morphology": [
+        "小さな緑色・灰緑色の株と淡褐色の細茎が混在する。"
+      ],
+      "sources": [],
+      "diagnostic_comparison": "",
+      "qa_checked": true
+    },
+    {
+      "object_id": "p10",
+      "bbox": [
+        0.8291015625,
+        0.44921875,
+        0.1708984375,
+        0.17578125
+      ],
+      "scope": "group",
+      "label": "右端前景の植生群",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い緑色の株、灰緑色の細い枝葉状部分、淡褐色の茎が散在する。"
+      ],
+      "limitations": "遠近の株が混在し個体分離不能。葉・花果の診断形質が不足。",
+      "candidates": [],
+      "morphology": [
+        "低い緑色の株、灰緑色の細い枝葉状部分、淡褐色の茎が散在する。"
+      ],
+      "sources": [],
+      "diagnostic_comparison": "",
+      "qa_checked": true
+    }
+  ],
+  "assignment_id": "brother-mac-20261028",
+  "source_sha256": "5150e58852955a08bef12e42aaf90ad87e263e0af592eaf1498cffcf37f00e15",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-10-28T11:19:18.147213+00:00"
+}

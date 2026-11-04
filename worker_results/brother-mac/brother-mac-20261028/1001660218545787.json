@@ -1,0 +1,214 @@
+{
+  "image_id": "1001660218545787",
+  "image_notes": "全景の左右端・背景・前景、左の樹木とヤシおよび遠景低木を元画素切り出しで実表示。ヤシ科以外は診断形質不足。影・地面・車窓の汚れを植物に含めない。下部は車体で遮蔽。国・座標・分布・文字・道路・旧タグは分類根拠に使用しない。",
+  "schema_version": 1,
+  "status": "complete",
+  "reviewer": "Codex-brother-mac",
+  "viewed_full_image": true,
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.0,
+        0.21875,
+        0.1474609375,
+        0.30859375
+      ],
+      "scope": "group",
+      "label": "左端の樹木群",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹枝に細かな灰緑色の葉群が付き、丸みのある樹冠が見える。"
+      ],
+      "limitations": "葉形・葉序・花果が不鮮明。重なる幹の個体関係が不明。",
+      "candidates": [],
+      "morphology": [
+        "細い幹枝に細かな灰緑色の葉群が付き、丸みのある樹冠が見える。"
+      ],
+      "sources": [],
+      "diagnostic_comparison": "",
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.177734375,
+        0.3138020833333333,
+        0.1025390625,
+        0.16015625
+      ],
+      "scope": "group",
+      "label": "ヤシの左後方の樹冠",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い位置で分枝し、小さい緑色の葉群が不規則に広がる。"
+      ],
+      "limitations": "ヤシと重なり葉・花果・樹皮の細部が見えない。",
+      "candidates": [],
+      "morphology": [
+        "低い位置で分枝し、小さい緑色の葉群が不規則に広がる。"
+      ],
+      "sources": [],
+      "diagnostic_comparison": "",
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.234375,
+        0.296875,
+        0.115234375,
+        0.16015625
+      ],
+      "scope": "individual",
+      "label": "中央左のヤシ",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "単幹の上端から長い羽状の葉が放射状に伸び、外側の葉が弓状に垂れる。"
+      ],
+      "limitations": "小葉の配列・基部の刺・葉柄・花果・幹表面の細部が不明で属種を決めない。",
+      "candidates": [],
+      "morphology": [
+        "単幹の上端から長い羽状の葉が放射状に伸び、外側の葉が弓状に垂れる。"
+      ],
+      "sources": [],
+      "diagnostic_comparison": "",
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.3115234375,
+        0.3958333333333333,
+        0.0673828125,
+        0.07291666666666667
+      ],
+      "scope": "group",
+      "label": "ヤシの右下の低木群",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "濃緑色の密な丸い葉群がヤシの右下に見える。"
+      ],
+      "limitations": "ヤシの下葉と重なり個体の境界と葉形が不鮮明。花果なし。",
+      "candidates": [],
+      "morphology": [
+        "濃緑色の密な丸い葉群がヤシの右下に見える。"
+      ],
+      "sources": [],
+      "diagnostic_comparison": "",
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.0,
+        0.44921875,
+        0.396484375,
+        0.09765625
+      ],
+      "scope": "group",
+      "label": "左前景の低い植栽・草本群",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "地面の上に低い緑色の株と淡褐色の茎葉状部分が点在する。"
+      ],
+      "limitations": "砂礫や植栽の影と混在し、葉の細部や個体境界が読めない。",
+      "candidates": [],
+      "morphology": [
+        "地面の上に低い緑色の株と淡褐色の茎葉状部分が点在する。"
+      ],
+      "sources": [],
+      "diagnostic_comparison": "",
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.376953125,
+        0.4036458333333333,
+        0.09765625,
+        0.057291666666666664
+      ],
+      "scope": "group",
+      "label": "中央左奥の低木群",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "遠方に小さい丸い緑色の樹冠が連なる。"
+      ],
+      "limitations": "遠距離と車窓のぼけで葉・幹・花果を判別できない。",
+      "candidates": [],
+      "morphology": [
+        "遠方に小さい丸い緑色の樹冠が連なる。"
+      ],
+      "sources": [],
+      "diagnostic_comparison": "",
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.537109375,
+        0.3971354166666667,
+        0.462890625,
+        0.11458333333333333
+      ],
+      "scope": "group",
+      "label": "右側の遠景低木・草本群",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い暗緑色の植生帯と手前の散在する小株が見える。"
+      ],
+      "limitations": "逆光と汚れで細部が不鮮明。花果・葉形不足で科以下不明、個体分離不能。",
+      "candidates": [],
+      "morphology": [
+        "低い暗緑色の植生帯と手前の散在する小株が見える。"
+      ],
+      "sources": [],
+      "diagnostic_comparison": "",
+      "qa_checked": true
+    }
+  ],
+  "assignment_id": "brother-mac-20261028",
+  "source_sha256": "ecafab5e3bb6c96c337456db4718722abcb789c030487ca00bdbcf1a49a294cf",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-11-04T06:43:02.324973+00:00"
+}
