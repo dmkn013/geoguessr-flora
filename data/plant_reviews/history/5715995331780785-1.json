@@ -1,0 +1,283 @@
+{
+  "schema_version": 1,
+  "image_id": "5715995331780785",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.598,
+        0.137,
+        0.183,
+        0.323
+      ],
+      "label": "右上の広葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "疎に広がる枝に小さい楕円葉状群。"
+      ],
+      "limitations": "葉序・葉縁・花果未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0.287,
+        0.187,
+        0.256
+      ],
+      "label": "左斜面の細葉稈状植物群",
+      "scope": "group",
+      "taxon": {
+        "name": "イネ科",
+        "scientific_name": "Poaceae",
+        "rank": "family"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "細い直立稈と枝先に集まる細長い披針形葉。"
+      ],
+      "limitations": "稈節・葉鞘・枝分岐未解像で竹類の属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.472,
+        0.444,
+        0.209
+      ],
+      "label": "左中層の低株群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "多数の細い分枝茎に淡色の小花序状群。"
+      ],
+      "limitations": "小花構造・葉序未解像で科確定保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Asteraceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.564,
+        0.383,
+        0.436,
+        0.389
+      ],
+      "label": "右斜面の低株群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な細い分枝茎と小さい淡色花序状群。"
+      ],
+      "limitations": "花冠・葉型・個体境界未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Asteraceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.19,
+        0.417,
+        0.104,
+        0.172
+      ],
+      "label": "左中央の若い木本",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹と疎な丸い葉冠。"
+      ],
+      "limitations": "葉型・葉序・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.166,
+        0.389,
+        0.319,
+        0.118
+      ],
+      "label": "左奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い緑冠が重なる。"
+      ],
+      "limitations": "遠景で葉型・花果と個体境界不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.818,
+        0,
+        0.089,
+        0.156
+      ],
+      "label": "右上端の細葉植物",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "長い線形披針形葉が枝先から垂れる。"
+      ],
+      "limitations": "遮蔽で稈・葉鞘・花序不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Bambusoideae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0,
+        0.629,
+        0.357,
+        0.363
+      ],
+      "label": "左下層の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い緑葉と淡褐色の細茎が連続。"
+      ],
+      "limitations": "花序・葉鞘未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p9",
+      "bbox": [
+        0.646,
+        0.708,
+        0.354,
+        0.292
+      ],
+      "label": "右下層の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い線形葉と低い広葉株が混生。"
+      ],
+      "limitations": "花序・葉序未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p10",
+      "bbox": [
+        0.459,
+        0.454,
+        0.106,
+        0.078
+      ],
+      "label": "中央奥の低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい密な緑冠が連続。"
+      ],
+      "limitations": "遠景で葉型・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "3c48a2a6a1d403757d3fd11fa1ac6bb35c40dac4341e142d6cf894cf28355b78",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-11-04T07:34:41.710735+00:00"
+}

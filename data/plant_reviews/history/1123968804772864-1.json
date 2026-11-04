@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "image_id": "1123968804772864",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.052,
+        0.099,
+        0.265,
+        0.603
+      ],
+      "label": "左の結実した羽状葉高木",
+      "scope": "individual",
+      "taxon": {
+        "name": "ココヤシ",
+        "scientific_name": "Cocos nucifera",
+        "rank": "species"
+      },
+      "certainty": "confirmed",
+      "evidence": [
+        "細い単幹から長い羽状葉が弓状に垂れ、小葉はほぼ一平面。葉基部に粗大な丸い緑褐色果実が少数まとまる。"
+      ],
+      "limitations": "花や果実内部は見えない。系統・品種やTall/Dwarfの区別は保留。",
+      "diagnostic_comparison": "NParks記載の細い単幹・長く垂下する羽状葉・大型卵形果実の組合せに対応。Elaeisの多数の小果が密集した果房やPhoenixの小果房とは、葉基部に見える一個ずつ粗大な丸い果実と平面的な小葉配列で区別。種以下を分ける形質は見えない。",
+      "candidates": [],
+      "morphology": [],
+      "sources": [
+        {
+          "url": "https://www.nparks.gov.sg/florafaunaweb/flora/5/6/5618",
+          "supports": "記載の単生細幹、羽状葉、卵形大型果実を元画素同比率拡大の果実・葉・幹と照合。分布は同定根拠に用いない。"
+        }
+      ],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.049,
+        0.14,
+        0.447,
+        0.575
+      ],
+      "label": "左の広葉高木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "太い分枝と広く丸い小葉冠。"
+      ],
+      "limitations": "葉序・葉縁・花果未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.459,
+        0.358,
+        0.541,
+        0.537
+      ],
+      "label": "右の密生羽状葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "多数の硬い弓状羽状葉と、複数方向へ向く細長い小葉群。"
+      ],
+      "limitations": "幹・葉柄棘・果房が隠れ属種確定保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Elaeis spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.366,
+        0.565,
+        0.093,
+        0.172
+      ],
+      "label": "中央奥の羽状葉木本",
+      "scope": "group",
+      "taxon": {
+        "name": "ヤシ科",
+        "scientific_name": "Arecaceae",
+        "rank": "family"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "細い幹頂から長い弓状羽状葉。"
+      ],
+      "limitations": "果実・葉鞘未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cocos nucifera"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0,
+        0.662,
+        0.376,
+        0.324
+      ],
+      "label": "左下層の草本低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "密な小さい広葉群とつる状茎が重なる。"
+      ],
+      "limitations": "葉型・花序・個体境界未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.556,
+        0.762,
+        0.444,
+        0.231
+      ],
+      "label": "右下層の草本低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい広葉株と細茎が連続。"
+      ],
+      "limitations": "葉序・花序未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.413,
+        0.707,
+        0.079,
+        0.076
+      ],
+      "label": "中央奥の木本低株群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい丸い緑冠が連続。"
+      ],
+      "limitations": "遠景で葉型・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0.696,
+        0.718,
+        0.072,
+        0.166
+      ],
+      "label": "右手前の大葉若木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直立茎に少数の幅広い楕円葉。"
+      ],
+      "limitations": "葉序・葉縁・花果未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "7f051a0ead4ac5e9f8fc0ea88e33b533a7e91dfd8f450c8a58de8554dda401b4",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-11-04T07:37:49.321687+00:00"
+}

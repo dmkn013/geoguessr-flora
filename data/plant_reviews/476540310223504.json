@@ -1,0 +1,203 @@
+{
+  "schema_version": 1,
+  "image_id": "476540310223504",
+  "status": "complete",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.716,
+        0.314,
+        0.284,
+        0.649
+      ],
+      "label": "右手前の針葉木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "ヒノキ科",
+        "scientific_name": "Cupressaceae",
+        "rank": "family"
+      },
+      "certainty": "provisional",
+      "evidence": [
+        "密な細分枝と短い鱗片葉状の枝葉群、不規則な冠。"
+      ],
+      "limitations": "葉対・球果未解像で属種保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Juniperus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.396,
+        0.688,
+        0.207,
+        0.144
+      ],
+      "label": "中央右の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "丸い密な濃緑冠。"
+      ],
+      "limitations": "遠景で葉型・球果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Juniperus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0,
+        0.626,
+        0.251,
+        0.12
+      ],
+      "label": "左奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い丸い緑冠が連続。"
+      ],
+      "limitations": "葉型・球果・個体境界不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.6,
+        0.756,
+        0.144,
+        0.077
+      ],
+      "label": "右中景の裸枝低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "灰色の細い分枝茎が密生。"
+      ],
+      "limitations": "葉・芽・花果未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.088,
+        0.709,
+        0.165,
+        0.092
+      ],
+      "label": "左手前の裸枝低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "灰褐色の細い枝が密生。"
+      ],
+      "limitations": "葉・芽・花果不明。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0,
+        0.798,
+        0.318,
+        0.18
+      ],
+      "label": "左下層の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い淡褐色線形葉と細茎が連続。"
+      ],
+      "limitations": "花序・葉鞘未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.526,
+        0.819,
+        0.474,
+        0.181
+      ],
+      "label": "右下層の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い淡褐色葉と細茎が連続。"
+      ],
+      "limitations": "花序・葉鞘未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": true
+    }
+  ],
+  "source_sha256": "3b561a775eef2eb51d0f37889dcb2d0c8bd74c70ab97c5def0ecd5479bd0caf8",
+  "source_size": [
+    1024,
+    768
+  ],
+  "revision": 2,
+  "reviewed_at": "2026-11-04T07:33:35.292704+00:00"
+}

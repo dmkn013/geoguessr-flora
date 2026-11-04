@@ -1,0 +1,290 @@
+{
+  "schema_version": 1,
+  "image_id": "158360379495794",
+  "status": "screened",
+  "reviewer": "Codex",
+  "viewed_full_image": true,
+  "image_notes": "元画像全景の左右端・手前・背景と必要部位の元画素拡大を実視認。植物形態のみを用い、座標・国・文字・道路・分布・旧タグは使用しない。",
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.408,
+        0,
+        0.318,
+        0.501
+      ],
+      "label": "中央右の高木列",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "淡色の長い直幹、剥離状樹皮と下垂する細長い葉群。"
+      ],
+      "limitations": "葉脈・花果未解像で近縁属を分離できない。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Eucalyptus spp.",
+        "Corymbia spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0,
+        0,
+        0.194,
+        0.448
+      ],
+      "label": "左手前の広葉若木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直幹と光沢ある楕円葉状群。"
+      ],
+      "limitations": "葉序・葉脈・花果未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.741,
+        0.137,
+        0.259,
+        0.26
+      ],
+      "label": "右奥の木本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直幹と縦長の丸い葉冠。"
+      ],
+      "limitations": "遠景で葉型・花果未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Eucalyptus spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.365,
+        0.246,
+        0.12,
+        0.273
+      ],
+      "label": "左中央の密な低木列",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い直立枝と密な短い葉状群。"
+      ],
+      "limitations": "葉対・球果・花が解像せず属確定保留。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Cupressaceae"
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.306,
+        0.229,
+        0.08,
+        0.278
+      ],
+      "label": "左中央の若木",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い分枝茎と疎な小葉冠。"
+      ],
+      "limitations": "葉型・花果未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.584,
+        0.371,
+        0.107,
+        0.112
+      ],
+      "label": "中央の剣状葉低株群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "基部から放射する硬そうな剣状葉。"
+      ],
+      "limitations": "葉縁棘・終端棘・花序未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Agave spp.",
+        "Aloe spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.794,
+        0.327,
+        0.206,
+        0.112
+      ],
+      "label": "右奥のロゼット低株群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "低い株から多数の尖った葉状群が放射。"
+      ],
+      "limitations": "葉質・葉縁棘・花序未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [
+        "Agave spp.",
+        "Aloe spp."
+      ],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0,
+        0.317,
+        0.362,
+        0.22
+      ],
+      "label": "左奥の淡褐色草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "直立する細茎と細長い淡褐色葉が密生。"
+      ],
+      "limitations": "花序・葉鞘未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p9",
+      "bbox": [
+        0,
+        0.491,
+        1,
+        0.509
+      ],
+      "label": "手前と中央下層の草本群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "短い淡褐色葉と緑株、立つ細茎が混生。"
+      ],
+      "limitations": "花序・葉鞘と個体境界未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    },
+    {
+      "object_id": "p10",
+      "bbox": [
+        0.778,
+        0.274,
+        0.222,
+        0.099
+      ],
+      "label": "右奥の丸い低木群",
+      "scope": "group",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "小さい丸い緑褐色の葉冠が点在。"
+      ],
+      "limitations": "葉型・葉序・花果未解像。",
+      "diagnostic_comparison": "",
+      "candidates": [],
+      "morphology": [],
+      "sources": [],
+      "qa_checked": false
+    }
+  ],
+  "source_sha256": "62b808fe38d749c16356a234291ae3323dd9b1fe8ad5e1a493307929c8cbed94",
+  "source_size": [
+    1023,
+    473
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-11-04T07:42:01.383264+00:00"
+}
