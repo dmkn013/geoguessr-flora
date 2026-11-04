@@ -1,0 +1,242 @@
+{
+  "image_id": "1000531774774134",
+  "image_notes": "全景の左右端・背景・前景を確認し、左右の樹冠と草本群落を元画素切り出しで実表示。下部は車体で遮蔽。科以下を確定する形質不足を対象ごとに記録。地理・画像内文字・道路・旧タグは同定根拠に使用しない。",
+  "schema_version": 1,
+  "status": "complete",
+  "reviewer": "Codex-brother-mac",
+  "viewed_full_image": true,
+  "objects": [
+    {
+      "object_id": "p1",
+      "bbox": [
+        0.0,
+        0.0,
+        0.3349609375,
+        0.5347222222222222
+      ],
+      "scope": "group",
+      "label": "左側の高木群",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "細い幹と疎な分枝、細長く下垂する葉状部分を持つ樹冠が重なる。"
+      ],
+      "limitations": "葉序・葉脈・花果・樹皮の細部が不明。重なる高木は個体分離不能。",
+      "candidates": [],
+      "morphology": [
+        "細い幹と疎な分枝、細長く下垂する葉状部分を持つ樹冠が重なる。"
+      ],
+      "sources": [],
+      "diagnostic_comparison": "",
+      "qa_checked": true
+    },
+    {
+      "object_id": "p2",
+      "bbox": [
+        0.26171875,
+        0.21180555555555555,
+        0.208984375,
+        0.3350694444444444
+      ],
+      "scope": "group",
+      "label": "左中景の樹木群",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "横に分かれた枝に灰緑色の葉群が付き樹冠が重なる。"
+      ],
+      "limitations": "葉身の輪郭・葉序と花果が解像せず科以下を確定できない。",
+      "candidates": [],
+      "morphology": [
+        "横に分かれた枝に灰緑色の葉群が付き樹冠が重なる。"
+      ],
+      "sources": [],
+      "diagnostic_comparison": "",
+      "qa_checked": true
+    },
+    {
+      "object_id": "p3",
+      "bbox": [
+        0.4453125,
+        0.3645833333333333,
+        0.0732421875,
+        0.14930555555555555
+      ],
+      "scope": "group",
+      "label": "左奥の樹冠群",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "遠景に低い緑色の樹冠と細い幹状部分が重なる。"
+      ],
+      "limitations": "遠距離で葉形・花果・個体境界が不明。",
+      "candidates": [],
+      "morphology": [
+        "遠景に低い緑色の樹冠と細い幹状部分が重なる。"
+      ],
+      "sources": [],
+      "diagnostic_comparison": "",
+      "qa_checked": true
+    },
+    {
+      "object_id": "p4",
+      "bbox": [
+        0.5302734375,
+        0.390625,
+        0.087890625,
+        0.14930555555555555
+      ],
+      "scope": "group",
+      "label": "中央奥の樹冠・低木群",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "遠方に小さな緑色の樹冠が連続し、手前に低い株が見える。"
+      ],
+      "limitations": "画素不足で葉形・生殖器官・個体境界を判別できない。",
+      "candidates": [],
+      "morphology": [
+        "遠方に小さな緑色の樹冠が連続し、手前に低い株が見える。"
+      ],
+      "sources": [],
+      "diagnostic_comparison": "",
+      "qa_checked": true
+    },
+    {
+      "object_id": "p5",
+      "bbox": [
+        0.578125,
+        0.1840277777777778,
+        0.19140625,
+        0.3836805555555556
+      ],
+      "scope": "group",
+      "label": "右中景の高木群",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "直立する細い幹と上部に集まる灰緑色の葉群。複数幹と樹冠が重なる。"
+      ],
+      "limitations": "葉の付き方と花果、樹皮の診断形質が不足。",
+      "candidates": [],
+      "morphology": [
+        "直立する細い幹と上部に集まる灰緑色の葉群。複数幹と樹冠が重なる。"
+      ],
+      "sources": [],
+      "diagnostic_comparison": "",
+      "qa_checked": true
+    },
+    {
+      "object_id": "p6",
+      "bbox": [
+        0.7333984375,
+        0.0,
+        0.2666015625,
+        0.640625
+      ],
+      "scope": "group",
+      "label": "右側・右端の高木と低木群",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "画像外に続く高木の枝葉と、下層の小さい樹冠が重なる。葉状部分は細長く下垂する。"
+      ],
+      "limitations": "逆光と重なりで葉序・花果・樹皮を確認できない。個体分離不能。",
+      "candidates": [],
+      "morphology": [
+        "画像外に続く高木の枝葉と、下層の小さい樹冠が重なる。葉状部分は細長く下垂する。"
+      ],
+      "sources": [],
+      "diagnostic_comparison": "",
+      "qa_checked": true
+    },
+    {
+      "object_id": "p7",
+      "bbox": [
+        0.0224609375,
+        0.4913194444444444,
+        0.4482421875,
+        0.2743055555555556
+      ],
+      "scope": "group",
+      "label": "左前景の草本群落",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "多数の直立する淡褐色の細茎と細い線形の葉状部分が密生。地際に枯れた茎葉が重なる。"
+      ],
+      "limitations": "花序や穎、節、葉鞘が読めずイネ科と他の細葉草本を確実に比較できない。",
+      "candidates": [],
+      "morphology": [
+        "多数の直立する淡褐色の細茎と細い線形の葉状部分が密生。地際に枯れた茎葉が重なる。"
+      ],
+      "sources": [],
+      "diagnostic_comparison": "",
+      "qa_checked": true
+    },
+    {
+      "object_id": "p8",
+      "bbox": [
+        0.541015625,
+        0.5121527777777778,
+        0.458984375,
+        0.2586805555555556
+      ],
+      "scope": "group",
+      "label": "右前景の草本・小低木群落",
+      "taxon": {
+        "name": "未同定植物",
+        "scientific_name": "",
+        "rank": "unknown"
+      },
+      "certainty": "unidentified",
+      "evidence": [
+        "赤褐色から淡褐色の細茎が密生し、暗い緑色の低い株が混在する。"
+      ],
+      "limitations": "花序・葉序・葉形の詳細が不明。草本と小低木および個体境界を分離できない。",
+      "candidates": [],
+      "morphology": [
+        "赤褐色から淡褐色の細茎が密生し、暗い緑色の低い株が混在する。"
+      ],
+      "sources": [],
+      "diagnostic_comparison": "",
+      "qa_checked": true
+    }
+  ],
+  "assignment_id": "brother-mac-20261028",
+  "source_sha256": "781aa9d67ef1dff7527651c623133fb91342c7367e9913521896ef58b83bf956",
+  "source_size": [
+    1024,
+    576
+  ],
+  "revision": 1,
+  "reviewed_at": "2026-11-04T05:46:13.242429+00:00"
+}
